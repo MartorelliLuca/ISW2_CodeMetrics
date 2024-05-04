@@ -9,30 +9,24 @@ import java.net.MalformedURLException;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.net.URL;
-import java.util.ArrayList;
-import java.util.List;
+import java.time.LocalDate;
+import java.util.*;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public class JiraRetriever {
 
-    private static final String URL_PART_1 = "https://issues.apache.org/jira/rest/api/2/search?jql=" ;
-
-    private final String[] issueTypeList = new String[] {"Bug"};
-    private final String[] statusList = new String[] {"Closed", "Resolved"} ;
-    private final String[] resolutionList = new String[] {"Fixed"} ;
-
-    private final String[] priorityList = new String[] {} ;
-    private final String[] fieldsList = new String[] {"key", "resolutiondate", "versions", "created"};
-
-
-    public List<String> retrieve(String projectName) throws IOException, URISyntaxException {
-        String urlFirstPart = buildUrl(projectName) ;
+    public List<String> retrieveBugTicket(String projectName) throws IOException, URISyntaxException {
+        URLBuilder urlBuilder = new URLBuilder() ;
+        String urlFirstPart = urlBuilder.buildUrl(projectName) ;
         int startPoint = 0 ;
         int maxAmount = 500 ;
         int issuesNumber ;
 
         ArrayList<String> issuesKeys = new ArrayList<>() ;
         do {
-            String urlString = completeUrl(startPoint, maxAmount, urlFirstPart) ;
+            String urlString = urlBuilder.completeUrl(startPoint, maxAmount, urlFirstPart) ;
+            Logger.getGlobal().log(Level.INFO, urlString);
             URI uri = new URI(urlString) ;
             URL url = uri.toURL() ;
 
@@ -49,10 +43,38 @@ public class JiraRetriever {
         return issuesKeys ;
     }
 
-    private void parseIssuesArray(ArrayList<String> issuesKeys, JSONArray jsonArray) {
-        for (int i = 0 ; i < jsonArray.length() ; i++) {
-            issuesKeys.add(jsonArray.getJSONObject(i).get("key").toString()) ;
+    public List<VersionInfo> retrieveVersions(String projectName) throws URISyntaxException, IOException {
+        String urlString = "https://issues.apache.org/jira/rest/api/2/project/" + projectName.toUpperCase();
+        URI uri = new URI(urlString);
+        URL url = uri.toURL();
+
+        String jsonString = getJsonString(url);
+        JSONObject jsonObject = new JSONObject((jsonString));
+        JSONArray jsonVersionArray = jsonObject.getJSONArray("versions");
+
+        List<VersionInfo> versionInfoList = new ArrayList<>() ;
+        for (int i = 0; i < jsonVersionArray.length(); i++) {
+            String versionName = "";
+            String dateString = "";
+            String versionId = "" ;
+            if (jsonVersionArray.getJSONObject(i).has("releaseDate") && jsonVersionArray.getJSONObject(i).has("name") && jsonVersionArray.getJSONObject(i).has("id")) {
+                versionName = jsonVersionArray.getJSONObject(i).get("name").toString();
+                dateString = jsonVersionArray.getJSONObject(i).get("releaseDate").toString();
+                versionId = jsonVersionArray.getJSONObject(i).get("id").toString() ;
+
+                LocalDate versionDate = LocalDate.parse(dateString) ;
+                VersionInfo versionInfo = new VersionInfo(versionName, versionDate, versionId) ;
+                versionInfoList.add(versionInfo) ;
+            }
         }
+
+        versionInfoList.sort(Comparator.comparing(VersionInfo::getVersionDate));
+
+        for (VersionInfo info : versionInfoList) {
+            Logger.getGlobal().log(Level.INFO, "Version >> " + info.getVersionName());
+        }
+
+        return versionInfoList ;
     }
 
     private String getJsonString(URL url) throws IOException {
@@ -69,53 +91,10 @@ public class JiraRetriever {
         }
     }
 
-    private String completeUrl(Integer startPoint, Integer maxAmount, String urlFirstPart) {
-        return urlFirstPart + "&startAt=" + startPoint.toString() + "&maxResults=" + maxAmount.toString() ;
-    }
-
-    private String buildUrl(String projectName) {
-        StringBuilder urlString = new StringBuilder(URL_PART_1 + "project=%22" + projectName + "%22");
-
-        ArrayList<String> urlPartsList = new ArrayList<>() ;
-        urlPartsList.add(buildUrlPart("issueType", issueTypeList)) ;
-        urlPartsList.add(buildUrlPart("status", statusList)) ;
-        urlPartsList.add(buildUrlPart("resolution", resolutionList)) ;
-        urlPartsList.add(buildUrlPart("priority", priorityList)) ;
-
-        StringBuilder fieldsPart = new StringBuilder();
-        if (fieldsList.length > 0) {
-            fieldsPart.append("fields=") ;
-            for (int i = 0; i < fieldsList.length; i++) {
-                fieldsPart.append(fieldsList[i]);
-                if (i < fieldsList.length - 1) {
-                    fieldsPart.append(",");
-                }
-            }
+    private void parseIssuesArray(ArrayList<String> issuesKeys, JSONArray jsonArray) {
+        for (int i = 0 ; i < jsonArray.length() ; i++) {
+            issuesKeys.add(jsonArray.getJSONObject(i).get("key").toString()) ;
         }
-
-        for (String urlPart : urlPartsList) {
-            if (urlPart.length() > 0) {
-                urlString.append("AND").append(urlPart);
-            }
-        }
-        return urlString + "&" + fieldsPart;
-    }
-
-    private String buildUrlPart(String filterName, String[] filterList) {
-        StringBuilder urlPart = new StringBuilder();
-
-        if (filterList.length > 0) {
-            urlPart.append("(");
-            for (int i = 0; i < filterList.length ; i++) {
-                urlPart.append("%22").append(filterName).append("%22=").append("%22").append(filterList[i]).append("%22");
-                if (i < filterList.length - 1) {
-                    urlPart.append("OR");
-                }
-            }
-            urlPart.append(")");
-        }
-
-        return urlPart.toString() ;
     }
 
 }

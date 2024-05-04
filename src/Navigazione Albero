@@ -1,0 +1,19 @@
+
+Integer i = 0 ;
+            ObjectId treeId = commit.getTree().getId();
+            TreeWalk treeWalk = new TreeWalk(repo) ;
+            treeWalk.reset(treeId);
+            treeWalk.setRecursive(false);
+            while (treeWalk.next()) {
+                if (treeWalk.isSubtree()) {
+                    treeWalk.enterSubtree();
+                }
+                else {
+                    Logger.getGlobal().log(Level.INFO, treeWalk.getPathString());
+                    i++ ;
+                }
+            }
+
+            Logger.getGlobal().log(Level.INFO, i.toString());
+
+            break;
