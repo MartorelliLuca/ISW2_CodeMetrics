@@ -1,25 +1,38 @@
-import org.eclipse.jgit.api.errors.GitAPIException;
+import model.VersionInfo;
+import computer.TicketFilter;
+import computer.VersionsComputer;
+import model.TicketInfo;
+import model.VersionInfo;
+import retriever.CommitRetriever;
+import retriever.TicketRetriever;
+import retriever.VersionRetriever;
 
 import org.eclipse.jgit.api.errors.GitAPIException;
-import org.eclipse.jgit.revwalk.RevCommit;
+
+
 import java.io.IOException;
 import java.net.URISyntaxException;
 import java.util.List;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 public class Main {
     private static final String PROJECT_NAME = "bookkeeper" ;
+    private static final String PROJECT_PATH = "/home/lux/Documents/GitHub/" ;
     public static void main(String[] args) throws IOException, URISyntaxException, GitAPIException {
-        String repoPath = "/home/lux/Documents/GitHub/" ;
 
-        JiraRetriever retriever = new JiraRetriever() ;
-        List<String> list = retriever.retrieveBugTicket(PROJECT_NAME) ;
-        List<VersionInfo> versionInfoList = retriever.retrieveVersions(PROJECT_NAME) ;
-        Logger.getGlobal().log(Level.INFO, list.toString());
+        VersionRetriever versionRetriever = new VersionRetriever(PROJECT_NAME) ;
+        List<VersionInfo> versionInfoList = versionRetriever.retrieveVersions() ;
 
-        CommitRetriever commitRetriever = new CommitRetriever(repoPath + PROJECT_NAME) ;
-        List<RevCommit> commitList = commitRetriever.retrieveAllCommitsInfo();
-        commitRetriever.retrieveCommitForVersion() ;
+        TicketRetriever ticketRetriever = new TicketRetriever(PROJECT_NAME) ;
+        List<TicketInfo> ticketInfoList = ticketRetriever.retrieveBugTicket(versionInfoList) ;
+
+        CommitRetriever commitRetriever = new CommitRetriever(PROJECT_PATH + PROJECT_NAME) ;
+        commitRetriever.retrieveFixCommitsForTickets(ticketInfoList) ;
+
+        VersionsComputer versionsComputer = new VersionsComputer() ;
+        versionsComputer.computeOpeningAndFixVersion(ticketInfoList, versionInfoList);
+
+        TicketFilter filter = new TicketFilter() ;
+        filter.filterTicket(ticketInfoList);
+
     }
 }
