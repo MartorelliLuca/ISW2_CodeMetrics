@@ -2,7 +2,6 @@ import model.VersionInfo;
 import computer.TicketFilter;
 import computer.VersionsComputer;
 import model.TicketInfo;
-import model.VersionInfo;
 import retriever.CommitRetriever;
 import retriever.TicketRetriever;
 import retriever.VersionRetriever;
