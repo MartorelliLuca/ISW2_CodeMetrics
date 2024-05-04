@@ -8,15 +8,15 @@ import org.eclipse.jgit.storage.file.FileRepositoryBuilder;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.List;
 import java.util.HashMap;
 import java.util.Map;
 
 public class CommitRetriever {
 
-    private static final String REPO_PATH = "/home/simone/Scrivania/University/ISW2/Projects/storm" ;
-    public Map<String, ArrayList<String>> retrieveCommit(ArrayList<String> ticketsIDs) throws GitAPIException, IOException {
+    public Map<String, ArrayList<String>> retrieveCommit(List<String> ticketsIDs, String repoPath) throws GitAPIException, IOException {
         FileRepositoryBuilder repositoryBuilder = new FileRepositoryBuilder();
-        Repository repo = repositoryBuilder.setGitDir(new File(REPO_PATH + "/.git")).build() ;
+        Repository repo = repositoryBuilder.setGitDir(new File(repoPath + "/.git")).build() ;
         Git git = new Git(repo) ;
         LogCommand logCommand = git.log() ;
         Iterable<RevCommit> commitIterable = logCommand.call() ;
@@ -36,7 +36,7 @@ public class CommitRetriever {
         return ticketMap ;
     }
 
-    private String matchTicketAndCommit(String commitMessage, ArrayList<String> ticketsIDs) {
+    private String matchTicketAndCommit(String commitMessage, List<String> ticketsIDs) {
         for (String ticketID : ticketsIDs) {
             if (commitMessage.contains(ticketID)) {
                 return ticketID ;

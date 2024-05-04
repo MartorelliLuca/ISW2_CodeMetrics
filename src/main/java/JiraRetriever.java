@@ -10,21 +10,22 @@ import java.net.URI;
 import java.net.URISyntaxException;
 import java.net.URL;
 import java.util.ArrayList;
+import java.util.List;
 
 public class JiraRetriever {
 
-    private static final String url_part_1 = "https://issues.apache.org/jira/rest/api/2/search?jql=" ;
-    private static final String PROJECT_NAME = "openjpa" ;
-    private final String[] ISSUE_TYPE_LIST = new String[] {"Bug"};
-    private final String[] STATUS_LIST = new String[] {"Closed", "Resolved"} ;
-    private final String[] RESOLUTION_LIST = new String[] {"Fixed"} ;
+    private static final String URL_PART_1 = "https://issues.apache.org/jira/rest/api/2/search?jql=" ;
 
-    private final String[] PRIORITY_LIST = new String[] {} ;
-    private final String[] FIELDS_LIST = new String[] {"key", "resolutiondate", "versions", "created"};
+    private final String[] issueTypeList = new String[] {"Bug"};
+    private final String[] statusList = new String[] {"Closed", "Resolved"} ;
+    private final String[] resolutionList = new String[] {"Fixed"} ;
+
+    private final String[] priorityList = new String[] {} ;
+    private final String[] fieldsList = new String[] {"key", "resolutiondate", "versions", "created"};
 
 
-    public ArrayList<String> retrieve() throws MalformedURLException, URISyntaxException {
-        String urlFirstPart = buildUrl() ;
+    public List<String> retrieve(String projectName) throws IOException, URISyntaxException {
+        String urlFirstPart = buildUrl(projectName) ;
         int startPoint = 0 ;
         int maxAmount = 500 ;
         int issuesNumber ;
@@ -32,11 +33,10 @@ public class JiraRetriever {
         ArrayList<String> issuesKeys = new ArrayList<>() ;
         do {
             String urlString = completeUrl(startPoint, maxAmount, urlFirstPart) ;
-            System.out.println(urlString);
             URI uri = new URI(urlString) ;
             URL url = uri.toURL() ;
 
-            String jsonString = getJsonString(url) ;
+            String jsonString = getJsonString(url);
             JSONObject jsonObject = new JSONObject(jsonString) ;
             JSONArray jsonIssueArray = jsonObject.getJSONArray("issues") ;
 
@@ -55,7 +55,7 @@ public class JiraRetriever {
         }
     }
 
-    private String getJsonString(URL url) {
+    private String getJsonString(URL url) throws IOException {
         try (InputStream urlInput = url.openStream()) {
             BufferedReader reader = new BufferedReader(new InputStreamReader(urlInput)) ;
             StringBuilder builder = new StringBuilder() ;
@@ -65,9 +65,7 @@ public class JiraRetriever {
                 builder.append((char) c) ;
             }
 
-            return builder.toString() ;
-        } catch (IOException e) {
-            throw new RuntimeException(e);
+            return builder.toString();
         }
     }
 
@@ -75,21 +73,21 @@ public class JiraRetriever {
         return urlFirstPart + "&startAt=" + startPoint.toString() + "&maxResults=" + maxAmount.toString() ;
     }
 
-    private String buildUrl() {
-        StringBuilder urlString = new StringBuilder(url_part_1 + "project=%22" + PROJECT_NAME + "%22");
+    private String buildUrl(String projectName) {
+        StringBuilder urlString = new StringBuilder(URL_PART_1 + "project=%22" + projectName + "%22");
 
         ArrayList<String> urlPartsList = new ArrayList<>() ;
-        urlPartsList.add(buildUrlPart("issueType", ISSUE_TYPE_LIST)) ;
-        urlPartsList.add(buildUrlPart("status", STATUS_LIST)) ;
-        urlPartsList.add(buildUrlPart("resolution", RESOLUTION_LIST)) ;
-        urlPartsList.add(buildUrlPart("priority", PRIORITY_LIST)) ;
+        urlPartsList.add(buildUrlPart("issueType", issueTypeList)) ;
+        urlPartsList.add(buildUrlPart("status", statusList)) ;
+        urlPartsList.add(buildUrlPart("resolution", resolutionList)) ;
+        urlPartsList.add(buildUrlPart("priority", priorityList)) ;
 
         StringBuilder fieldsPart = new StringBuilder();
-        if (FIELDS_LIST.length > 0) {
+        if (fieldsList.length > 0) {
             fieldsPart.append("fields=") ;
-            for (int i = 0; i < FIELDS_LIST.length; i++) {
-                fieldsPart.append(FIELDS_LIST[i]);
-                if (i < FIELDS_LIST.length - 1) {
+            for (int i = 0; i < fieldsList.length; i++) {
+                fieldsPart.append(fieldsList[i]);
+                if (i < fieldsList.length - 1) {
                     fieldsPart.append(",");
                 }
             }
