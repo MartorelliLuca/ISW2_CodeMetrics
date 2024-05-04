@@ -10,6 +10,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -48,7 +55,7 @@
       <option name="presentableId" value="Default" />
       <updated>1714830696744</updated>
       <workItem from="1714830698180" duration="6000" />
-      <workItem from="1714830901257" duration="333000" />
+      <workItem from="1714830901257" duration="1856000" />
     </task>
     <servers />
   </component>
