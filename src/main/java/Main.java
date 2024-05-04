@@ -9,13 +9,17 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class Main {
-    private static final String PROJECT_NAME = "openjpa" ;
+    private static final String PROJECT_NAME = "bookkeeper" ;
     public static void main(String[] args) throws IOException, URISyntaxException, GitAPIException {
-        String repoPath = "/Home/Documents/Github/" ;
+        String repoPath = "/home/lux/Documents/GitHub/" ;
 
-        JiraRetriever jiraRetriever = new JiraRetriever() ;
-        CommitRetriever commitRetriever = new CommitRetriever() ;
-        List<RevCommit> commitList = commitRetriever.retrieveAllCommitsInfo(repoPath + PROJECT_NAME);
+        JiraRetriever retriever = new JiraRetriever() ;
+        List<String> list = retriever.retrieveBugTicket(PROJECT_NAME) ;
+        List<VersionInfo> versionInfoList = retriever.retrieveVersions(PROJECT_NAME) ;
+        Logger.getGlobal().log(Level.INFO, list.toString());
 
+        CommitRetriever commitRetriever = new CommitRetriever(repoPath + PROJECT_NAME) ;
+        List<RevCommit> commitList = commitRetriever.retrieveAllCommitsInfo();
+        commitRetriever.retrieveCommitForVersion() ;
     }
 }
