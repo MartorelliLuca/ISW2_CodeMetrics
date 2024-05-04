@@ -1,4 +1,4 @@
-package Main;
+package main;
 
 import model.VersionInfo;
 import computer.TicketFilter;

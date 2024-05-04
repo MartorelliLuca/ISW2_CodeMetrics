@@ -67,11 +67,11 @@
       <envs>
         <env name="PROJECTS_PATH" value="$PROJECT_DIR$/../" />
       </envs>
-      <option name="MAIN_CLASS_NAME" value="Main.Main" />
+      <option name="MAIN_CLASS_NAME" value="main.Main" />
       <module name="ISW2_CodeMetrics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Main.*" />
+          <option name="PATTERN" value="main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
