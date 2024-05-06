@@ -18,7 +18,7 @@ import java.util.logging.Logger;
 
 public class VersionRetriever {
 
-    String projectName ;
+    private final String projectName ;
 
     public VersionRetriever(String projectName) {
         this.projectName = projectName ;
@@ -71,22 +71,14 @@ public class VersionRetriever {
         return null ;
     }
 
-
-
     //Proportion nell'approccio incrementale può essere calcolato solo con i bug fino alla Versione in cui mi sto ponendo, MAI DOPO
 
     public void logVersionRetrieve(List<VersionInfo> versionInfoList) {
         StringBuilder logString = new StringBuilder() ;
         logString.append("\nProject Versions\n") ;
         for (VersionInfo versionInfo : versionInfoList) {
-            logString
-                    .append("[")
-                    .append(versionInfo.getReleaseNumber())
-                    .append(" -- ")
-                    .append(versionInfo.getVersionName())
-                    .append(" -- ")
-                    .append(versionInfo.getVersionDate()).append("]\n") ;
+            logString.append(versionInfo.toString()).append("\n") ;
         }
-        Logger.getGlobal().log(Level.INFO, "{}", logString);
+        Logger.getGlobal().log(Level.INFO, "{0}", logString);
     }
 }

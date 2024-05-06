@@ -58,4 +58,12 @@ public class VersionInfo {
     public void setVersionId(String versionId) {
         this.versionId = versionId;
     }
+
+    @Override
+    public String toString() {
+        StringBuilder stringBuilder = new StringBuilder() ;
+
+        stringBuilder.append("Number ").append(releaseNumber).append(" Date ").append(versionDate.toString()) ;
+        return stringBuilder.toString() ;
+    }
 }

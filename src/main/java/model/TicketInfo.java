@@ -14,6 +14,7 @@ public class TicketInfo {
     private LocalDate createDate ;
     private List<VersionInfo> affectedVersionList ;
     private VersionInfo openingVersion ;
+    private LocalDate resolutionDate ;
     private VersionInfo injectedVersion ;
 
 
@@ -79,5 +80,40 @@ public class TicketInfo {
         this.injectedVersion = injectedVersion;
     }
 
+    public LocalDate getResolutionDate() {
+        return resolutionDate;
+    }
 
+    public void setResolutionDate(LocalDate resolutionDate) {
+        this.resolutionDate = resolutionDate;
+    }
+
+    @Override
+    public String toString() {
+        StringBuilder stringBuilder = new StringBuilder() ;
+        stringBuilder.append(ticketId).append(" Created ").append(createDate.toString()).append(" Resolution ").append(resolutionDate.toString());
+
+        if (injectedVersion != null) {
+            stringBuilder.append(" Injected ").append(injectedVersion.getVersionName()) ;
+        }
+        else {
+            stringBuilder.append(" Injected ").append("NULL") ;
+        }
+
+        if (injectedVersion != null) {
+            stringBuilder.append(" Opening ").append(openingVersion.getVersionName()) ;
+        }
+        else {
+            stringBuilder.append(" Opening ").append("NULL") ;
+        }
+
+        if (injectedVersion != null) {
+            stringBuilder.append(" Fix ").append(fixVersion.getVersionName()) ;
+        }
+        else {
+            stringBuilder.append(" Fix ").append("NULL") ;
+        }
+
+        return stringBuilder.toString() ;
+    }
 }

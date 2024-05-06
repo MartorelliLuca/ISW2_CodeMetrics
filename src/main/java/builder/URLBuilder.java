@@ -13,7 +13,7 @@ public class URLBuilder {
 
     private final String[] priorityList = new String[] {} ;
 
-    private final String[] fieldsList = new String[] {"key", "created", "versions"};
+    private final String[] fieldsList = new String[] {"key", "created", "versions", "resolutiondate"};
 
 
 

@@ -1,8 +1,8 @@
 package main;
 
+import computer.ProportionComputer;
 import model.VersionInfo;
 import computer.TicketFilter;
-import computer.VersionsComputer;
 import model.TicketInfo;
 import retriever.CommitRetriever;
 import retriever.TicketRetriever;
@@ -16,7 +16,9 @@ import java.net.URISyntaxException;
 import java.util.List;
 
 public class Main {
-    private static final String PROJECT_NAME = "bookkeeper";
+
+    private static final String PROJECT_NAME1 = "openjpa";
+    private static final String PROJECT_NAME2 = "bookkeeper";
     private static final String PROJECTS_PATH_ENV = "PROJECTS_PATH";
 
     public static void main(String[] args) throws IOException, URISyntaxException, GitAPIException {
@@ -27,19 +29,19 @@ public class Main {
                     "Please set the variable with the path of your projects.");
         }
 
-        VersionRetriever versionRetriever = new VersionRetriever(PROJECT_NAME);
+        VersionRetriever versionRetriever = new VersionRetriever(PROJECT_NAME1);
         List<VersionInfo> versionInfoList = versionRetriever.retrieveVersions();
 
-        TicketRetriever ticketRetriever = new TicketRetriever(PROJECT_NAME);
+        TicketRetriever ticketRetriever = new TicketRetriever(PROJECT_NAME1);
         List<TicketInfo> ticketInfoList = ticketRetriever.retrieveBugTicket(versionInfoList);
 
-        CommitRetriever commitRetriever = new CommitRetriever(projectPath + PROJECT_NAME);
+        CommitRetriever commitRetriever = new CommitRetriever(projectPath + PROJECT_NAME1);
         commitRetriever.retrieveFixCommitsForTickets(ticketInfoList);
 
-        VersionsComputer versionsComputer = new VersionsComputer();
-        versionsComputer.computeOpeningAndFixVersion(ticketInfoList, versionInfoList);
-
         TicketFilter filter = new TicketFilter();
-        filter.filterTicket(ticketInfoList);
+        List<TicketInfo> filteredList = filter.filterTicket(ticketInfoList);
+
+        ProportionComputer proportionComputer = new ProportionComputer() ;
+        proportionComputer.computeProportion(filteredList) ;
     }
 }

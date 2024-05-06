@@ -14,7 +14,7 @@ public class TicketFilter {
         List<TicketInfo> filteredList = new ArrayList<>(ticketInfoList) ;
 
         for (TicketInfo ticketInfo : ticketInfoList) {
-            if (ticketInfo.getOpeningVersion() == null || ticketInfo.getFixVersion() == null || ticketInfo.getFixCommit() == null) {
+            if (ticketInfo.getOpeningVersion() == null || ticketInfo.getFixVersion() == null) {
                 filteredList.remove(ticketInfo) ;
                 continue;
             }
@@ -27,22 +27,16 @@ public class TicketFilter {
 
             if (ticketInfo.getInjectedVersion() != null) {
                 Integer injectedRelease = ticketInfo.getInjectedVersion().getReleaseNumber() ;
-                if (injectedRelease > openingRelease) {
+                if (injectedRelease >= openingRelease) {
                     filteredList.remove(ticketInfo) ;
                 }
             }
         }
 
-        StringBuilder stringBuilder = new StringBuilder("Versioni Filtrate\n") ;
+        StringBuilder stringBuilder = new StringBuilder("Ticket Filtrati\n") ;
+        stringBuilder.append("Numero di Ticket ").append(filteredList.size()).append("\n") ;
         for (TicketInfo ticketInfo : filteredList) {
-            stringBuilder.append("[").append(ticketInfo.getTicketId()).append(" -- ") ;
-            if (ticketInfo.getInjectedVersion() != null) {
-                stringBuilder.append("Inj ").append(ticketInfo.getInjectedVersion().getVersionName());
-            }
-            else {
-                stringBuilder.append("Inj NULL") ;
-            }
-            stringBuilder.append(" -- ").append("Open ").append(ticketInfo.getOpeningVersion().getVersionName()).append(" -- ").append("Fix ").append(ticketInfo.getFixVersion().getVersionName()).append("]\n") ;
+            stringBuilder.append(ticketInfo.toString()).append("\n") ;
         }
         Logger.getGlobal().log(Level.INFO, "{0}", stringBuilder) ;
 
