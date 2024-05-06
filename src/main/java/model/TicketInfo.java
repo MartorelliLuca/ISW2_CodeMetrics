@@ -91,27 +91,32 @@ public class TicketInfo {
     @Override
     public String toString() {
         StringBuilder stringBuilder = new StringBuilder() ;
-        stringBuilder.append(ticketId).append(" Created ").append(createDate.toString()).append(" Resolution ").append(resolutionDate.toString());
+        stringBuilder.append(ticketId).append(" // ").append("Created ").append(createDate.toString()).append(" // ").append("Resolution ").append(resolutionDate.toString()).append(" // ");
 
+        stringBuilder.append("Injected ") ;
         if (injectedVersion != null) {
-            stringBuilder.append(" Injected ").append(injectedVersion.getVersionName()) ;
+            stringBuilder.append(injectedVersion.getVersionName()) ;
         }
         else {
-            stringBuilder.append(" Injected ").append("NULL") ;
+            stringBuilder.append("NULL") ;
         }
+        stringBuilder.append(" // " );
 
-        if (injectedVersion != null) {
-            stringBuilder.append(" Opening ").append(openingVersion.getVersionName()) ;
+        stringBuilder.append("Opening ") ;
+        if (openingVersion != null) {
+            stringBuilder.append(openingVersion.getVersionName()) ;
         }
         else {
-            stringBuilder.append(" Opening ").append("NULL") ;
+            stringBuilder.append("NULL") ;
         }
+        stringBuilder.append(" // " );
 
-        if (injectedVersion != null) {
-            stringBuilder.append(" Fix ").append(fixVersion.getVersionName()) ;
+        stringBuilder.append("Fix ") ;
+        if (fixVersion != null) {
+            stringBuilder.append(fixVersion.getVersionName()) ;
         }
         else {
-            stringBuilder.append(" Fix ").append("NULL") ;
+            stringBuilder.append("NULL") ;
         }
 
         return stringBuilder.toString() ;

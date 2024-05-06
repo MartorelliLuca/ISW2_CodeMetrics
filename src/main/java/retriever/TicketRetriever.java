@@ -5,7 +5,6 @@ import model.TicketInfo;
 import model.VersionInfo;
 import org.json.JSONArray;
 import org.json.JSONObject;
-
 import java.io.IOException;
 import java.net.URI;
 import java.net.URISyntaxException;
@@ -18,7 +17,6 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class TicketRetriever {
-
     String projectName ;
 
     public TicketRetriever(String projectName) {
@@ -65,7 +63,6 @@ public class TicketRetriever {
             TicketInfo ticketInfo = parseIssue(jsonIssue, versionInfoList) ;
             ticketInfoList.add(ticketInfo);
         }
-
         return ticketInfoList ;
     }
 
@@ -104,7 +101,6 @@ public class TicketRetriever {
         }
 
         return ticketInfo ;
-
     }
 
     private List<VersionInfo> parseAffectedVersions(JSONArray affectedVersionJsonArray, List<VersionInfo> versionInfoList) {
@@ -119,13 +115,12 @@ public class TicketRetriever {
             }
         }
         affectedVersionList.sort(Comparator.comparing(VersionInfo::getVersionDate));
-
         return affectedVersionList;
     }
 
     private VersionInfo computeVersionAfterDate(LocalDate date, List<VersionInfo> versionInfoList) {
         for (VersionInfo versionInfo : versionInfoList) {
-            if (versionInfo.getVersionDate().isAfter(date)) {
+            if (versionInfo.getVersionDate().isAfter(date) || versionInfo.getVersionDate().isEqual(date)) {
                 return versionInfo ;
             }
         }

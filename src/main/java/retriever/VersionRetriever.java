@@ -58,6 +58,9 @@ public class VersionRetriever {
         return versionInfoList ;
     }
 
+
+    // TODO CI SONO VERSIONI CHE SONO RILASCIATE NELLA STESSA DATA!! CHE DOBBIAMO FARE ??
+
     private VersionInfo parseVersionInfo(JSONObject vesionJsonObject) {
         if (vesionJsonObject.has("releaseDate") && vesionJsonObject.has("name") && vesionJsonObject.has("id")) {
             String versionName = vesionJsonObject.get("name").toString();

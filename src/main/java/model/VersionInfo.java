@@ -63,7 +63,9 @@ public class VersionInfo {
     public String toString() {
         StringBuilder stringBuilder = new StringBuilder() ;
 
-        stringBuilder.append("Number ").append(releaseNumber).append(" Date ").append(versionDate.toString()) ;
+        stringBuilder.append("Number ").append(releaseNumber).append(" // ").append("Name ").append(versionName).
+                append(" // ").append("Date ").append(versionDate.toString());
+
         return stringBuilder.toString() ;
     }
 }
