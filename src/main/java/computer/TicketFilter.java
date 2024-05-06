@@ -15,7 +15,8 @@ public class TicketFilter {
         List<TicketInfo> filteredList = new ArrayList<>() ;
 
         for (TicketInfo ticketInfo : ticketInfoList) {
-            if (isValidTicket(ticketInfo, firstVersionDate)) {
+            boolean isValid = isValidTicket(ticketInfo, firstVersionDate) ;
+            if (isValid) {
                 filteredList.add(ticketInfo) ;
             }
         }
@@ -33,7 +34,6 @@ public class TicketFilter {
     private Boolean isValidTicket(TicketInfo ticketInfo, LocalDate firstVersionDate) {
 
         // TODO: CI SONO DEI TICKET CREATI PRIMA DELLA PRIMA VERSIONE: ESCLUDERLI O NO??
-        // TODO: Rimuovere i Ticket che hanno data di creazione precedente alla prima release ??
         if (ticketInfo.getCreateDate().isBefore(firstVersionDate)) {
             return false ;
         }

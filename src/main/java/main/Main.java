@@ -1,6 +1,8 @@
 package main;
 
+import computer.InjectedVersionsComputer;
 import computer.ProportionComputer;
+import exceptions.ProportionException;
 import model.VersionInfo;
 import computer.TicketFilter;
 import model.TicketInfo;
@@ -19,7 +21,7 @@ public class Main {
     private static final String PROJECT_NAME = "openjpa";
     private static final String PROJECTS_PATH_ENV = "PROJECTS_PATH";
 
-    public static void main(String[] args) throws IOException, URISyntaxException, GitAPIException {
+    public static void main(String[] args) throws IOException, URISyntaxException, GitAPIException, ProportionException {
         String projectPath = System.getenv(PROJECTS_PATH_ENV);
 
         if (projectPath == null) {
@@ -37,6 +39,9 @@ public class Main {
         List<TicketInfo> filteredList = filter.filterTicket(ticketInfoList, versionInfoList.get(0).getVersionDate());
 
         ProportionComputer proportionComputer = new ProportionComputer() ;
-        proportionComputer.setInjectedVersionsForTickets(filteredList, versionInfoList); ;
+        Float proportion = proportionComputer.computeProportion(filteredList);
+
+        InjectedVersionsComputer injectedVersionsComputer = new InjectedVersionsComputer() ;
+        injectedVersionsComputer.setInjectedVersionsForTickets(filteredList, versionInfoList, proportion);
     }
 }
