@@ -1,6 +1,8 @@
 package model;
 
 import java.time.LocalDate;
+import java.util.List;
+
 import org.eclipse.jgit.lib.Ref;
 
 public class VersionInfo {
@@ -8,6 +10,7 @@ public class VersionInfo {
     private String versionName ;
     private LocalDate versionDate ;
     private String versionId ;
+    private List<ClassInfo> classInfoList ;
     private Integer releaseNumber ;
     private Ref ref ;
 
@@ -17,6 +20,14 @@ public class VersionInfo {
         this.versionDate = versionDate ;
         this.versionId = versionId ;
         this.ref = null ;
+    }
+
+    public List<ClassInfo> getClassInfoList() {
+        return classInfoList;
+    }
+
+    public void setClassInfoList(List<ClassInfo> classInfoList) {
+        this.classInfoList = classInfoList;
     }
 
     public LocalDate getVersionDate() {

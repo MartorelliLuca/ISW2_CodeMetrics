@@ -6,11 +6,11 @@ import exceptions.ProportionException;
 import model.VersionInfo;
 import computer.TicketFilter;
 import model.TicketInfo;
+import org.eclipse.jgit.api.errors.GitAPIException;
+import retriever.ClassesRetriever;
 import retriever.TicketRetriever;
 import retriever.VersionRetriever;
-
-import org.eclipse.jgit.api.errors.GitAPIException;
-
+import retriever.FixCommitRetriever;
 
 import java.io.IOException;
 import java.net.URISyntaxException;
@@ -21,7 +21,7 @@ public class Main {
     private static final String PROJECT_NAME = "openjpa";
     private static final String PROJECTS_PATH_ENV = "PROJECTS_PATH";
 
-    public static void main(String[] args) throws IOException, URISyntaxException, ProportionException {
+    public static void main(String[] args) throws IOException, URISyntaxException, ProportionException, GitAPIException {
         String projectPath = System.getenv(PROJECTS_PATH_ENV);
 
         if (projectPath == null) {
@@ -43,5 +43,11 @@ public class Main {
 
         InjectedVersionsComputer injectedVersionsComputer = new InjectedVersionsComputer() ;
         injectedVersionsComputer.setInjectedVersionsForTickets(filteredList, versionInfoList, proportion);
+
+        FixCommitRetriever fixCommitRetriever = new FixCommitRetriever(PROJECTS_PATH_ENV, PROJECT_NAME) ;
+        fixCommitRetriever.retrieveFixCommitsForTickets(filteredList) ;
+
+        ClassesRetriever classesRetriever = new ClassesRetriever(PROJECTS_PATH_ENV, PROJECT_NAME) ;
+        classesRetriever.retrieveClassesForAllVersions(versionInfoList);
     }
 }

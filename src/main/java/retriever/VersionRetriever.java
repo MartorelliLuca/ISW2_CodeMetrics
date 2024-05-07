@@ -42,7 +42,12 @@ public class VersionRetriever {
             versionInfoList.get(i).setReleaseNumber(i);
         }
 
-        logVersionRetrieve(versionInfoList);
+        StringBuilder logString = new StringBuilder() ;
+        logString.append("\nProject Versions for ").append(projectName.toUpperCase()).append("\n") ;
+        for (VersionInfo versionInfo : versionInfoList) {
+            logString.append(versionInfo.toString()).append("\n") ;
+        }
+        Logger.getGlobal().log(Level.INFO, "{0}", logString);
 
         return versionInfoList ;
     }
@@ -76,14 +81,4 @@ public class VersionRetriever {
     }
 
     //Proportion nell'approccio incrementale può essere calcolato solo con i bug fino alla Versione in cui mi sto ponendo, MAI DOPO
-
-    public void logVersionRetrieve(List<VersionInfo> versionInfoList) {
-        //This method logs information about a list of VersionInfo objects.
-        StringBuilder logString = new StringBuilder() ;
-        logString.append("\nProject Versions\n") ;
-        for (VersionInfo versionInfo : versionInfoList) {
-            logString.append(versionInfo.toString()).append("\n") ;
-        }
-        Logger.getGlobal().log(Level.INFO, "{0}", logString);
-    }
 }

@@ -16,12 +16,14 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class ProportionComputer {
-    private static final int THRESHOLD = 10;
+    private static final int THRESHOLD = 5;
 
 
     public Float computeProportion(List<TicketInfo> ticketInfoList) throws URISyntaxException, IOException, ProportionException {
 
         Logger.getGlobal().log(Level.INFO, "{0}", ticketInfoList.size());
+
+        //TODO La soglia va posta sui ticket per cui posso calcolare il denominatore oppure no?? Oppure denominatore 1 ??
 
         List<TicketInfo> proportionFilteredList = filterTicketList(ticketInfoList);
         if (proportionFilteredList.size() >= THRESHOLD) {
@@ -81,7 +83,20 @@ public class ProportionComputer {
         return null ;
     }
 
+    private void totalTicketComputer(String projectName, List<TicketInfo> totalTicketList) throws URISyntaxException, IOException {
+        VersionRetriever versionRetriever = new VersionRetriever(projectName) ;
+        List<VersionInfo> versionInfoList = versionRetriever.retrieveVersions() ;
 
+        TicketRetriever ticketRetriever = new TicketRetriever(projectName) ;
+        List<TicketInfo> ticketInfoList = ticketRetriever.retrieveBugTicket(versionInfoList) ;
+
+        TicketFilter filter = new TicketFilter() ;
+        List<TicketInfo> filteredList = filter.filterTicket(ticketInfoList, versionInfoList.get(0).getVersionDate());
+
+        List<TicketInfo> proportionFilteredList = filterTicketList(filteredList);
+        totalTicketList.addAll(proportionFilteredList) ;
+
+    }
 
 
     private List<TicketInfo> filterTicketList(List<TicketInfo> ticketInfoList) {
