@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>it.uniroma2.isw2</groupId>
-    <artifactId>SoftwareInfoRetriever</artifactId>
+    <artifactId>ISW2_CodeMetrics</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>

@@ -24,9 +24,9 @@ public class TicketFilter {
         StringBuilder stringBuilder = new StringBuilder("Ticket Filtrati\n") ;
         stringBuilder.append("Numero di Ticket ").append(filteredList.size()).append("\n") ;
         for (TicketInfo ticketInfo : filteredList) {
-            stringBuilder.append(ticketInfo.toString()).append("\n") ;
+            stringBuilder.append(ticketInfo.toString()).append("\n");
         }
-        Logger.getGlobal().log(Level.INFO, "{0}", stringBuilder) ;
+        Logger.getGlobal().log(Level.INFO, "{0}", stringBuilder);
 
         return filteredList ;
     }

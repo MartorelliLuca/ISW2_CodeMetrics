@@ -8,7 +8,9 @@ import java.net.URL;
 
 public class JSONRetriever {
 
-    public String getJsonString(URL url) throws IOException {
+    public String getJsonString(URL url) throws IOException{
+        //method retrieves data from a given URL, reads it character
+        // by character, and returns the accumulated data as a single string.
         try (InputStream urlInput = url.openStream()) {
             BufferedReader reader = new BufferedReader(new InputStreamReader(urlInput)) ;
             StringBuilder builder = new StringBuilder() ;
@@ -17,7 +19,6 @@ public class JSONRetriever {
             while ( (c = reader.read()) != -1) {
                 builder.append((char) c) ;
             }
-
             return builder.toString() ;
         }
     }

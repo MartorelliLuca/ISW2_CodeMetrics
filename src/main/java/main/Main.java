@@ -21,14 +21,14 @@ public class Main {
     private static final String PROJECT_NAME = "openjpa";
     private static final String PROJECTS_PATH_ENV = "PROJECTS_PATH";
 
-    public static void main(String[] args) throws IOException, URISyntaxException, GitAPIException, ProportionException {
+    public static void main(String[] args) throws IOException, URISyntaxException, ProportionException {
         String projectPath = System.getenv(PROJECTS_PATH_ENV);
 
         if (projectPath == null) {
             throw new IllegalArgumentException("Environment variable 'PROJECTS_PATH' must be set." +
                     "Please set the variable with the path of your projects.");
         }
-
+        //faccio una lista delle versioni del progetto preso in esame
         VersionRetriever versionRetriever = new VersionRetriever(PROJECT_NAME);
         List<VersionInfo> versionInfoList = versionRetriever.retrieveVersions();
 

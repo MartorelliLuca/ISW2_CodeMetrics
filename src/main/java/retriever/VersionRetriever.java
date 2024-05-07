@@ -25,7 +25,7 @@ public class VersionRetriever {
     }
 
     public List<VersionInfo> retrieveVersions() throws URISyntaxException, IOException {
-
+        //This method retrieves version information from the URL and converts it into a list of VersionInfo objects.
         String urlString = "https://issues.apache.org/jira/rest/api/2/project/" + projectName.toUpperCase();
         URI uri = new URI(urlString);
         URL url = uri.toURL();
@@ -48,6 +48,7 @@ public class VersionRetriever {
     }
 
     private List<VersionInfo> parseVersionArray(JSONArray versionJsonArray) {
+        //This method takes a JSONArray as an input and returns a list of VersionInfo objects.
         List<VersionInfo> versionInfoList = new ArrayList<>() ;
         for (int i = 0; i < versionJsonArray.length(); i++) {
             VersionInfo versionInfo = parseVersionInfo(versionJsonArray.getJSONObject(i)) ;
@@ -62,10 +63,10 @@ public class VersionRetriever {
     // TODO CI SONO VERSIONI CHE SONO RILASCIATE NELLA STESSA DATA!! CHE DOBBIAMO FARE ??
 
     private VersionInfo parseVersionInfo(JSONObject vesionJsonObject) {
-        if (vesionJsonObject.has("releaseDate") && vesionJsonObject.has("name") && vesionJsonObject.has("id")) {
+        if (vesionJsonObject.has("releaseDate") && vesionJsonObject.has("name") && vesionJsonObject.has("id")){
             String versionName = vesionJsonObject.get("name").toString();
             String dateString = vesionJsonObject.get("releaseDate").toString();
-            String versionId = vesionJsonObject.get("id").toString() ;
+            String versionId = vesionJsonObject.get("id").toString();
 
             LocalDate versionDate = LocalDate.parse(dateString) ;
 
@@ -77,6 +78,7 @@ public class VersionRetriever {
     //Proportion nell'approccio incrementale può essere calcolato solo con i bug fino alla Versione in cui mi sto ponendo, MAI DOPO
 
     public void logVersionRetrieve(List<VersionInfo> versionInfoList) {
+        //This method logs information about a list of VersionInfo objects.
         StringBuilder logString = new StringBuilder() ;
         logString.append("\nProject Versions\n") ;
         for (VersionInfo versionInfo : versionInfoList) {
