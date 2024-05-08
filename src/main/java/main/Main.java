@@ -2,7 +2,7 @@ package main;
 
 import computer.BuggyClassesComputer;
 import computer.FixAndAffectedVersionsComputer;
-import exceptions.ProportionException;
+import computer.MetricsComputer;
 import model.VersionInfo;
 import computer.TicketFilter;
 import model.TicketInfo;
@@ -11,11 +11,10 @@ import retriever.ClassesRetriever;
 import retriever.TicketRetriever;
 import retriever.VersionRetriever;
 import retriever.CommitRetriever;
-import writer.CsvWriter;
+import writer.CSVWriter;
 
 import java.io.IOException;
 import java.net.URISyntaxException;
-import java.nio.file.Path;
 import java.util.List;
 
 public class Main {
@@ -56,7 +55,10 @@ public class Main {
         BuggyClassesComputer buggyClassesComputer = new BuggyClassesComputer(PROJECT_NAME, PROJECT_PATH) ;
         buggyClassesComputer.computeBuggyClassesForAllVersions(completeTicketList, versionInfoList);
 
-        CsvWriter csvWriter = new CsvWriter(PROJECT_NAME) ;
+        MetricsComputer metricsComputer = new MetricsComputer(PROJECT_NAME, PROJECT_PATH, versionInfoList) ;
+        metricsComputer.computeMetrics();
+
+        CSVWriter csvWriter = new CSVWriter(PROJECT_NAME) ;
         csvWriter.writeAllVersionInfo(versionInfoList);
     }
 }

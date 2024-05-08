@@ -1,7 +1,6 @@
 package computer;
 
 import model.TicketInfo;
-import main.Main;
 
 import java.time.LocalDate;
 import java.util.ArrayList;

@@ -5,13 +5,13 @@ import java.util.ArrayList;
 
 public class URLBuilder {
 
-    private static final String BUG_URL = "https://issues.apache.org/jira/rest/api/2/search?jql=" ;
+    private static final String BUG_URL = "https://issues.apache.org/jira/rest/api/2/search?jql=";
 
     private final String[] issueTypeList = new String[] {"Bug"};
     private final String[] statusList = new String[] {"Closed", "Resolved"} ;
     private final String[] resolutionList = new String[] {"Fixed"} ;
 
-    private final String[] priorityList = new String[] {} ;
+    private final String[] priorityList = new String[]{};
 
     private final String[] fieldsList = new String[] {"key", "created", "versions", "resolutiondate"};
 
