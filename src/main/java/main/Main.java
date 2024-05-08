@@ -15,17 +15,17 @@ import writer.CsvWriter;
 
 import java.io.IOException;
 import java.net.URISyntaxException;
+import java.nio.file.Path;
 import java.util.List;
 
 public class Main {
 
-    public static final String PROJECT_NAME = "openjpa";
-    private static final String PROJECTS_PATH_ENV = "PROJECTS_PATH";
+    public static final String PROJECT_NAME = "bookkeeper";
+    private static final String PROJECT_PATH = "/home/lux/Documents/GitHub/";
 
-    public static void main(String[] args) throws IOException, URISyntaxException, ProportionException, GitAPIException {
-        String projectPath = System.getenv(PROJECTS_PATH_ENV);
+    public static void main(String[] args) throws IOException, URISyntaxException, GitAPIException {
 
-        if (projectPath == null) {
+        if (PROJECT_PATH == null) {
             throw new IllegalArgumentException("Environment variable 'PROJECTS_PATH' must be set." +
                     "Please set the variable with the path of your projects.");
         }
@@ -45,15 +45,15 @@ public class Main {
         FixAndAffectedVersionsComputer versionsComputer = new FixAndAffectedVersionsComputer() ;
         versionsComputer.setInjectedAndAffectedVersionForAllTickets(filteredList, versionInfoList);
 
-        CommitRetriever commitRetriever = new CommitRetriever(PROJECTS_PATH_ENV, PROJECT_NAME, lastVersion.getVersionDate()) ;
+        CommitRetriever commitRetriever = new CommitRetriever(PROJECT_PATH, PROJECT_NAME, lastVersion.getVersionDate()) ;
         commitRetriever.retrieveCommitListForAllVersions(versionInfoList) ;
 
         List<TicketInfo> completeTicketList = commitRetriever.retrieveFixCommitListForAllTickets(filteredList, firstVersion, lastVersion) ;
 
-        ClassesRetriever classesRetriever = new ClassesRetriever(PROJECT_NAME, PROJECTS_PATH_ENV) ;
+        ClassesRetriever classesRetriever = new ClassesRetriever(PROJECT_NAME, PROJECT_PATH) ;
         classesRetriever.retrieveClassesForAllVersions(versionInfoList);
 
-        BuggyClassesComputer buggyClassesComputer = new BuggyClassesComputer(PROJECT_NAME, PROJECTS_PATH_ENV) ;
+        BuggyClassesComputer buggyClassesComputer = new BuggyClassesComputer(PROJECT_NAME, PROJECT_PATH) ;
         buggyClassesComputer.computeBuggyClassesForAllVersions(completeTicketList, versionInfoList);
 
         CsvWriter csvWriter = new CsvWriter(PROJECT_NAME) ;
