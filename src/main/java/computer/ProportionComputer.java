@@ -11,6 +11,7 @@ import retriever.VersionRetriever;
 import java.io.IOException;
 import java.net.URISyntaxException;
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -18,54 +19,75 @@ import java.util.logging.Logger;
 public class ProportionComputer {
     private static final int THRESHOLD = 5;
 
+    private final ArrayList<TicketInfo> proportionTicketList ;
+    private Float coldStartProportion ;
 
-    public Float computeProportion(List<TicketInfo> ticketInfoList) throws URISyntaxException, IOException, ProportionException {
+    public ProportionComputer() {
+        this.proportionTicketList = new ArrayList<>() ;
+    }
 
-        Logger.getGlobal().log(Level.INFO, "{0}", ticketInfoList.size());
 
-        //TODO La soglia va posta sui ticket per cui posso calcolare il denominatore oppure no?? Oppure denominatore 1 ??
-
-        List<TicketInfo> proportionFilteredList = filterTicketList(ticketInfoList);
-        if (proportionFilteredList.size() >= THRESHOLD) {
-            return incrementalProportion(proportionFilteredList);
-        } else {
-            return coldStart();
+    public Float computeProportionForTicket(TicketInfo ticketInfo) throws URISyntaxException, IOException {
+        boolean isValidForProportion = isValidTicket(ticketInfo) ;
+        if (isValidForProportion) {
+            proportionTicketList.add(ticketInfo) ;
+            return null ;
+        }
+        else {
+            return applyProportion() ;
         }
     }
 
-    private Float incrementalProportion(List<TicketInfo> proportionFilteredList) {
+    private Float applyProportion() throws URISyntaxException, IOException {
+        Float proportionValue ;
+        if (proportionTicketList.size() >= THRESHOLD) {
+            proportionValue = computeIncrementalProportion(this.proportionTicketList) ;
+        }
+        else {
+            proportionValue = computeColdStartProportion() ;
+        }
+        return proportionValue ;
+    }
+
+    private Float computeIncrementalProportion(List<TicketInfo> proportionTicketList) {
         float incrementProportion = 0f;
-        for (TicketInfo ticketInfo : proportionFilteredList) {
+        Integer size = proportionTicketList.size() ;
+        for (TicketInfo ticketInfo : proportionTicketList) {
             Integer fixReleaseNumber = ticketInfo.getFixVersion().getReleaseNumber();
             Integer openingReleaseNumber = ticketInfo.getOpeningVersion().getReleaseNumber();
             Integer injectedReleaseNumber = ticketInfo.getInjectedVersion().getReleaseNumber();
-            Float proportion = (((float) fixReleaseNumber) - injectedReleaseNumber) / (fixReleaseNumber - openingReleaseNumber);
+            float proportion = (((float) fixReleaseNumber) - injectedReleaseNumber) / (fixReleaseNumber - openingReleaseNumber);
             incrementProportion += proportion;
         }
 
-        Logger.getGlobal().log(Level.INFO, "Proportion {0}\n", incrementProportion / proportionFilteredList.size());
-
-        return incrementProportion / proportionFilteredList.size();
+        return incrementProportion / size ;
     }
 
-    private Float coldStart() throws URISyntaxException, IOException, ProportionException {
-        Float coldStartProportion = 0f;
-        Integer projectNumber = 0;
+    private Float computeColdStartProportion() throws URISyntaxException, IOException {
+        if (coldStartProportion != null) {
+            return coldStartProportion ;
+        }
+        List<Float> projectsProportionList = new ArrayList<>() ;
         for (ProjectsEnum project : ProjectsEnum.values()) {
-            Float projectColdStart = projectColdStartComputer(project.name().toLowerCase());
+            Float projectColdStart = computeColdStartForProject(project.name().toLowerCase()) ;
             if (projectColdStart != null) {
-                coldStartProportion += projectColdStart;
-                projectNumber++;
+                projectsProportionList.add(projectColdStart);
             }
         }
-        if (projectNumber != 0) {
-            return coldStartProportion / projectNumber;
+        Float coldStartValue ;
+        projectsProportionList.sort(Comparator.naturalOrder());
+        if (projectsProportionList.size() % 2 != 0) {
+            coldStartValue = projectsProportionList.get((projectsProportionList.size() - 1) / 2) ;
         } else {
-            throw new ProportionException();
+            Float firstValue = projectsProportionList.get((projectsProportionList.size() / 2) - 1) ;
+            Float secondValue = projectsProportionList.get((projectsProportionList.size()) / 2) ;
+            coldStartValue = (0.5f) * (firstValue + secondValue) ;
         }
+        this.coldStartProportion = coldStartValue ;
+        return this.coldStartProportion;
     }
 
-    private Float projectColdStartComputer(String projectName) throws URISyntaxException, IOException {
+    private Float computeColdStartForProject(String projectName) throws URISyntaxException, IOException {
         VersionRetriever versionRetriever = new VersionRetriever(projectName) ;
         List<VersionInfo> versionInfoList = versionRetriever.retrieveVersions() ;
 
@@ -75,47 +97,29 @@ public class ProportionComputer {
         TicketFilter filter = new TicketFilter() ;
         List<TicketInfo> filteredList = filter.filterTicket(ticketInfoList, versionInfoList.get(0).getVersionDate());
 
-        List<TicketInfo> proportionFilteredList = filterTicketList(filteredList);
-        if (proportionFilteredList.size() >= THRESHOLD) {
-            return incrementalProportion(proportionFilteredList) ;
+        List<TicketInfo> projectProportionTicketList = filterTicketListForProportion(filteredList) ;
+        if (projectProportionTicketList.size() < THRESHOLD) {
+            return null ;
         }
-
-        return null ;
+        else {
+            return computeIncrementalProportion(projectProportionTicketList);
+        }
     }
 
-    private void totalTicketComputer(String projectName, List<TicketInfo> totalTicketList) throws URISyntaxException, IOException {
-        VersionRetriever versionRetriever = new VersionRetriever(projectName) ;
-        List<VersionInfo> versionInfoList = versionRetriever.retrieveVersions() ;
-
-        TicketRetriever ticketRetriever = new TicketRetriever(projectName) ;
-        List<TicketInfo> ticketInfoList = ticketRetriever.retrieveBugTicket(versionInfoList) ;
-
-        TicketFilter filter = new TicketFilter() ;
-        List<TicketInfo> filteredList = filter.filterTicket(ticketInfoList, versionInfoList.get(0).getVersionDate());
-
-        List<TicketInfo> proportionFilteredList = filterTicketList(filteredList);
-        totalTicketList.addAll(proportionFilteredList) ;
-
-    }
-
-
-    private List<TicketInfo> filterTicketList(List<TicketInfo> ticketInfoList) {
+    private List<TicketInfo> filterTicketListForProportion(List<TicketInfo> ticketInfoList) {
 
         List<TicketInfo> proportionFilteredList = new ArrayList<>() ;
         for (TicketInfo ticketInfo : ticketInfoList) {
-            if (!ticketInfo.getOpeningVersion().getReleaseNumber().equals(ticketInfo.getFixVersion().getReleaseNumber()) && ticketInfo.getInjectedVersion() != null) {
+            if (isValidTicket(ticketInfo)) {
                 proportionFilteredList.add(ticketInfo) ;
             }
         }
 
-        float incrementProportion = 0f ;
-        Logger.getGlobal().log(Level.INFO, "Filtered Ticket List Size {0}", proportionFilteredList.size());
-        StringBuilder stringBuilder = new StringBuilder("Ticket List for Proportion\n") ;
-        for (TicketInfo ticketInfo : proportionFilteredList) {
-            stringBuilder.append(ticketInfo.toString()).append("\n") ;
-        }
-        Logger.getGlobal().log(Level.INFO, "{0}", stringBuilder);
-
         return proportionFilteredList ;
+    }
+
+    private boolean isValidTicket(TicketInfo ticketInfo) {
+        //TODO AGGIUNGERE CONDIZIONE DI RIMOZIONE OPENING != FIX ?? SE TOGLI AGGIUNGI CONTROLLI DENOMINATORE DIVERSO DA ZERO
+        return !ticketInfo.getOpeningVersion().getReleaseNumber().equals(ticketInfo.getFixVersion().getReleaseNumber()) && ticketInfo.getInjectedVersion() != null;
     }
 }

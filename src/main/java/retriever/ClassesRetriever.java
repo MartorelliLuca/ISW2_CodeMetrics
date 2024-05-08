@@ -9,6 +9,7 @@ import org.eclipse.jgit.lib.Repository;
 import org.eclipse.jgit.revwalk.RevCommit;
 import org.eclipse.jgit.storage.file.FileRepositoryBuilder;
 import org.eclipse.jgit.treewalk.TreeWalk;
+import utils.DateUtils;
 
 import java.io.File;
 import java.io.IOException;
@@ -28,7 +29,7 @@ public class ClassesRetriever {
 
     public ClassesRetriever(String repoPath, String projectName) throws IOException, GitAPIException {
         FileRepositoryBuilder repositoryBuilder = new FileRepositoryBuilder();
-        this.repo = repositoryBuilder.setGitDir(new File(repoPath + "/" + projectName + "/.git")).build() ;
+        this.repo = repositoryBuilder.setGitDir(new File(repoPath + projectName + "/.git")).build() ;
         this.git = new Git(repo) ;
         this.allCommitList = new ArrayList<>() ;
 
@@ -51,10 +52,6 @@ public class ClassesRetriever {
             }
             List<ClassInfo> classInfoList = retrieveClassesForVersion(versionInfoList.get(i), prevReleaseDate) ;
             versionInfoList.get(i).setClassInfoList(classInfoList);
-        }
-
-        for (ClassInfo classInfo : versionInfoList.get(versionInfoList.size() - 1).getClassInfoList()) {
-            Logger.getGlobal().log(Level.INFO, classInfo.getName());
         }
     }
 
@@ -102,9 +99,8 @@ public class ClassesRetriever {
         List<RevCommit> versionCommitList = new ArrayList<>() ;
         LocalDate releaseDate = versionInfo.getVersionDate() ;
 
-        SimpleDateFormat dateFormatter = new SimpleDateFormat("yyyy-MM-dd") ;
         for (RevCommit revCommit : allCommitList) {
-            LocalDate commitDate = LocalDate.parse(dateFormatter.format(revCommit.getAuthorIdent().getWhen())) ;
+            LocalDate commitDate = DateUtils.dateToLocalDate(revCommit.getAuthorIdent().getWhen());
             if (prevReleaseDate == null) {
                 if (commitDate.isBefore(releaseDate)) {
                     versionCommitList.add(revCommit) ;

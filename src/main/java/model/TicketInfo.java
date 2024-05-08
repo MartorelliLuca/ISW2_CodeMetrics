@@ -92,23 +92,34 @@ public class TicketInfo {
     public String toString() {
         StringBuilder stringBuilder = new StringBuilder() ;
         stringBuilder.append(ticketId).append(" // ").append("Created ").append(createDate.toString()).append(" // ").append("Resolution ").append(resolutionDate.toString()).append(" // ");
+        buildVersionPart(stringBuilder);
+        buildFixCommitPart(stringBuilder);
 
-        stringBuilder.append("Injected ") ;
-        if (injectedVersion != null) {
-            stringBuilder.append(injectedVersion.getVersionName()) ;
-        }
-        else {
+        return stringBuilder.toString() ;
+    }
+
+    private void buildFixCommitPart(StringBuilder stringBuilder) {
+        stringBuilder.append("Fix Commit ") ;
+        if (fixCommitList == null) {
             stringBuilder.append("NULL") ;
         }
+        else {
+            stringBuilder.append("[") ;
+            for (int i = 0 ; i < fixCommitList.size() ; i++) {
+                stringBuilder.append(fixCommitList.get(i).getId()) ;
+                if (i != fixCommitList.size() - 1) {
+                    stringBuilder.append(", ") ;
+                }
+            }
+            stringBuilder.append("]") ;
+        }
+    }
+
+    private void buildVersionPart(StringBuilder stringBuilder) {
+        stringBuilder.append("Injected ").append(injectedVersion != null ? injectedVersion.getVersionName() : "NULL") ;
         stringBuilder.append(" // " );
 
-        stringBuilder.append("Opening ") ;
-        if (openingVersion != null) {
-            stringBuilder.append(openingVersion.getVersionName()) ;
-        }
-        else {
-            stringBuilder.append("NULL") ;
-        }
+        stringBuilder.append("Opening ").append(openingVersion != null ? openingVersion.getVersionName() : "NULL") ;
         stringBuilder.append(" // " );
 
         stringBuilder.append("Fix ") ;
@@ -137,22 +148,5 @@ public class TicketInfo {
             stringBuilder.append("]") ;
         }
         stringBuilder.append(" // ") ;
-
-        stringBuilder.append("Fix Commit ") ;
-        if (fixCommitList == null) {
-            stringBuilder.append("NULL") ;
-        }
-        else {
-            stringBuilder.append("[") ;
-            for (int i = 0 ; i < fixCommitList.size() ; i++) {
-                stringBuilder.append(fixCommitList.get(i).getId()) ;
-                if (i != fixCommitList.size() - 1) {
-                    stringBuilder.append(", ") ;
-                }
-            }
-            stringBuilder.append("]") ;
-        }
-
-        return stringBuilder.toString() ;
     }
 }

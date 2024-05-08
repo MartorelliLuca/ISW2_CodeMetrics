@@ -1,6 +1,6 @@
 package main;
 
-import computer.InjectedVersionsComputer;
+import computer.FixAndAffectedVersionsComputer;
 import computer.ProportionComputer;
 import exceptions.ProportionException;
 import model.VersionInfo;
@@ -18,7 +18,7 @@ import java.util.List;
 
 public class Main {
 
-    private static final String PROJECT_NAME = "openjpa";
+    public static final String PROJECT_NAME = "openjpa";
     private static final String PROJECTS_PATH_ENV = "PROJECTS_PATH";
 
     public static void main(String[] args) throws IOException, URISyntaxException, ProportionException, GitAPIException {
@@ -38,16 +38,10 @@ public class Main {
         TicketFilter filter = new TicketFilter();
         List<TicketInfo> filteredList = filter.filterTicket(ticketInfoList, versionInfoList.get(0).getVersionDate());
 
-        ProportionComputer proportionComputer = new ProportionComputer() ;
-        Float proportion = proportionComputer.computeProportion(filteredList);
-
-        InjectedVersionsComputer injectedVersionsComputer = new InjectedVersionsComputer() ;
-        injectedVersionsComputer.setInjectedVersionsForTickets(filteredList, versionInfoList, proportion);
+        FixAndAffectedVersionsComputer versionsComputer = new FixAndAffectedVersionsComputer() ;
+        versionsComputer.setInjectedAndAffectedVersionForAllTickets(filteredList, versionInfoList);
 
         FixCommitRetriever fixCommitRetriever = new FixCommitRetriever(PROJECTS_PATH_ENV, PROJECT_NAME) ;
-        fixCommitRetriever.retrieveFixCommitsForTickets(filteredList) ;
-
-        ClassesRetriever classesRetriever = new ClassesRetriever(PROJECTS_PATH_ENV, PROJECT_NAME) ;
-        classesRetriever.retrieveClassesForAllVersions(versionInfoList);
+        fixCommitRetriever.retrieveFixCommitsForTickets(filteredList, versionInfoList.get(0), versionInfoList.get(versionInfoList.size() - 1)) ;
     }
 }

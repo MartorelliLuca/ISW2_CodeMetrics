@@ -1,6 +1,7 @@
 package computer;
 
 import model.TicketInfo;
+import main.Main;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
@@ -21,11 +22,8 @@ public class TicketFilter {
             }
         }
 
-        StringBuilder stringBuilder = new StringBuilder("Ticket Filtrati\n") ;
-        stringBuilder.append("Numero di Ticket ").append(filteredList.size()).append("\n") ;
-        for (TicketInfo ticketInfo : filteredList) {
-            stringBuilder.append(ticketInfo.toString()).append("\n");
-        }
+        StringBuilder stringBuilder = new StringBuilder() ;
+        stringBuilder.append("Numero Ticket Filtrati Per ").append(Main.PROJECT_NAME.toUpperCase()).append(" >> ").append(filteredList.size()).append("\n") ;
         Logger.getGlobal().log(Level.INFO, "{0}", stringBuilder);
 
         return filteredList ;
@@ -33,7 +31,6 @@ public class TicketFilter {
 
     private Boolean isValidTicket(TicketInfo ticketInfo, LocalDate firstVersionDate) {
 
-        // TODO: CI SONO DEI TICKET CREATI PRIMA DELLA PRIMA VERSIONE: ESCLUDERLI O NO??
         if (ticketInfo.getCreateDate().isBefore(firstVersionDate)) {
             return false ;
         }
