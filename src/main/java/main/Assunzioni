@@ -1,0 +1,2 @@
+* Supponiamo che il ticket di riferimento di ogni messaggio di Commit sia dato dal primo bookkeeper
+* Se una classe modificata da un commit non era presente in una affected version non le consideriamo affected

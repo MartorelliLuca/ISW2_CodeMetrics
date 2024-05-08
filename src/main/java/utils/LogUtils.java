@@ -8,9 +8,9 @@ import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-public class Log {
+public class LogUtils {
 
-    private Log() {}
+    private LogUtils() {}
 
     public static void logTicketList(List<TicketInfo> ticketInfoList, String phase) {
         StringBuilder stringBuilder = new StringBuilder() ;

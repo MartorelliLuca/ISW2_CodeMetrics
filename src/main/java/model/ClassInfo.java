@@ -8,6 +8,7 @@ public class ClassInfo {
 
     public ClassInfo(String name) {
         this.name = name ;
+        this.buggy = false ;
     }
 
     public String getName() {

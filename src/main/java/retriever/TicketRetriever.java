@@ -50,7 +50,7 @@ public class TicketRetriever {
         } while (issuesNumber != 0) ;
 
         StringBuilder stringBuilder = new StringBuilder() ;
-        stringBuilder.append("Ticket Totali per ").append(projectName.toUpperCase()).append(" >> ").append(ticketInfoList.size()) ;
+        stringBuilder.append("Ticket Totali per ").append(projectName.toUpperCase()).append(" >> ").append(ticketInfoList.size()).append("\n") ;
         Logger.getGlobal().log(Level.INFO, "{0}", stringBuilder);
 
         return ticketInfoList ;

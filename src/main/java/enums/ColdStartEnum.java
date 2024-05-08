@@ -1,7 +1,7 @@
 package enums;
 
 
-public enum ProjectsEnum {
+public enum ColdStartEnum {
 
     BOOKKEEPER,
     OPENJPA

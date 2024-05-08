@@ -4,6 +4,7 @@ import java.time.LocalDate;
 import java.util.List;
 
 import org.eclipse.jgit.lib.Ref;
+import org.eclipse.jgit.revwalk.RevCommit;
 
 public class VersionInfo {
 
@@ -12,14 +13,13 @@ public class VersionInfo {
     private String versionId ;
     private List<ClassInfo> classInfoList ;
     private Integer releaseNumber ;
-    private Ref ref ;
+    private List<RevCommit> versionCommitList ;
 
 
     public VersionInfo(String versionName, LocalDate versionDate, String versionId) {
         this.versionName = versionName ;
         this.versionDate = versionDate ;
         this.versionId = versionId ;
-        this.ref = null ;
     }
 
     public List<ClassInfo> getClassInfoList() {
@@ -46,14 +46,13 @@ public class VersionInfo {
         this.versionName = versionName;
     }
 
-    public Ref getRef() {
-        return ref;
+    public List<RevCommit> getVersionCommitList() {
+        return versionCommitList;
     }
 
-    public void setRef(Ref ref) {
-        this.ref = ref;
+    public void setVersionCommitList(List<RevCommit> versionCommitList) {
+        this.versionCommitList = versionCommitList;
     }
-
     public Integer getReleaseNumber() {
         return releaseNumber;
     }

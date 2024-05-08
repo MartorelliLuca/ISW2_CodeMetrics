@@ -11,25 +11,31 @@ import java.util.logging.Logger;
 
 public class TicketFilter {
 
-    public List<TicketInfo> filterTicket(List<TicketInfo> ticketInfoList, LocalDate firstVersionDate) {
+    private String projectName ;
+
+    public TicketFilter(String projectName) {
+        this.projectName = projectName.toUpperCase() ;
+    }
+
+    public List<TicketInfo> filterTicketByVersions(List<TicketInfo> ticketInfoList, LocalDate firstVersionDate) {
 
         List<TicketInfo> filteredList = new ArrayList<>() ;
 
         for (TicketInfo ticketInfo : ticketInfoList) {
-            boolean isValid = isValidTicket(ticketInfo, firstVersionDate) ;
+            boolean isValid = hasValidVersions(ticketInfo, firstVersionDate) ;
             if (isValid) {
                 filteredList.add(ticketInfo) ;
             }
         }
 
         StringBuilder stringBuilder = new StringBuilder() ;
-        stringBuilder.append("Numero Ticket Filtrati Per ").append(Main.PROJECT_NAME.toUpperCase()).append(" >> ").append(filteredList.size()).append("\n") ;
+        stringBuilder.append("Numero Ticket Filtrati Per ").append(projectName).append(" >> ").append(filteredList.size()).append("\n") ;
         Logger.getGlobal().log(Level.INFO, "{0}", stringBuilder);
 
         return filteredList ;
     }
 
-    private Boolean isValidTicket(TicketInfo ticketInfo, LocalDate firstVersionDate) {
+    private Boolean hasValidVersions(TicketInfo ticketInfo, LocalDate firstVersionDate) {
 
         if (ticketInfo.getCreateDate().isBefore(firstVersionDate)) {
             return false ;

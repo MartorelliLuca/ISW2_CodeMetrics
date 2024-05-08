@@ -43,7 +43,7 @@ public class VersionRetriever {
         }
 
         StringBuilder stringBuilder = new StringBuilder() ;
-        stringBuilder.append("Numero Versioni Per ").append(projectName).append(" >> ").append(versionInfoList.size()).append("\n") ;
+        stringBuilder.append("Numero Versioni Per ").append(projectName.toUpperCase()).append(" >> ").append(versionInfoList.size()).append("\n") ;
         Logger.getGlobal().log(Level.INFO, "{0}", stringBuilder);
 
         return versionInfoList ;

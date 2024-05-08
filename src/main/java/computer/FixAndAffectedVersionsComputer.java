@@ -31,14 +31,6 @@ public class FixAndAffectedVersionsComputer {
                 ticketInfo.setAffectedVersionList(affectedVersionList);
             }
         }
-
-        StringBuilder stringBuilder = new StringBuilder("Calcolo Inj e Aff Versions\n") ;
-        stringBuilder.append("Numero di Ticket: ").append(ticketInfoList.size()).append("\n") ;
-        for (TicketInfo ticketInfo : ticketInfoList) {
-            stringBuilder.append(ticketInfo).append("\n") ;
-        }
-        Logger.getGlobal().log(Level.INFO, "{0}", stringBuilder);
-
     }
 
     private void setInjectedVersionForTicket(TicketInfo ticketInfo, List<VersionInfo> versionInfoList, Float proportionValue) {

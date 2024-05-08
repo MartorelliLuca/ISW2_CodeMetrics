@@ -2,18 +2,14 @@ package retriever;
 
 import model.ClassInfo;
 import model.VersionInfo;
-import org.eclipse.jgit.api.Git;
-import org.eclipse.jgit.api.errors.GitAPIException;
 import org.eclipse.jgit.lib.ObjectId;
 import org.eclipse.jgit.lib.Repository;
 import org.eclipse.jgit.revwalk.RevCommit;
 import org.eclipse.jgit.storage.file.FileRepositoryBuilder;
 import org.eclipse.jgit.treewalk.TreeWalk;
-import utils.DateUtils;
 
 import java.io.File;
 import java.io.IOException;
-import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -23,51 +19,39 @@ import java.util.logging.Logger;
 
 public class ClassesRetriever {
 
-    Git git ;
-    Repository repo ;
-    List<RevCommit> allCommitList;
+    private final Repository repo ;
 
-    public ClassesRetriever(String repoPath, String projectName) throws IOException, GitAPIException {
+    public ClassesRetriever(String projectName, String repoPath) throws IOException {
         FileRepositoryBuilder repositoryBuilder = new FileRepositoryBuilder();
-        this.repo = repositoryBuilder.setGitDir(new File(repoPath + projectName + "/.git")).build() ;
-        this.git = new Git(repo) ;
-        this.allCommitList = new ArrayList<>() ;
-
-        Iterable<RevCommit> revCommitIterable = git.log().call() ;
-        for (RevCommit revCommit : revCommitIterable) {
-            this.allCommitList.add(revCommit);
-        }
-
-        this.allCommitList.sort(Comparator.comparing(o -> o.getAuthorIdent().getWhen()));
+        this.repo = repositoryBuilder.setGitDir(new File(repoPath + projectName + "/.git")).build();
     }
 
     public void retrieveClassesForAllVersions(List<VersionInfo> versionInfoList) throws IOException {
-        for (int i = 0 ; i < versionInfoList.size() ; i++) {
-            LocalDate prevReleaseDate ;
-            if (i == 0) {
-                prevReleaseDate = null ;
-            }
-            else {
-                prevReleaseDate = versionInfoList.get(i - 1).getVersionDate() ;
-            }
-            List<ClassInfo> classInfoList = retrieveClassesForVersion(versionInfoList.get(i), prevReleaseDate) ;
-            versionInfoList.get(i).setClassInfoList(classInfoList);
+        for (VersionInfo versionInfo : versionInfoList) {
+            List<ClassInfo> classInfoList = retrieveClassesForVersion(versionInfo);
+            versionInfo.setClassInfoList(classInfoList);
         }
+
+        StringBuilder stringBuilder = new StringBuilder() ;
+        stringBuilder.append("Numero di Classi per Versioni").append("\n") ;
+        for (VersionInfo versionInfo : versionInfoList) {
+            stringBuilder.append(versionInfo.getVersionName()).append(" >> ").append(versionInfo.getClassInfoList().size()).append("\n") ;
+        }
+        Logger.getGlobal().log(Level.INFO, "{0}", stringBuilder);
     }
 
-    private List<ClassInfo> retrieveClassesForVersion(VersionInfo versionInfo, LocalDate prevReleaseDate) throws IOException {
-        List<RevCommit> commitList = retrieveCommitsForVersion(versionInfo, prevReleaseDate) ;
+    private List<ClassInfo> retrieveClassesForVersion(VersionInfo versionInfo) throws IOException {
+        List<RevCommit> commitList = versionInfo.getVersionCommitList() ;
+
+        // TODO Scegliere cosa fare con le classi che hanno zero commit
         List<ClassInfo> classInfoList = new ArrayList<>() ;
-
-        for (RevCommit revCommit : commitList) {
-            analyzeRevTree(revCommit, classInfoList) ;
+        if (commitList.isEmpty()) {
+            return classInfoList ;
         }
 
-        return classInfoList ;
-    }
+        RevCommit lastCommit = commitList.get(commitList.size() - 1) ;
 
-    private void analyzeRevTree(RevCommit revCommit, List<ClassInfo> classInfoList) throws IOException {
-        ObjectId treeId = revCommit.getTree().getId();
+        ObjectId treeId = lastCommit.getTree().getId();
         TreeWalk treeWalk = new TreeWalk(repo) ;
         treeWalk.reset(treeId);
         treeWalk.setRecursive(false);
@@ -77,42 +61,14 @@ public class ClassesRetriever {
                 treeWalk.enterSubtree();
             }
             else {
-                String filePath = treeWalk.getPathString() ;
-                if (filePath.endsWith(".java") && !filePath.contains("/src/test") && !classIsInList(filePath, classInfoList)) {
-                    ClassInfo classInfo = new ClassInfo(filePath) ;
+                if (treeWalk.getPathString().endsWith(".java") && !treeWalk.getPathString().contains("/test/")) {
+                    String className = treeWalk.getPathString() ;
+                    ClassInfo classInfo = new ClassInfo(className) ;
                     classInfoList.add(classInfo) ;
                 }
             }
         }
-    }
-
-    private boolean classIsInList(String filePath, List<ClassInfo> classInfoList) {
-        for (ClassInfo classInfo : classInfoList) {
-            if (classInfo.getName().compareTo(filePath) == 0) {
-                return true ;
-            }
-        }
-        return false ;
-    }
-
-    private List<RevCommit> retrieveCommitsForVersion(VersionInfo versionInfo, LocalDate prevReleaseDate) {
-        List<RevCommit> versionCommitList = new ArrayList<>() ;
-        LocalDate releaseDate = versionInfo.getVersionDate() ;
-
-        for (RevCommit revCommit : allCommitList) {
-            LocalDate commitDate = DateUtils.dateToLocalDate(revCommit.getAuthorIdent().getWhen());
-            if (prevReleaseDate == null) {
-                if (commitDate.isBefore(releaseDate)) {
-                    versionCommitList.add(revCommit) ;
-                }
-            }
-            else {
-                if (commitDate.isAfter(prevReleaseDate) && (commitDate.isBefore(releaseDate) || commitDate.isEqual(releaseDate))) {
-                    versionCommitList.add(revCommit) ;
-                }
-            }
-        }
-
-        return versionCommitList ;
+        classInfoList.sort(Comparator.comparing(ClassInfo::getName));
+        return classInfoList ;
     }
 }

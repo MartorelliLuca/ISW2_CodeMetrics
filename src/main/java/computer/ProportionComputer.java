@@ -1,8 +1,7 @@
 package computer;
 
 
-import enums.ProjectsEnum;
-import exceptions.ProportionException;
+import enums.ColdStartEnum;
 import model.TicketInfo;
 import model.VersionInfo;
 import retriever.TicketRetriever;
@@ -68,7 +67,7 @@ public class ProportionComputer {
             return coldStartProportion ;
         }
         List<Float> projectsProportionList = new ArrayList<>() ;
-        for (ProjectsEnum project : ProjectsEnum.values()) {
+        for (ColdStartEnum project : ColdStartEnum.values()) {
             Float projectColdStart = computeColdStartForProject(project.name().toLowerCase()) ;
             if (projectColdStart != null) {
                 projectsProportionList.add(projectColdStart);
@@ -83,6 +82,11 @@ public class ProportionComputer {
             Float secondValue = projectsProportionList.get((projectsProportionList.size()) / 2) ;
             coldStartValue = (0.5f) * (firstValue + secondValue) ;
         }
+        StringBuilder stringBuilder = new StringBuilder() ;
+        stringBuilder.append("\n").append("Array per ColdStart Proportion >> ").append(projectsProportionList).append("\n") ;
+        stringBuilder.append("Cold Start Value >> ").append(coldStartValue).append("\n") ;
+        Logger.getGlobal().log(Level.INFO, "{0}", stringBuilder);
+
         this.coldStartProportion = coldStartValue ;
         return this.coldStartProportion;
     }
@@ -94,8 +98,8 @@ public class ProportionComputer {
         TicketRetriever ticketRetriever = new TicketRetriever(projectName) ;
         List<TicketInfo> ticketInfoList = ticketRetriever.retrieveBugTicket(versionInfoList) ;
 
-        TicketFilter filter = new TicketFilter() ;
-        List<TicketInfo> filteredList = filter.filterTicket(ticketInfoList, versionInfoList.get(0).getVersionDate());
+        TicketFilter filter = new TicketFilter(projectName) ;
+        List<TicketInfo> filteredList = filter.filterTicketByVersions(ticketInfoList, versionInfoList.get(0).getVersionDate());
 
         List<TicketInfo> projectProportionTicketList = filterTicketListForProportion(filteredList) ;
         if (projectProportionTicketList.size() < THRESHOLD) {
