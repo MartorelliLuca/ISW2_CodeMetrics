@@ -35,22 +35,37 @@ public class TicketFilter {
     }
 
     private Boolean hasValidVersions(TicketInfo ticketInfo, LocalDate firstVersionDate) {
-
+        /*
+        Un ticket viene scartato se ha una data di creazione precedente a quella della prima versione.
+        Questi possono essere considerati dei ticket creati internamente durante lo sviluppo della prima
+        versione e quindi possiamo considerare che non impattino lo sviluppo nelle versioni successive
+         */
         if (ticketInfo.getCreateDate().isBefore(firstVersionDate)) {
             return false ;
         }
 
-
+        /*
+        Il Ticket ha openingVersion = null se è stato creato ma non è ancora stata rilasciata una Release successiva,
+        quindi non possiamo sapere le informazioni di quest'ultima.
+         */
         if (ticketInfo.getOpeningVersion() == null || ticketInfo.getFixVersion() == null) {
             return false ;
         }
-
+        /*
+        Ticket che hanno opening > fix vengono scartati perché significa che le informazioni di Jira
+        per quel ticket sono inconsistenti: non potendo sapere quali informazioni sono errate il ticket
+        viene scartato
+         */
         Integer openingRelease = ticketInfo.getOpeningVersion().getReleaseNumber() ;
         Integer fixRelease = ticketInfo.getFixVersion().getReleaseNumber() ;
         if (openingRelease > fixRelease) {
             return false ;
         }
-
+/*
+        Ticket che hanno opening > fix vengono scartati perché significa che le informazioni di Jira
+        per quel ticket sono inconsistenti: non potendo sapere quali informazioni sono errate il ticket
+        viene scartato
+         */
         if (ticketInfo.getInjectedVersion() != null) {
             Integer injectedRelease = ticketInfo.getInjectedVersion().getReleaseNumber() ;
             if (injectedRelease >= openingRelease) {

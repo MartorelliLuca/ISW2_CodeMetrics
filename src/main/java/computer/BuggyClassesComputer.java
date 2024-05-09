@@ -25,14 +25,16 @@ public class BuggyClassesComputer {
     private final Repository repo ;
     private final Git git ;
 
-    public BuggyClassesComputer(String projectName, String repoPath) throws IOException {
-        FileRepositoryBuilder repositoryBuilder = new FileRepositoryBuilder();
-        this.repo = repositoryBuilder.setGitDir(new File(repoPath + projectName + "/.git")).build();
-        this.git = new Git(repo) ;
+    private String projectName ;
+
+    public BuggyClassesComputer(String projectName, Repository repo, Git git) {
+        this.repo = repo ;
+        this.git = git ;
+        this.projectName = projectName ;
     }
 
     public void computeBuggyClassesForAllVersions(List<TicketInfo> ticketInfoList, List<VersionInfo> versionInfoList) throws GitAPIException, IOException {
-
+        Logger.getGlobal().log(Level.INFO, "{0}", "Calcolo Classi Buggy per " + projectName.toUpperCase());
         for (TicketInfo ticketInfo : ticketInfoList) {
             List<String> buggyClasses = computeBuggyClassesByTicket(ticketInfo);
 

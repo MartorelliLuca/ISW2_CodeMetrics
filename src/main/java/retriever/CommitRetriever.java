@@ -27,15 +27,9 @@ public class CommitRetriever {
     private final String projectName ;
     private final List<RevCommit> commitList ;
 
-    public CommitRetriever(String repoPath, String projectName, LocalDate lastVersionDate) throws IOException, GitAPIException {
-        this.projectName = projectName.toUpperCase() ;
-
-        FileRepositoryBuilder repositoryBuilder = new FileRepositoryBuilder();
-        Repository repo = repositoryBuilder.setGitDir(new File(repoPath + projectName + "/.git")).build();
-
-        Git git = new Git(repo);
-        this.commitList = new ArrayList<>() ;
-
+    public CommitRetriever(String projectName, Git git, LocalDate lastVersionDate) throws IOException, GitAPIException {
+        this.projectName = projectName.toUpperCase();
+        this.commitList = new ArrayList<>();
 
         Iterable<RevCommit> commitIterable = git.log().call() ;
         for (RevCommit commit : commitIterable) {
@@ -76,7 +70,7 @@ public class CommitRetriever {
         Pattern pattern = Pattern.compile(ticketInfo.getTicketId() + "+[^0-9]") ;
         for (RevCommit commit : this.commitList) {
             LocalDate commitDate = DateUtils.dateToLocalDate(commit.getCommitterIdent().getWhen());
-
+            // TODO Aggiungere condizione per cui il commit non può essere successivo alla resolution date del ticket ??
             boolean doesMatch = commitMatchesTicket(commit, pattern) ;
             boolean compliantDates = lastVersion.getVersionDate().isAfter(commitDate) && firstVersion.getVersionDate().isBefore(commitDate) ;
             if (doesMatch && compliantDates) {
@@ -104,7 +98,7 @@ public class CommitRetriever {
     }
 
     public void retrieveCommitListForAllVersions(List<VersionInfo> versionInfoList) {
-
+        Logger.getGlobal().log(Level.INFO, "{0}", "Recupero commit per Versioni di " + projectName.toUpperCase());
         for (int i = 0 ; i < versionInfoList.size() ; i++) {
             VersionInfo versionInfo = versionInfoList.get(i) ;
 

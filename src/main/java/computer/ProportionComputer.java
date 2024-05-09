@@ -1,7 +1,7 @@
 package computer;
 
 
-import enums.ColdStartEnum;
+import enums.ProjectEnum;
 import model.TicketInfo;
 import model.VersionInfo;
 import retriever.TicketRetriever;
@@ -49,6 +49,7 @@ public class ProportionComputer {
     }
 
     private Float computeIncrementalProportion(List<TicketInfo> proportionTicketList) {
+        // TODO Ragionare su impatto su precision e recall calcolando proportion in questo modo
         float incrementProportion = 0f;
         Integer size = proportionTicketList.size() ;
         for (TicketInfo ticketInfo : proportionTicketList) {
@@ -67,7 +68,7 @@ public class ProportionComputer {
             return coldStartProportion ;
         }
         List<Float> projectsProportionList = new ArrayList<>() ;
-        for (ColdStartEnum project : ColdStartEnum.values()) {
+        for (ProjectEnum project : ProjectEnum.values()) {
             Float projectColdStart = computeColdStartForProject(project.name().toLowerCase()) ;
             if (projectColdStart != null) {
                 projectsProportionList.add(projectColdStart);
@@ -123,7 +124,12 @@ public class ProportionComputer {
     }
 
     private boolean isValidTicket(TicketInfo ticketInfo) {
-        //TODO AGGIUNGERE CONDIZIONE DI RIMOZIONE OPENING != FIX ?? SE TOGLI AGGIUNGI CONTROLLI DENOMINATORE DIVERSO DA ZERO
+                /*
+        Consideriamo un ticket valido per fare Proportion se
+        * Ha Injected Version
+        * Opening e Fix Version sono diverse per evitare che il denominatore sia nullo
+         */
+        // TODO AGGIUNGERE CONDIZIONE DI RIMOZIONE OPENING != FIX ?? SE TOGLI AGGIUNGI CONTROLLI DENOMINATORE DIVERSO DA ZERO
         return !ticketInfo.getOpeningVersion().getReleaseNumber().equals(ticketInfo.getFixVersion().getReleaseNumber()) && ticketInfo.getInjectedVersion() != null;
     }
 }

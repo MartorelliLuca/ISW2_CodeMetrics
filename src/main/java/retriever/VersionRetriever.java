@@ -65,14 +65,17 @@ public class VersionRetriever {
     // TODO CI SONO VERSIONI CHE SONO RILASCIATE NELLA STESSA DATA!! CHE DOBBIAMO FARE ??
 
     private VersionInfo parseVersionInfo(JSONObject vesionJsonObject) {
-        if (vesionJsonObject.has("releaseDate") && vesionJsonObject.has("name") && vesionJsonObject.has("id")){
+        // Assumiamo valide solo le relaese che hanno released = true.
+        if (vesionJsonObject.has("releaseDate") && vesionJsonObject.has("name") && vesionJsonObject.has("id") && vesionJsonObject.has("released")) {
             String versionName = vesionJsonObject.get("name").toString();
             String dateString = vesionJsonObject.get("releaseDate").toString();
             String versionId = vesionJsonObject.get("id").toString();
-
+            boolean released = (vesionJsonObject.get("released").toString().compareTo("true") == 0) ;
             LocalDate versionDate = LocalDate.parse(dateString) ;
 
-            return new VersionInfo(versionName, versionDate, versionId);
+            if (released) {
+                return new VersionInfo(versionName, versionDate, versionId);
+            }
         }
         return null ;
     }

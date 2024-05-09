@@ -8,6 +8,8 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.Writer;
 import java.util.List;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public class CSVWriter {
 
@@ -15,17 +17,19 @@ public class CSVWriter {
     private final String outputPath ;
 
     private static final String[] HEADER_STRING = {
-            "Version",
-            "ClassName",
-            "LinesOfCode",
-            "AddedLOC",
-            "MaxAddedLOC",
-            "AvgAddedLOC",
-            "TouchedLOC",
-            "Churn",
-            "MaxChurn",
-            "AvgChurn",
-            "NumberOfAuthors",
+            "Version",     //
+            "ClassName",   //Nome della classe.
+            "LinesOfCode", //Indica il numero totale di linee di codice in un determinato progetto o file, e quanto il codice è stato modificato nel tempo.
+            "AddedLOC",    //La somma delle linee di codice aggiunte attraverso tutte le revisioni.
+            "MaxAddedLOC", //Il massimo delle linee di codice aggiunte in una singola revisione.
+            "AvgAddedLOC", //La media delle linee di codice aggiunte per revisione.
+            "TouchedLOC",  //Totale delle linee di codice che sono state modificate.
+            "Churn",       //La somma delle linee di codice aggiunte e cancellate attraverso tutte le revisioni. Indice di instabilità dei cambiamenti.
+            "MaxChurn",    //Il massimo del churn in una singola revisione.
+            "AvgChurn",    //La media del churn per revisione.
+            "NumberOfAuthors", //Numero di autori, ossia il numero di persone che hanno contribuito al codice.
+            "NumberOfRevisions",
+            "NumberOfDefectsFixed",
             "Buggy"} ;
 
     public CSVWriter(String projectName) {
@@ -33,13 +37,14 @@ public class CSVWriter {
     }
 
     public void writeAllVersionInfo(List<VersionInfo> versionInfoList) throws IOException {
-        BufferedWriter writer = new BufferedWriter(new FileWriter(outputPath)) ;
-        writeHeader(writer) ;
-        for (VersionInfo versionInfo : versionInfoList) {
-            writeVersionInfo(writer, versionInfo);
-        }
+        Logger.getGlobal().log(Level.INFO, "Scrittura CSV\n");
 
-        writer.close();
+        try(Writer writer = new BufferedWriter(new FileWriter(outputPath))) {
+            writeHeader(writer);
+            for (VersionInfo versionInfo : versionInfoList) {
+                writeVersionInfo(writer, versionInfo);
+            }
+        }
     }
 
     private void writeHeader(Writer writer) throws IOException {
@@ -89,6 +94,10 @@ public class CSVWriter {
                 + classInfo.getAvgChurn()
                 + SEPARATOR
                 + classInfo.getNumberOfAuthors()
+                + SEPARATOR
+                + classInfo.getNumberOfRevisions()
+                + SEPARATOR
+                + classInfo.getNumberDefectsFixed()
                 + SEPARATOR
                 + (classInfo.isBuggy() ? "True" : "False");
     }
