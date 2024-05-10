@@ -28,8 +28,8 @@ import java.util.logging.Logger;
 public class MetricsComputer {
     private final String projectName ;
 
-    private Repository repo ;
-    private Git git ;
+    private final Repository repo ;
+    private final Git git ;
 
     public MetricsComputer(String projectName, Repository repo, Git git) {
         this.projectName = projectName ;
@@ -78,7 +78,7 @@ public class MetricsComputer {
 
     // TODO Capire bene come impostare le classi buggy!!
     private void setNumberOfDefectsFixed(ClassInfo classInfo, List<TicketInfo> ticketInfoList) {
-        Integer numberOfDefectsFixed = 0 ;
+        int numberOfDefectsFixed = 0 ;
         for (RevCommit commit : classInfo.getModifierCommitList()) {
             if (existsTicket(commit, ticketInfoList)) {
                 numberOfDefectsFixed ++ ;
@@ -100,7 +100,6 @@ public class MetricsComputer {
     }
 
     private void setLocForClass(ClassInfo classInfo, RevCommit commit) throws IOException {
-        int loc = 0 ;
         TreeWalk treeWalk = new TreeWalk(repo) ;
         treeWalk.reset(commit.getTree().getId());
         treeWalk.setRecursive(true);
@@ -112,7 +111,7 @@ public class MetricsComputer {
         String content = new String(loader.getBytes(), StandardCharsets.UTF_8);
 
         String[] lines = content.split("\n") ;
-        loc = lines.length ;
+        int loc = lines.length ;
 
         classInfo.setLoc(loc);
     }
@@ -195,8 +194,8 @@ public class MetricsComputer {
     }
 
     private Change computeMetricsInOtherRevisions(ClassInfo classInfo, RevCommit commit) throws IOException {
-        Integer addedLines = 0;
-        Integer deletedLines = 0 ;
+        int addedLines = 0;
+        int deletedLines = 0 ;
         String commitAuthor ;
         Change change = null ;
 
@@ -232,8 +231,8 @@ public class MetricsComputer {
     }
 
     private Change computeMetricsInFirstRevision(ClassInfo classInfo, RevCommit commit) throws IOException {
-        Integer addedLines = 0;
-        Integer deletedLines = 0 ;
+        int addedLines = 0;
+        int deletedLines = 0 ;
         String commitAuthor ;
         Change change = null ;
 

@@ -99,10 +99,7 @@ public class ProportionComputer {
         TicketRetriever ticketRetriever = new TicketRetriever(projectName) ;
         List<TicketInfo> ticketInfoList = ticketRetriever.retrieveBugTicket(versionInfoList) ;
 
-        TicketFilter filter = new TicketFilter(projectName) ;
-        List<TicketInfo> filteredList = filter.filterTicketByVersions(ticketInfoList, versionInfoList.get(0).getVersionDate());
-
-        List<TicketInfo> projectProportionTicketList = filterTicketListForProportion(filteredList) ;
+        List<TicketInfo> projectProportionTicketList = filterTicketListForProportion(ticketInfoList) ;
         if (projectProportionTicketList.size() < THRESHOLD) {
             return null ;
         }

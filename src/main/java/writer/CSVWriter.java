@@ -2,6 +2,7 @@ package writer;
 
 import model.ClassInfo;
 import model.VersionInfo;
+import utils.PathBuilder;
 
 import java.io.*;
 import java.nio.file.Files;
@@ -14,8 +15,6 @@ public class CSVWriter {
 
     private static final String SEPARATOR = "," ;
     private final String projectName ;
-    private final Path testPath ;
-    private final Path trainPath;
 
     private static final String[] HEADER_STRING = {
             "Version",     //
@@ -35,21 +34,12 @@ public class CSVWriter {
 
     public CSVWriter(String projectName) throws IOException {
         this.projectName = projectName ;
-        this.trainPath = Path.of(projectName.toUpperCase(), "CSV", "Train");
-        this.testPath = Path.of(projectName.toUpperCase(), "CSV", "Test");
-
-        Files.createDirectories(trainPath);
-        Files.createDirectories(testPath);
+        Files.createDirectories(PathBuilder.buildDataSetDirectoryPath(projectName, true, true));
+        Files.createDirectories(PathBuilder.buildDataSetDirectoryPath(projectName, false, true));
         }
 
     public void writeInfoAsCSV(List<VersionInfo> versionInfoList, Integer index, boolean training) throws IOException {
-        Path outputPath ;
-        if (training) {
-            outputPath = Path.of(trainPath.toString(), projectName.toUpperCase() + "_" + index + "_training.csv") ;
-        }
-        else {
-            outputPath = Path.of(testPath.toString(), projectName.toUpperCase() + "_" + index + "_testing.csv") ;
-        }
+        Path outputPath = PathBuilder.buildDataSetFilePath(projectName, training, true, index) ;
 
         File csvFile = new File(outputPath.toString()) ;
         try(Writer writer = new BufferedWriter(new FileWriter(csvFile))) {

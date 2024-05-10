@@ -41,7 +41,7 @@ public class CommitRetriever {
         this.commitList.sort(Comparator.comparing(o -> o.getCommitterIdent().getWhen()));
     }
 
-    public List<TicketInfo> retrieveFixCommitListForAllTickets(List<TicketInfo> ticketInfoList, VersionInfo firstVersion, VersionInfo lastVersion) {
+    public void retrieveFixCommitListForAllTickets(List<TicketInfo> ticketInfoList, VersionInfo firstVersion, VersionInfo lastVersion) {
 
         // Mettere Log per controllare i Ticket che non hanno commit Associato
         List<TicketInfo> filteredByCommitList = new ArrayList<>() ;
@@ -51,18 +51,15 @@ public class CommitRetriever {
             ticketInfo.setFixCommitList(fixCommitList);
 
             fixCommitNumber = fixCommitNumber + fixCommitList.size() ;
-            if (!fixCommitList.isEmpty()) {
-                filteredByCommitList.add(ticketInfo) ;
-            }
         }
 
-        StringBuilder stringBuilder = new StringBuilder() ;
-        stringBuilder.append("Recupero Fix Commit per ").append(projectName.toUpperCase()).append("\n") ;
-        stringBuilder.append("Numero di Commit di Fix >> ").append(fixCommitNumber).append("\n") ;
-        stringBuilder.append("Ticket Con Commit Associato >> ").append(filteredByCommitList.size()) ;
-        Logger.getGlobal().log(Level.INFO, "{0}", stringBuilder);
+        ticketInfoList.removeIf(ticketInfo -> ticketInfo.getFixCommitList().isEmpty()) ;
 
-        return filteredByCommitList ;
+        StringBuilder stringBuilder = new StringBuilder();
+        stringBuilder.append("Recupero Fix Commit per ").append(projectName.toUpperCase()).append("\n");
+        stringBuilder.append("Numero di Commit di Fix >> ").append(fixCommitNumber).append("\n");
+        stringBuilder.append("Ticket Con Commit Associato >> ").append(ticketInfoList.size());
+
     }
 
     private List<RevCommit> retrieveFixCommitListForTicket(TicketInfo ticketInfo, VersionInfo firstVersion, VersionInfo lastVersion) {
@@ -113,6 +110,9 @@ public class CommitRetriever {
             List<RevCommit> revCommits = retrieveCommitListForVersion(versionDate, prevVersionDate);
             versionInfo.setVersionCommitList(revCommits);
         }
+
+        // Se non ci sono commit associati alla versione allora rimuoviamo la versione
+        // Associamo poi gli indici alle versioni: queste sono tutte le versioni che manteniamo
 
         versionInfoList.removeIf(versionInfo -> versionInfo.getVersionCommitList().isEmpty()) ;
         for (int i = 0 ; i < versionInfoList.size() ; i++) {

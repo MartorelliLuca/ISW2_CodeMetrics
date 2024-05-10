@@ -25,7 +25,7 @@ public class BuggyClassesComputer {
     private final Repository repo ;
     private final Git git ;
 
-    private String projectName ;
+    private final String projectName ;
 
     public BuggyClassesComputer(String projectName, Repository repo, Git git) {
         this.repo = repo ;
@@ -55,7 +55,7 @@ public class BuggyClassesComputer {
         }
         Logger.getGlobal().log(Level.INFO, "{0}", stringBuilder);
     }
-    //TODO : rimuovere metodo e usare quello di Utils
+    //TODO : rimuovere metodo e unirlo con quello di MetricsComputer ??
     private List<String> computeBuggyClassesByTicket(TicketInfo ticketInfo) throws IOException, GitAPIException {
         List<String> buggyClasses = new ArrayList<>() ;
 
@@ -80,7 +80,11 @@ public class BuggyClassesComputer {
         prevCommitTreeParser.reset(reader, prevCommit.getTree());
 
         DiffCommand diffCommand = git.diff() ;
-        List<DiffEntry> diffEntryList = diffCommand.setShowNameOnly(true).setNewTree(commitTreeParser).setOldTree(prevCommitTreeParser).call() ;
+        List<DiffEntry> diffEntryList = diffCommand
+                .setShowNameOnly(true)
+                .setNewTree(commitTreeParser)
+                .setOldTree(prevCommitTreeParser)
+                .call() ;
 
         for (DiffEntry diffEntry : diffEntryList) {
             if (diffEntry.getChangeType().equals(DiffEntry.ChangeType.MODIFY) && diffEntry.getNewPath().endsWith(".java") && !diffEntry.getNewPath().contains("/test/")) {

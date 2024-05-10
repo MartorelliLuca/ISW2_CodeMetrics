@@ -1,11 +1,7 @@
 package main;
 
 import enums.ProjectEnum;
-import exceptions.ProportionException;
-import org.eclipse.jgit.api.errors.GitAPIException;
 
-import java.io.IOException;
-import java.net.URISyntaxException;
 import java.nio.file.Path;
 
 public class Main {
@@ -15,9 +11,9 @@ public class Main {
 
     private static final Path PROJECT_PATH = Path.of("/home/lux/Documents/GitHub/") ;
 
-    public static void main(String[] args) throws IOException, URISyntaxException, GitAPIException, ProportionException {
+    public static void main(String[] args) throws Exception {
         for (ProjectEnum project : ProjectEnum.values()) {
-            ExecutionFlow.execute(PROJECT_PATH + "/", project.name().toLowerCase());
+            ExecutionFlow.execute(PROJECT_PATH.toString(), project.name().toLowerCase());
         }
     }
 }

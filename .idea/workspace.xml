@@ -39,7 +39,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/lux/Documents/GitHub/ISW2_CodeMetrics/src/main/java/exceptions&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/media/sf_UbuntuCondivisa/SoftwareInfoRetriever_APRIIIIIIII&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -62,6 +62,7 @@
       <recent name="$PROJECT_DIR$/.idea" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="main" />
       <recent name="retriever" />
       <recent name="model" />
       <recent name="computer" />
@@ -76,7 +77,7 @@
       <module name="ISW2_CodeMetrics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.*" />
+          <option name="PATTERN" value="main.flow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,7 +116,9 @@
       <workItem from="1715152801174" duration="15065000" />
       <workItem from="1715241564552" duration="5631000" />
       <workItem from="1715263147177" duration="1032000" />
-      <workItem from="1715321573218" duration="4335000" />
+      <workItem from="1715321573218" duration="15308000" />
+      <workItem from="1715374714649" duration="539000" />
+      <workItem from="1715375333235" duration="1397000" />
     </task>
     <servers />
   </component>

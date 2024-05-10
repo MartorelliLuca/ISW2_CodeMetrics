@@ -29,8 +29,8 @@ public class VersionsFixer {
             }
             /*
             Essendo il campo affected versions di Jira non obbligatorio, è possibile che delle versioni manchino:
-            calcoliamo le affected versions non solo per i ticket di cui abbiamo calcolato la injected, ma per tutti
-            i ticket
+            calcoliamo le affected versions non solo per i ticket di cui abbiamo calcolato la injected con proportion,
+            ma per tutti i ticket
              */
             List<VersionInfo> affectedVersionList = computeAffectedVersionsForTicket(ticketInfo, versionInfoList);
             ticketInfo.setAffectedVersionList(affectedVersionList);
