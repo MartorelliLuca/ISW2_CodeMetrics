@@ -55,7 +55,7 @@ Version,ClassName,LinesOfCode,AddedLOC,MaxAddedLOC,AvgAddedLOC,TouchedLOC,Churn,
 6,bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/SyncThread.java,189,0,0,0.0,0,0,0,0.0,0,0,0,False
 6,bookkeeper-server/src/main/java/org/apache/bookkeeper/client/AsyncCallback.java,151,0,0,0.0,0,0,0,0.0,0,0,0,False
 6,bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BKException.java,364,12,12,12.0,12,12,12,12.0,1,1,1,False
-6,bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java,910,113,108,56.5,165,61,61,30.5,2,2,2,True
+6,bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeper.java,910,113,108,56.5,165,61,61,30.5,2,2,2,False
 6,bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeperAdmin.java,889,69,60,23.0,126,12,7,4.0,2,3,2,True
 6,bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookKeeperClientStats.java,43,2,2,2.0,2,2,2,2.0,1,1,0,False
 6,bookkeeper-server/src/main/java/org/apache/bookkeeper/client/BookieWatcher.java,325,38,32,19.0,70,6,5,3.0,2,2,1,True
@@ -76,7 +76,7 @@ Version,ClassName,LinesOfCode,AddedLOC,MaxAddedLOC,AvgAddedLOC,TouchedLOC,Churn,
 6,bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerOpenOp.java,205,2,2,2.0,4,0,0,0.0,1,1,1,True
 6,bookkeeper-server/src/main/java/org/apache/bookkeeper/client/LedgerRecoveryOp.java,190,0,0,0.0,0,0,0,0.0,0,0,0,False
 6,bookkeeper-server/src/main/java/org/apache/bookkeeper/client/MacDigestManager.java,86,0,0,0.0,0,0,0,0.0,0,0,0,False
-6,bookkeeper-server/src/main/java/org/apache/bookkeeper/client/PendingAddOp.java,212,7,4,3.5,9,5,4,2.5,2,2,1,False
+6,bookkeeper-server/src/main/java/org/apache/bookkeeper/client/PendingAddOp.java,212,7,4,3.5,9,5,4,2.5,2,2,1,True
 6,bookkeeper-server/src/main/java/org/apache/bookkeeper/client/PendingReadOp.java,404,44,26,22.0,81,7,7,3.5,2,2,1,True
 6,bookkeeper-server/src/main/java/org/apache/bookkeeper/client/RackawareEnsemblePlacementPolicy.java,572,30,30,30.0,61,1,1,1.0,1,1,0,False
 6,bookkeeper-server/src/main/java/org/apache/bookkeeper/client/ReadLastConfirmedOp.java,132,7,7,7.0,8,6,6,6.0,1,1,1,False
@@ -87,7 +87,7 @@ Version,ClassName,LinesOfCode,AddedLOC,MaxAddedLOC,AvgAddedLOC,TouchedLOC,Churn,
 6,bookkeeper-server/src/main/java/org/apache/bookkeeper/conf/AbstractConfiguration.java,237,0,0,0.0,0,0,0,0.0,0,0,0,True
 6,bookkeeper-server/src/main/java/org/apache/bookkeeper/conf/ClientConfiguration.java,511,92,92,92.0,97,87,87,87.0,1,1,0,True
 6,bookkeeper-server/src/main/java/org/apache/bookkeeper/conf/Configurable.java,47,0,0,0.0,0,0,0,0.0,0,0,0,False
-6,bookkeeper-server/src/main/java/org/apache/bookkeeper/conf/ServerConfiguration.java,1328,241,98,40.166668,272,210,83,35.0,2,6,2,True
+6,bookkeeper-server/src/main/java/org/apache/bookkeeper/conf/ServerConfiguration.java,1328,241,98,40.166668,272,210,83,35.0,2,6,1,True
 6,bookkeeper-server/src/main/java/org/apache/bookkeeper/jmx/BKMBeanInfo.java,27,0,0,0.0,0,0,0,0.0,0,0,0,False
 6,bookkeeper-server/src/main/java/org/apache/bookkeeper/jmx/BKMBeanRegistry.java,89,0,0,0.0,0,0,0,0.0,0,0,0,False
 6,bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/AbstractZkLedgerManager.java,482,13,13,13.0,18,8,8,8.0,1,1,0,True
@@ -133,7 +133,7 @@ Version,ClassName,LinesOfCode,AddedLOC,MaxAddedLOC,AvgAddedLOC,TouchedLOC,Churn,
 6,bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BKStats.java,248,0,0,0.0,0,0,0,0.0,0,0,0,False
 6,bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieClient.java,361,198,134,66.0,345,53,52,17.666666,2,3,1,True
 6,bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieNettyServer.java,199,1,1,1.0,2,0,0,0.0,1,1,0,True
-6,bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.java,194,0,0,0.0,0,0,0,0.0,0,0,0,False
+6,bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.java,194,0,0,0.0,0,0,0,0.0,0,0,0,True
 6,bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtocol.java,346,0,0,0.0,0,0,0,0.0,0,0,0,True
 6,bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestHandler.java,91,2,2,2.0,3,1,1,1.0,1,1,0,False
 6,bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestProcessor.java,335,4,2,2.0,8,0,0,0.0,1,2,1,True

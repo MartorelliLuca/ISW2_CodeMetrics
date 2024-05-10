@@ -692,7 +692,7 @@ Version,ClassName,LinesOfCode,AddedLOC,MaxAddedLOC,AvgAddedLOC,TouchedLOC,Churn,
 2,hedwig-server/src/main/java/org/apache/hedwig/server/regions/HedwigHubSubscriber.java,86,0,0,0.0,0,0,0,0.0,0,0,0,False
 2,hedwig-server/src/main/java/org/apache/hedwig/server/regions/RegionManager.java,355,22,20,11.0,44,0,0,0.0,1,2,0,False
 2,hedwig-server/src/main/java/org/apache/hedwig/server/ssl/SslServerContextFactory.java,53,0,0,0.0,0,0,0,0.0,0,0,0,False
-2,hedwig-server/src/main/java/org/apache/hedwig/server/subscriptions/AbstractSubscriptionManager.java,798,313,94,31.3,440,226,74,22.6,2,10,3,False
+2,hedwig-server/src/main/java/org/apache/hedwig/server/subscriptions/AbstractSubscriptionManager.java,798,313,94,31.3,440,226,74,22.6,2,10,2,False
 2,hedwig-server/src/main/java/org/apache/hedwig/server/subscriptions/AllToAllTopologyFilter.java,75,44,38,22.0,52,36,35,18.0,1,2,0,False
 2,hedwig-server/src/main/java/org/apache/hedwig/server/subscriptions/InMemorySubscriptionManager.java,125,64,20,12.8,81,47,16,9.4,2,5,2,False
 2,hedwig-server/src/main/java/org/apache/hedwig/server/subscriptions/InMemorySubscriptionState.java,200,129,81,21.5,143,115,77,19.166666,2,6,2,False

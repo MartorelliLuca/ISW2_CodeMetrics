@@ -599,7 +599,7 @@ Version,ClassName,LinesOfCode,AddedLOC,MaxAddedLOC,AvgAddedLOC,TouchedLOC,Churn,
 16,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/StateManagerImpl.java,3388,18,8,4.5,31,7,4,1.75,2,4,0,True
 16,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/StoreContext.java,493,34,34,34.0,34,34,34,34.0,1,1,0,True
 16,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/StoreManager.java,426,0,0,0.0,0,0,0,0.0,0,0,0,False
-16,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/StoreQuery.java,366,0,0,0.0,0,0,0,0.0,0,0,0,True
+16,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/StoreQuery.java,366,0,0,0.0,0,0,0,0.0,0,0,0,False
 16,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/TCleanState.java,67,0,0,0.0,0,0,0,0.0,0,0,0,False
 16,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/TDirtyState.java,78,0,0,0.0,0,0,0,0.0,0,0,0,False
 16,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/TLoadedState.java,45,0,0,0.0,0,0,0,0.0,0,0,0,False
@@ -938,7 +938,7 @@ Version,ClassName,LinesOfCode,AddedLOC,MaxAddedLOC,AvgAddedLOC,TouchedLOC,Churn,
 16,openjpa-lib/src/main/java/org/apache/openjpa/lib/util/J2DoPrivHelper.java,1215,0,0,0.0,0,0,0,0.0,0,0,0,True
 16,openjpa-lib/src/main/java/org/apache/openjpa/lib/util/JavaVersions.java,263,0,0,0.0,0,0,0,0.0,0,0,0,True
 16,openjpa-lib/src/main/java/org/apache/openjpa/lib/util/LRUMap.java,95,0,0,0.0,0,0,0,0.0,0,0,0,False
-16,openjpa-lib/src/main/java/org/apache/openjpa/lib/util/Localizer.java,302,0,0,0.0,0,0,0,0.0,0,0,0,True
+16,openjpa-lib/src/main/java/org/apache/openjpa/lib/util/Localizer.java,302,0,0,0.0,0,0,0,0.0,0,0,0,False
 16,openjpa-lib/src/main/java/org/apache/openjpa/lib/util/MultiClassLoader.java,279,0,0,0.0,0,0,0,0.0,0,0,0,False
 16,openjpa-lib/src/main/java/org/apache/openjpa/lib/util/Options.java,642,0,0,0.0,0,0,0,0.0,0,0,0,False
 16,openjpa-lib/src/main/java/org/apache/openjpa/lib/util/OrderedMap.java,120,0,0,0.0,0,0,0,0.0,0,0,0,False
@@ -1156,8 +1156,8 @@ Version,ClassName,LinesOfCode,AddedLOC,MaxAddedLOC,AvgAddedLOC,TouchedLOC,Churn,
 16,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/criteria/SelectionImpl.java,150,0,0,0.0,0,0,0,0.0,0,0,0,False
 16,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/criteria/SubqueryImpl.java,371,0,0,0.0,0,0,0,0.0,0,0,0,False
 16,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/meta/AbstractManagedType.java,1048,0,0,0.0,0,0,0,0.0,0,0,0,False
-16,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/meta/AnnotationProcessor6.java,503,0,0,0.0,0,0,0,0.0,0,0,0,True
-16,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/meta/CompileTimeLogger.java,93,0,0,0.0,0,0,0,0.0,0,0,0,True
+16,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/meta/AnnotationProcessor6.java,503,0,0,0.0,0,0,0,0.0,0,0,0,False
+16,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/meta/CompileTimeLogger.java,93,0,0,0.0,0,0,0,0.0,0,0,0,False
 16,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/meta/Members.java,344,2,2,2.0,3,1,1,1.0,1,1,0,False
 16,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/meta/MetadataProcessor.java,83,0,0,0.0,0,0,0,0.0,0,0,0,False
 16,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/meta/MetamodelImpl.java,425,0,0,0.0,0,0,0,0.0,0,0,0,False

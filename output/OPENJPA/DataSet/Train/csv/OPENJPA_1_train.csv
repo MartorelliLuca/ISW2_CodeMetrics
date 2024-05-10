@@ -26,7 +26,7 @@ Version,ClassName,LinesOfCode,AddedLOC,MaxAddedLOC,AvgAddedLOC,TouchedLOC,Churn,
 0,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/JDBCLockManager.java,46,46,46,23.0,46,46,46,23.0,1,2,0,False
 0,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/JDBCSeq.java,38,38,38,19.0,38,38,38,19.0,1,2,0,False
 0,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/JDBCStore.java,96,97,96,24.25,108,106,96,26.5,2,4,0,False
-0,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/JDBCStoreManager.java,1383,1645,1383,164.5,1982,1484,1383,148.4,3,10,0,True
+0,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/JDBCStoreManager.java,1383,1645,1383,164.5,1982,1484,1383,148.4,3,10,0,False
 0,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/JDBCStoreQuery.java,628,718,628,119.666664,816,636,628,106.0,2,6,0,False
 0,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/LRSSizes.java,43,43,43,21.5,43,43,43,21.5,1,2,0,False
 0,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/MappedQueryResultObjectProvider.java,455,464,455,154.66667,475,457,455,152.33333,2,3,0,False
@@ -120,7 +120,7 @@ Version,ClassName,LinesOfCode,AddedLOC,MaxAddedLOC,AvgAddedLOC,TouchedLOC,Churn,
 0,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/UnaryOp.java,165,191,165,31.833334,222,174,165,29.0,2,6,0,False
 0,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/Val.java,156,169,156,42.25,187,161,156,40.25,2,4,0,False
 0,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/Variable.java,192,215,192,53.75,234,196,192,49.0,2,4,0,False
-0,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/ClassMapping.java,957,957,957,478.5,957,957,957,478.5,1,2,0,True
+0,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/ClassMapping.java,957,957,957,478.5,957,957,957,478.5,1,2,0,False
 0,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/ClassMappingInfo.java,341,341,341,170.5,341,341,341,170.5,1,2,0,False
 0,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/ClassStrategy.java,112,112,112,56.0,112,112,112,56.0,1,2,0,False
 0,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/DelegatingJoinable.java,125,125,125,62.5,125,125,125,62.5,1,2,0,False
@@ -209,14 +209,14 @@ Version,ClassName,LinesOfCode,AddedLOC,MaxAddedLOC,AvgAddedLOC,TouchedLOC,Churn,
 0,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/PrimitiveWrapperArrays.java,84,84,84,42.0,84,84,84,42.0,1,2,0,False
 0,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/RelationCollectionInverseKeyFieldStrategy.java,94,99,94,33.0,104,94,94,31.333334,2,3,0,False
 0,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/RelationCollectionTableFieldStrategy.java,93,98,93,32.666668,103,93,93,31.0,2,3,0,False
-0,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/RelationFieldStrategy.java,730,773,730,128.83333,817,741,730,123.5,2,6,0,True
+0,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/RelationFieldStrategy.java,730,773,730,128.83333,817,741,730,123.5,2,6,0,False
 0,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/RelationMapInverseKeyFieldStrategy.java,167,178,167,59.333332,192,170,167,56.666668,2,3,0,False
 0,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/RelationMapTableFieldStrategy.java,167,178,167,59.333332,192,170,167,56.666668,2,3,0,False
 0,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/RelationStrategies.java,207,207,207,103.5,207,207,207,103.5,1,2,0,False
 0,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/RelationToManyInverseKeyFieldStrategy.java,311,324,311,81.0,335,313,311,78.25,2,4,0,False
 0,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/RelationToManyTableFieldStrategy.java,267,279,267,55.8,300,280,267,56.0,2,5,0,False
 0,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/StateComparisonVersionStrategy.java,321,321,321,160.5,321,321,321,160.5,1,2,0,False
-0,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/StoreCollectionFieldStrategy.java,518,544,518,181.33333,579,527,518,175.66667,2,3,0,True
+0,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/StoreCollectionFieldStrategy.java,518,544,518,181.33333,579,527,518,175.66667,2,3,0,False
 0,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/StringFieldStrategy.java,256,260,256,86.666664,265,257,256,85.666664,2,3,0,False
 0,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/SubclassJoinDiscriminatorStrategy.java,162,166,162,55.333332,169,163,162,54.333332,2,3,0,False
 0,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/SuperclassDiscriminatorStrategy.java,61,64,61,21.333334,68,62,61,20.666666,2,3,0,False
@@ -331,7 +331,7 @@ Version,ClassName,LinesOfCode,AddedLOC,MaxAddedLOC,AvgAddedLOC,TouchedLOC,Churn,
 0,openjpa-kernel/src/main/java/org/apache/openjpa/datacache/DataCachePCDataGenerator.java,232,468,232,117.0,688,248,232,62.0,1,4,0,False
 0,openjpa-kernel/src/main/java/org/apache/openjpa/datacache/DataCachePCDataImpl.java,145,292,145,73.0,431,153,145,38.25,1,4,0,False
 0,openjpa-kernel/src/main/java/org/apache/openjpa/datacache/DataCacheScheduler.java,242,506,248,72.28571,754,270,242,38.57143,2,7,0,False
-0,openjpa-kernel/src/main/java/org/apache/openjpa/datacache/DataCacheStoreManager.java,592,1242,618,124.2,1862,672,592,67.2,4,10,0,True
+0,openjpa-kernel/src/main/java/org/apache/openjpa/datacache/DataCacheStoreManager.java,592,1242,618,124.2,1862,672,592,67.2,4,10,0,False
 0,openjpa-kernel/src/main/java/org/apache/openjpa/datacache/DelegatingDataCache.java,333,715,335,119.166664,1071,403,333,67.166664,2,6,0,False
 0,openjpa-kernel/src/main/java/org/apache/openjpa/datacache/DelegatingQueryCache.java,216,463,229,92.6,705,247,216,49.4,1,5,0,False
 0,openjpa-kernel/src/main/java/org/apache/openjpa/datacache/ExpirationEvent.java,62,132,62,33.0,198,66,62,16.5,1,4,0,False
@@ -385,8 +385,8 @@ Version,ClassName,LinesOfCode,AddedLOC,MaxAddedLOC,AvgAddedLOC,TouchedLOC,Churn,
 0,openjpa-kernel/src/main/java/org/apache/openjpa/event/NoneOrphanedKeyAction.java,34,70,34,17.5,102,38,34,9.5,1,4,0,False
 0,openjpa-kernel/src/main/java/org/apache/openjpa/event/OrphanedKeyAction.java,40,85,40,21.25,127,43,40,10.75,1,4,0,False
 0,openjpa-kernel/src/main/java/org/apache/openjpa/event/PersistListener.java,34,69,34,17.25,101,37,34,9.25,1,4,0,False
-0,openjpa-kernel/src/main/java/org/apache/openjpa/event/RemoteCommitEvent.java,183,380,187,76.0,569,199,183,39.8,1,5,0,True
-0,openjpa-kernel/src/main/java/org/apache/openjpa/event/RemoteCommitEventManager.java,221,451,225,90.2,672,238,221,47.6,1,5,0,True
+0,openjpa-kernel/src/main/java/org/apache/openjpa/event/RemoteCommitEvent.java,183,380,187,76.0,569,199,183,39.8,1,5,0,False
+0,openjpa-kernel/src/main/java/org/apache/openjpa/event/RemoteCommitEventManager.java,221,451,225,90.2,672,238,221,47.6,1,5,0,False
 0,openjpa-kernel/src/main/java/org/apache/openjpa/event/RemoteCommitListener.java,57,140,65,35.0,218,78,57,19.5,1,4,0,False
 0,openjpa-kernel/src/main/java/org/apache/openjpa/event/RemoteCommitProvider.java,59,133,63,26.6,203,71,59,14.2,1,5,0,False
 0,openjpa-kernel/src/main/java/org/apache/openjpa/event/SingleJVMRemoteCommitProvider.java,61,144,66,28.8,227,71,61,14.2,2,5,0,False
@@ -419,7 +419,7 @@ Version,ClassName,LinesOfCode,AddedLOC,MaxAddedLOC,AvgAddedLOC,TouchedLOC,Churn,
 0,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/DelegatingResultList.java,434,949,473,189.8,1458,516,434,103.2,1,5,0,False
 0,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/DelegatingSeq.java,131,275,136,55.0,413,147,131,29.4,1,5,0,False
 0,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/DelegatingStoreManager.java,199,408,199,68.0,612,204,199,34.0,3,6,0,False
-0,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/DetachManager.java,811,1658,822,165.8,2462,876,811,87.6,4,10,0,True
+0,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/DetachManager.java,811,1658,822,165.8,2462,876,811,87.6,4,10,0,False
 0,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/DetachState.java,40,83,40,20.75,123,43,40,10.75,1,4,0,False
 0,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/DetachedStateAttachStrategy.java,186,379,191,54.142857,559,209,186,29.857143,2,7,0,False
 0,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/DetachedStateManager.java,917,1877,930,234.625,2821,961,917,120.125,3,8,0,False
@@ -479,7 +479,7 @@ Version,ClassName,LinesOfCode,AddedLOC,MaxAddedLOC,AvgAddedLOC,TouchedLOC,Churn,
 0,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/SavepointManager.java,36,74,36,18.5,109,39,36,9.75,1,4,0,False
 0,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/Seq.java,70,149,70,37.25,224,74,70,18.5,1,4,0,False
 0,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/SingleFieldManager.java,838,1688,838,337.6,2500,876,838,175.2,2,5,0,False
-0,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/StateManagerImpl.java,2988,6321,3026,451.5,9497,3315,2988,236.78572,3,14,0,True
+0,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/StateManagerImpl.java,2988,6321,3026,451.5,9497,3315,2988,236.78572,3,14,0,False
 0,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/StoreContext.java,435,919,437,131.28572,1398,446,435,63.714287,3,7,0,False
 0,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/StoreManager.java,423,955,427,106.111115,1480,442,423,49.11111,3,9,0,False
 0,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/StoreQuery.java,317,667,317,111.166664,1008,330,317,55.0,2,6,0,False
@@ -587,7 +587,7 @@ Version,ClassName,LinesOfCode,AddedLOC,MaxAddedLOC,AvgAddedLOC,TouchedLOC,Churn,
 0,openjpa-kernel/src/main/java/org/apache/openjpa/meta/AbstractCFMetaDataFactory.java,769,1564,775,312.8,2330,810,769,162.0,1,5,0,False
 0,openjpa-kernel/src/main/java/org/apache/openjpa/meta/AbstractMetaDataDefaults.java,332,693,339,138.6,1033,367,332,73.4,1,5,0,False
 0,openjpa-kernel/src/main/java/org/apache/openjpa/meta/AbstractMetaDataFactory.java,110,223,110,55.75,332,114,110,28.5,1,4,0,False
-0,openjpa-kernel/src/main/java/org/apache/openjpa/meta/ClassMetaData.java,2218,4568,2218,507.55554,6784,2458,2218,273.1111,3,9,0,True
+0,openjpa-kernel/src/main/java/org/apache/openjpa/meta/ClassMetaData.java,2218,4568,2218,507.55554,6784,2458,2218,273.1111,3,9,0,False
 0,openjpa-kernel/src/main/java/org/apache/openjpa/meta/DelegatingMetaDataFactory.java,117,236,117,59.0,351,121,117,30.25,1,4,0,False
 0,openjpa-kernel/src/main/java/org/apache/openjpa/meta/Extensions.java,460,925,460,185.0,1367,483,460,96.6,1,5,0,False
 0,openjpa-kernel/src/main/java/org/apache/openjpa/meta/FetchGroup.java,345,1018,345,127.25,1535,567,345,70.875,3,8,0,False
@@ -1270,7 +1270,7 @@ Version,ClassName,LinesOfCode,AddedLOC,MaxAddedLOC,AvgAddedLOC,TouchedLOC,Churn,
 1,openjpa-kernel/src/main/java/org/apache/openjpa/datacache/DataCachePCDataGenerator.java,252,32,31,16.0,44,20,20,10.0,2,2,0,False
 1,openjpa-kernel/src/main/java/org/apache/openjpa/datacache/DataCachePCDataImpl.java,145,3,3,3.0,6,0,0,0.0,1,1,0,False
 1,openjpa-kernel/src/main/java/org/apache/openjpa/datacache/DataCacheScheduler.java,243,1,1,1.0,1,1,1,1.0,1,1,0,False
-1,openjpa-kernel/src/main/java/org/apache/openjpa/datacache/DataCacheStoreManager.java,678,122,74,24.4,158,86,73,17.2,2,5,1,False
+1,openjpa-kernel/src/main/java/org/apache/openjpa/datacache/DataCacheStoreManager.java,678,122,74,24.4,158,86,73,17.2,2,5,0,False
 1,openjpa-kernel/src/main/java/org/apache/openjpa/datacache/DelegatingDataCache.java,333,0,0,0.0,0,0,0,0.0,0,0,0,False
 1,openjpa-kernel/src/main/java/org/apache/openjpa/datacache/DelegatingQueryCache.java,216,1,1,1.0,2,0,0,0.0,1,1,0,False
 1,openjpa-kernel/src/main/java/org/apache/openjpa/datacache/ExpirationEvent.java,62,1,1,1.0,2,0,0,0.0,1,1,0,False
@@ -1528,7 +1528,7 @@ Version,ClassName,LinesOfCode,AddedLOC,MaxAddedLOC,AvgAddedLOC,TouchedLOC,Churn,
 1,openjpa-kernel/src/main/java/org/apache/openjpa/meta/AbstractCFMetaDataFactory.java,770,6,5,3.0,11,1,1,0.5,2,2,0,False
 1,openjpa-kernel/src/main/java/org/apache/openjpa/meta/AbstractMetaDataDefaults.java,372,72,22,14.4,104,76,18,15.2,3,5,0,False
 1,openjpa-kernel/src/main/java/org/apache/openjpa/meta/AbstractMetaDataFactory.java,112,4,2,2.0,6,2,1,1.0,2,2,0,False
-1,openjpa-kernel/src/main/java/org/apache/openjpa/meta/ClassMetaData.java,2347,206,52,15.846154,283,153,52,11.769231,4,13,1,False
+1,openjpa-kernel/src/main/java/org/apache/openjpa/meta/ClassMetaData.java,2347,206,52,15.846154,283,153,52,11.769231,4,13,0,False
 1,openjpa-kernel/src/main/java/org/apache/openjpa/meta/DelegatingMetaDataFactory.java,117,0,0,0.0,0,0,0,0.0,0,0,0,False
 1,openjpa-kernel/src/main/java/org/apache/openjpa/meta/Extensions.java,463,7,5,3.5,11,3,3,1.5,1,2,0,False
 1,openjpa-kernel/src/main/java/org/apache/openjpa/meta/FetchGroup.java,347,3,3,3.0,4,2,2,2.0,1,1,0,False

@@ -1,0 +1,3382 @@
+Ticket Totali >> 338
+
+Ticket ID >> BOOKKEEPER-1104
+Opening Date >> 2017-07-27
+Resolution Date >> 2017-07-28
+Injected Version >> NULL
+Fix Version >> 4.5.0
+Opening Version >> 4.5.0
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-1101
+Opening Date >> 2017-07-19
+Resolution Date >> 2017-07-19
+Injected Version >> NULL
+Fix Version >> 4.5.0
+Opening Version >> 4.5.0
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-1098
+Opening Date >> 2017-06-14
+Resolution Date >> 2017-06-28
+Injected Version >> NULL
+Fix Version >> 4.5.0
+Opening Version >> 4.5.0
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-1077
+Opening Date >> 2017-05-25
+Resolution Date >> 2017-05-26
+Injected Version >> NULL
+Fix Version >> 4.5.0
+Opening Version >> 4.5.0
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-1075
+Opening Date >> 2017-05-25
+Resolution Date >> 2017-05-25
+Injected Version >> NULL
+Fix Version >> 4.5.0
+Opening Version >> 4.5.0
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-1074
+Opening Date >> 2017-05-25
+Resolution Date >> 2017-06-01
+Injected Version >> NULL
+Fix Version >> 4.5.0
+Opening Version >> 4.5.0
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-1073
+Opening Date >> 2017-05-25
+Resolution Date >> 2017-06-01
+Injected Version >> NULL
+Fix Version >> 4.5.0
+Opening Version >> 4.5.0
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-1072
+Opening Date >> 2017-05-25
+Resolution Date >> 2017-05-25
+Injected Version >> NULL
+Fix Version >> 4.5.0
+Opening Version >> 4.5.0
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-1061
+Opening Date >> 2017-05-10
+Resolution Date >> 2017-05-15
+Injected Version >> NULL
+Fix Version >> 4.5.0
+Opening Version >> 4.5.0
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-1058
+Opening Date >> 2017-05-10
+Resolution Date >> 2017-05-15
+Injected Version >> NULL
+Fix Version >> 4.5.0
+Opening Version >> 4.5.0
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-1047
+Opening Date >> 2017-05-04
+Resolution Date >> 2017-05-15
+Injected Version >> NULL
+Fix Version >> 4.5.0
+Opening Version >> 4.5.0
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-1044
+Opening Date >> 2017-04-25
+Resolution Date >> 2017-07-25
+Injected Version >> NULL
+Fix Version >> 4.5.0
+Opening Version >> 4.5.0
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-1031
+Opening Date >> 2017-04-10
+Resolution Date >> 2017-04-11
+Injected Version >> 4.4.0
+Fix Version >> 4.5.0
+Opening Version >> 4.5.0
+Affected Versions >> [4.4.0]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-1021
+Opening Date >> 2017-04-03
+Resolution Date >> 2017-05-26
+Injected Version >> NULL
+Fix Version >> 4.5.0
+Opening Version >> 4.5.0
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-1018
+Opening Date >> 2017-03-27
+Resolution Date >> 2017-04-03
+Injected Version >> NULL
+Fix Version >> 4.5.0
+Opening Version >> 4.5.0
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-1013
+Opening Date >> 2017-03-23
+Resolution Date >> 2017-03-23
+Injected Version >> NULL
+Fix Version >> 4.5.0
+Opening Version >> 4.5.0
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-999
+Opening Date >> 2017-02-08
+Resolution Date >> 2017-03-22
+Injected Version >> 4.4.0
+Fix Version >> 4.5.0
+Opening Version >> 4.5.0
+Affected Versions >> [4.4.0]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-989
+Opening Date >> 2016-12-20
+Resolution Date >> 2017-06-01
+Injected Version >> NULL
+Fix Version >> 4.5.0
+Opening Version >> 4.5.0
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-988
+Opening Date >> 2016-12-18
+Resolution Date >> 2016-12-20
+Injected Version >> NULL
+Fix Version >> 4.5.0
+Opening Version >> 4.5.0
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-986
+Opening Date >> 2016-12-13
+Resolution Date >> 2016-12-21
+Injected Version >> NULL
+Fix Version >> 4.5.0
+Opening Version >> 4.5.0
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-984
+Opening Date >> 2016-12-10
+Resolution Date >> 2016-12-17
+Injected Version >> NULL
+Fix Version >> 4.5.0
+Opening Version >> 4.5.0
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-980
+Opening Date >> 2016-11-29
+Resolution Date >> 2017-07-18
+Injected Version >> NULL
+Fix Version >> 4.5.0
+Opening Version >> 4.5.0
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-959
+Opening Date >> 2016-10-20
+Resolution Date >> 2017-01-31
+Injected Version >> 4.4.0
+Fix Version >> 4.5.0
+Opening Version >> 4.5.0
+Affected Versions >> [4.4.0]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-958
+Opening Date >> 2016-10-19
+Resolution Date >> 2016-11-09
+Injected Version >> NULL
+Fix Version >> 4.5.0
+Opening Version >> 4.5.0
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-957
+Opening Date >> 2016-10-19
+Resolution Date >> 2016-11-09
+Injected Version >> NULL
+Fix Version >> 4.5.0
+Opening Version >> 4.5.0
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-956
+Opening Date >> 2016-10-19
+Resolution Date >> 2016-11-09
+Injected Version >> NULL
+Fix Version >> 4.5.0
+Opening Version >> 4.5.0
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-955
+Opening Date >> 2016-10-19
+Resolution Date >> 2016-11-29
+Injected Version >> NULL
+Fix Version >> 4.5.0
+Opening Version >> 4.5.0
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-952
+Opening Date >> 2016-10-14
+Resolution Date >> 2016-10-20
+Injected Version >> NULL
+Fix Version >> 4.5.0
+Opening Version >> 4.5.0
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-939
+Opening Date >> 2016-07-11
+Resolution Date >> 2016-07-11
+Injected Version >> NULL
+Fix Version >> 4.5.0
+Opening Version >> 4.5.0
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-933
+Opening Date >> 2016-06-17
+Resolution Date >> 2016-07-31
+Injected Version >> NULL
+Fix Version >> 4.5.0
+Opening Version >> 4.5.0
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-927
+Opening Date >> 2016-05-15
+Resolution Date >> 2017-05-24
+Injected Version >> 4.3.2
+Fix Version >> 4.5.0
+Opening Version >> 4.4.0
+Affected Versions >> [4.3.2]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-926
+Opening Date >> 2016-04-30
+Resolution Date >> 2016-05-04
+Injected Version >> 4.3.1
+Fix Version >> 4.4.0
+Opening Version >> 4.4.0
+Affected Versions >> [4.3.1]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-925
+Opening Date >> 2016-04-27
+Resolution Date >> 2016-04-30
+Injected Version >> NULL
+Fix Version >> 4.4.0
+Opening Version >> 4.4.0
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-924
+Opening Date >> 2016-04-22
+Resolution Date >> 2016-10-13
+Injected Version >> 4.3.2
+Fix Version >> 4.5.0
+Opening Version >> 4.4.0
+Affected Versions >> [4.3.2]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-919
+Opening Date >> 2016-04-07
+Resolution Date >> 2016-04-27
+Injected Version >> NULL
+Fix Version >> 4.4.0
+Opening Version >> 4.4.0
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-914
+Opening Date >> 2016-04-06
+Resolution Date >> 2016-04-07
+Injected Version >> NULL
+Fix Version >> 4.4.0
+Opening Version >> 4.4.0
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-913
+Opening Date >> 2016-04-05
+Resolution Date >> 2016-04-10
+Injected Version >> NULL
+Fix Version >> 4.4.0
+Opening Version >> 4.4.0
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-911
+Opening Date >> 2016-04-02
+Resolution Date >> 2016-04-27
+Injected Version >> 4.3.2
+Fix Version >> 4.4.0
+Opening Version >> 4.4.0
+Affected Versions >> [4.3.2]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-910
+Opening Date >> 2016-04-01
+Resolution Date >> 2016-04-11
+Injected Version >> 4.3.2
+Fix Version >> 4.4.0
+Opening Version >> 4.4.0
+Affected Versions >> [4.3.2]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-909
+Opening Date >> 2016-03-31
+Resolution Date >> 2016-03-31
+Injected Version >> 4.3.2
+Fix Version >> 4.4.0
+Opening Version >> 4.4.0
+Affected Versions >> [4.3.2]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-908
+Opening Date >> 2016-03-29
+Resolution Date >> 2016-07-11
+Injected Version >> 4.3.2
+Fix Version >> 4.5.0
+Opening Version >> 4.4.0
+Affected Versions >> [4.3.2]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-907
+Opening Date >> 2016-03-16
+Resolution Date >> 2017-01-30
+Injected Version >> NULL
+Fix Version >> 4.5.0
+Opening Version >> 4.4.0
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-903
+Opening Date >> 2016-03-09
+Resolution Date >> 2016-11-09
+Injected Version >> NULL
+Fix Version >> 4.5.0
+Opening Version >> 4.4.0
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-902
+Opening Date >> 2016-03-08
+Resolution Date >> 2016-03-14
+Injected Version >> NULL
+Fix Version >> 4.4.0
+Opening Version >> 4.4.0
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-900
+Opening Date >> 2016-02-29
+Resolution Date >> 2016-03-08
+Injected Version >> 4.3.2
+Fix Version >> 4.4.0
+Opening Version >> 4.4.0
+Affected Versions >> [4.3.2]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-899
+Opening Date >> 2016-02-28
+Resolution Date >> 2016-03-08
+Injected Version >> 4.3.2
+Fix Version >> 4.4.0
+Opening Version >> 4.4.0
+Affected Versions >> [4.3.2]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-898
+Opening Date >> 2016-02-28
+Resolution Date >> 2016-03-08
+Injected Version >> 4.3.2
+Fix Version >> 4.4.0
+Opening Version >> 4.4.0
+Affected Versions >> [4.3.2]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-897
+Opening Date >> 2016-02-23
+Resolution Date >> 2016-02-23
+Injected Version >> NULL
+Fix Version >> 4.4.0
+Opening Version >> 4.4.0
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-893
+Opening Date >> 2016-02-08
+Resolution Date >> 2016-02-09
+Injected Version >> 4.3.2
+Fix Version >> 4.4.0
+Opening Version >> 4.4.0
+Affected Versions >> [4.3.2]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-891
+Opening Date >> 2016-02-05
+Resolution Date >> 2016-02-09
+Injected Version >> NULL
+Fix Version >> 4.4.0
+Opening Version >> 4.4.0
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-890
+Opening Date >> 2016-02-03
+Resolution Date >> 2016-02-09
+Injected Version >> 4.3.2
+Fix Version >> 4.4.0
+Opening Version >> 4.4.0
+Affected Versions >> [4.3.2]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-884
+Opening Date >> 2016-01-12
+Resolution Date >> 2016-01-12
+Injected Version >> NULL
+Fix Version >> 4.4.0
+Opening Version >> 4.4.0
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-883
+Opening Date >> 2015-11-25
+Resolution Date >> 2016-02-09
+Injected Version >> NULL
+Fix Version >> 4.4.0
+Opening Version >> 4.4.0
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-872
+Opening Date >> 2015-09-21
+Resolution Date >> 2015-10-10
+Injected Version >> NULL
+Fix Version >> 4.3.2
+Opening Version >> 4.3.2
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-863
+Opening Date >> 2015-08-06
+Resolution Date >> 2015-08-12
+Injected Version >> NULL
+Fix Version >> 4.3.2
+Opening Version >> 4.3.2
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-859
+Opening Date >> 2015-06-21
+Resolution Date >> 2016-05-16
+Injected Version >> 4.0.0
+Fix Version >> 4.4.0
+Opening Version >> 4.3.2
+Affected Versions >> [4.0.0, 4.3.0]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-858
+Opening Date >> 2015-05-30
+Resolution Date >> 2015-06-02
+Injected Version >> NULL
+Fix Version >> 4.3.2
+Opening Version >> 4.3.2
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-854
+Opening Date >> 2015-05-19
+Resolution Date >> 2015-05-20
+Injected Version >> NULL
+Fix Version >> 4.3.1
+Opening Version >> 4.3.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-852
+Opening Date >> 2015-04-10
+Resolution Date >> 2017-03-28
+Injected Version >> 4.3.0
+Fix Version >> 4.5.0
+Opening Version >> 4.3.1
+Affected Versions >> [4.3.0]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-848
+Opening Date >> 2015-04-10
+Resolution Date >> 2015-04-21
+Injected Version >> 4.3.0
+Fix Version >> 4.3.1
+Opening Version >> 4.3.1
+Affected Versions >> [4.3.0]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-847
+Opening Date >> 2015-03-28
+Resolution Date >> 2015-04-21
+Injected Version >> NULL
+Fix Version >> 4.3.1
+Opening Version >> 4.3.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-840
+Opening Date >> 2015-03-09
+Resolution Date >> 2015-03-18
+Injected Version >> NULL
+Fix Version >> 4.3.1
+Opening Version >> 4.3.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-839
+Opening Date >> 2015-02-24
+Resolution Date >> 2015-03-12
+Injected Version >> NULL
+Fix Version >> 4.3.1
+Opening Version >> 4.3.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-838
+Opening Date >> 2015-02-21
+Resolution Date >> 2015-02-23
+Injected Version >> NULL
+Fix Version >> 4.3.1
+Opening Version >> 4.3.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-835
+Opening Date >> 2015-01-16
+Resolution Date >> 2015-05-19
+Injected Version >> NULL
+Fix Version >> 4.3.1
+Opening Version >> 4.3.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-834
+Opening Date >> 2015-01-13
+Resolution Date >> 2015-03-18
+Injected Version >> NULL
+Fix Version >> 4.3.1
+Opening Version >> 4.3.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-833
+Opening Date >> 2014-12-23
+Resolution Date >> 2015-04-21
+Injected Version >> NULL
+Fix Version >> 4.3.1
+Opening Version >> 4.3.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-831
+Opening Date >> 2014-12-17
+Resolution Date >> 2015-03-12
+Injected Version >> NULL
+Fix Version >> 4.3.1
+Opening Version >> 4.3.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-829
+Opening Date >> 2014-12-17
+Resolution Date >> 2015-08-23
+Injected Version >> NULL
+Fix Version >> 4.3.2
+Opening Version >> 4.3.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-828
+Opening Date >> 2014-12-16
+Resolution Date >> 2015-03-18
+Injected Version >> NULL
+Fix Version >> 4.3.1
+Opening Version >> 4.3.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-823
+Opening Date >> 2014-12-10
+Resolution Date >> 2015-07-07
+Injected Version >> NULL
+Fix Version >> 4.3.2
+Opening Version >> 4.3.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-821
+Opening Date >> 2014-12-08
+Resolution Date >> 2015-05-20
+Injected Version >> 4.3.0
+Fix Version >> 4.3.1
+Opening Version >> 4.3.1
+Affected Versions >> [4.3.0]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-815
+Opening Date >> 2014-12-04
+Resolution Date >> 2014-12-05
+Injected Version >> 4.3.0
+Fix Version >> 4.3.1
+Opening Version >> 4.3.1
+Affected Versions >> [4.3.0, 4.2.3]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-814
+Opening Date >> 2014-12-04
+Resolution Date >> 2014-12-10
+Injected Version >> 4.3.0
+Fix Version >> 4.3.1
+Opening Version >> 4.3.1
+Affected Versions >> [4.3.0]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-813
+Opening Date >> 2014-12-04
+Resolution Date >> 2014-12-06
+Injected Version >> 4.3.0
+Fix Version >> 4.3.1
+Opening Version >> 4.3.1
+Affected Versions >> [4.3.0]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-809
+Opening Date >> 2014-12-04
+Resolution Date >> 2014-12-06
+Injected Version >> 4.3.0
+Fix Version >> 4.3.1
+Opening Version >> 4.3.1
+Affected Versions >> [4.3.0]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-805
+Opening Date >> 2014-11-25
+Resolution Date >> 2014-12-06
+Injected Version >> 4.3.0
+Fix Version >> 4.3.1
+Opening Version >> 4.3.1
+Affected Versions >> [4.3.0]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-804
+Opening Date >> 2014-11-24
+Resolution Date >> 2014-12-06
+Injected Version >> 4.3.0
+Fix Version >> 4.3.1
+Opening Version >> 4.3.1
+Affected Versions >> [4.3.0]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-803
+Opening Date >> 2014-11-21
+Resolution Date >> 2014-12-12
+Injected Version >> NULL
+Fix Version >> 4.3.1
+Opening Version >> 4.3.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-802
+Opening Date >> 2014-11-21
+Resolution Date >> 2015-09-07
+Injected Version >> NULL
+Fix Version >> 4.3.2
+Opening Version >> 4.3.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-801
+Opening Date >> 2014-11-21
+Resolution Date >> 2014-12-12
+Injected Version >> NULL
+Fix Version >> 4.3.1
+Opening Version >> 4.3.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-800
+Opening Date >> 2014-11-21
+Resolution Date >> 2014-12-05
+Injected Version >> NULL
+Fix Version >> 4.3.1
+Opening Version >> 4.3.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-799
+Opening Date >> 2014-11-21
+Resolution Date >> 2014-12-09
+Injected Version >> NULL
+Fix Version >> 4.3.1
+Opening Version >> 4.3.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-798
+Opening Date >> 2014-11-19
+Resolution Date >> 2014-12-02
+Injected Version >> NULL
+Fix Version >> 4.3.1
+Opening Version >> 4.3.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-797
+Opening Date >> 2014-11-19
+Resolution Date >> 2014-11-19
+Injected Version >> 4.3.0
+Fix Version >> 4.3.1
+Opening Version >> 4.3.1
+Affected Versions >> [4.3.0]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-795
+Opening Date >> 2014-10-27
+Resolution Date >> 2014-12-09
+Injected Version >> NULL
+Fix Version >> 4.3.1
+Opening Version >> 4.3.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-794
+Opening Date >> 2014-10-17
+Resolution Date >> 2016-04-05
+Injected Version >> NULL
+Fix Version >> 4.4.0
+Opening Version >> 4.3.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-793
+Opening Date >> 2014-10-13
+Resolution Date >> 2014-10-15
+Injected Version >> NULL
+Fix Version >> 4.3.1
+Opening Version >> 4.3.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-786
+Opening Date >> 2014-09-20
+Resolution Date >> 2014-09-22
+Injected Version >> NULL
+Fix Version >> 4.3.1
+Opening Version >> 4.3.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-785
+Opening Date >> 2014-09-17
+Resolution Date >> 2014-09-18
+Injected Version >> NULL
+Fix Version >> 4.3.1
+Opening Version >> 4.3.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-784
+Opening Date >> 2014-09-12
+Resolution Date >> 2014-09-18
+Injected Version >> NULL
+Fix Version >> 4.3.1
+Opening Version >> 4.3.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-783
+Opening Date >> 2014-09-12
+Resolution Date >> 2014-09-17
+Injected Version >> NULL
+Fix Version >> 4.3.1
+Opening Version >> 4.3.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-780
+Opening Date >> 2014-08-28
+Resolution Date >> 2014-09-04
+Injected Version >> NULL
+Fix Version >> 4.3.1
+Opening Version >> 4.3.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-779
+Opening Date >> 2014-08-28
+Resolution Date >> 2014-09-06
+Injected Version >> NULL
+Fix Version >> 4.3.1
+Opening Version >> 4.3.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-778
+Opening Date >> 2014-08-28
+Resolution Date >> 2014-09-09
+Injected Version >> NULL
+Fix Version >> 4.3.1
+Opening Version >> 4.3.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-777
+Opening Date >> 2014-08-28
+Resolution Date >> 2014-09-06
+Injected Version >> NULL
+Fix Version >> 4.3.1
+Opening Version >> 4.3.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-774
+Opening Date >> 2014-07-26
+Resolution Date >> 2014-08-14
+Injected Version >> NULL
+Fix Version >> 4.3.1
+Opening Version >> 4.3.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-769
+Opening Date >> 2014-06-19
+Resolution Date >> 2016-03-16
+Injected Version >> NULL
+Fix Version >> 4.4.0
+Opening Version >> 4.2.3
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-768
+Opening Date >> 2014-06-17
+Resolution Date >> 2014-07-15
+Injected Version >> 4.2.2
+Fix Version >> 4.3.1
+Opening Version >> 4.2.3
+Affected Versions >> [4.2.2]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-767
+Opening Date >> 2014-06-04
+Resolution Date >> 2014-06-06
+Injected Version >> NULL
+Fix Version >> 4.2.3
+Opening Version >> 4.2.3
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-766
+Opening Date >> 2014-06-03
+Resolution Date >> 2014-06-05
+Injected Version >> NULL
+Fix Version >> 4.2.3
+Opening Version >> 4.2.3
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-765
+Opening Date >> 2014-06-03
+Resolution Date >> 2014-06-10
+Injected Version >> NULL
+Fix Version >> 4.2.3
+Opening Version >> 4.2.3
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-763
+Opening Date >> 2014-05-29
+Resolution Date >> 2014-05-30
+Injected Version >> NULL
+Fix Version >> 4.2.3
+Opening Version >> 4.2.3
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-755
+Opening Date >> 2014-05-08
+Resolution Date >> 2014-05-14
+Injected Version >> NULL
+Fix Version >> 4.2.3
+Opening Version >> 4.2.3
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-752
+Opening Date >> 2014-05-07
+Resolution Date >> 2014-05-27
+Injected Version >> 4.2.2
+Fix Version >> 4.2.3
+Opening Version >> 4.2.3
+Affected Versions >> [4.2.2]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-751
+Opening Date >> 2014-05-07
+Resolution Date >> 2014-05-30
+Injected Version >> NULL
+Fix Version >> 4.2.3
+Opening Version >> 4.2.3
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-750
+Opening Date >> 2014-04-29
+Resolution Date >> 2014-05-23
+Injected Version >> NULL
+Fix Version >> 4.2.3
+Opening Version >> 4.2.3
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-746
+Opening Date >> 2014-04-04
+Resolution Date >> 2014-06-03
+Injected Version >> NULL
+Fix Version >> 4.2.3
+Opening Version >> 4.2.3
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-745
+Opening Date >> 2014-04-04
+Resolution Date >> 2014-06-02
+Injected Version >> NULL
+Fix Version >> 4.2.3
+Opening Version >> 4.2.3
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-744
+Opening Date >> 2014-04-04
+Resolution Date >> 2014-05-06
+Injected Version >> NULL
+Fix Version >> 4.2.3
+Opening Version >> 4.2.3
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-743
+Opening Date >> 2014-04-04
+Resolution Date >> 2014-04-24
+Injected Version >> NULL
+Fix Version >> 4.2.3
+Opening Version >> 4.2.3
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-742
+Opening Date >> 2014-04-04
+Resolution Date >> 2014-04-24
+Injected Version >> NULL
+Fix Version >> 4.2.3
+Opening Version >> 4.2.3
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-740
+Opening Date >> 2014-03-07
+Resolution Date >> 2014-03-10
+Injected Version >> NULL
+Fix Version >> 4.2.3
+Opening Version >> 4.2.3
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-739
+Opening Date >> 2014-03-04
+Resolution Date >> 2014-07-23
+Injected Version >> NULL
+Fix Version >> 4.3.1
+Opening Version >> 4.2.3
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-731
+Opening Date >> 2014-02-06
+Resolution Date >> 2014-02-10
+Injected Version >> NULL
+Fix Version >> 4.2.3
+Opening Version >> 4.2.3
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-730
+Opening Date >> 2014-02-06
+Resolution Date >> 2014-03-07
+Injected Version >> NULL
+Fix Version >> 4.2.3
+Opening Version >> 4.2.3
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-729
+Opening Date >> 2014-02-04
+Resolution Date >> 2014-02-06
+Injected Version >> NULL
+Fix Version >> 4.2.3
+Opening Version >> 4.2.3
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-728
+Opening Date >> 2014-02-04
+Resolution Date >> 2014-02-06
+Injected Version >> NULL
+Fix Version >> 4.2.3
+Opening Version >> 4.2.3
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-727
+Opening Date >> 2014-02-04
+Resolution Date >> 2014-02-05
+Injected Version >> NULL
+Fix Version >> 4.2.3
+Opening Version >> 4.2.3
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-726
+Opening Date >> 2014-02-04
+Resolution Date >> 2014-03-10
+Injected Version >> NULL
+Fix Version >> 4.2.3
+Opening Version >> 4.2.3
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-725
+Opening Date >> 2014-02-04
+Resolution Date >> 2014-02-06
+Injected Version >> NULL
+Fix Version >> 4.2.3
+Opening Version >> 4.2.3
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-724
+Opening Date >> 2014-02-02
+Resolution Date >> 2014-02-06
+Injected Version >> NULL
+Fix Version >> 4.2.3
+Opening Version >> 4.3.0
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-720
+Opening Date >> 2014-01-21
+Resolution Date >> 2014-01-22
+Injected Version >> NULL
+Fix Version >> 4.3.0
+Opening Version >> 4.3.0
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-719
+Opening Date >> 2014-01-21
+Resolution Date >> 2014-01-21
+Injected Version >> NULL
+Fix Version >> 4.3.0
+Opening Version >> 4.3.0
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-714
+Opening Date >> 2013-12-31
+Resolution Date >> 2014-03-10
+Injected Version >> NULL
+Fix Version >> 4.2.3
+Opening Version >> 4.3.0
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-712
+Opening Date >> 2013-12-05
+Resolution Date >> 2013-12-05
+Injected Version >> 4.2.1
+Fix Version >> 4.3.0
+Opening Version >> 4.3.0
+Affected Versions >> [4.2.1]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-711
+Opening Date >> 2013-12-03
+Resolution Date >> 2013-12-05
+Injected Version >> 4.2.2
+Fix Version >> 4.3.0
+Opening Version >> 4.3.0
+Affected Versions >> [4.2.2]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-710
+Opening Date >> 2013-11-23
+Resolution Date >> 2014-04-11
+Injected Version >> NULL
+Fix Version >> 4.2.3
+Opening Version >> 4.3.0
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-709
+Opening Date >> 2013-11-23
+Resolution Date >> 2014-01-03
+Injected Version >> NULL
+Fix Version >> 4.3.0
+Opening Version >> 4.3.0
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-708
+Opening Date >> 2013-11-10
+Resolution Date >> 2014-02-02
+Injected Version >> NULL
+Fix Version >> 4.3.0
+Opening Version >> 4.3.0
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-700
+Opening Date >> 2013-10-30
+Resolution Date >> 2013-10-30
+Injected Version >> NULL
+Fix Version >> 4.3.0
+Opening Version >> 4.3.0
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-698
+Opening Date >> 2013-10-29
+Resolution Date >> 2013-10-30
+Injected Version >> NULL
+Fix Version >> 4.3.0
+Opening Version >> 4.3.0
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-689
+Opening Date >> 2013-10-04
+Resolution Date >> 2014-03-07
+Injected Version >> NULL
+Fix Version >> 4.2.3
+Opening Version >> 4.2.2
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-688
+Opening Date >> 2013-10-04
+Resolution Date >> 2014-03-04
+Injected Version >> NULL
+Fix Version >> 4.2.3
+Opening Version >> 4.2.2
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-686
+Opening Date >> 2013-09-29
+Resolution Date >> 2013-10-02
+Injected Version >> NULL
+Fix Version >> 4.2.2
+Opening Version >> 4.2.2
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-685
+Opening Date >> 2013-09-13
+Resolution Date >> 2013-10-02
+Injected Version >> NULL
+Fix Version >> 4.2.2
+Opening Version >> 4.2.2
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-684
+Opening Date >> 2013-09-13
+Resolution Date >> 2013-09-19
+Injected Version >> NULL
+Fix Version >> 4.2.2
+Opening Version >> 4.2.2
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-683
+Opening Date >> 2013-09-12
+Resolution Date >> 2013-09-27
+Injected Version >> NULL
+Fix Version >> 4.2.2
+Opening Version >> 4.2.2
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-679
+Opening Date >> 2013-09-04
+Resolution Date >> 2013-09-09
+Injected Version >> NULL
+Fix Version >> 4.2.2
+Opening Version >> 4.2.2
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-678
+Opening Date >> 2013-09-01
+Resolution Date >> 2013-11-22
+Injected Version >> NULL
+Fix Version >> 4.3.0
+Opening Version >> 4.2.2
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-676
+Opening Date >> 2013-08-23
+Resolution Date >> 2013-10-14
+Injected Version >> NULL
+Fix Version >> 4.3.0
+Opening Version >> 4.2.2
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-673
+Opening Date >> 2013-08-21
+Resolution Date >> 2013-10-14
+Injected Version >> NULL
+Fix Version >> 4.3.0
+Opening Version >> 4.2.2
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-671
+Opening Date >> 2013-08-13
+Resolution Date >> 2017-10-09
+Injected Version >> 4.2.1
+Fix Version >> 4.6.0
+Opening Version >> 4.2.2
+Affected Versions >> [4.2.1]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-669
+Opening Date >> 2013-08-08
+Resolution Date >> 2013-09-09
+Injected Version >> NULL
+Fix Version >> 4.2.2
+Opening Version >> 4.2.2
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-668
+Opening Date >> 2013-08-06
+Resolution Date >> 2013-08-20
+Injected Version >> 4.2.1
+Fix Version >> 4.2.2
+Opening Version >> 4.2.2
+Affected Versions >> [4.2.1, 4.3.0]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-667
+Opening Date >> 2013-08-06
+Resolution Date >> 2013-08-13
+Injected Version >> 4.2.1
+Fix Version >> 4.2.2
+Opening Version >> 4.2.2
+Affected Versions >> [4.2.1]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-664
+Opening Date >> 2013-07-29
+Resolution Date >> 2013-10-22
+Injected Version >> 4.2.1
+Fix Version >> 4.3.0
+Opening Version >> 4.2.2
+Affected Versions >> [4.2.1]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-663
+Opening Date >> 2013-07-26
+Resolution Date >> 2013-07-29
+Injected Version >> NULL
+Fix Version >> 4.2.2
+Opening Version >> 4.2.2
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-660
+Opening Date >> 2013-07-24
+Resolution Date >> 2013-08-20
+Injected Version >> NULL
+Fix Version >> 4.2.2
+Opening Version >> 4.2.2
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-654
+Opening Date >> 2013-07-21
+Resolution Date >> 2014-02-21
+Injected Version >> NULL
+Fix Version >> 4.2.3
+Opening Version >> 4.2.2
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-652
+Opening Date >> 2013-07-20
+Resolution Date >> 2013-07-20
+Injected Version >> NULL
+Fix Version >> 4.2.2
+Opening Version >> 4.2.2
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-649
+Opening Date >> 2013-07-16
+Resolution Date >> 2013-08-22
+Injected Version >> NULL
+Fix Version >> 4.2.2
+Opening Version >> 4.2.2
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-646
+Opening Date >> 2013-07-08
+Resolution Date >> 2013-07-20
+Injected Version >> 4.2.1
+Fix Version >> 4.2.2
+Opening Version >> 4.2.2
+Affected Versions >> [4.2.1]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-642
+Opening Date >> 2013-07-05
+Resolution Date >> 2013-07-24
+Injected Version >> NULL
+Fix Version >> 4.2.2
+Opening Version >> 4.2.2
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-641
+Opening Date >> 2013-07-02
+Resolution Date >> 2013-07-03
+Injected Version >> 4.2.1
+Fix Version >> 4.2.2
+Opening Version >> 4.2.2
+Affected Versions >> [4.2.1]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-636
+Opening Date >> 2013-06-26
+Resolution Date >> 2013-07-04
+Injected Version >> 4.2.1
+Fix Version >> 4.2.2
+Opening Version >> 4.2.2
+Affected Versions >> [4.2.1, 4.3.0]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-635
+Opening Date >> 2013-06-26
+Resolution Date >> 2013-07-20
+Injected Version >> NULL
+Fix Version >> 4.2.2
+Opening Version >> 4.2.2
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-632
+Opening Date >> 2013-06-20
+Resolution Date >> 2013-08-21
+Injected Version >> 4.2.1
+Fix Version >> 4.2.2
+Opening Version >> 4.2.2
+Affected Versions >> [4.2.1, 4.3.0]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-626
+Opening Date >> 2013-06-14
+Resolution Date >> 2013-06-15
+Injected Version >> 4.2.1
+Fix Version >> 4.2.2
+Opening Version >> 4.2.2
+Affected Versions >> [4.2.1, 4.3.0]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-625
+Opening Date >> 2013-06-14
+Resolution Date >> 2013-07-24
+Injected Version >> 4.2.1
+Fix Version >> 4.2.2
+Opening Version >> 4.2.2
+Affected Versions >> [4.2.1]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-624
+Opening Date >> 2013-06-12
+Resolution Date >> 2013-08-20
+Injected Version >> 4.2.1
+Fix Version >> 4.2.2
+Opening Version >> 4.2.2
+Affected Versions >> [4.2.1]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-623
+Opening Date >> 2013-06-12
+Resolution Date >> 2013-06-26
+Injected Version >> 4.2.1
+Fix Version >> 4.2.2
+Opening Version >> 4.2.2
+Affected Versions >> [4.2.1, 4.3.0]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-621
+Opening Date >> 2013-06-07
+Resolution Date >> 2013-07-20
+Injected Version >> 4.2.1
+Fix Version >> 4.2.2
+Opening Version >> 4.2.2
+Affected Versions >> [4.2.1]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-620
+Opening Date >> 2013-06-07
+Resolution Date >> 2013-06-28
+Injected Version >> NULL
+Fix Version >> 4.2.2
+Opening Version >> 4.2.2
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-619
+Opening Date >> 2013-06-06
+Resolution Date >> 2013-06-21
+Injected Version >> 4.2.1
+Fix Version >> 4.2.2
+Opening Version >> 4.2.2
+Affected Versions >> [4.2.1]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-617
+Opening Date >> 2013-06-03
+Resolution Date >> 2013-06-05
+Injected Version >> NULL
+Fix Version >> 4.2.2
+Opening Version >> 4.2.2
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-610
+Opening Date >> 2013-05-10
+Resolution Date >> 2013-07-20
+Injected Version >> NULL
+Fix Version >> 4.2.2
+Opening Version >> 4.2.2
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-607
+Opening Date >> 2013-04-22
+Resolution Date >> 2013-07-22
+Injected Version >> 4.2.1
+Fix Version >> 4.2.2
+Opening Version >> 4.2.2
+Affected Versions >> [4.2.1]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-604
+Opening Date >> 2013-04-08
+Resolution Date >> 2013-08-12
+Injected Version >> NULL
+Fix Version >> 4.2.2
+Opening Version >> 4.2.2
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-603
+Opening Date >> 2013-04-08
+Resolution Date >> 2013-06-03
+Injected Version >> 4.2.1
+Fix Version >> 4.2.2
+Opening Version >> 4.2.2
+Affected Versions >> [4.2.1]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-602
+Opening Date >> 2013-04-05
+Resolution Date >> 2014-03-10
+Injected Version >> 4.2.1
+Fix Version >> 4.2.3
+Opening Version >> 4.2.2
+Affected Versions >> [4.2.1]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-601
+Opening Date >> 2013-04-05
+Resolution Date >> 2013-07-13
+Injected Version >> 4.2.1
+Fix Version >> 4.2.2
+Opening Version >> 4.2.2
+Affected Versions >> [4.2.1]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-600
+Opening Date >> 2013-04-05
+Resolution Date >> 2013-07-14
+Injected Version >> 4.2.1
+Fix Version >> 4.2.2
+Opening Version >> 4.2.2
+Affected Versions >> [4.2.1]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-599
+Opening Date >> 2013-04-05
+Resolution Date >> 2013-04-07
+Injected Version >> 4.2.1
+Fix Version >> 4.2.2
+Opening Version >> 4.2.2
+Affected Versions >> [4.2.1]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-598
+Opening Date >> 2013-04-04
+Resolution Date >> 2013-04-07
+Injected Version >> 4.2.1
+Fix Version >> 4.2.2
+Opening Version >> 4.2.2
+Affected Versions >> [4.2.1]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-597
+Opening Date >> 2013-04-02
+Resolution Date >> 2013-04-02
+Injected Version >> NULL
+Fix Version >> 4.2.2
+Opening Version >> 4.2.2
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-596
+Opening Date >> 2013-03-28
+Resolution Date >> 2013-07-26
+Injected Version >> 4.2.1
+Fix Version >> 4.2.2
+Opening Version >> 4.2.2
+Affected Versions >> [4.2.1]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-594
+Opening Date >> 2013-03-26
+Resolution Date >> 2016-03-16
+Injected Version >> NULL
+Fix Version >> 4.4.0
+Opening Version >> 4.2.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-586
+Opening Date >> 2013-03-20
+Resolution Date >> 2013-03-25
+Injected Version >> NULL
+Fix Version >> 4.2.1
+Opening Version >> 4.2.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-585
+Opening Date >> 2013-03-14
+Resolution Date >> 2013-03-17
+Injected Version >> NULL
+Fix Version >> 4.2.1
+Opening Version >> 4.2.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-584
+Opening Date >> 2013-03-12
+Resolution Date >> 2013-04-26
+Injected Version >> NULL
+Fix Version >> 4.2.2
+Opening Version >> 4.2.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-580
+Opening Date >> 2013-02-27
+Resolution Date >> 2013-08-23
+Injected Version >> NULL
+Fix Version >> 4.2.2
+Opening Version >> 4.2.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-579
+Opening Date >> 2013-02-27
+Resolution Date >> 2013-03-08
+Injected Version >> NULL
+Fix Version >> 4.2.1
+Opening Version >> 4.2.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-578
+Opening Date >> 2013-02-27
+Resolution Date >> 2016-04-05
+Injected Version >> NULL
+Fix Version >> 4.4.0
+Opening Version >> 4.2.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-577
+Opening Date >> 2013-02-26
+Resolution Date >> 2013-05-07
+Injected Version >> NULL
+Fix Version >> 4.2.2
+Opening Version >> 4.2.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-569
+Opening Date >> 2013-02-13
+Resolution Date >> 2013-02-16
+Injected Version >> NULL
+Fix Version >> 4.2.1
+Opening Version >> 4.2.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-568
+Opening Date >> 2013-02-11
+Resolution Date >> 2013-02-15
+Injected Version >> NULL
+Fix Version >> 4.2.1
+Opening Version >> 4.2.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-567
+Opening Date >> 2013-02-09
+Resolution Date >> 2013-02-19
+Injected Version >> NULL
+Fix Version >> 4.2.1
+Opening Version >> 4.2.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-561
+Opening Date >> 2013-02-05
+Resolution Date >> 2013-02-08
+Injected Version >> NULL
+Fix Version >> 4.2.1
+Opening Version >> 4.2.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-559
+Opening Date >> 2013-01-28
+Resolution Date >> 2013-03-05
+Injected Version >> NULL
+Fix Version >> 4.2.1
+Opening Version >> 4.2.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-557
+Opening Date >> 2013-01-24
+Resolution Date >> 2013-03-25
+Injected Version >> NULL
+Fix Version >> 4.2.1
+Opening Version >> 4.2.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-556
+Opening Date >> 2013-01-24
+Resolution Date >> 2013-02-09
+Injected Version >> NULL
+Fix Version >> 4.2.1
+Opening Version >> 4.2.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-554
+Opening Date >> 2013-01-20
+Resolution Date >> 2013-02-12
+Injected Version >> NULL
+Fix Version >> 4.2.1
+Opening Version >> 4.2.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-549
+Opening Date >> 2013-01-16
+Resolution Date >> 2013-02-19
+Injected Version >> NULL
+Fix Version >> 4.2.1
+Opening Version >> 4.1.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-548
+Opening Date >> 2013-01-16
+Resolution Date >> 2013-02-19
+Injected Version >> NULL
+Fix Version >> 4.2.1
+Opening Version >> 4.1.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-544
+Opening Date >> 2013-01-11
+Resolution Date >> 2013-06-06
+Injected Version >> NULL
+Fix Version >> 4.2.2
+Opening Version >> 4.1.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-543
+Opening Date >> 2013-01-10
+Resolution Date >> 2013-01-10
+Injected Version >> 4.1.0
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> [4.1.0]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-539
+Opening Date >> 2013-01-09
+Resolution Date >> 2013-01-11
+Injected Version >> NULL
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-538
+Opening Date >> 2013-01-08
+Resolution Date >> 2013-01-10
+Injected Version >> NULL
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-534
+Opening Date >> 2013-01-05
+Resolution Date >> 2013-01-07
+Injected Version >> NULL
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-533
+Opening Date >> 2013-01-05
+Resolution Date >> 2013-01-09
+Injected Version >> NULL
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-532
+Opening Date >> 2013-01-05
+Resolution Date >> 2013-01-07
+Injected Version >> NULL
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-531
+Opening Date >> 2013-01-05
+Resolution Date >> 2013-01-09
+Injected Version >> NULL
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-530
+Opening Date >> 2012-12-29
+Resolution Date >> 2013-01-10
+Injected Version >> 4.1.0
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> [4.1.0]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-524
+Opening Date >> 2012-12-21
+Resolution Date >> 2013-01-07
+Injected Version >> NULL
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-522
+Opening Date >> 2012-12-20
+Resolution Date >> 2012-12-24
+Injected Version >> NULL
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-520
+Opening Date >> 2012-12-18
+Resolution Date >> 2012-12-27
+Injected Version >> NULL
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-514
+Opening Date >> 2012-12-14
+Resolution Date >> 2012-12-28
+Injected Version >> NULL
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-513
+Opening Date >> 2012-12-14
+Resolution Date >> 2013-01-14
+Injected Version >> NULL
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-512
+Opening Date >> 2012-12-14
+Resolution Date >> 2012-12-15
+Injected Version >> NULL
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-511
+Opening Date >> 2012-12-14
+Resolution Date >> 2012-12-15
+Injected Version >> NULL
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-509
+Opening Date >> 2012-12-14
+Resolution Date >> 2012-12-18
+Injected Version >> NULL
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-507
+Opening Date >> 2012-12-14
+Resolution Date >> 2013-01-03
+Injected Version >> NULL
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-504
+Opening Date >> 2012-12-13
+Resolution Date >> 2012-12-14
+Injected Version >> NULL
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-503
+Opening Date >> 2012-12-13
+Resolution Date >> 2013-01-12
+Injected Version >> NULL
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-500
+Opening Date >> 2012-12-11
+Resolution Date >> 2012-12-18
+Injected Version >> 4.1.0
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> [4.1.0]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-498
+Opening Date >> 2012-12-10
+Resolution Date >> 2012-12-10
+Injected Version >> NULL
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-497
+Opening Date >> 2012-12-10
+Resolution Date >> 2012-12-12
+Injected Version >> NULL
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-493
+Opening Date >> 2012-12-06
+Resolution Date >> 2012-12-12
+Injected Version >> NULL
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-485
+Opening Date >> 2012-11-27
+Resolution Date >> 2012-12-01
+Injected Version >> NULL
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-484
+Opening Date >> 2012-11-27
+Resolution Date >> 2012-12-03
+Injected Version >> NULL
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-483
+Opening Date >> 2012-11-27
+Resolution Date >> 2012-12-13
+Injected Version >> NULL
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-482
+Opening Date >> 2012-11-27
+Resolution Date >> 2012-12-01
+Injected Version >> NULL
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-481
+Opening Date >> 2012-11-27
+Resolution Date >> 2012-11-30
+Injected Version >> NULL
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-480
+Opening Date >> 2012-11-27
+Resolution Date >> 2012-11-30
+Injected Version >> NULL
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-479
+Opening Date >> 2012-11-27
+Resolution Date >> 2012-11-27
+Injected Version >> NULL
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-477
+Opening Date >> 2012-11-23
+Resolution Date >> 2012-11-27
+Injected Version >> NULL
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-475
+Opening Date >> 2012-11-21
+Resolution Date >> 2012-12-04
+Injected Version >> NULL
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-474
+Opening Date >> 2012-11-21
+Resolution Date >> 2012-12-08
+Injected Version >> NULL
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-471
+Opening Date >> 2012-11-19
+Resolution Date >> 2012-11-27
+Injected Version >> NULL
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-470
+Opening Date >> 2012-11-19
+Resolution Date >> 2012-12-04
+Injected Version >> NULL
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-469
+Opening Date >> 2012-11-19
+Resolution Date >> 2012-12-10
+Injected Version >> NULL
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-468
+Opening Date >> 2012-11-19
+Resolution Date >> 2012-11-21
+Injected Version >> NULL
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-467
+Opening Date >> 2012-11-19
+Resolution Date >> 2012-11-23
+Injected Version >> NULL
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-466
+Opening Date >> 2012-11-19
+Resolution Date >> 2012-11-21
+Injected Version >> NULL
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-465
+Opening Date >> 2012-11-14
+Resolution Date >> 2012-12-10
+Injected Version >> NULL
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-461
+Opening Date >> 2012-11-11
+Resolution Date >> 2012-12-04
+Injected Version >> NULL
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-458
+Opening Date >> 2012-11-06
+Resolution Date >> 2012-12-13
+Injected Version >> NULL
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-457
+Opening Date >> 2012-11-06
+Resolution Date >> 2012-11-29
+Injected Version >> 4.1.0
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> [4.1.0]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-454
+Opening Date >> 2012-11-02
+Resolution Date >> 2012-11-22
+Injected Version >> NULL
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-447
+Opening Date >> 2012-10-30
+Resolution Date >> 2012-12-24
+Injected Version >> NULL
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-446
+Opening Date >> 2012-10-29
+Resolution Date >> 2013-09-10
+Injected Version >> NULL
+Fix Version >> 4.2.2
+Opening Version >> 4.1.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-442
+Opening Date >> 2012-10-25
+Resolution Date >> 2012-12-03
+Injected Version >> 4.1.0
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> [4.1.0]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-441
+Opening Date >> 2012-10-24
+Resolution Date >> 2012-10-26
+Injected Version >> NULL
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-439
+Opening Date >> 2012-10-19
+Resolution Date >> 2012-10-26
+Injected Version >> 4.1.0
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> [4.1.0]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-436
+Opening Date >> 2012-10-16
+Resolution Date >> 2012-10-16
+Injected Version >> NULL
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-434
+Opening Date >> 2012-10-15
+Resolution Date >> 2012-10-31
+Injected Version >> NULL
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-427
+Opening Date >> 2012-10-09
+Resolution Date >> 2012-10-23
+Injected Version >> NULL
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-425
+Opening Date >> 2012-10-09
+Resolution Date >> 2012-10-26
+Injected Version >> NULL
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-424
+Opening Date >> 2012-10-07
+Resolution Date >> 2012-10-25
+Injected Version >> 4.0.0
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> [4.0.0, 4.1.0]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-415
+Opening Date >> 2012-10-04
+Resolution Date >> 2012-10-10
+Injected Version >> NULL
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-413
+Opening Date >> 2012-10-01
+Resolution Date >> 2012-10-10
+Injected Version >> NULL
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-408
+Opening Date >> 2012-09-17
+Resolution Date >> 2012-12-13
+Injected Version >> 4.1.0
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> [4.1.0]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-404
+Opening Date >> 2012-09-13
+Resolution Date >> 2012-12-13
+Injected Version >> NULL
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-403
+Opening Date >> 2012-09-13
+Resolution Date >> 2012-09-14
+Injected Version >> NULL
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-397
+Opening Date >> 2012-09-10
+Resolution Date >> 2012-09-26
+Injected Version >> NULL
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-396
+Opening Date >> 2012-09-07
+Resolution Date >> 2012-09-11
+Injected Version >> 4.1.0
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> [4.1.0]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-395
+Opening Date >> 2012-09-06
+Resolution Date >> 2012-09-07
+Injected Version >> NULL
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-392
+Opening Date >> 2012-09-04
+Resolution Date >> 2012-09-13
+Injected Version >> NULL
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-387
+Opening Date >> 2012-09-04
+Resolution Date >> 2012-09-07
+Injected Version >> 4.1.0
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> [4.1.0]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-383
+Opening Date >> 2012-08-27
+Resolution Date >> 2012-09-07
+Injected Version >> 4.1.0
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> [4.1.0]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-382
+Opening Date >> 2012-08-25
+Resolution Date >> 2012-08-27
+Injected Version >> 4.0.0
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> [4.0.0, 4.1.0]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-381
+Opening Date >> 2012-08-25
+Resolution Date >> 2012-08-27
+Injected Version >> NULL
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-377
+Opening Date >> 2012-08-23
+Resolution Date >> 2017-10-09
+Injected Version >> NULL
+Fix Version >> 4.6.0
+Opening Version >> 4.1.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-374
+Opening Date >> 2012-08-19
+Resolution Date >> 2012-08-20
+Injected Version >> NULL
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-372
+Opening Date >> 2012-08-17
+Resolution Date >> 2012-08-17
+Injected Version >> NULL
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-371
+Opening Date >> 2012-08-17
+Resolution Date >> 2012-08-28
+Injected Version >> NULL
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-365
+Opening Date >> 2012-08-14
+Resolution Date >> 2012-12-13
+Injected Version >> 4.0.0
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> [4.0.0, 4.1.0]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-363
+Opening Date >> 2012-08-14
+Resolution Date >> 2014-03-07
+Injected Version >> NULL
+Fix Version >> 4.2.3
+Opening Version >> 4.1.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-355
+Opening Date >> 2012-08-08
+Resolution Date >> 2013-01-07
+Injected Version >> 4.1.0
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> [4.1.0]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-354
+Opening Date >> 2012-08-07
+Resolution Date >> 2012-08-21
+Injected Version >> NULL
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-352
+Opening Date >> 2012-07-26
+Resolution Date >> 2012-07-27
+Injected Version >> NULL
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-351
+Opening Date >> 2012-07-23
+Resolution Date >> 2012-12-03
+Injected Version >> NULL
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-349
+Opening Date >> 2012-07-23
+Resolution Date >> 2012-07-26
+Injected Version >> 4.1.0
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> [4.1.0]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-343
+Opening Date >> 2012-07-16
+Resolution Date >> 2012-08-03
+Injected Version >> 4.1.0
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> [4.1.0]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-338
+Opening Date >> 2012-07-12
+Resolution Date >> 2012-08-17
+Injected Version >> NULL
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-337
+Opening Date >> 2012-07-11
+Resolution Date >> 2012-08-28
+Injected Version >> 4.0.0
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> [4.0.0]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-336
+Opening Date >> 2012-07-10
+Resolution Date >> 2012-12-13
+Injected Version >> 4.1.0
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> [4.1.0]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-330
+Opening Date >> 2012-07-09
+Resolution Date >> 2012-07-26
+Injected Version >> 4.0.0
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> [4.0.0, 4.1.0]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-329
+Opening Date >> 2012-07-09
+Resolution Date >> 2012-07-11
+Injected Version >> 4.0.0
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> [4.0.0, 4.1.0]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-327
+Opening Date >> 2012-07-05
+Resolution Date >> 2012-07-24
+Injected Version >> 4.0.0
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> [4.0.0, 4.1.0]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-326
+Opening Date >> 2012-07-04
+Resolution Date >> 2012-08-13
+Injected Version >> 4.1.0
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> [4.1.0]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-324
+Opening Date >> 2012-07-03
+Resolution Date >> 2012-07-04
+Injected Version >> NULL
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-322
+Opening Date >> 2012-06-27
+Resolution Date >> 2012-06-28
+Injected Version >> NULL
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-307
+Opening Date >> 2012-06-21
+Resolution Date >> 2012-06-27
+Injected Version >> NULL
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-306
+Opening Date >> 2012-06-21
+Resolution Date >> 2012-07-16
+Injected Version >> NULL
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-303
+Opening Date >> 2012-06-20
+Resolution Date >> 2012-06-27
+Injected Version >> NULL
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-302
+Opening Date >> 2012-06-20
+Resolution Date >> 2012-06-28
+Injected Version >> 4.1.0
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> [4.1.0]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-298
+Opening Date >> 2012-06-14
+Resolution Date >> 2012-06-18
+Injected Version >> NULL
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-296
+Opening Date >> 2012-06-14
+Resolution Date >> 2012-08-17
+Injected Version >> 4.0.0
+Fix Version >> 4.1.1
+Opening Version >> 4.1.1
+Affected Versions >> [4.0.0]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-292
+Opening Date >> 2012-06-11
+Resolution Date >> 2012-06-19
+Injected Version >> NULL
+Fix Version >> 4.1.1
+Opening Version >> 4.1.0
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-291
+Opening Date >> 2012-06-11
+Resolution Date >> 2012-12-03
+Injected Version >> NULL
+Fix Version >> 4.1.1
+Opening Version >> 4.1.0
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-288
+Opening Date >> 2012-06-07
+Resolution Date >> 2012-06-07
+Injected Version >> NULL
+Fix Version >> 4.1.0
+Opening Version >> 4.1.0
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-287
+Opening Date >> 2012-06-05
+Resolution Date >> 2012-06-06
+Injected Version >> NULL
+Fix Version >> 4.1.0
+Opening Version >> 4.1.0
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-281
+Opening Date >> 2012-06-01
+Resolution Date >> 2012-06-05
+Injected Version >> NULL
+Fix Version >> 4.1.0
+Opening Version >> 4.1.0
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-280
+Opening Date >> 2012-05-31
+Resolution Date >> 2012-06-29
+Injected Version >> NULL
+Fix Version >> 4.1.1
+Opening Version >> 4.1.0
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-279
+Opening Date >> 2012-05-31
+Resolution Date >> 2012-06-05
+Injected Version >> 4.0.0
+Fix Version >> 4.1.0
+Opening Version >> 4.1.0
+Affected Versions >> [4.0.0]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-274
+Opening Date >> 2012-05-30
+Resolution Date >> 2012-06-12
+Injected Version >> 4.0.0
+Fix Version >> 4.1.0
+Opening Version >> 4.1.0
+Affected Versions >> [4.0.0, 4.1.0]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-260
+Opening Date >> 2012-05-15
+Resolution Date >> 2012-05-25
+Injected Version >> NULL
+Fix Version >> 4.1.0
+Opening Version >> 4.1.0
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-258
+Opening Date >> 2012-05-14
+Resolution Date >> 2012-05-26
+Injected Version >> NULL
+Fix Version >> 4.1.0
+Opening Version >> 4.1.0
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-245
+Opening Date >> 2012-05-09
+Resolution Date >> 2012-05-10
+Injected Version >> NULL
+Fix Version >> 4.1.0
+Opening Version >> 4.1.0
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-242
+Opening Date >> 2012-05-08
+Resolution Date >> 2012-05-09
+Injected Version >> 4.0.0
+Fix Version >> 4.1.0
+Opening Version >> 4.1.0
+Affected Versions >> [4.0.0]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-235
+Opening Date >> 2012-05-03
+Resolution Date >> 2012-05-09
+Injected Version >> NULL
+Fix Version >> 4.1.0
+Opening Version >> 4.1.0
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-233
+Opening Date >> 2012-04-29
+Resolution Date >> 2012-07-26
+Injected Version >> NULL
+Fix Version >> 4.1.1
+Opening Version >> 4.1.0
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-213
+Opening Date >> 2012-04-06
+Resolution Date >> 2012-04-19
+Injected Version >> NULL
+Fix Version >> 4.1.0
+Opening Version >> 4.1.0
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-212
+Opening Date >> 2012-04-06
+Resolution Date >> 2012-04-09
+Injected Version >> NULL
+Fix Version >> 4.1.0
+Opening Version >> 4.1.0
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-211
+Opening Date >> 2012-04-06
+Resolution Date >> 2012-04-10
+Injected Version >> NULL
+Fix Version >> 4.1.0
+Opening Version >> 4.1.0
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-207
+Opening Date >> 2012-04-02
+Resolution Date >> 2012-04-03
+Injected Version >> NULL
+Fix Version >> 4.1.0
+Opening Version >> 4.1.0
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-198
+Opening Date >> 2012-03-30
+Resolution Date >> 2012-03-31
+Injected Version >> NULL
+Fix Version >> 4.1.0
+Opening Version >> 4.1.0
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-195
+Opening Date >> 2012-03-28
+Resolution Date >> 2012-03-28
+Injected Version >> NULL
+Fix Version >> 4.1.0
+Opening Version >> 4.1.0
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-194
+Opening Date >> 2012-03-28
+Resolution Date >> 2012-03-29
+Injected Version >> NULL
+Fix Version >> 4.1.0
+Opening Version >> 4.1.0
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-193
+Opening Date >> 2012-03-26
+Resolution Date >> 2012-03-31
+Injected Version >> NULL
+Fix Version >> 4.1.0
+Opening Version >> 4.1.0
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-190
+Opening Date >> 2012-03-21
+Resolution Date >> 2012-03-29
+Injected Version >> NULL
+Fix Version >> 4.1.0
+Opening Version >> 4.1.0
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-189
+Opening Date >> 2012-03-20
+Resolution Date >> 2012-03-21
+Injected Version >> NULL
+Fix Version >> 4.1.0
+Opening Version >> 4.1.0
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-188
+Opening Date >> 2012-03-20
+Resolution Date >> 2012-03-21
+Injected Version >> NULL
+Fix Version >> 4.1.0
+Opening Version >> 4.1.0
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-186
+Opening Date >> 2012-03-16
+Resolution Date >> 2012-03-19
+Injected Version >> 4.0.0
+Fix Version >> 4.1.0
+Opening Version >> 4.1.0
+Affected Versions >> [4.0.0]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-184
+Opening Date >> 2012-03-13
+Resolution Date >> 2012-03-15
+Injected Version >> NULL
+Fix Version >> 4.1.0
+Opening Version >> 4.1.0
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-182
+Opening Date >> 2012-03-08
+Resolution Date >> 2012-03-16
+Injected Version >> NULL
+Fix Version >> 4.1.0
+Opening Version >> 4.1.0
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-180
+Opening Date >> 2012-03-01
+Resolution Date >> 2012-03-08
+Injected Version >> NULL
+Fix Version >> 4.1.0
+Opening Version >> 4.1.0
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-177
+Opening Date >> 2012-02-23
+Resolution Date >> 2012-02-24
+Injected Version >> NULL
+Fix Version >> 4.1.0
+Opening Version >> 4.1.0
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-176
+Opening Date >> 2012-02-17
+Resolution Date >> 2012-03-01
+Injected Version >> NULL
+Fix Version >> 4.1.0
+Opening Version >> 4.1.0
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-174
+Opening Date >> 2012-02-16
+Resolution Date >> 2012-02-17
+Injected Version >> 4.0.0
+Fix Version >> 4.1.0
+Opening Version >> 4.1.0
+Affected Versions >> [4.0.0]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-173
+Opening Date >> 2012-02-16
+Resolution Date >> 2012-04-20
+Injected Version >> NULL
+Fix Version >> 4.1.0
+Opening Version >> 4.1.0
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-171
+Opening Date >> 2012-02-14
+Resolution Date >> 2012-02-15
+Injected Version >> NULL
+Fix Version >> 4.1.0
+Opening Version >> 4.1.0
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-170
+Opening Date >> 2012-02-14
+Resolution Date >> 2012-02-15
+Injected Version >> NULL
+Fix Version >> 4.1.0
+Opening Version >> 4.1.0
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-169
+Opening Date >> 2012-02-14
+Resolution Date >> 2012-02-17
+Injected Version >> 4.0.0
+Fix Version >> 4.1.0
+Opening Version >> 4.1.0
+Affected Versions >> [4.0.0]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-167
+Opening Date >> 2012-02-08
+Resolution Date >> 2012-02-08
+Injected Version >> 4.0.0
+Fix Version >> 4.1.0
+Opening Version >> 4.1.0
+Affected Versions >> [4.0.0]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-166
+Opening Date >> 2012-02-07
+Resolution Date >> 2012-03-30
+Injected Version >> NULL
+Fix Version >> 4.1.0
+Opening Version >> 4.1.0
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-163
+Opening Date >> 2012-02-07
+Resolution Date >> 2012-03-13
+Injected Version >> 4.0.0
+Fix Version >> 4.1.0
+Opening Version >> 4.1.0
+Affected Versions >> [4.0.0]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-162
+Opening Date >> 2012-02-07
+Resolution Date >> 2012-02-13
+Injected Version >> 4.0.0
+Fix Version >> 4.1.0
+Opening Version >> 4.1.0
+Affected Versions >> [4.0.0]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-161
+Opening Date >> 2012-02-06
+Resolution Date >> 2012-02-07
+Injected Version >> NULL
+Fix Version >> 4.1.0
+Opening Version >> 4.1.0
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-156
+Opening Date >> 2012-01-29
+Resolution Date >> 2012-02-08
+Injected Version >> 4.0.0
+Fix Version >> 4.1.0
+Opening Version >> 4.1.0
+Affected Versions >> [4.0.0]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-153
+Opening Date >> 2012-01-16
+Resolution Date >> 2012-01-18
+Injected Version >> 4.0.0
+Fix Version >> 4.1.0
+Opening Version >> 4.1.0
+Affected Versions >> [4.0.0]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-152
+Opening Date >> 2012-01-11
+Resolution Date >> 2012-02-13
+Injected Version >> 4.0.0
+Fix Version >> 4.1.0
+Opening Version >> 4.1.0
+Affected Versions >> [4.0.0]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-150
+Opening Date >> 2012-01-03
+Resolution Date >> 2012-01-17
+Injected Version >> 4.0.0
+Fix Version >> 4.1.0
+Opening Version >> 4.1.0
+Affected Versions >> [4.0.0]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-148
+Opening Date >> 2012-01-02
+Resolution Date >> 2012-01-11
+Injected Version >> NULL
+Fix Version >> 4.1.0
+Opening Version >> 4.1.0
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-146
+Opening Date >> 2011-12-21
+Resolution Date >> 2012-05-25
+Injected Version >> NULL
+Fix Version >> 4.1.0
+Opening Version >> 4.1.0
+Affected Versions >> []
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+
+Ticket ID >> BOOKKEEPER-142
+Opening Date >> 2011-12-12
+Resolution Date >> 2011-12-16
+Injected Version >> 4.0.0
+Fix Version >> 4.1.0
+Opening Version >> 4.1.0
+Affected Versions >> [4.0.0]
+Fix Commit List >> 
+----------------------------------------------------------------------------------
+

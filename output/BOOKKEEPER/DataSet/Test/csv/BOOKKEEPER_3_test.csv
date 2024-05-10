@@ -111,9 +111,9 @@ Version,ClassName,LinesOfCode,AddedLOC,MaxAddedLOC,AvgAddedLOC,TouchedLOC,Churn,
 4,bookkeeper-server/src/main/java/org/apache/bookkeeper/net/ScriptBasedMapping.java,264,264,264,264.0,264,264,264,264.0,1,1,0,False
 4,bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BKStats.java,248,0,0,0.0,0,0,0,0.0,0,0,0,False
 4,bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieClient.java,286,12,11,6.0,15,9,8,4.5,2,2,0,True
-4,bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieNettyServer.java,185,9,8,4.5,22,6,5,3.0,2,2,0,False
-4,bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.java,194,0,0,0.0,0,0,0,0.0,0,0,0,False
-4,bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtocol.java,346,0,0,0.0,0,0,0,0.0,0,0,0,False
+4,bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieNettyServer.java,185,9,8,4.5,22,6,5,3.0,2,2,0,True
+4,bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtoEncoding.java,194,0,0,0.0,0,0,0,0.0,0,0,0,True
+4,bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieProtocol.java,346,0,0,0.0,0,0,0,0.0,0,0,0,True
 4,bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieRequestHandler.java,309,5,5,5.0,5,5,5,5.0,1,1,0,False
 4,bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieServer.java,363,19,6,3.8,31,13,5,2.6,3,5,2,True
 4,bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BookieServerBean.java,84,0,0,0.0,0,0,0,0.0,0,0,0,False
@@ -237,7 +237,7 @@ Version,ClassName,LinesOfCode,AddedLOC,MaxAddedLOC,AvgAddedLOC,TouchedLOC,Churn,
 4,hedwig-client/src/main/java/org/apache/hedwig/client/netty/VoidCallbackAdapter.java,42,0,0,0.0,0,0,0,0.0,0,0,0,False
 4,hedwig-client/src/main/java/org/apache/hedwig/client/netty/impl/AbstractHChannelManager.java,624,0,0,0.0,0,0,0,0.0,0,0,0,False
 4,hedwig-client/src/main/java/org/apache/hedwig/client/netty/impl/AbstractSubscribeResponseHandler.java,377,0,0,0.0,0,0,0,0.0,0,0,0,False
-4,hedwig-client/src/main/java/org/apache/hedwig/client/netty/impl/ActiveSubscriber.java,382,9,9,9.0,19,1,1,1.0,1,1,1,False
+4,hedwig-client/src/main/java/org/apache/hedwig/client/netty/impl/ActiveSubscriber.java,382,9,9,9.0,19,1,1,1.0,1,1,0,False
 4,hedwig-client/src/main/java/org/apache/hedwig/client/netty/impl/ClientChannelPipelineFactory.java,72,0,0,0.0,0,0,0,0.0,0,0,0,False
 4,hedwig-client/src/main/java/org/apache/hedwig/client/netty/impl/DefaultServerChannel.java,92,0,0,0.0,0,0,0,0.0,0,0,0,False
 4,hedwig-client/src/main/java/org/apache/hedwig/client/netty/impl/HChannelHandler.java,282,0,0,0.0,0,0,0,0.0,0,0,0,False

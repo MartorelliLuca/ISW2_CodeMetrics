@@ -36,14 +36,14 @@ public class RetrievingFlow {
 
         VersionRetriever versionRetriever = new VersionRetriever(projectName) ;
         List<VersionInfo> versionInfoList = versionRetriever.retrieveVersions() ;
-        LogWriter.writeVersionLog(projectName, versionInfoList, "VersionRetrieve");
+        //LogWriter.writeVersionLog(projectName, versionInfoList, "VersionRetrieve");
 
         VersionInfo firstVersion = versionInfoList.get(0) ;
         VersionInfo lastVersion = versionInfoList.get(versionInfoList.size() - 1) ;
 
         CommitRetriever commitRetriever = new CommitRetriever(projectName, git, lastVersion.getVersionDate());
         commitRetriever.retrieveCommitListForAllVersions(versionInfoList);
-        LogWriter.writeVersionLog(projectName, versionInfoList, "CommitForVersionRetrieve");
+        //LogWriter.writeVersionLog(projectName, versionInfoList, "CommitForVersionRetrieve");
 
         TicketRetriever ticketRetriever = new TicketRetriever(projectName);
         List<TicketInfo> ticketInfoList = ticketRetriever.retrieveBugTicket(versionInfoList);

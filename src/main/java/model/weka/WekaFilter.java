@@ -1,7 +1,7 @@
 package model.weka;
 
 
-import java.util.logging.Filter;
+import weka.filters.Filter;
 
 public class WekaFilter {
 

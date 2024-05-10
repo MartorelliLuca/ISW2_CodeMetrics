@@ -512,7 +512,7 @@ Version,ClassName,LinesOfCode,AddedLOC,MaxAddedLOC,AvgAddedLOC,TouchedLOC,Churn,
 2,bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/BookieLedgerIndexer.java,136,139,136,46.333332,145,139,136,46.333332,2,3,1,False
 2,bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationEnableCb.java,56,56,56,56.0,56,56,56,56.0,1,1,0,False
 2,bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationException.java,74,92,74,30.666666,99,85,74,28.333334,2,3,0,False
-2,bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.java,357,534,357,66.75,643,427,357,53.375,1,8,0,True
+2,bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.java,357,534,357,66.75,643,427,357,53.375,1,8,0,False
 2,bookkeeper-server/src/main/java/org/apache/bookkeeper/streaming/LedgerInputStream.java,174,0,0,0.0,0,0,0,0.0,0,0,0,False
 2,bookkeeper-server/src/main/java/org/apache/bookkeeper/streaming/LedgerOutputStream.java,148,0,0,0.0,0,0,0,0.0,0,0,0,False
 2,bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/BookKeeperTools.java,92,0,0,0.0,0,0,0,0.0,0,0,0,False
@@ -692,7 +692,7 @@ Version,ClassName,LinesOfCode,AddedLOC,MaxAddedLOC,AvgAddedLOC,TouchedLOC,Churn,
 2,hedwig-server/src/main/java/org/apache/hedwig/server/regions/HedwigHubSubscriber.java,86,0,0,0.0,0,0,0,0.0,0,0,0,False
 2,hedwig-server/src/main/java/org/apache/hedwig/server/regions/RegionManager.java,355,22,20,11.0,44,0,0,0.0,1,2,0,False
 2,hedwig-server/src/main/java/org/apache/hedwig/server/ssl/SslServerContextFactory.java,53,0,0,0.0,0,0,0,0.0,0,0,0,False
-2,hedwig-server/src/main/java/org/apache/hedwig/server/subscriptions/AbstractSubscriptionManager.java,798,313,94,31.3,440,226,74,22.6,2,10,3,True
+2,hedwig-server/src/main/java/org/apache/hedwig/server/subscriptions/AbstractSubscriptionManager.java,798,313,94,31.3,440,226,74,22.6,2,10,2,True
 2,hedwig-server/src/main/java/org/apache/hedwig/server/subscriptions/AllToAllTopologyFilter.java,75,44,38,22.0,52,36,35,18.0,1,2,0,False
 2,hedwig-server/src/main/java/org/apache/hedwig/server/subscriptions/InMemorySubscriptionManager.java,125,64,20,12.8,81,47,16,9.4,2,5,2,False
 2,hedwig-server/src/main/java/org/apache/hedwig/server/subscriptions/InMemorySubscriptionState.java,200,129,81,21.5,143,115,77,19.166666,2,6,2,False
@@ -820,13 +820,13 @@ Version,ClassName,LinesOfCode,AddedLOC,MaxAddedLOC,AvgAddedLOC,TouchedLOC,Churn,
 3,bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/PerChannelBookieClient.java,691,80,79,26.666666,196,36,33,12.0,2,3,2,False
 3,bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/ResponseBuilder.java,47,59,47,29.5,64,54,47,27.0,2,2,0,False
 3,bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/ServerStats.java,101,0,0,0.0,49,49,49,49.0,1,1,1,False
-3,bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java,510,8,6,4.0,9,7,5,3.5,1,2,2,False
+3,bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/Auditor.java,510,8,6,4.0,9,7,5,3.5,1,2,1,False
 3,bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/AuditorElector.java,328,3,3,3.0,3,3,3,3.0,1,1,1,False
 3,bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/AutoRecoveryMain.java,273,0,0,0.0,0,0,0,0.0,0,0,0,False
 3,bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/BookieLedgerIndexer.java,136,0,0,0.0,0,0,0,0.0,0,0,0,False
 3,bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationEnableCb.java,56,0,0,0.0,0,0,0,0.0,0,0,0,False
 3,bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationException.java,74,0,0,0.0,0,0,0,0.0,0,0,0,False
-3,bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.java,359,2,2,2.0,2,2,2,2.0,1,1,1,False
+3,bookkeeper-server/src/main/java/org/apache/bookkeeper/replication/ReplicationWorker.java,359,2,2,2.0,2,2,2,2.0,1,1,0,False
 3,bookkeeper-server/src/main/java/org/apache/bookkeeper/streaming/LedgerInputStream.java,174,0,0,0.0,0,0,0,0.0,0,0,0,False
 3,bookkeeper-server/src/main/java/org/apache/bookkeeper/streaming/LedgerOutputStream.java,148,0,0,0.0,0,0,0,0.0,0,0,0,False
 3,bookkeeper-server/src/main/java/org/apache/bookkeeper/tools/BookKeeperTools.java,92,0,0,0.0,0,0,0,0.0,0,0,0,False

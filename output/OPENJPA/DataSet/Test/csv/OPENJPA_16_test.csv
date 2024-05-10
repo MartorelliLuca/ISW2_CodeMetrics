@@ -317,7 +317,7 @@ Version,ClassName,LinesOfCode,AddedLOC,MaxAddedLOC,AvgAddedLOC,TouchedLOC,Churn,
 17,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/AccessDictionary.java,84,0,0,0.0,0,0,0,0.0,0,0,0,False
 17,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/CacheDictionary.java,45,0,0,0.0,0,0,0,0.0,0,0,0,False
 17,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/Calendard.java,38,0,0,0.0,0,0,0,0.0,0,0,0,False
-17,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/DB2Dictionary.java,1041,16,11,8.0,19,13,10,6.5,2,2,1,True
+17,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/DB2Dictionary.java,1041,16,11,8.0,19,13,10,6.5,2,2,0,True
 17,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/DBDictionary.java,5397,0,0,0.0,0,0,0,0.0,0,0,0,True
 17,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/DBDictionaryFactory.java,661,0,0,0.0,0,0,0,0.0,0,0,0,False
 17,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/DerbyDictionary.java,155,0,0,0.0,0,0,0,0.0,0,0,0,True
@@ -599,7 +599,7 @@ Version,ClassName,LinesOfCode,AddedLOC,MaxAddedLOC,AvgAddedLOC,TouchedLOC,Churn,
 17,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/StateManagerImpl.java,3388,0,0,0.0,0,0,0,0.0,0,0,0,True
 17,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/StoreContext.java,503,12,12,12.0,14,10,10,10.0,1,1,0,True
 17,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/StoreManager.java,434,8,8,8.0,8,8,8,8.0,1,1,0,False
-17,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/StoreQuery.java,366,0,0,0.0,0,0,0,0.0,0,0,0,True
+17,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/StoreQuery.java,366,0,0,0.0,0,0,0,0.0,0,0,0,False
 17,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/TCleanState.java,67,0,0,0.0,0,0,0,0.0,0,0,0,False
 17,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/TDirtyState.java,78,0,0,0.0,0,0,0,0.0,0,0,0,False
 17,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/TLoadedState.java,45,0,0,0.0,0,0,0,0.0,0,0,0,False
@@ -938,7 +938,7 @@ Version,ClassName,LinesOfCode,AddedLOC,MaxAddedLOC,AvgAddedLOC,TouchedLOC,Churn,
 17,openjpa-lib/src/main/java/org/apache/openjpa/lib/util/J2DoPrivHelper.java,1215,0,0,0.0,0,0,0,0.0,0,0,0,True
 17,openjpa-lib/src/main/java/org/apache/openjpa/lib/util/JavaVersions.java,263,0,0,0.0,0,0,0,0.0,0,0,0,True
 17,openjpa-lib/src/main/java/org/apache/openjpa/lib/util/LRUMap.java,95,0,0,0.0,0,0,0,0.0,0,0,0,False
-17,openjpa-lib/src/main/java/org/apache/openjpa/lib/util/Localizer.java,302,0,0,0.0,0,0,0,0.0,0,0,0,True
+17,openjpa-lib/src/main/java/org/apache/openjpa/lib/util/Localizer.java,302,0,0,0.0,0,0,0,0.0,0,0,0,False
 17,openjpa-lib/src/main/java/org/apache/openjpa/lib/util/MultiClassLoader.java,279,0,0,0.0,0,0,0,0.0,0,0,0,False
 17,openjpa-lib/src/main/java/org/apache/openjpa/lib/util/Options.java,642,0,0,0.0,0,0,0,0.0,0,0,0,False
 17,openjpa-lib/src/main/java/org/apache/openjpa/lib/util/OrderedMap.java,120,0,0,0.0,0,0,0,0.0,0,0,0,False
@@ -1156,8 +1156,8 @@ Version,ClassName,LinesOfCode,AddedLOC,MaxAddedLOC,AvgAddedLOC,TouchedLOC,Churn,
 17,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/criteria/SelectionImpl.java,150,0,0,0.0,0,0,0,0.0,0,0,0,False
 17,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/criteria/SubqueryImpl.java,371,0,0,0.0,0,0,0,0.0,0,0,0,False
 17,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/meta/AbstractManagedType.java,1048,0,0,0.0,0,0,0,0.0,0,0,0,True
-17,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/meta/AnnotationProcessor6.java,378,92,35,15.333333,309,187,155,31.166666,1,6,4,True
-17,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/meta/CompileTimeLogger.java,91,2,2,2.0,6,2,2,2.0,1,1,1,True
+17,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/meta/AnnotationProcessor6.java,378,92,35,15.333333,309,187,155,31.166666,1,6,0,True
+17,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/meta/CompileTimeLogger.java,91,2,2,2.0,6,2,2,2.0,1,1,0,False
 17,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/meta/Members.java,348,4,4,4.0,4,4,4,4.0,1,1,0,False
 17,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/meta/MetadataProcessor.java,83,0,0,0.0,0,0,0,0.0,0,0,0,False
 17,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/meta/MetamodelImpl.java,425,0,0,0.0,0,0,0,0.0,0,0,0,False
