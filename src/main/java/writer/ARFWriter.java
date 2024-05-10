@@ -1,8 +1,8 @@
 package writer;
 
 
-import model.ClassInfo;
-import model.VersionInfo;
+import model.retrieve.ClassInfo;
+import model.retrieve.VersionInfo;
 import utils.PathBuilder;
 
 import java.io.*;
@@ -42,9 +42,6 @@ public class ARFWriter {
         try(Writer writer = new BufferedWriter(new FileWriter(arfFile))) {
             writeHeader(writer, training, index);
             writeData(writer, versionInfoList) ;
-            for (VersionInfo versionInfo : versionInfoList) {
-                writeVersionInfo(writer, versionInfo);
-            }
         }
     }
 
@@ -87,7 +84,7 @@ public class ARFWriter {
                 + SEPARATOR
                 + classInfo.getNumberDefectsFixed()
                 + SEPARATOR
-                + (classInfo.isBuggy() ? "True" : "False") ;
+                + (classInfo.isBuggy() ? "'True'" : "'False'") ;
     }
 
     private void writeHeader(Writer writer, boolean training, Integer index) throws IOException {
@@ -104,7 +101,7 @@ public class ARFWriter {
         for (int i = 0 ; i < ATTRIBUTES.length - 1; i++) {
             headerBuilder.append("@attribute ").append(ATTRIBUTES[i]).append(" numeric").append("\n") ;
         }
-        headerBuilder.append("@attribute ").append(ATTRIBUTES[ATTRIBUTES.length - 1]).append(" {True, False}").append("\n\n") ;
+        headerBuilder.append("@attribute ").append(ATTRIBUTES[ATTRIBUTES.length - 1]).append(" {'True', 'False'}").append("\n\n") ;
 
         writer.write(headerBuilder.toString());
     }

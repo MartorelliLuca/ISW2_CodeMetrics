@@ -1,7 +1,7 @@
 package computer;
 
-import model.TicketInfo;
-import model.VersionInfo;
+import model.retrieve.TicketInfo;
+import model.retrieve.VersionInfo;
 
 import java.io.IOException;
 import java.net.URISyntaxException;
@@ -14,7 +14,10 @@ public class VersionsFixer {
 
     private final ProportionComputer proportionComputer ;
 
-    public VersionsFixer() {
+    private final String projectName ;
+
+    public VersionsFixer(String projectName) {
+            this.projectName = projectName ;
         this.proportionComputer = new ProportionComputer() ;
     }
 

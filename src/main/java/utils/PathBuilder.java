@@ -6,10 +6,19 @@ public class PathBuilder {
 
     private PathBuilder() {}
 
+    private static Path buildParentDirectoryPath(String projectName) {
+        return Path.of("./output", projectName.toUpperCase()) ;
+    }
+
+    public static Path buildLogPath(String projectName) {
+        return Path.of(buildParentDirectoryPath(projectName).toString(), "Log") ;
+    }
+
     public static Path buildDataSetDirectoryPath(String projectName, boolean isTraining, boolean isCsv) {
         String typePart = isTraining ? "Train" : "Test" ;
         String formatPart = isCsv ? "csv" : "arff" ;
-        return Path.of("./output", projectName.toUpperCase(), "DataSet", typePart, formatPart) ;
+        Path parentDirectory = buildParentDirectoryPath(projectName) ;
+        return Path.of(parentDirectory.toString(), "DataSet", typePart, formatPart) ;
     }
 
     public static Path buildDataSetFilePath(String projectName, boolean isTraining, boolean isCsv, int index) {
@@ -26,5 +35,16 @@ public class PathBuilder {
     public static Path buildTestingDataSetPath(String projectName, int index) {
         return buildDataSetFilePath(projectName, false, false, index) ;
     }
+
+
+    public static Path buildEvaluationDirectoryPath(String projectName) {
+        Path parentDirectory = buildParentDirectoryPath(projectName) ;
+        return Path.of(parentDirectory.toString(), "Evaluation") ;
+    }
+
+    public static Path buildEvaluationFilePath(String projectName) {
+        return  Path.of(buildEvaluationDirectoryPath(projectName).toString(), projectName.toUpperCase() + "_Evaluation.csv") ;
+    }
+
 
 }

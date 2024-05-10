@@ -14,6 +14,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -62,6 +63,7 @@
       <recent name="$PROJECT_DIR$/.idea" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="model.weka" />
       <recent name="main" />
       <recent name="retriever" />
       <recent name="model" />
@@ -118,7 +120,7 @@
       <workItem from="1715263147177" duration="1032000" />
       <workItem from="1715321573218" duration="15308000" />
       <workItem from="1715374714649" duration="539000" />
-      <workItem from="1715375333235" duration="1397000" />
+      <workItem from="1715375333235" duration="5014000" />
     </task>
     <servers />
   </component>

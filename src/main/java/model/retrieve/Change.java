@@ -1,4 +1,4 @@
-package model;
+package model.retrieve;
 
 public class Change {
 

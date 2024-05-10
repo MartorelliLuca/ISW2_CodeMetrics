@@ -1,7 +1,7 @@
 package retriever;
 
-import model.ClassInfo;
-import model.VersionInfo;
+import model.retrieve.ClassInfo;
+import model.retrieve.VersionInfo;
 import org.eclipse.jgit.diff.DiffEntry;
 import org.eclipse.jgit.diff.DiffFormatter;
 import org.eclipse.jgit.diff.RawTextComparator;
@@ -35,13 +35,6 @@ public class ClassesRetriever {
             versionInfo.setClassInfoList(classInfoList);
             retrieveChangingCommitsForAllClasses(versionInfo) ;
         }
-
-        StringBuilder stringBuilder = new StringBuilder() ;
-        stringBuilder.append("Numero di Classi per Versioni").append("\n") ;
-        for (VersionInfo versionInfo : versionInfoList) {
-            stringBuilder.append(versionInfo.getVersionName()).append(" >> ").append(versionInfo.getClassInfoList().size()).append("\n") ;
-        }
-        Logger.getGlobal().log(Level.INFO, "{0}", stringBuilder) ;
     }
 
     private void retrieveChangingCommitsForAllClasses(VersionInfo versionInfo) throws IOException {

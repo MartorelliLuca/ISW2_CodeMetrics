@@ -1,9 +1,8 @@
-package model;
+package model.retrieve;
 
 import java.time.LocalDate;
 import java.util.List;
 
-import org.eclipse.jgit.lib.Ref;
 import org.eclipse.jgit.revwalk.RevCommit;
 
 public class VersionInfo {

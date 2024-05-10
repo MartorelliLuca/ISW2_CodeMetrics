@@ -1,6 +1,6 @@
 package retriever;
 
-import model.VersionInfo;
+import model.retrieve.VersionInfo;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
@@ -25,6 +25,7 @@ public class VersionRetriever {
     }
 
     public List<VersionInfo> retrieveVersions() throws URISyntaxException, IOException {
+        Logger.getGlobal().log(Level.INFO, "{0}", "Recupero Versioni per " + projectName.toUpperCase());
         //This method retrieves version information from the URL and converts it into a list of VersionInfo objects.
         String urlString = "https://issues.apache.org/jira/rest/api/2/project/" + projectName.toUpperCase();
         URI uri = new URI(urlString);
@@ -42,10 +43,6 @@ public class VersionRetriever {
             versionInfoList.get(i).setReleaseNumber(i);
         }
 
-        StringBuilder stringBuilder = new StringBuilder() ;
-        stringBuilder.append("Numero Versioni Per ").append(projectName.toUpperCase()).append(" >> ").append(versionInfoList.size()).append("\n") ;
-        Logger.getGlobal().log(Level.INFO, "{0}", stringBuilder);
-
         return versionInfoList ;
     }
 
@@ -60,9 +57,6 @@ public class VersionRetriever {
         }
         return versionInfoList ;
     }
-
-
-    //TODO Prendere solo versioni che hanno released = true ??
 
     private VersionInfo parseVersionInfo(JSONObject vesionJsonObject) {
         // Assumiamo valide solo le relaese che hanno released = true.

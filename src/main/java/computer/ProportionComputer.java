@@ -2,8 +2,8 @@ package computer;
 
 
 import enums.ProjectEnum;
-import model.TicketInfo;
-import model.VersionInfo;
+import model.retrieve.TicketInfo;
+import model.retrieve.VersionInfo;
 import retriever.TicketRetriever;
 import retriever.VersionRetriever;
 
@@ -19,7 +19,8 @@ public class ProportionComputer {
     private static final int THRESHOLD = 5;
 
     private final ArrayList<TicketInfo> proportionTicketList ;
-    private Float coldStartProportion ;
+    private Float coldStartProportion;
+    private List<Float> coldStartArray ;
 
     public ProportionComputer() {
         this.proportionTicketList = new ArrayList<>() ;
@@ -83,12 +84,9 @@ public class ProportionComputer {
             Float secondValue = projectsProportionList.get((projectsProportionList.size()) / 2) ;
             coldStartValue = (0.5f) * (firstValue + secondValue) ;
         }
-        StringBuilder stringBuilder = new StringBuilder() ;
-        stringBuilder.append("\n").append("Array per ColdStart Proportion >> ").append(projectsProportionList).append("\n") ;
-        stringBuilder.append("Cold Start Value >> ").append(coldStartValue).append("\n") ;
-        Logger.getGlobal().log(Level.INFO, "{0}", stringBuilder);
 
         this.coldStartProportion = coldStartValue ;
+        this.coldStartArray = projectsProportionList ;
         return this.coldStartProportion;
     }
 
@@ -129,4 +127,13 @@ public class ProportionComputer {
         // TODO AGGIUNGERE CONDIZIONE DI RIMOZIONE OPENING != FIX ?? SE TOGLI AGGIUNGI CONTROLLI DENOMINATORE DIVERSO DA ZERO
         return !ticketInfo.getOpeningVersion().getReleaseNumber().equals(ticketInfo.getFixVersion().getReleaseNumber()) && ticketInfo.getInjectedVersion() != null;
     }
+
+    public float getColdStartProportionValue() {
+        return this.coldStartProportion ;
+    }
+
+    public List<Float> getColdStartArray() {
+        return this.coldStartArray ;
+    }
+
 }

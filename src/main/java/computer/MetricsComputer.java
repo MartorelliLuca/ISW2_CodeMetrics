@@ -1,9 +1,9 @@
 package computer;
 
-import model.Change;
-import model.ClassInfo;
-import model.TicketInfo;
-import model.VersionInfo;
+import model.retrieve.Change;
+import model.retrieve.ClassInfo;
+import model.retrieve.TicketInfo;
+import model.retrieve.VersionInfo;
 import org.eclipse.jgit.api.Git;
 import org.eclipse.jgit.diff.DiffEntry;
 import org.eclipse.jgit.diff.DiffFormatter;

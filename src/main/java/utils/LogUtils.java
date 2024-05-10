@@ -1,8 +1,8 @@
 package utils;
 
 
-import model.TicketInfo;
-import model.VersionInfo;
+import model.retrieve.TicketInfo;
+import model.retrieve.VersionInfo;
 
 import java.util.List;
 import java.util.logging.Level;

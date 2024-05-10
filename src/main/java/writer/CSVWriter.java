@@ -1,22 +1,21 @@
 package writer;
 
-import model.ClassInfo;
-import model.VersionInfo;
+import model.retrieve.ClassInfo;
+import model.retrieve.VersionInfo;
+import utils.CSVUtils;
 import utils.PathBuilder;
 
 import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.List;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 public class CSVWriter {
 
     private static final String SEPARATOR = "," ;
     private final String projectName ;
 
-    private static final String[] HEADER_STRING = {
+    private static final String[] HEADER_ARRAY = {
             "Version",     //
             "ClassName",   //Nome della classe.
             "LinesOfCode", //Indica il numero totale di linee di codice in un determinato progetto o file, e quanto il codice è stato modificato nel tempo.
@@ -43,24 +42,11 @@ public class CSVWriter {
 
         File csvFile = new File(outputPath.toString()) ;
         try(Writer writer = new BufferedWriter(new FileWriter(csvFile))) {
-            writeHeader(writer);
+            CSVUtils.writeHeader(writer, HEADER_ARRAY, SEPARATOR);
             for (VersionInfo versionInfo : versionInfoList) {
                 writeVersionInfo(writer, versionInfo);
             }
         }
-    }
-
-    private void writeHeader(Writer writer) throws IOException {
-        StringBuilder stringBuilder = new StringBuilder() ;
-        for (int i = 0 ; i < HEADER_STRING.length ; i++) {
-            stringBuilder.append(HEADER_STRING[i]) ;
-            if (i != HEADER_STRING.length - 1) {
-                stringBuilder.append(SEPARATOR) ;
-            }
-        }
-        stringBuilder.append("\n") ;
-
-        writer.write(stringBuilder.toString());
     }
 
     private void writeVersionInfo(Writer writer, VersionInfo versionInfo) throws IOException {

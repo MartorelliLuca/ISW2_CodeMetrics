@@ -1,4 +1,4 @@
-package model;
+package model.retrieve;
 
 import org.eclipse.jgit.revwalk.RevCommit;
 

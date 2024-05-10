@@ -3,8 +3,8 @@ package main;
 import computer.BuggyClassesComputer;
 import computer.MetricsComputer;
 import computer.VersionsFixer;
-import model.TicketInfo;
-import model.VersionInfo;
+import model.retrieve.TicketInfo;
+import model.retrieve.VersionInfo;
 import org.eclipse.jgit.api.Git;
 import org.eclipse.jgit.api.errors.GitAPIException;
 import org.eclipse.jgit.lib.Repository;
@@ -13,6 +13,7 @@ import retriever.ClassesRetriever;
 import retriever.CommitRetriever;
 import retriever.TicketRetriever;
 import retriever.VersionRetriever;
+import utils.LogWriter;
 import writer.ARFWriter;
 import writer.CSVWriter;
 
@@ -22,17 +23,7 @@ import java.net.URISyntaxException;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.eclipse.jgit.api.Git;
-import org.eclipse.jgit.api.errors.GitAPIException;
-import org.eclipse.jgit.lib.Repository;
-import org.eclipse.jgit.storage.file.FileRepositoryBuilder;
-
-import java.io.File;
-import java.io.IOException;
-import java.net.URISyntaxException;
 import java.nio.file.Path;
-import java.util.ArrayList;
-import java.util.List;
 
 public class RetrievingFlow {
 
@@ -45,23 +36,29 @@ public class RetrievingFlow {
 
         VersionRetriever versionRetriever = new VersionRetriever(projectName) ;
         List<VersionInfo> versionInfoList = versionRetriever.retrieveVersions() ;
+        LogWriter.writeVersionLog(projectName, versionInfoList, "VersionRetrieve");
 
         VersionInfo firstVersion = versionInfoList.get(0) ;
         VersionInfo lastVersion = versionInfoList.get(versionInfoList.size() - 1) ;
 
-        CommitRetriever commitRetriever = new CommitRetriever(projectName, git, lastVersion.getVersionDate()) ;
-        commitRetriever.retrieveCommitListForAllVersions(versionInfoList) ;
+        CommitRetriever commitRetriever = new CommitRetriever(projectName, git, lastVersion.getVersionDate());
+        commitRetriever.retrieveCommitListForAllVersions(versionInfoList);
+        LogWriter.writeVersionLog(projectName, versionInfoList, "CommitForVersionRetrieve");
 
-        TicketRetriever ticketRetriever = new TicketRetriever(projectName) ;
-        List<TicketInfo> ticketInfoList = ticketRetriever.retrieveBugTicket(versionInfoList) ;
+        TicketRetriever ticketRetriever = new TicketRetriever(projectName);
+        List<TicketInfo> ticketInfoList = ticketRetriever.retrieveBugTicket(versionInfoList);
+        LogWriter.writeTicketLog(projectName, ticketInfoList, "TicketRetrieve");
 
-        VersionsFixer versionsFixer = new VersionsFixer() ;
+        VersionsFixer versionsFixer = new VersionsFixer(projectName) ;
         versionsFixer.fixInjectedAndAffectedVersions(ticketInfoList, versionInfoList);
+        LogWriter.writeTicketLog(projectName, ticketInfoList, "TicketVersionFix");
 
         ClassesRetriever classesRetriever = new ClassesRetriever(projectName, repo) ;
         classesRetriever.retrieveClassesForAllVersions(versionInfoList);
+        LogWriter.writeVersionLog(projectName, versionInfoList, "ClassesRetrieve");
 
         commitRetriever.retrieveFixCommitListForAllTickets(ticketInfoList, firstVersion, lastVersion) ;
+        LogWriter.writeTicketLog(projectName, ticketInfoList, "FixCommitRetrieve");
 
         MetricsComputer metricsComputer = new MetricsComputer(projectName, repo, git) ;
         metricsComputer.computeMetrics(versionInfoList, ticketInfoList);
@@ -86,7 +83,7 @@ public class RetrievingFlow {
             csvWriter.writeInfoAsCSV(List.of(versionInfoList.get(index + 1)), index, false);
             arfWriter.writeInfoAsARF(List.of(versionInfoList.get(index + 1)), index, false);
         }
-
+        LogWriter.writeBuggyClassesLog(projectName, versionInfoList);
     }
 
     private static void buildTrainingSets(String projectName, List<VersionInfo> versionInfoList, List<TicketInfo> ticketInfoList, Repository repo, Git git) throws IOException, GitAPIException {

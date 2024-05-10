@@ -1,8 +1,8 @@
 package retriever;
 
 import builder.URLBuilder;
-import model.TicketInfo;
-import model.VersionInfo;
+import model.retrieve.TicketInfo;
+import model.retrieve.VersionInfo;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import java.io.IOException;
@@ -24,15 +24,11 @@ public class TicketRetriever {
     }
 
     public List<TicketInfo> retrieveBugTicket(List<VersionInfo> versionInfoList) throws IOException, URISyntaxException {
-
+        Logger.getGlobal().log(Level.INFO, "{0}", "Recupero Ticket Buggy per " + projectName.toUpperCase());
         List<TicketInfo> ticketInfoList = retrieveFromJson(versionInfoList) ;
 
         VersionInfo firstVersion = versionInfoList.get(0) ;
         ticketInfoList.removeIf(ticketInfo -> !hasValidVersions(ticketInfo, firstVersion.getVersionDate())) ;
-
-        StringBuilder stringBuilder = new StringBuilder() ;
-        stringBuilder.append("Ticket Filtrati per ").append(projectName.toUpperCase()).append(" >> ").append(ticketInfoList.size()).append("\n") ;
-        Logger.getGlobal().log(Level.INFO, "{0}", stringBuilder);
 
         return ticketInfoList ;
     }
@@ -62,10 +58,6 @@ public class TicketRetriever {
             issuesNumber = jsonIssueArray.length() ;
             startPoint = startPoint + maxAmount ;
         } while (issuesNumber != 0) ;
-
-        StringBuilder stringBuilder = new StringBuilder() ;
-        stringBuilder.append("Ticket Totali per ").append(projectName.toUpperCase()).append(" >> ").append(ticketInfoList.size()).append("\n") ;
-        Logger.getGlobal().log(Level.INFO, "{0}", stringBuilder);
 
         return ticketInfoList ;
     }
