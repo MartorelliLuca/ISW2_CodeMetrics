@@ -114,6 +114,11 @@ public class CommitRetriever {
             versionInfo.setVersionCommitList(revCommits);
         }
 
+        versionInfoList.removeIf(versionInfo -> versionInfo.getVersionCommitList().isEmpty()) ;
+        for (int i = 0 ; i < versionInfoList.size() ; i++) {
+            versionInfoList.get(i).setReleaseNumber(i);
+        }
+
         StringBuilder stringBuilder = new StringBuilder() ;
         stringBuilder.append("\n").append("Commit Totali >> ").append(this.commitList.size()) ;
         stringBuilder.append("\n").append("Commit Per Versione").append("\n") ;

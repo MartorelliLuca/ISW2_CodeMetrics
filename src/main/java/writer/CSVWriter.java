@@ -3,10 +3,9 @@ package writer;
 import model.ClassInfo;
 import model.VersionInfo;
 
-import java.io.BufferedWriter;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.Writer;
+import java.io.*;
+import java.nio.file.Files;
+import java.nio.file.Path;
 import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -14,7 +13,9 @@ import java.util.logging.Logger;
 public class CSVWriter {
 
     private static final String SEPARATOR = "," ;
-    private final String outputPath ;
+    private final String projectName ;
+    private final Path testPath ;
+    private final Path trainPath;
 
     private static final String[] HEADER_STRING = {
             "Version",     //
@@ -32,14 +33,26 @@ public class CSVWriter {
             "NumberOfDefectsFixed",
             "Buggy"} ;
 
-    public CSVWriter(String projectName) {
-        this.outputPath = projectName + ".csv" ;
-    }
+    public CSVWriter(String projectName) throws IOException {
+        this.projectName = projectName ;
+        this.trainPath = Path.of(projectName.toUpperCase(), "CSV", "Train");
+        this.testPath = Path.of(projectName.toUpperCase(), "CSV", "Test");
 
-    public void writeAllVersionInfo(List<VersionInfo> versionInfoList) throws IOException {
-        Logger.getGlobal().log(Level.INFO, "Scrittura CSV\n");
+        Files.createDirectories(trainPath);
+        Files.createDirectories(testPath);
+        }
 
-        try(Writer writer = new BufferedWriter(new FileWriter(outputPath))) {
+    public void writeInfoAsCSV(List<VersionInfo> versionInfoList, Integer index, boolean training) throws IOException {
+        Path outputPath ;
+        if (training) {
+            outputPath = Path.of(trainPath.toString(), projectName.toUpperCase() + "_" + index + "_training.csv") ;
+        }
+        else {
+            outputPath = Path.of(testPath.toString(), projectName.toUpperCase() + "_" + index + "_testing.csv") ;
+        }
+
+        File csvFile = new File(outputPath.toString()) ;
+        try(Writer writer = new BufferedWriter(new FileWriter(csvFile))) {
             writeHeader(writer);
             for (VersionInfo versionInfo : versionInfoList) {
                 writeVersionInfo(writer, versionInfo);

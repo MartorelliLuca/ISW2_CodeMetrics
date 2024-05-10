@@ -1,5 +1,5 @@
-/bookkeeper.csv
-/openjpa.csv
+.BOOKKEEPER/
+.OPENJPA/
 
 # Default ignored files
 /shelf/

@@ -66,16 +66,13 @@ public class VersionRetriever {
 
     private VersionInfo parseVersionInfo(JSONObject vesionJsonObject) {
         // Assumiamo valide solo le relaese che hanno released = true.
-        if (vesionJsonObject.has("releaseDate") && vesionJsonObject.has("name") && vesionJsonObject.has("id") && vesionJsonObject.has("released")) {
+        if (vesionJsonObject.has("releaseDate") && vesionJsonObject.has("name") && vesionJsonObject.has("id")) {
             String versionName = vesionJsonObject.get("name").toString();
             String dateString = vesionJsonObject.get("releaseDate").toString();
             String versionId = vesionJsonObject.get("id").toString();
-            boolean released = (vesionJsonObject.get("released").toString().compareTo("true") == 0) ;
-            LocalDate versionDate = LocalDate.parse(dateString) ;
 
-            if (released) {
-                return new VersionInfo(versionName, versionDate, versionId);
-            }
+            LocalDate versionDate = LocalDate.parse(dateString) ;
+            return new VersionInfo(versionName, versionDate, versionId);
         }
         return null ;
     }

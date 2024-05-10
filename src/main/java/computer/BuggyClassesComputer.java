@@ -55,7 +55,7 @@ public class BuggyClassesComputer {
         }
         Logger.getGlobal().log(Level.INFO, "{0}", stringBuilder);
     }
-
+    //TODO : rimuovere metodo e usare quello di Utils
     private List<String> computeBuggyClassesByTicket(TicketInfo ticketInfo) throws IOException, GitAPIException {
         List<String> buggyClasses = new ArrayList<>() ;
 
