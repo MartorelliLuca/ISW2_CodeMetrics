@@ -195,7 +195,7 @@ public class WekaClassifierListBuilder {
     }
 
     private CostMatrix buildCostMatrix(double costFalsePositive, double costFalseNegative) {
-        // TODO ricontrolla matrice
+        // ricontrolla matrice
         CostMatrix costMatrix = new CostMatrix(2) ;
         costMatrix.setCell(0,0,0.0);
         costMatrix.setCell(1,1,0.0);

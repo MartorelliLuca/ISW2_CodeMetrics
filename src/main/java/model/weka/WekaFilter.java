@@ -13,7 +13,6 @@ public class WekaFilter {
 
     public WekaFilter(Filter filter, String searchMethod, String directionString) {
         this.filter = filter ;
-        this.filterName = filterName ;
         this.searchMethod = searchMethod ;
         this.directionString = directionString ;
     }

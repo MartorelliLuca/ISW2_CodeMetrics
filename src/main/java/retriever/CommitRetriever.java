@@ -58,7 +58,7 @@ public class CommitRetriever {
         Pattern pattern = Pattern.compile(ticketInfo.getTicketId() + "\\b");
         for (RevCommit commit : this.commitList) {
             LocalDate commitDate = DateUtils.dateToLocalDate(commit.getCommitterIdent().getWhen());
-            // TODO Aggiungere condizione per cui il commit non può essere successivo alla resolution date del ticket ??
+            // Aggiungere condizione per cui il commit non può essere successivo alla resolution date del ticket ??
             boolean doesMatch = commitMatchesTicket(commit, pattern) ;
             boolean compliantVersionDates = lastVersion.getVersionDate().isAfter(commitDate) && firstVersion.getVersionDate().isBefore(commitDate);
             boolean compliantTicketDates = !commitDate.isBefore(ticketInfo.getCreateDate()) && !commitDate.isAfter(ticketInfo.getResolutionDate()) ;

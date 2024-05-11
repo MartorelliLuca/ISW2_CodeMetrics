@@ -48,7 +48,7 @@ public class ProportionComputer {
     }
 
     private Float computeIncrementalProportion(List<TicketInfo> proportionTicketList) {
-        // TODO Ragionare su impatto su precision e recall calcolando proportion in questo modo
+        //Ragionare su impatto su precision e recall calcolando proportion in questo modo
         float incrementProportion = 0f ;
         int size = proportionTicketList.size() ;
         for (TicketInfo ticketInfo : proportionTicketList) {

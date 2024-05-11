@@ -53,7 +53,7 @@ public class BuggyClassesComputer {
         }
         Logger.getGlobal().log(Level.INFO, "{0}", stringBuilder);
     }
-    //TODO : rimuovere metodo e unirlo con quello di MetricsComputer ??
+    //rimuovere metodo e unirlo con quello di MetricsComputer ??
     private List<String> computeBuggyClassesByTicket(TicketInfo ticketInfo) throws IOException, GitAPIException {
         List<String> buggyClasses = new ArrayList<>() ;
 
