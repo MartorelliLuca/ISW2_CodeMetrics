@@ -9,7 +9,7 @@ import java.util.List;
 
 public class CSVWriter {
 
-    private final static String SEPARATOR = "," ;
+    private static final String SEPARATOR = "," ;
 
     public void writeCSV(Path filePath, List<String> headerArray, List<List<String>> lineInfoArray) throws IOException {
         Writer writer = new BufferedWriter(new FileWriter(filePath.toString())) ;

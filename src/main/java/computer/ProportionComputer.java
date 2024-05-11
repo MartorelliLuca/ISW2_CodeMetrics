@@ -12,8 +12,6 @@ import java.net.URISyntaxException;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 public class ProportionComputer {
     private static final int THRESHOLD = 5;

@@ -131,7 +131,7 @@ public class DataSetWriter {
 
 
     private List<String> buildClassInfoAsArray(ClassInfo classInfo) {
-        List<String> classArray = new ArrayList<>(List.of(
+        return new ArrayList<>(List.of(
                 Float.toString(classInfo.getLoc()),
                 Float.toString(classInfo.getAddedLoc()),
                 Float.toString(classInfo.getMaxAddedLoc()),
@@ -153,7 +153,5 @@ public class DataSetWriter {
                 Integer.toString(classInfo.getNumberDefectsFixed()),
                 (classInfo.isBuggy() ? "True" : "False")
         ));
-        return classArray ;
     }
-
 }

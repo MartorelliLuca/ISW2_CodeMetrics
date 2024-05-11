@@ -1,4 +1,4 @@
-package main;
+package flows;
 
 import computer.BuggyClassesComputer;
 import computer.MetricsComputer;
@@ -71,17 +71,12 @@ public class RetrievingFlow {
     }
 
     private static void buildTestingSets(String projectName, List<VersionInfo> versionInfoList, List<TicketInfo> ticketInfoList, Repository repo, Git git) throws IOException, GitAPIException {
-        //CSVWriter csvWriter = new CSVWriter(projectName) ;
-        //ARFWriter arfWriter = new ARFWriter(projectName) ;
-
         BuggyClassesComputer buggyClassesComputer = new BuggyClassesComputer(projectName, repo, git) ;
         buggyClassesComputer.computeBuggyClassesForAllVersions(ticketInfoList, versionInfoList);
 
         DataSetWriter dataSetWriter = new DataSetWriter(projectName) ;
 
         for (int index = 0 ; index < versionInfoList.size() / 2 ; index++) {
-            //csvWriter.writeInfoAsCSV(List.of(versionInfoList.get(index + 1)), index, false);
-            //arfWriter.writeInfoAsARF(List.of(versionInfoList.get(index + 1)), index, false);
             dataSetWriter.writeDataSet(List.of(versionInfoList.get(index + 1)), index, false);
         }
 
@@ -90,8 +85,6 @@ public class RetrievingFlow {
     }
 
     private static void buildTrainingSets(String projectName, List<VersionInfo> versionInfoList, List<TicketInfo> ticketInfoList, Repository repo, Git git) throws IOException, GitAPIException {
-        //CSVWriter csvWriter = new CSVWriter(projectName) ;
-        //ARFWriter arfWriter = new ARFWriter(projectName) ;
         DataSetWriter dataSetWriter = new DataSetWriter(projectName) ;
         BuggyClassesComputer buggyClassesComputer = new BuggyClassesComputer(projectName, repo, git) ;
 
@@ -103,9 +96,6 @@ public class RetrievingFlow {
             trainingTicketList.removeIf(ticketInfo -> ticketInfo.getResolutionDate().isAfter(lastVersion.getVersionDate())) ;
 
             buggyClassesComputer.computeBuggyClassesForAllVersions(trainingTicketList, trainingVersionList);
-
-            //csvWriter.writeInfoAsCSV(trainingVersionList, index, true);
-            //arfWriter.writeInfoAsARF(trainingVersionList, index, true);
             dataSetWriter.writeDataSet(trainingVersionList, index, true);
         }
     }

@@ -3,6 +3,9 @@ package enums;
 
 public enum ProjectEnum {
 
-    BOOKKEEPER,
-    OPENJPA
+    AVRO ,
+    STORM,
+    ZOOKEEPER,
+    SYNCOPE,
+    TAJO,
 }

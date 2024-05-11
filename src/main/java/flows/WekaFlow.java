@@ -1,4 +1,4 @@
-package main;
+package flows;
 
 import builder.WekaClassifierListBuilder;
 import model.weka.WekaClassifier;
@@ -35,7 +35,7 @@ public class WekaFlow {
             int trueNumber = trainingSet.attributeStats(trainingSet.numAttributes() - 1).nominalCounts[0] ;
             int falseNumber = trainingSet.attributeStats(trainingSet.numAttributes() - 1).nominalCounts[1] ;
 
-            Instances testingSet = getTestingSet(projectName, index + 1, maxIndex) ;
+            Instances testingSet = getTestingSet(projectName, index, maxIndex) ;
             if (testingSet == null) {
                 break;
             }
