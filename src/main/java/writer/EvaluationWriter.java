@@ -4,6 +4,7 @@ package writer;
 import model.weka.WekaEvaluation;
 import utils.PathBuilder;
 import utils.CSVUtils;
+import weka.classifiers.Evaluation;
 
 import java.io.*;
 import java.nio.file.Files;
@@ -12,20 +13,25 @@ import java.util.List;
 
 public class EvaluationWriter {
 
-    private final String projectName ;
+    private static final String SEPARATOR = "," ;
 
-    public static final String SEPARATOR = "," ;
-
-    public static final String[] HEADER_ARRAY = {
+    private static final String[] HEADER_ARRAY = {
             "TrainingRelease",
-            "Classifier",
+            "ClassifierName",
+            "FilterName",
+            "SamplerName",
+            "CostSensitive",
             "Precision",
             "Recall",
-            "AUC",
-            "Kappa"} ;
+            "ROC_AUC",
+            "Kappa",
+            "TruePositive",
+            "FalsePositive",
+            "TrueNegative",
+            "FalseNegative",
+    } ;
 
     public EvaluationWriter(String projectName) throws IOException {
-        this.projectName = projectName ;
         Files.createDirectories(PathBuilder.buildEvaluationDirectoryPath(projectName));
     }
 
@@ -42,17 +48,32 @@ public class EvaluationWriter {
     }
 
     private void writeEvaluationInfo(Writer writer, WekaEvaluation wekaEvaluation) throws IOException {
+
         String evaluationString = wekaEvaluation.getEvaluationIndex() +
                 SEPARATOR +
-                wekaEvaluation.getClassifierInfo() +
+                wekaEvaluation.getClassifierName() +
                 SEPARATOR +
-                wekaEvaluation.getEvaluation().precision(0) +
+                wekaEvaluation.getFilterName() +
                 SEPARATOR +
-                wekaEvaluation.getEvaluation().recall(0) +
+                wekaEvaluation.getSamplerName() +
                 SEPARATOR +
-                wekaEvaluation.getEvaluation().areaUnderROC(0) +
+                wekaEvaluation.isCostSensitive() +
                 SEPARATOR +
-                wekaEvaluation.getEvaluation().kappa() +
+                wekaEvaluation.getPrecision() +
+                SEPARATOR +
+                wekaEvaluation.getRecall() +
+                SEPARATOR +
+                wekaEvaluation.getRoc() +
+                SEPARATOR +
+                wekaEvaluation.getKappa() +
+                SEPARATOR +
+                wekaEvaluation.getTruePositive() +
+                SEPARATOR +
+                wekaEvaluation.getFalsePositive() +
+                SEPARATOR +
+                wekaEvaluation.getTrueNegative() +
+                SEPARATOR +
+                wekaEvaluation.getFalseNegative() +
                 "\n";
 
         writer.write(evaluationString);

@@ -1,6 +1,6 @@
 Version,ClassName,LinesOfCode,AddedLOC,MaxAddedLOC,AvgAddedLOC,TouchedLOC,Churn,MaxChurn,AvgChurn,NumberOfAuthors,NumberOfRevisions,NumberOfDefectsFixed,Buggy
 0,bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/MySqlClient.java,137,235,137,58.75,333,139,137,34.75,2,4,0,False
-0,bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/TestClient.java,244,332,244,66.4,428,254,244,50.8,2,5,0,True
+0,bookkeeper-benchmark/src/main/java/org/apache/bookkeeper/benchmark/TestClient.java,244,332,244,66.4,428,254,244,50.8,2,5,0,False
 0,bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/Bookie.java,1026,1727,1026,123.35714,1947,1507,1026,107.64286,3,14,0,True
 0,bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BookieException.java,92,132,92,44.0,161,103,92,34.333332,3,3,0,True
 0,bookkeeper-server/src/main/java/org/apache/bookkeeper/bookie/BufferedChannel.java,180,207,180,51.75,222,192,180,48.0,2,4,0,False

@@ -6,12 +6,10 @@ import weka.filters.Filter;
 public class WekaSampler {
 
     private Filter sampler ;
-    private String samplerName ;
 
 
-    public WekaSampler(Filter sampler, String samplerName) {
+    public WekaSampler(Filter sampler) {
         this.sampler = sampler ;
-        this.samplerName = samplerName ;
     }
 
     public Filter getSampler() {
@@ -23,10 +21,6 @@ public class WekaSampler {
     }
 
     public String getSamplerName() {
-        return samplerName;
-    }
-
-    public void setSamplerName(String samplerName) {
-        this.samplerName = samplerName;
+        return sampler.getClass().getSimpleName() ;
     }
 }

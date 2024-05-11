@@ -8,14 +8,14 @@ public class WekaFilter {
     private Filter filter ;
     private String filterName ;
     private String searchMethod ;
-    private Boolean backward ;
+    private String directionString ;
 
 
-    public WekaFilter(Filter filter, String filterName, String searchMethod, Boolean backward) {
+    public WekaFilter(Filter filter, String searchMethod, String directionString) {
         this.filter = filter ;
         this.filterName = filterName ;
         this.searchMethod = searchMethod ;
-        this.backward = backward ;
+        this.directionString = directionString ;
     }
 
     public Filter getFilter() {
@@ -27,12 +27,10 @@ public class WekaFilter {
     }
 
     public String getFilterName() {
-        return filterName;
+        return filter.getClass().getSimpleName();
     }
 
-    public void setFilterName(String filterName) {
-        this.filterName = filterName;
-    }
+
 
     public String getSearchMethod() {
         return searchMethod;
@@ -42,11 +40,7 @@ public class WekaFilter {
         this.searchMethod = searchMethod;
     }
 
-    public Boolean getBackward() {
-        return backward;
-    }
-
-    public void setBackward(Boolean backward) {
-        this.backward = backward;
+    public String getDirectionString() {
+        return directionString;
     }
 }

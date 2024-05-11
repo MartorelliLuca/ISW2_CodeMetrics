@@ -2,6 +2,7 @@ package computer;
 
 import model.retrieve.TicketInfo;
 import model.retrieve.VersionInfo;
+import utils.LogWriter;
 
 import java.io.IOException;
 import java.net.URISyntaxException;
@@ -9,6 +10,8 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Objects;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public class VersionsFixer {
 
@@ -22,10 +25,13 @@ public class VersionsFixer {
     }
 
     public void fixInjectedAndAffectedVersions(List<TicketInfo> ticketInfoList, List<VersionInfo> versionInfoList) throws URISyntaxException, IOException {
+        Logger.getGlobal().log(Level.INFO, "{0}", "Fix delle Injected e Affected Versions per " + projectName.toUpperCase());
         List<TicketInfo> sortedTicketList = new ArrayList<>(ticketInfoList) ;
         sortedTicketList.sort(Comparator.comparing(TicketInfo::getResolutionDate));
+        List<Float> proportionValuesArray = new ArrayList<>() ;
         for (TicketInfo ticketInfo : sortedTicketList) {
             Float proportionValue = proportionComputer.computeProportionForTicket(ticketInfo) ;
+            proportionValuesArray.add(proportionValue);
             if (proportionValue != null) {
                 // Se il valore di proportion non è null, allora il ticket non ha injectedVersion associata e la calcoliamo con proportion
                 setInjectedVersionForTicket(ticketInfo, versionInfoList, proportionValue);
@@ -38,6 +44,8 @@ public class VersionsFixer {
             List<VersionInfo> affectedVersionList = computeAffectedVersionsForTicket(ticketInfo, versionInfoList);
             ticketInfo.setAffectedVersionList(affectedVersionList);
         }
+
+        LogWriter.writeProportionLog(projectName, sortedTicketList, proportionValuesArray, proportionComputer.getColdStartProportionValue(), proportionComputer.getColdStartArray(), proportionComputer.getProportionTicketList());
     }
 
     private void setInjectedVersionForTicket(TicketInfo ticketInfo, List<VersionInfo> versionInfoList, Float proportionValue) {

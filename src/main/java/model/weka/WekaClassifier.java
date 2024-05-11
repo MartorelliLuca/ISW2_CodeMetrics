@@ -11,13 +11,14 @@ public class WekaClassifier {
     private WekaSampler wekaSampler ;
     private Evaluation evaluation ;
 
-    private Integer index ;
+    private boolean isCostSensitive ;
 
-    public WekaClassifier(Classifier classifier, String classifierName, WekaFilter wekaFilter, WekaSampler wekaSampler) {
+    public WekaClassifier(Classifier classifier, String classifierName, WekaFilter wekaFilter, WekaSampler wekaSampler, boolean isCostSensitive) {
         this.classifier = classifier ;
         this.classifierName = classifierName ;
         this.wekaFilter = wekaFilter ;
         this.wekaSampler = wekaSampler ;
+        this.isCostSensitive = isCostSensitive ;
     }
 
     public Classifier getClassifier() {
@@ -28,10 +29,7 @@ public class WekaClassifier {
         if (wekaFilter == null) {
             return "NULL" ;
         }
-        if (wekaFilter.getBackward() == null) {
-            return wekaFilter.getFilterName() + "_" + wekaFilter.getSearchMethod();
-        }
-        return wekaFilter.getFilterName() + "_" + wekaFilter.getSearchMethod() + (wekaFilter.getBackward() ? "Backward" : "Forward") ;
+        return wekaFilter.getFilterName() + "(" + wekaFilter.getDirectionString() + ")";
     }
 
     public String getSamplerName() {
@@ -46,9 +44,13 @@ public class WekaClassifier {
     }
 
     public String getClassifierName() {
-        return classifierName + "_" + getFilterName() + "_" + getSamplerName();
+        return classifierName;
     }
 
+
+    public boolean getIsCostSensitive() {
+        return isCostSensitive ;
+    }
     public WekaFilter getWekaFilter() {
         return wekaFilter;
     }

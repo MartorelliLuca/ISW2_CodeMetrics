@@ -334,7 +334,7 @@ Version,ClassName,LinesOfCode,AddedLOC,MaxAddedLOC,AvgAddedLOC,TouchedLOC,Churn,
 8,openjpa-kernel/src/main/java/org/apache/openjpa/conf/BrokerFactoryValue.java,87,0,0,0.0,0,0,0,0.0,0,0,0,False
 8,openjpa-kernel/src/main/java/org/apache/openjpa/conf/BrokerValue.java,83,0,0,0.0,0,0,0,0.0,0,0,0,False
 8,openjpa-kernel/src/main/java/org/apache/openjpa/conf/CacheMarshaller.java,92,0,0,0.0,0,0,0,0.0,0,0,0,False
-8,openjpa-kernel/src/main/java/org/apache/openjpa/conf/CacheMarshallerImpl.java,253,0,0,0.0,0,0,0,0.0,0,0,0,False
+8,openjpa-kernel/src/main/java/org/apache/openjpa/conf/CacheMarshallerImpl.java,253,0,0,0.0,0,0,0,0.0,0,0,0,True
 8,openjpa-kernel/src/main/java/org/apache/openjpa/conf/CacheMarshallersValue.java,121,0,0,0.0,0,0,0,0.0,0,0,0,False
 8,openjpa-kernel/src/main/java/org/apache/openjpa/conf/Compatibility.java,272,0,0,0.0,0,0,0,0.0,0,0,0,True
 8,openjpa-kernel/src/main/java/org/apache/openjpa/conf/DetachOptions.java,160,0,0,0.0,0,0,0,0.0,0,0,0,False
@@ -685,8 +685,8 @@ Version,ClassName,LinesOfCode,AddedLOC,MaxAddedLOC,AvgAddedLOC,TouchedLOC,Churn,
 8,openjpa-kernel/src/main/java/org/apache/openjpa/util/AbstractLRSProxyMap.java,527,0,0,0.0,0,0,0,0.0,0,0,0,False
 8,openjpa-kernel/src/main/java/org/apache/openjpa/util/ApplicationIds.java,614,0,0,0.0,0,0,0,0.0,0,0,0,True
 8,openjpa-kernel/src/main/java/org/apache/openjpa/util/ArrayStateImage.java,107,0,0,0.0,0,0,0,0.0,0,0,0,False
-8,openjpa-kernel/src/main/java/org/apache/openjpa/util/BigDecimalId.java,74,0,0,0.0,0,0,0,0.0,0,0,0,False
-8,openjpa-kernel/src/main/java/org/apache/openjpa/util/BigIntegerId.java,75,0,0,0.0,0,0,0,0.0,0,0,0,False
+8,openjpa-kernel/src/main/java/org/apache/openjpa/util/BigDecimalId.java,74,0,0,0.0,0,0,0,0.0,0,0,0,True
+8,openjpa-kernel/src/main/java/org/apache/openjpa/util/BigIntegerId.java,75,0,0,0.0,0,0,0,0.0,0,0,0,True
 8,openjpa-kernel/src/main/java/org/apache/openjpa/util/ByteId.java,67,0,0,0.0,0,0,0,0.0,0,0,0,False
 8,openjpa-kernel/src/main/java/org/apache/openjpa/util/CacheMap.java,642,0,0,0.0,0,0,0,0.0,0,0,0,False
 8,openjpa-kernel/src/main/java/org/apache/openjpa/util/CallbackException.java,43,0,0,0.0,0,0,0,0.0,0,0,0,False
@@ -762,7 +762,7 @@ Version,ClassName,LinesOfCode,AddedLOC,MaxAddedLOC,AvgAddedLOC,TouchedLOC,Churn,
 8,openjpa-lib/src/main/java/org/apache/openjpa/lib/conf/PluginListValue.java,212,0,0,0.0,0,0,0,0.0,0,0,0,False
 8,openjpa-lib/src/main/java/org/apache/openjpa/lib/conf/PluginValue.java,150,0,0,0.0,0,0,0,0.0,0,0,0,False
 8,openjpa-lib/src/main/java/org/apache/openjpa/lib/conf/ProductDerivation.java,160,0,0,0.0,0,0,0,0.0,0,0,0,False
-8,openjpa-lib/src/main/java/org/apache/openjpa/lib/conf/ProductDerivations.java,473,0,0,0.0,0,0,0,0.0,0,0,0,False
+8,openjpa-lib/src/main/java/org/apache/openjpa/lib/conf/ProductDerivations.java,473,0,0,0.0,0,0,0,0.0,0,0,0,True
 8,openjpa-lib/src/main/java/org/apache/openjpa/lib/conf/StringListValue.java,144,0,0,0.0,0,0,0,0.0,0,0,0,False
 8,openjpa-lib/src/main/java/org/apache/openjpa/lib/conf/StringValue.java,69,0,0,0.0,0,0,0,0.0,0,0,0,False
 8,openjpa-lib/src/main/java/org/apache/openjpa/lib/conf/Value.java,496,0,0,0.0,0,0,0,0.0,0,0,0,False
@@ -823,12 +823,12 @@ Version,ClassName,LinesOfCode,AddedLOC,MaxAddedLOC,AvgAddedLOC,TouchedLOC,Churn,
 8,openjpa-lib/src/main/java/org/apache/openjpa/lib/meta/ZipFileMetaDataIterator.java,155,0,0,0.0,0,0,0,0.0,0,0,0,False
 8,openjpa-lib/src/main/java/org/apache/openjpa/lib/meta/ZipStreamMetaDataIterator.java,147,0,0,0.0,0,0,0,0.0,0,0,0,False
 8,openjpa-lib/src/main/java/org/apache/openjpa/lib/rop/AbstractListIterator.java,50,0,0,0.0,0,0,0,0.0,0,0,0,False
-8,openjpa-lib/src/main/java/org/apache/openjpa/lib/rop/AbstractNonSequentialResultList.java,187,0,0,0.0,0,0,0,0.0,0,0,0,True
-8,openjpa-lib/src/main/java/org/apache/openjpa/lib/rop/AbstractResultList.java,91,0,0,0.0,0,0,0,0.0,0,0,0,True
+8,openjpa-lib/src/main/java/org/apache/openjpa/lib/rop/AbstractNonSequentialResultList.java,187,0,0,0.0,0,0,0,0.0,0,0,0,False
+8,openjpa-lib/src/main/java/org/apache/openjpa/lib/rop/AbstractResultList.java,91,0,0,0.0,0,0,0,0.0,0,0,0,False
 8,openjpa-lib/src/main/java/org/apache/openjpa/lib/rop/AbstractSequentialResultList.java,116,0,0,0.0,0,0,0,0.0,0,0,0,False
 8,openjpa-lib/src/main/java/org/apache/openjpa/lib/rop/EagerResultList.java,48,0,0,0.0,0,0,0,0.0,0,0,0,False
-8,openjpa-lib/src/main/java/org/apache/openjpa/lib/rop/LazyForwardResultList.java,197,0,0,0.0,0,0,0,0.0,0,0,0,True
-8,openjpa-lib/src/main/java/org/apache/openjpa/lib/rop/ListResultList.java,123,0,0,0.0,0,0,0,0.0,0,0,0,True
+8,openjpa-lib/src/main/java/org/apache/openjpa/lib/rop/LazyForwardResultList.java,197,0,0,0.0,0,0,0,0.0,0,0,0,False
+8,openjpa-lib/src/main/java/org/apache/openjpa/lib/rop/ListResultList.java,123,0,0,0.0,0,0,0,0.0,0,0,0,False
 8,openjpa-lib/src/main/java/org/apache/openjpa/lib/rop/ListResultObjectProvider.java,90,0,0,0.0,0,0,0,0.0,0,0,0,False
 8,openjpa-lib/src/main/java/org/apache/openjpa/lib/rop/MergedResultObjectProvider.java,230,0,0,0.0,0,0,0,0.0,0,0,0,False
 8,openjpa-lib/src/main/java/org/apache/openjpa/lib/rop/RandomAccessResultList.java,235,0,0,0.0,0,0,0,0.0,0,0,0,False
@@ -1012,7 +1012,7 @@ Version,ClassName,LinesOfCode,AddedLOC,MaxAddedLOC,AvgAddedLOC,TouchedLOC,Churn,
 8,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/PersistenceProductDerivation.java,609,0,0,0.0,0,0,0,0.0,0,0,0,True
 8,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/PersistenceProviderImpl.java,213,0,0,0.0,0,0,0,0.0,0,0,0,True
 8,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/PersistenceStrategy.java,45,0,0,0.0,0,0,0,0.0,0,0,0,False
-8,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/PersistenceUnitInfoImpl.java,495,0,0,0.0,0,0,0,0.0,0,0,0,False
+8,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/PersistenceUnitInfoImpl.java,495,0,0,0.0,0,0,0,0.0,0,0,0,True
 8,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/Persistent.java,49,0,0,0.0,0,0,0,0.0,0,0,0,False
 8,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/PersistentCollection.java,51,0,0,0.0,0,0,0,0.0,0,0,0,False
 8,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/PersistentMap.java,53,0,0,0.0,0,0,0,0.0,0,0,0,False

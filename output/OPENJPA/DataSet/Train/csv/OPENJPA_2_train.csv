@@ -133,7 +133,7 @@ Version,ClassName,LinesOfCode,AddedLOC,MaxAddedLOC,AvgAddedLOC,TouchedLOC,Churn,
 0,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/FieldStrategy.java,244,253,244,84.333336,263,245,244,81.666664,2,3,0,False
 0,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/JDBCColumnOrder.java,84,84,84,42.0,84,84,84,42.0,1,2,0,False
 0,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/JDBCOrder.java,43,43,43,21.5,43,43,43,21.5,1,2,0,False
-0,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/JDBCRelatedFieldOrder.java,69,69,69,34.5,69,69,69,34.5,1,2,0,True
+0,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/JDBCRelatedFieldOrder.java,69,69,69,34.5,69,69,69,34.5,1,2,0,False
 0,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/JDBCValueOrder.java,64,64,64,32.0,64,64,64,32.0,1,2,0,False
 0,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/JavaSQLTypes.java,161,167,161,55.666668,173,161,161,53.666668,2,3,0,False
 0,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/Joinable.java,86,86,86,43.0,86,86,86,43.0,1,2,0,False
@@ -468,7 +468,7 @@ Version,ClassName,LinesOfCode,AddedLOC,MaxAddedLOC,AvgAddedLOC,TouchedLOC,Churn,
 0,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/Query.java,189,392,194,98.0,592,200,189,50.0,1,4,0,False
 0,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/QueryContext.java,284,592,289,118.4,898,296,284,59.2,1,5,0,False
 0,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/QueryFlushModes.java,53,113,53,28.25,170,56,53,14.0,1,4,0,False
-0,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/QueryImpl.java,2191,4524,2249,502.66666,6774,2402,2191,266.8889,2,9,0,True
+0,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/QueryImpl.java,2191,4524,2249,502.66666,6774,2402,2191,266.8889,2,9,0,False
 0,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/QueryLanguages.java,59,132,65,14.666667,205,71,59,7.888889,2,9,0,False
 0,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/QueryOperations.java,48,103,48,20.6,155,51,48,10.2,1,5,0,False
 0,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/ROPStoreManager.java,77,167,80,27.833334,254,86,77,14.333333,2,6,0,False
@@ -681,7 +681,7 @@ Version,ClassName,LinesOfCode,AddedLOC,MaxAddedLOC,AvgAddedLOC,TouchedLOC,Churn,
 0,openjpa-kernel/src/main/java/org/apache/openjpa/util/StoreFacadeTypeRegistry.java,76,142,76,47.333332,155,129,76,43.0,1,3,0,False
 0,openjpa-kernel/src/main/java/org/apache/openjpa/util/StringId.java,56,113,56,28.25,167,59,56,14.75,1,4,0,False
 0,openjpa-kernel/src/main/java/org/apache/openjpa/util/UnsupportedException.java,51,106,51,21.2,155,57,51,11.4,1,5,0,False
-0,openjpa-kernel/src/main/java/org/apache/openjpa/util/UserException.java,60,121,60,24.2,168,74,60,14.8,1,5,0,True
+0,openjpa-kernel/src/main/java/org/apache/openjpa/util/UserException.java,60,121,60,24.2,168,74,60,14.8,1,5,0,False
 0,openjpa-lib/src/main/java/org/apache/openjpa/lib/ant/AbstractTask.java,193,304,193,23.384615,419,237,193,18.23077,2,13,0,False
 0,openjpa-lib/src/main/java/org/apache/openjpa/lib/conf/BooleanValue.java,67,86,67,17.2,108,78,67,15.6,1,5,0,False
 0,openjpa-lib/src/main/java/org/apache/openjpa/lib/conf/Configurable.java,42,62,42,12.4,82,50,42,10.0,1,5,0,False
@@ -905,7 +905,7 @@ Version,ClassName,LinesOfCode,AddedLOC,MaxAddedLOC,AvgAddedLOC,TouchedLOC,Churn,
 0,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/OpenJPAQuery.java,212,429,213,107.25,642,218,212,54.5,1,4,0,False
 0,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/OptimisticLockException.java,107,217,108,54.25,323,111,107,27.75,1,4,0,False
 0,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/PersistenceException.java,106,215,107,53.75,320,110,106,27.5,1,4,0,False
-0,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/PersistenceExceptions.java,246,501,247,83.5,745,259,246,43.166668,1,6,0,True
+0,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/PersistenceExceptions.java,246,501,247,83.5,745,259,246,43.166668,1,6,0,False
 0,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/PersistenceListenerAdapter.java,109,221,110,44.2,328,116,109,23.2,1,5,0,False
 0,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/PersistenceMetaDataDefaults.java,253,509,253,127.25,752,266,253,66.5,1,4,0,False
 0,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/PersistenceMetaDataFactory.java,399,802,400,160.4,1189,417,399,83.4,1,5,0,False
@@ -916,7 +916,7 @@ Version,ClassName,LinesOfCode,AddedLOC,MaxAddedLOC,AvgAddedLOC,TouchedLOC,Churn,
 0,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/Persistent.java,45,92,45,23.0,136,48,45,12.0,1,4,0,False
 0,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/PersistentCollection.java,45,92,45,23.0,136,48,45,12.0,1,4,0,True
 0,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/PersistentMap.java,49,100,49,25.0,148,52,49,13.0,1,4,0,False
-0,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/QueryImpl.java,513,1053,523,150.42857,1577,549,513,78.42857,2,7,0,True
+0,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/QueryImpl.java,513,1053,523,150.42857,1577,549,513,78.42857,2,7,0,False
 0,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/QueryResultCache.java,114,230,114,57.5,343,117,114,29.25,1,4,0,False
 0,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/ReadOnly.java,35,72,35,18.0,106,38,35,9.5,1,4,0,False
 0,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/RollbackException.java,97,197,98,49.25,292,102,97,25.5,1,4,0,False

@@ -64,7 +64,7 @@ Version,ClassName,LinesOfCode,AddedLOC,MaxAddedLOC,AvgAddedLOC,TouchedLOC,Churn,
 1,bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/FlatLedgerManager.java,175,12,7,6.0,42,24,21,12.0,2,2,2,True
 1,bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/HierarchicalLedgerManager.java,507,29,15,7.25,65,25,16,6.25,2,4,4,True
 1,bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/LedgerLayout.java,209,5,5,5.0,5,5,5,5.0,1,1,0,False
-1,bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/LedgerManager.java,147,5,5,5.0,7,3,3,3.0,1,1,1,True
+1,bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/LedgerManager.java,147,5,5,5.0,7,3,3,3.0,1,1,1,False
 1,bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/LedgerManagerFactory.java,98,1,1,1.0,2,0,0,0.0,1,1,0,True
 1,bookkeeper-server/src/main/java/org/apache/bookkeeper/meta/SnapshotMap.java,132,132,132,132.0,132,132,132,132.0,1,1,1,False
 1,bookkeeper-server/src/main/java/org/apache/bookkeeper/proto/BKStats.java,236,236,236,236.0,236,236,236,236.0,1,1,0,True

@@ -3,10 +3,10 @@ Ticket Totali >> 307
 Ticket ID >> BOOKKEEPER-1104
 Opening Date >> 2017-07-27
 Resolution Date >> 2017-07-28
-Injected Version >> 4.3.1
+Injected Version >> 4.3.2
 Fix Version >> 4.5.0
 Opening Version >> 4.5.0
-Affected Versions >> [4.3.1, 4.3.2, 4.4.0]
+Affected Versions >> [4.3.2, 4.4.0]
 Fix Commit List >> 
 	0ccbc0e9c3e6a82d5e44b8347cc6567e043f253f
 ----------------------------------------------------------------------------------
@@ -14,10 +14,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-1098
 Opening Date >> 2017-06-14
 Resolution Date >> 2017-06-28
-Injected Version >> 4.3.1
+Injected Version >> 4.3.2
 Fix Version >> 4.5.0
 Opening Version >> 4.5.0
-Affected Versions >> [4.3.1, 4.3.2, 4.4.0]
+Affected Versions >> [4.3.2, 4.4.0]
 Fix Commit List >> 
 	32c2859f0bec9ab74965d954bce038480e4dc2ba
 ----------------------------------------------------------------------------------
@@ -25,10 +25,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-1077
 Opening Date >> 2017-05-25
 Resolution Date >> 2017-05-26
-Injected Version >> 4.3.1
+Injected Version >> 4.3.2
 Fix Version >> 4.5.0
 Opening Version >> 4.5.0
-Affected Versions >> [4.3.1, 4.3.2, 4.4.0]
+Affected Versions >> [4.3.2, 4.4.0]
 Fix Commit List >> 
 	6698912e4d35119a2e85a6ea3877c6771073489c
 ----------------------------------------------------------------------------------
@@ -36,10 +36,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-1075
 Opening Date >> 2017-05-25
 Resolution Date >> 2017-05-25
-Injected Version >> 4.3.1
+Injected Version >> 4.3.2
 Fix Version >> 4.5.0
 Opening Version >> 4.5.0
-Affected Versions >> [4.3.1, 4.3.2, 4.4.0]
+Affected Versions >> [4.3.2, 4.4.0]
 Fix Commit List >> 
 	64bedc2f92d5bb17783c6ea2a2db7ea29170f264
 ----------------------------------------------------------------------------------
@@ -47,10 +47,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-1074
 Opening Date >> 2017-05-25
 Resolution Date >> 2017-06-01
-Injected Version >> 4.3.1
+Injected Version >> 4.3.2
 Fix Version >> 4.5.0
 Opening Version >> 4.5.0
-Affected Versions >> [4.3.1, 4.3.2, 4.4.0]
+Affected Versions >> [4.3.2, 4.4.0]
 Fix Commit List >> 
 	dd08ce1a644de00967dd5fe34ce15caa9789d775
 ----------------------------------------------------------------------------------
@@ -58,10 +58,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-1073
 Opening Date >> 2017-05-25
 Resolution Date >> 2017-06-01
-Injected Version >> 4.3.1
+Injected Version >> 4.3.2
 Fix Version >> 4.5.0
 Opening Version >> 4.5.0
-Affected Versions >> [4.3.1, 4.3.2, 4.4.0]
+Affected Versions >> [4.3.2, 4.4.0]
 Fix Commit List >> 
 	fc51f73cbc9cdaae9876bc08cafa3e7a80826207
 ----------------------------------------------------------------------------------
@@ -69,10 +69,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-1072
 Opening Date >> 2017-05-25
 Resolution Date >> 2017-05-25
-Injected Version >> 4.3.1
+Injected Version >> 4.3.2
 Fix Version >> 4.5.0
 Opening Version >> 4.5.0
-Affected Versions >> [4.3.1, 4.3.2, 4.4.0]
+Affected Versions >> [4.3.2, 4.4.0]
 Fix Commit List >> 
 	8ba8ab9403dbc464c68caf6e7cd3fc490670731e
 ----------------------------------------------------------------------------------
@@ -80,10 +80,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-1061
 Opening Date >> 2017-05-10
 Resolution Date >> 2017-05-15
-Injected Version >> 4.2.3
+Injected Version >> 4.3.2
 Fix Version >> 4.5.0
 Opening Version >> 4.5.0
-Affected Versions >> [4.2.3, 4.3.1, 4.3.2, 4.4.0]
+Affected Versions >> [4.3.2, 4.4.0]
 Fix Commit List >> 
 	5d43260e84c6121df72c0ee4c844651bfb726638
 ----------------------------------------------------------------------------------
@@ -91,10 +91,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-1058
 Opening Date >> 2017-05-10
 Resolution Date >> 2017-05-15
-Injected Version >> 4.2.3
+Injected Version >> 4.3.2
 Fix Version >> 4.5.0
 Opening Version >> 4.5.0
-Affected Versions >> [4.2.3, 4.3.1, 4.3.2, 4.4.0]
+Affected Versions >> [4.3.2, 4.4.0]
 Fix Commit List >> 
 	811ece53a1c975c4e768422f3d622ac9de6b3e41
 ----------------------------------------------------------------------------------
@@ -102,10 +102,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-1047
 Opening Date >> 2017-05-04
 Resolution Date >> 2017-05-15
-Injected Version >> 4.2.3
+Injected Version >> 4.3.2
 Fix Version >> 4.5.0
 Opening Version >> 4.5.0
-Affected Versions >> [4.2.3, 4.3.1, 4.3.2, 4.4.0]
+Affected Versions >> [4.3.2, 4.4.0]
 Fix Commit List >> 
 	d5af77c05256d5942c19aff2654c5d8f5ac1eb79
 ----------------------------------------------------------------------------------
@@ -113,10 +113,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-1044
 Opening Date >> 2017-04-25
 Resolution Date >> 2017-07-25
-Injected Version >> 4.3.1
+Injected Version >> 4.3.2
 Fix Version >> 4.5.0
 Opening Version >> 4.5.0
-Affected Versions >> [4.3.1, 4.3.2, 4.4.0]
+Affected Versions >> [4.3.2, 4.4.0]
 Fix Commit List >> 
 	24ac8ead6240aaaaa845afccb4e606fbe0da1602
 ----------------------------------------------------------------------------------
@@ -124,10 +124,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-1031
 Opening Date >> 2017-04-10
 Resolution Date >> 2017-04-11
-Injected Version >> 4.2.3
+Injected Version >> 4.4.0
 Fix Version >> 4.5.0
 Opening Version >> 4.5.0
-Affected Versions >> [4.2.3, 4.3.1, 4.3.2, 4.4.0]
+Affected Versions >> [4.4.0]
 Fix Commit List >> 
 	48aa69dd0ba41f5ba7bb2b04f31172c919be4391
 ----------------------------------------------------------------------------------
@@ -135,10 +135,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-1021
 Opening Date >> 2017-04-03
 Resolution Date >> 2017-05-26
-Injected Version >> 4.3.1
+Injected Version >> 4.3.2
 Fix Version >> 4.5.0
 Opening Version >> 4.5.0
-Affected Versions >> [4.3.1, 4.3.2, 4.4.0]
+Affected Versions >> [4.3.2, 4.4.0]
 Fix Commit List >> 
 	ab707d2c6b3251b2a9a30a6d14074704460b3da5
 ----------------------------------------------------------------------------------
@@ -146,10 +146,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-1018
 Opening Date >> 2017-03-27
 Resolution Date >> 2017-04-03
-Injected Version >> 4.2.3
+Injected Version >> 4.3.2
 Fix Version >> 4.5.0
 Opening Version >> 4.5.0
-Affected Versions >> [4.2.3, 4.3.1, 4.3.2, 4.4.0]
+Affected Versions >> [4.3.2, 4.4.0]
 Fix Commit List >> 
 	9001e300ce0d5d2655d437e3eaa52f91487caed6
 ----------------------------------------------------------------------------------
@@ -157,10 +157,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-1013
 Opening Date >> 2017-03-23
 Resolution Date >> 2017-03-23
-Injected Version >> 4.2.3
+Injected Version >> 4.3.2
 Fix Version >> 4.5.0
 Opening Version >> 4.5.0
-Affected Versions >> [4.2.3, 4.3.1, 4.3.2, 4.4.0]
+Affected Versions >> [4.3.2, 4.4.0]
 Fix Commit List >> 
 	3d3340be7d754af1738a117ee07e3bed04ec5547
 ----------------------------------------------------------------------------------
@@ -168,10 +168,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-989
 Opening Date >> 2016-12-20
 Resolution Date >> 2017-06-01
-Injected Version >> 4.3.1
+Injected Version >> 4.3.2
 Fix Version >> 4.5.0
 Opening Version >> 4.5.0
-Affected Versions >> [4.3.1, 4.3.2, 4.4.0]
+Affected Versions >> [4.3.2, 4.4.0]
 Fix Commit List >> 
 	55d1dc45c4761f150c59a34b94d21e39e69f872c
 ----------------------------------------------------------------------------------
@@ -179,10 +179,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-988
 Opening Date >> 2016-12-18
 Resolution Date >> 2016-12-20
-Injected Version >> 4.2.3
+Injected Version >> 4.3.2
 Fix Version >> 4.5.0
 Opening Version >> 4.5.0
-Affected Versions >> [4.2.3, 4.3.1, 4.3.2, 4.4.0]
+Affected Versions >> [4.3.2, 4.4.0]
 Fix Commit List >> 
 	54863473365572f955a8e7a3e022614f5f5e4604
 ----------------------------------------------------------------------------------
@@ -190,10 +190,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-986
 Opening Date >> 2016-12-13
 Resolution Date >> 2016-12-21
-Injected Version >> 4.2.3
+Injected Version >> 4.3.2
 Fix Version >> 4.5.0
 Opening Version >> 4.5.0
-Affected Versions >> [4.2.3, 4.3.1, 4.3.2, 4.4.0]
+Affected Versions >> [4.3.2, 4.4.0]
 Fix Commit List >> 
 	6e738d0c02ebe6710a24aad505e2fd9386bb8821
 ----------------------------------------------------------------------------------
@@ -201,10 +201,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-984
 Opening Date >> 2016-12-10
 Resolution Date >> 2016-12-17
-Injected Version >> 4.2.3
+Injected Version >> 4.3.2
 Fix Version >> 4.5.0
 Opening Version >> 4.5.0
-Affected Versions >> [4.2.3, 4.3.1, 4.3.2, 4.4.0]
+Affected Versions >> [4.3.2, 4.4.0]
 Fix Commit List >> 
 	6d2737ca22533aed461ed71e94d2472a6664df3c
 ----------------------------------------------------------------------------------
@@ -212,10 +212,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-980
 Opening Date >> 2016-11-29
 Resolution Date >> 2017-07-18
-Injected Version >> 4.3.1
+Injected Version >> 4.3.2
 Fix Version >> 4.5.0
 Opening Version >> 4.5.0
-Affected Versions >> [4.3.1, 4.3.2, 4.4.0]
+Affected Versions >> [4.3.2, 4.4.0]
 Fix Commit List >> 
 	f47dd4272f54bb95fd38abdd6c492dbe199dd7a4
 ----------------------------------------------------------------------------------
@@ -223,10 +223,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-959
 Opening Date >> 2016-10-20
 Resolution Date >> 2017-01-31
-Injected Version >> 4.2.3
+Injected Version >> 4.4.0
 Fix Version >> 4.5.0
 Opening Version >> 4.5.0
-Affected Versions >> [4.2.3, 4.3.1, 4.3.2, 4.4.0]
+Affected Versions >> [4.4.0]
 Fix Commit List >> 
 	13d668f2208bf472e4938cfdfd2de912eaa11275
 ----------------------------------------------------------------------------------
@@ -234,10 +234,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-958
 Opening Date >> 2016-10-19
 Resolution Date >> 2016-11-09
-Injected Version >> 4.2.3
+Injected Version >> 4.3.2
 Fix Version >> 4.5.0
 Opening Version >> 4.5.0
-Affected Versions >> [4.2.3, 4.3.1, 4.3.2, 4.4.0]
+Affected Versions >> [4.3.2, 4.4.0]
 Fix Commit List >> 
 	026ef10e1e9706ead4f1bc6763ded2e28c91480d
 ----------------------------------------------------------------------------------
@@ -245,10 +245,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-957
 Opening Date >> 2016-10-19
 Resolution Date >> 2016-11-09
-Injected Version >> 4.2.3
+Injected Version >> 4.3.2
 Fix Version >> 4.5.0
 Opening Version >> 4.5.0
-Affected Versions >> [4.2.3, 4.3.1, 4.3.2, 4.4.0]
+Affected Versions >> [4.3.2, 4.4.0]
 Fix Commit List >> 
 	8f0bed9f8401001abd683c420757610996cf96d8
 ----------------------------------------------------------------------------------
@@ -256,10 +256,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-956
 Opening Date >> 2016-10-19
 Resolution Date >> 2016-11-09
-Injected Version >> 4.2.3
+Injected Version >> 4.3.2
 Fix Version >> 4.5.0
 Opening Version >> 4.5.0
-Affected Versions >> [4.2.3, 4.3.1, 4.3.2, 4.4.0]
+Affected Versions >> [4.3.2, 4.4.0]
 Fix Commit List >> 
 	cc3d2701687ce1a4ff14502e2214a381b43aed5f
 ----------------------------------------------------------------------------------
@@ -267,10 +267,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-952
 Opening Date >> 2016-10-14
 Resolution Date >> 2016-10-20
-Injected Version >> 4.2.3
+Injected Version >> 4.3.2
 Fix Version >> 4.5.0
 Opening Version >> 4.5.0
-Affected Versions >> [4.2.3, 4.3.1, 4.3.2, 4.4.0]
+Affected Versions >> [4.3.2, 4.4.0]
 Fix Commit List >> 
 	4383b0b171d5fdfcdfa55c196998bbc6b7fdc260
 ----------------------------------------------------------------------------------
@@ -278,10 +278,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-933
 Opening Date >> 2016-06-17
 Resolution Date >> 2016-07-31
-Injected Version >> 4.2.3
+Injected Version >> 4.3.2
 Fix Version >> 4.5.0
 Opening Version >> 4.5.0
-Affected Versions >> [4.2.3, 4.3.1, 4.3.2, 4.4.0]
+Affected Versions >> [4.3.2, 4.4.0]
 Fix Commit List >> 
 	8324632b2983beba1528ab53a999340756c7f563
 ----------------------------------------------------------------------------------
@@ -300,10 +300,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-926
 Opening Date >> 2016-04-30
 Resolution Date >> 2016-05-04
-Injected Version >> 4.2.3
+Injected Version >> 4.3.1
 Fix Version >> 4.4.0
 Opening Version >> 4.4.0
-Affected Versions >> [4.2.3, 4.3.1, 4.3.2]
+Affected Versions >> [4.3.1, 4.3.2]
 Fix Commit List >> 
 	d32010f5fcc6a040a56dc8b983cc14d107cff2df
 ----------------------------------------------------------------------------------
@@ -311,10 +311,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-925
 Opening Date >> 2016-04-27
 Resolution Date >> 2016-04-30
-Injected Version >> 4.2.3
+Injected Version >> 4.3.1
 Fix Version >> 4.4.0
 Opening Version >> 4.4.0
-Affected Versions >> [4.2.3, 4.3.1, 4.3.2]
+Affected Versions >> [4.3.1, 4.3.2]
 Fix Commit List >> 
 	101de10a817d2a0704ce746eaed90cc0d73ca078
 	f8e0331f14a933ad2ed3d933c5eea927020b4967
@@ -334,10 +334,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-914
 Opening Date >> 2016-04-06
 Resolution Date >> 2016-04-07
-Injected Version >> 4.2.3
+Injected Version >> 4.3.1
 Fix Version >> 4.4.0
 Opening Version >> 4.4.0
-Affected Versions >> [4.2.3, 4.3.1, 4.3.2]
+Affected Versions >> [4.3.1, 4.3.2]
 Fix Commit List >> 
 	3efde26e0510be38237c73a7bfeeb105f25d8dbe
 ----------------------------------------------------------------------------------
@@ -345,10 +345,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-913
 Opening Date >> 2016-04-05
 Resolution Date >> 2016-04-10
-Injected Version >> 4.2.3
+Injected Version >> 4.3.1
 Fix Version >> 4.4.0
 Opening Version >> 4.4.0
-Affected Versions >> [4.2.3, 4.3.1, 4.3.2]
+Affected Versions >> [4.3.1, 4.3.2]
 Fix Commit List >> 
 	f2bc62b85e9bb855416fa4ea424cfd19ae9944e5
 ----------------------------------------------------------------------------------
@@ -356,10 +356,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-911
 Opening Date >> 2016-04-02
 Resolution Date >> 2016-04-27
-Injected Version >> 4.2.3
+Injected Version >> 4.3.2
 Fix Version >> 4.4.0
 Opening Version >> 4.4.0
-Affected Versions >> [4.2.3, 4.3.1, 4.3.2]
+Affected Versions >> [4.3.2]
 Fix Commit List >> 
 	91595fc04ac6168b5a652e803e55caadae757f74
 ----------------------------------------------------------------------------------
@@ -367,10 +367,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-910
 Opening Date >> 2016-04-01
 Resolution Date >> 2016-04-11
-Injected Version >> 4.2.3
+Injected Version >> 4.3.2
 Fix Version >> 4.4.0
 Opening Version >> 4.4.0
-Affected Versions >> [4.2.3, 4.3.1, 4.3.2]
+Affected Versions >> [4.3.2]
 Fix Commit List >> 
 	19a5efe21ca0b33156a405f1084ddaa9ba4b28f5
 ----------------------------------------------------------------------------------
@@ -378,10 +378,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-909
 Opening Date >> 2016-03-31
 Resolution Date >> 2016-03-31
-Injected Version >> 4.2.3
+Injected Version >> 4.3.2
 Fix Version >> 4.4.0
 Opening Version >> 4.4.0
-Affected Versions >> [4.2.3, 4.3.1, 4.3.2]
+Affected Versions >> [4.3.2]
 Fix Commit List >> 
 	e32c38890ffbd0291e24e2b3f2625374b27f1f67
 ----------------------------------------------------------------------------------
@@ -400,10 +400,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-907
 Opening Date >> 2016-03-16
 Resolution Date >> 2017-01-30
-Injected Version >> 4.2.3
+Injected Version >> 4.3.2
 Fix Version >> 4.5.0
 Opening Version >> 4.4.0
-Affected Versions >> [4.2.3, 4.3.1, 4.3.2, 4.4.0]
+Affected Versions >> [4.3.2, 4.4.0]
 Fix Commit List >> 
 	ca7e5fd80662745e7f64ee8f70c66dc9734f6e3a
 ----------------------------------------------------------------------------------
@@ -411,10 +411,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-903
 Opening Date >> 2016-03-09
 Resolution Date >> 2016-11-09
-Injected Version >> 4.2.3
+Injected Version >> 4.3.2
 Fix Version >> 4.5.0
 Opening Version >> 4.4.0
-Affected Versions >> [4.2.3, 4.3.1, 4.3.2, 4.4.0]
+Affected Versions >> [4.3.2, 4.4.0]
 Fix Commit List >> 
 	309cbba65c8532ef84c70efe181b3162e3078333
 ----------------------------------------------------------------------------------
@@ -422,10 +422,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-902
 Opening Date >> 2016-03-08
 Resolution Date >> 2016-03-14
-Injected Version >> 4.2.3
+Injected Version >> 4.3.1
 Fix Version >> 4.4.0
 Opening Version >> 4.4.0
-Affected Versions >> [4.2.3, 4.3.1, 4.3.2]
+Affected Versions >> [4.3.1, 4.3.2]
 Fix Commit List >> 
 	410ff7263a477d4b75a43d006adde3549225a4b9
 ----------------------------------------------------------------------------------
@@ -433,10 +433,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-900
 Opening Date >> 2016-02-29
 Resolution Date >> 2016-03-08
-Injected Version >> 4.2.3
+Injected Version >> 4.3.2
 Fix Version >> 4.4.0
 Opening Version >> 4.4.0
-Affected Versions >> [4.2.3, 4.3.1, 4.3.2]
+Affected Versions >> [4.3.2]
 Fix Commit List >> 
 	fe52b500cfec1c93725fa967ad2d5e0e7350580c
 ----------------------------------------------------------------------------------
@@ -444,10 +444,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-899
 Opening Date >> 2016-02-28
 Resolution Date >> 2016-03-08
-Injected Version >> 4.2.3
+Injected Version >> 4.3.2
 Fix Version >> 4.4.0
 Opening Version >> 4.4.0
-Affected Versions >> [4.2.3, 4.3.1, 4.3.2]
+Affected Versions >> [4.3.2]
 Fix Commit List >> 
 	bfa74f736ba270cc1a0bd0f7a1a6c643a00e385d
 ----------------------------------------------------------------------------------
@@ -455,10 +455,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-898
 Opening Date >> 2016-02-28
 Resolution Date >> 2016-03-08
-Injected Version >> 4.2.3
+Injected Version >> 4.3.2
 Fix Version >> 4.4.0
 Opening Version >> 4.4.0
-Affected Versions >> [4.2.3, 4.3.1, 4.3.2]
+Affected Versions >> [4.3.2]
 Fix Commit List >> 
 	a77042db1b024b5cb2bdd2a5f49ea18a43bc036b
 ----------------------------------------------------------------------------------
@@ -466,10 +466,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-893
 Opening Date >> 2016-02-08
 Resolution Date >> 2016-02-09
-Injected Version >> 4.2.3
+Injected Version >> 4.3.2
 Fix Version >> 4.4.0
 Opening Version >> 4.4.0
-Affected Versions >> [4.2.3, 4.3.1, 4.3.2]
+Affected Versions >> [4.3.2]
 Fix Commit List >> 
 	63395a3e3d9bb253ea2745042631e44a3d195ea0
 ----------------------------------------------------------------------------------
@@ -477,10 +477,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-891
 Opening Date >> 2016-02-05
 Resolution Date >> 2016-02-09
-Injected Version >> 4.2.3
+Injected Version >> 4.3.1
 Fix Version >> 4.4.0
 Opening Version >> 4.4.0
-Affected Versions >> [4.2.3, 4.3.1, 4.3.2]
+Affected Versions >> [4.3.1, 4.3.2]
 Fix Commit List >> 
 	9c937f5d814d4079b6134db361a0e2de1e37cd05
 ----------------------------------------------------------------------------------
@@ -488,10 +488,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-890
 Opening Date >> 2016-02-03
 Resolution Date >> 2016-02-09
-Injected Version >> 4.2.3
+Injected Version >> 4.3.2
 Fix Version >> 4.4.0
 Opening Version >> 4.4.0
-Affected Versions >> [4.2.3, 4.3.1, 4.3.2]
+Affected Versions >> [4.3.2]
 Fix Commit List >> 
 	626b7e8bb0b84271df97cfbf0a1b157c6cfe5a18
 ----------------------------------------------------------------------------------
@@ -499,10 +499,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-883
 Opening Date >> 2015-11-25
 Resolution Date >> 2016-02-09
-Injected Version >> 4.2.3
+Injected Version >> 4.3.1
 Fix Version >> 4.4.0
 Opening Version >> 4.4.0
-Affected Versions >> [4.2.3, 4.3.1, 4.3.2]
+Affected Versions >> [4.3.1, 4.3.2]
 Fix Commit List >> 
 	8729d12be50295086e7440dfa5d0256abb7688d5
 ----------------------------------------------------------------------------------
@@ -510,10 +510,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-872
 Opening Date >> 2015-09-21
 Resolution Date >> 2015-10-10
-Injected Version >> 4.3.0
+Injected Version >> 4.2.3
 Fix Version >> 4.3.2
 Opening Version >> 4.3.2
-Affected Versions >> [4.3.0, 4.2.3, 4.3.1]
+Affected Versions >> [4.2.3, 4.3.1]
 Fix Commit List >> 
 	9803ee8e6293dcd0346b1ca3cb0f2666b5e12382
 ----------------------------------------------------------------------------------
@@ -521,10 +521,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-863
 Opening Date >> 2015-08-06
 Resolution Date >> 2015-08-12
-Injected Version >> 4.3.0
+Injected Version >> 4.2.3
 Fix Version >> 4.3.2
 Opening Version >> 4.3.2
-Affected Versions >> [4.3.0, 4.2.3, 4.3.1]
+Affected Versions >> [4.2.3, 4.3.1]
 Fix Commit List >> 
 	c29a4f2601f72f8543cc4b1db419c84b01de75ce
 ----------------------------------------------------------------------------------
@@ -532,10 +532,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-858
 Opening Date >> 2015-05-30
 Resolution Date >> 2015-06-02
-Injected Version >> 4.3.0
+Injected Version >> 4.2.3
 Fix Version >> 4.3.2
 Opening Version >> 4.3.2
-Affected Versions >> [4.3.0, 4.2.3, 4.3.1]
+Affected Versions >> [4.2.3, 4.3.1]
 Fix Commit List >> 
 	35fbcc357970f126b6b9f9a7bf2a453bd3786044
 ----------------------------------------------------------------------------------
@@ -543,10 +543,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-854
 Opening Date >> 2015-05-19
 Resolution Date >> 2015-05-20
-Injected Version >> 4.2.2
+Injected Version >> 4.3.0
 Fix Version >> 4.3.1
 Opening Version >> 4.3.1
-Affected Versions >> [4.2.2, 4.3.0, 4.2.3]
+Affected Versions >> [4.3.0, 4.2.3]
 Fix Commit List >> 
 	1387b2be44686abfe78bf4efee4ad52d2d699e12
 ----------------------------------------------------------------------------------
@@ -565,10 +565,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-848
 Opening Date >> 2015-04-10
 Resolution Date >> 2015-04-21
-Injected Version >> 4.2.2
+Injected Version >> 4.3.0
 Fix Version >> 4.3.1
 Opening Version >> 4.3.1
-Affected Versions >> [4.2.2, 4.3.0, 4.2.3]
+Affected Versions >> [4.3.0, 4.2.3]
 Fix Commit List >> 
 	70da24d504e3f4cba0d87a0914a0add7ea19394d
 ----------------------------------------------------------------------------------
@@ -576,10 +576,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-847
 Opening Date >> 2015-03-28
 Resolution Date >> 2015-04-21
-Injected Version >> 4.2.2
+Injected Version >> 4.3.0
 Fix Version >> 4.3.1
 Opening Version >> 4.3.1
-Affected Versions >> [4.2.2, 4.3.0, 4.2.3]
+Affected Versions >> [4.3.0, 4.2.3]
 Fix Commit List >> 
 	b24cd7fd85bb3235036e660ff3a295dc939705e6
 ----------------------------------------------------------------------------------
@@ -587,10 +587,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-840
 Opening Date >> 2015-03-09
 Resolution Date >> 2015-03-18
-Injected Version >> 4.2.2
+Injected Version >> 4.3.0
 Fix Version >> 4.3.1
 Opening Version >> 4.3.1
-Affected Versions >> [4.2.2, 4.3.0, 4.2.3]
+Affected Versions >> [4.3.0, 4.2.3]
 Fix Commit List >> 
 	68c5b5a40c33b813482e8a2371eedcb2e0d224e8
 ----------------------------------------------------------------------------------
@@ -598,10 +598,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-839
 Opening Date >> 2015-02-24
 Resolution Date >> 2015-03-12
-Injected Version >> 4.2.2
+Injected Version >> 4.3.0
 Fix Version >> 4.3.1
 Opening Version >> 4.3.1
-Affected Versions >> [4.2.2, 4.3.0, 4.2.3]
+Affected Versions >> [4.3.0, 4.2.3]
 Fix Commit List >> 
 	e89ee080f1894143ed3415f27017b89eefe3ceb1
 ----------------------------------------------------------------------------------
@@ -609,10 +609,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-838
 Opening Date >> 2015-02-21
 Resolution Date >> 2015-02-23
-Injected Version >> 4.2.2
+Injected Version >> 4.3.0
 Fix Version >> 4.3.1
 Opening Version >> 4.3.1
-Affected Versions >> [4.2.2, 4.3.0, 4.2.3]
+Affected Versions >> [4.3.0, 4.2.3]
 Fix Commit List >> 
 	8b23bd30c5e7388e91f650615671d754a9ee2727
 ----------------------------------------------------------------------------------
@@ -620,10 +620,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-835
 Opening Date >> 2015-01-16
 Resolution Date >> 2015-05-19
-Injected Version >> 4.2.2
+Injected Version >> 4.3.0
 Fix Version >> 4.3.1
 Opening Version >> 4.3.1
-Affected Versions >> [4.2.2, 4.3.0, 4.2.3]
+Affected Versions >> [4.3.0, 4.2.3]
 Fix Commit List >> 
 	6688d96b52072496202f607f8c55976472f4c9a6
 	5bd2edbf82bd0c8bd9ea9e507b07d23cb856f934
@@ -632,10 +632,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-834
 Opening Date >> 2015-01-13
 Resolution Date >> 2015-03-18
-Injected Version >> 4.2.2
+Injected Version >> 4.3.0
 Fix Version >> 4.3.1
 Opening Version >> 4.3.1
-Affected Versions >> [4.2.2, 4.3.0, 4.2.3]
+Affected Versions >> [4.3.0, 4.2.3]
 Fix Commit List >> 
 	7177f2a03c52ca0457ea7d1a9c946f194ffb1c5f
 ----------------------------------------------------------------------------------
@@ -643,10 +643,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-833
 Opening Date >> 2014-12-23
 Resolution Date >> 2015-04-21
-Injected Version >> 4.2.2
+Injected Version >> 4.3.0
 Fix Version >> 4.3.1
 Opening Version >> 4.3.1
-Affected Versions >> [4.2.2, 4.3.0, 4.2.3]
+Affected Versions >> [4.3.0, 4.2.3]
 Fix Commit List >> 
 	da1a2fa6b19ddcdba68834147bf6afbe5bf90cbf
 ----------------------------------------------------------------------------------
@@ -654,10 +654,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-831
 Opening Date >> 2014-12-17
 Resolution Date >> 2015-03-12
-Injected Version >> 4.2.2
+Injected Version >> 4.3.0
 Fix Version >> 4.3.1
 Opening Version >> 4.3.1
-Affected Versions >> [4.2.2, 4.3.0, 4.2.3]
+Affected Versions >> [4.3.0, 4.2.3]
 Fix Commit List >> 
 	f2928dca4860b3c1461b99b834992e16901c8a87
 ----------------------------------------------------------------------------------
@@ -665,10 +665,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-828
 Opening Date >> 2014-12-16
 Resolution Date >> 2015-03-18
-Injected Version >> 4.2.2
+Injected Version >> 4.3.0
 Fix Version >> 4.3.1
 Opening Version >> 4.3.1
-Affected Versions >> [4.2.2, 4.3.0, 4.2.3]
+Affected Versions >> [4.3.0, 4.2.3]
 Fix Commit List >> 
 	4a4802ab5ef1a98eb40cd2bfb4b2f76409745220
 ----------------------------------------------------------------------------------
@@ -676,10 +676,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-823
 Opening Date >> 2014-12-10
 Resolution Date >> 2015-07-07
-Injected Version >> 4.3.0
+Injected Version >> 4.2.3
 Fix Version >> 4.3.2
 Opening Version >> 4.3.1
-Affected Versions >> [4.3.0, 4.2.3, 4.3.1]
+Affected Versions >> [4.2.3, 4.3.1]
 Fix Commit List >> 
 	8df7e0fb18547e9805238f4bb15d3d0d67978422
 ----------------------------------------------------------------------------------
@@ -687,10 +687,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-821
 Opening Date >> 2014-12-08
 Resolution Date >> 2015-05-20
-Injected Version >> 4.2.2
+Injected Version >> 4.3.0
 Fix Version >> 4.3.1
 Opening Version >> 4.3.1
-Affected Versions >> [4.2.2, 4.3.0, 4.2.3]
+Affected Versions >> [4.3.0, 4.2.3]
 Fix Commit List >> 
 	6286c39eaa8f7422323fc3405c72f9c6333f444f
 ----------------------------------------------------------------------------------
@@ -698,10 +698,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-815
 Opening Date >> 2014-12-04
 Resolution Date >> 2014-12-05
-Injected Version >> 4.2.2
+Injected Version >> 4.3.0
 Fix Version >> 4.3.1
 Opening Version >> 4.3.1
-Affected Versions >> [4.2.2, 4.3.0, 4.2.3]
+Affected Versions >> [4.3.0, 4.2.3]
 Fix Commit List >> 
 	6a94e45c6b813978d6b4fa98eeb87175d0241d96
 ----------------------------------------------------------------------------------
@@ -709,10 +709,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-814
 Opening Date >> 2014-12-04
 Resolution Date >> 2014-12-10
-Injected Version >> 4.2.2
+Injected Version >> 4.3.0
 Fix Version >> 4.3.1
 Opening Version >> 4.3.1
-Affected Versions >> [4.2.2, 4.3.0, 4.2.3]
+Affected Versions >> [4.3.0, 4.2.3]
 Fix Commit List >> 
 	0e3d95c9411289b89961e434ce760e3726290761
 ----------------------------------------------------------------------------------
@@ -720,10 +720,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-813
 Opening Date >> 2014-12-04
 Resolution Date >> 2014-12-06
-Injected Version >> 4.2.2
+Injected Version >> 4.3.0
 Fix Version >> 4.3.1
 Opening Version >> 4.3.1
-Affected Versions >> [4.2.2, 4.3.0, 4.2.3]
+Affected Versions >> [4.3.0, 4.2.3]
 Fix Commit List >> 
 	e790cab6d89de3cff3ee32842347d0176b6e24c5
 ----------------------------------------------------------------------------------
@@ -731,10 +731,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-809
 Opening Date >> 2014-12-04
 Resolution Date >> 2014-12-06
-Injected Version >> 4.2.2
+Injected Version >> 4.3.0
 Fix Version >> 4.3.1
 Opening Version >> 4.3.1
-Affected Versions >> [4.2.2, 4.3.0, 4.2.3]
+Affected Versions >> [4.3.0, 4.2.3]
 Fix Commit List >> 
 	0dfb4fb94d0ccc98e1050f662712d85bcf2003b1
 	ff5d2c5125d7d7fbe48d7935524820c55a887124
@@ -743,10 +743,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-805
 Opening Date >> 2014-11-25
 Resolution Date >> 2014-12-06
-Injected Version >> 4.2.2
+Injected Version >> 4.3.0
 Fix Version >> 4.3.1
 Opening Version >> 4.3.1
-Affected Versions >> [4.2.2, 4.3.0, 4.2.3]
+Affected Versions >> [4.3.0, 4.2.3]
 Fix Commit List >> 
 	130ebfa8f3763c1b98b29124a2bb648b2a810281
 	8a5ac72762480f5f972aafcf1fc8207e12ef76e3
@@ -755,10 +755,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-804
 Opening Date >> 2014-11-24
 Resolution Date >> 2014-12-06
-Injected Version >> 4.2.2
+Injected Version >> 4.3.0
 Fix Version >> 4.3.1
 Opening Version >> 4.3.1
-Affected Versions >> [4.2.2, 4.3.0, 4.2.3]
+Affected Versions >> [4.3.0, 4.2.3]
 Fix Commit List >> 
 	2b88b11fa7597254ccbf828f16efc665e852788d
 ----------------------------------------------------------------------------------
@@ -766,10 +766,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-803
 Opening Date >> 2014-11-21
 Resolution Date >> 2014-12-12
-Injected Version >> 4.2.2
+Injected Version >> 4.3.0
 Fix Version >> 4.3.1
 Opening Version >> 4.3.1
-Affected Versions >> [4.2.2, 4.3.0, 4.2.3]
+Affected Versions >> [4.3.0, 4.2.3]
 Fix Commit List >> 
 	264995cf2fc97ae527a8c24b369790a424d88d87
 ----------------------------------------------------------------------------------
@@ -777,10 +777,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-802
 Opening Date >> 2014-11-21
 Resolution Date >> 2015-09-07
-Injected Version >> 4.3.0
+Injected Version >> 4.2.3
 Fix Version >> 4.3.2
 Opening Version >> 4.3.1
-Affected Versions >> [4.3.0, 4.2.3, 4.3.1]
+Affected Versions >> [4.2.3, 4.3.1]
 Fix Commit List >> 
 	a59bd5687e2f5c4a4ac3f2a957543b5a1a3148d8
 ----------------------------------------------------------------------------------
@@ -788,10 +788,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-801
 Opening Date >> 2014-11-21
 Resolution Date >> 2014-12-12
-Injected Version >> 4.2.2
+Injected Version >> 4.3.0
 Fix Version >> 4.3.1
 Opening Version >> 4.3.1
-Affected Versions >> [4.2.2, 4.3.0, 4.2.3]
+Affected Versions >> [4.3.0, 4.2.3]
 Fix Commit List >> 
 	91b80f6c8d538fd9c16b30907c95d93ee90af04a
 ----------------------------------------------------------------------------------
@@ -799,10 +799,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-800
 Opening Date >> 2014-11-21
 Resolution Date >> 2014-12-05
-Injected Version >> 4.2.2
+Injected Version >> 4.3.0
 Fix Version >> 4.3.1
 Opening Version >> 4.3.1
-Affected Versions >> [4.2.2, 4.3.0, 4.2.3]
+Affected Versions >> [4.3.0, 4.2.3]
 Fix Commit List >> 
 	78d6e49d4d6bf83ee53655e6198848b896c4239c
 ----------------------------------------------------------------------------------
@@ -810,10 +810,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-799
 Opening Date >> 2014-11-21
 Resolution Date >> 2014-12-09
-Injected Version >> 4.2.2
+Injected Version >> 4.3.0
 Fix Version >> 4.3.1
 Opening Version >> 4.3.1
-Affected Versions >> [4.2.2, 4.3.0, 4.2.3]
+Affected Versions >> [4.3.0, 4.2.3]
 Fix Commit List >> 
 	5de01f700ede31f186f5d8d97afac382f1e45327
 ----------------------------------------------------------------------------------
@@ -821,10 +821,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-797
 Opening Date >> 2014-11-19
 Resolution Date >> 2014-11-19
-Injected Version >> 4.2.2
+Injected Version >> 4.3.0
 Fix Version >> 4.3.1
 Opening Version >> 4.3.1
-Affected Versions >> [4.2.2, 4.3.0, 4.2.3]
+Affected Versions >> [4.3.0, 4.2.3]
 Fix Commit List >> 
 	b17a30a46a820a9914bcee713f156698d93ff734
 ----------------------------------------------------------------------------------
@@ -832,10 +832,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-795
 Opening Date >> 2014-10-27
 Resolution Date >> 2014-12-09
-Injected Version >> 4.2.2
+Injected Version >> 4.3.0
 Fix Version >> 4.3.1
 Opening Version >> 4.3.1
-Affected Versions >> [4.2.2, 4.3.0, 4.2.3]
+Affected Versions >> [4.3.0, 4.2.3]
 Fix Commit List >> 
 	e79f8736a7dfc2c7191455e4e88b85a85f0472bf
 ----------------------------------------------------------------------------------
@@ -843,10 +843,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-794
 Opening Date >> 2014-10-17
 Resolution Date >> 2016-04-05
-Injected Version >> 4.2.1
+Injected Version >> 4.2.3
 Fix Version >> 4.4.0
 Opening Version >> 4.3.1
-Affected Versions >> [4.2.1, 4.2.2, 4.3.0, 4.2.3, 4.3.1, 4.3.2]
+Affected Versions >> [4.2.3, 4.3.1, 4.3.2]
 Fix Commit List >> 
 	b1c12c0f41b7c27b2452fef311f12077d771f431
 ----------------------------------------------------------------------------------
@@ -854,10 +854,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-793
 Opening Date >> 2014-10-13
 Resolution Date >> 2014-10-15
-Injected Version >> 4.2.2
+Injected Version >> 4.3.0
 Fix Version >> 4.3.1
 Opening Version >> 4.3.1
-Affected Versions >> [4.2.2, 4.3.0, 4.2.3]
+Affected Versions >> [4.3.0, 4.2.3]
 Fix Commit List >> 
 	3020fcb555d978c986e4e014e79c14d9817b606a
 ----------------------------------------------------------------------------------
@@ -865,10 +865,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-786
 Opening Date >> 2014-09-20
 Resolution Date >> 2014-09-22
-Injected Version >> 4.2.2
+Injected Version >> 4.3.0
 Fix Version >> 4.3.1
 Opening Version >> 4.3.1
-Affected Versions >> [4.2.2, 4.3.0, 4.2.3]
+Affected Versions >> [4.3.0, 4.2.3]
 Fix Commit List >> 
 	36478d1e639ba099cc4256ca2b2fbcc98f7649dd
 ----------------------------------------------------------------------------------
@@ -876,10 +876,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-785
 Opening Date >> 2014-09-17
 Resolution Date >> 2014-09-18
-Injected Version >> 4.2.2
+Injected Version >> 4.3.0
 Fix Version >> 4.3.1
 Opening Version >> 4.3.1
-Affected Versions >> [4.2.2, 4.3.0, 4.2.3]
+Affected Versions >> [4.3.0, 4.2.3]
 Fix Commit List >> 
 	4f0e52d027ed277576344ecbde1938ed3eeb7aae
 ----------------------------------------------------------------------------------
@@ -887,10 +887,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-784
 Opening Date >> 2014-09-12
 Resolution Date >> 2014-09-18
-Injected Version >> 4.2.2
+Injected Version >> 4.3.0
 Fix Version >> 4.3.1
 Opening Version >> 4.3.1
-Affected Versions >> [4.2.2, 4.3.0, 4.2.3]
+Affected Versions >> [4.3.0, 4.2.3]
 Fix Commit List >> 
 	4a2174a91fbd6b85fed640ef58f1c98fd28ee2d4
 ----------------------------------------------------------------------------------
@@ -898,10 +898,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-783
 Opening Date >> 2014-09-12
 Resolution Date >> 2014-09-17
-Injected Version >> 4.2.2
+Injected Version >> 4.3.0
 Fix Version >> 4.3.1
 Opening Version >> 4.3.1
-Affected Versions >> [4.2.2, 4.3.0, 4.2.3]
+Affected Versions >> [4.3.0, 4.2.3]
 Fix Commit List >> 
 	c918051659f9f9231989531304a0a0a15f0f939e
 ----------------------------------------------------------------------------------
@@ -909,10 +909,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-780
 Opening Date >> 2014-08-28
 Resolution Date >> 2014-09-04
-Injected Version >> 4.2.2
+Injected Version >> 4.3.0
 Fix Version >> 4.3.1
 Opening Version >> 4.3.1
-Affected Versions >> [4.2.2, 4.3.0, 4.2.3]
+Affected Versions >> [4.3.0, 4.2.3]
 Fix Commit List >> 
 	0c96765dffe3850ae6fc80397f9bc221421f1fa3
 ----------------------------------------------------------------------------------
@@ -920,10 +920,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-779
 Opening Date >> 2014-08-28
 Resolution Date >> 2014-09-06
-Injected Version >> 4.2.2
+Injected Version >> 4.3.0
 Fix Version >> 4.3.1
 Opening Version >> 4.3.1
-Affected Versions >> [4.2.2, 4.3.0, 4.2.3]
+Affected Versions >> [4.3.0, 4.2.3]
 Fix Commit List >> 
 	fd6835e4f06d3cbb6a33062f582e4756d0a3139b
 ----------------------------------------------------------------------------------
@@ -931,10 +931,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-778
 Opening Date >> 2014-08-28
 Resolution Date >> 2014-09-09
-Injected Version >> 4.2.2
+Injected Version >> 4.3.0
 Fix Version >> 4.3.1
 Opening Version >> 4.3.1
-Affected Versions >> [4.2.2, 4.3.0, 4.2.3]
+Affected Versions >> [4.3.0, 4.2.3]
 Fix Commit List >> 
 	caf9ef945c93833f8cbc3bb0e6e451e1e58855cb
 ----------------------------------------------------------------------------------
@@ -942,10 +942,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-777
 Opening Date >> 2014-08-28
 Resolution Date >> 2014-09-06
-Injected Version >> 4.2.2
+Injected Version >> 4.3.0
 Fix Version >> 4.3.1
 Opening Version >> 4.3.1
-Affected Versions >> [4.2.2, 4.3.0, 4.2.3]
+Affected Versions >> [4.3.0, 4.2.3]
 Fix Commit List >> 
 	8f81eba34d2af8444be9f713447e12f4387e5932
 ----------------------------------------------------------------------------------
@@ -953,10 +953,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-774
 Opening Date >> 2014-07-26
 Resolution Date >> 2014-08-14
-Injected Version >> 4.2.2
+Injected Version >> 4.3.0
 Fix Version >> 4.3.1
 Opening Version >> 4.3.1
-Affected Versions >> [4.2.2, 4.3.0, 4.2.3]
+Affected Versions >> [4.3.0, 4.2.3]
 Fix Commit List >> 
 	b6f33e49d0671a5b982bcb3613c5c9844f6aec8b
 ----------------------------------------------------------------------------------
@@ -964,10 +964,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-769
 Opening Date >> 2014-06-19
 Resolution Date >> 2016-03-16
-Injected Version >> 4.1.0
+Injected Version >> 4.3.0
 Fix Version >> 4.4.0
 Opening Version >> 4.2.3
-Affected Versions >> [4.1.0, 4.1.1, 4.2.1, 4.2.2, 4.3.0, 4.2.3, 4.3.1, 4.3.2]
+Affected Versions >> [4.3.0, 4.2.3, 4.3.1, 4.3.2]
 Fix Commit List >> 
 	9a8d62b1d1231f2fe6feca7e0c407a426a1278d5
 ----------------------------------------------------------------------------------
@@ -986,10 +986,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-767
 Opening Date >> 2014-06-04
 Resolution Date >> 2014-06-06
-Injected Version >> 4.2.1
+Injected Version >> 4.2.2
 Fix Version >> 4.2.3
 Opening Version >> 4.2.3
-Affected Versions >> [4.2.1, 4.2.2, 4.3.0]
+Affected Versions >> [4.2.2, 4.3.0]
 Fix Commit List >> 
 	80c6e5526c63409e4f359905d0fd319ac7d2b129
 ----------------------------------------------------------------------------------
@@ -997,10 +997,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-766
 Opening Date >> 2014-06-03
 Resolution Date >> 2014-06-05
-Injected Version >> 4.2.1
+Injected Version >> 4.2.2
 Fix Version >> 4.2.3
 Opening Version >> 4.2.3
-Affected Versions >> [4.2.1, 4.2.2, 4.3.0]
+Affected Versions >> [4.2.2, 4.3.0]
 Fix Commit List >> 
 	68deb96d2d1de45eea0c358c0eab39847d51e1f8
 ----------------------------------------------------------------------------------
@@ -1008,10 +1008,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-765
 Opening Date >> 2014-06-03
 Resolution Date >> 2014-06-10
-Injected Version >> 4.2.1
+Injected Version >> 4.2.2
 Fix Version >> 4.2.3
 Opening Version >> 4.2.3
-Affected Versions >> [4.2.1, 4.2.2, 4.3.0]
+Affected Versions >> [4.2.2, 4.3.0]
 Fix Commit List >> 
 	c9db762707538a99a92852e60b88bed577b01377
 ----------------------------------------------------------------------------------
@@ -1019,10 +1019,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-763
 Opening Date >> 2014-05-29
 Resolution Date >> 2014-05-30
-Injected Version >> 4.2.1
+Injected Version >> 4.2.2
 Fix Version >> 4.2.3
 Opening Version >> 4.2.3
-Affected Versions >> [4.2.1, 4.2.2, 4.3.0]
+Affected Versions >> [4.2.2, 4.3.0]
 Fix Commit List >> 
 	209dbf4982eb997c9691c4331dcaea3b7e4af6d6
 ----------------------------------------------------------------------------------
@@ -1030,10 +1030,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-751
 Opening Date >> 2014-05-07
 Resolution Date >> 2014-05-30
-Injected Version >> 4.2.1
+Injected Version >> 4.2.2
 Fix Version >> 4.2.3
 Opening Version >> 4.2.3
-Affected Versions >> [4.2.1, 4.2.2, 4.3.0]
+Affected Versions >> [4.2.2, 4.3.0]
 Fix Commit List >> 
 	d11665de31b5ee6969128062569f2081b5d9cf79
 ----------------------------------------------------------------------------------
@@ -1041,10 +1041,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-750
 Opening Date >> 2014-04-29
 Resolution Date >> 2014-05-23
-Injected Version >> 4.2.1
+Injected Version >> 4.2.2
 Fix Version >> 4.2.3
 Opening Version >> 4.2.3
-Affected Versions >> [4.2.1, 4.2.2, 4.3.0]
+Affected Versions >> [4.2.2, 4.3.0]
 Fix Commit List >> 
 	151c50dbe992efcaf0fa831dbf829b792b8bb925
 	d67f3a752d291b1f55e5b9597eca6b135d3626ee
@@ -1053,10 +1053,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-746
 Opening Date >> 2014-04-04
 Resolution Date >> 2014-06-03
-Injected Version >> 4.2.1
+Injected Version >> 4.2.2
 Fix Version >> 4.2.3
 Opening Version >> 4.2.3
-Affected Versions >> [4.2.1, 4.2.2, 4.3.0]
+Affected Versions >> [4.2.2, 4.3.0]
 Fix Commit List >> 
 	404b83abafb94b62c0ced2ba7cf6878762643746
 ----------------------------------------------------------------------------------
@@ -1064,10 +1064,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-745
 Opening Date >> 2014-04-04
 Resolution Date >> 2014-06-02
-Injected Version >> 4.2.1
+Injected Version >> 4.2.2
 Fix Version >> 4.2.3
 Opening Version >> 4.2.3
-Affected Versions >> [4.2.1, 4.2.2, 4.3.0]
+Affected Versions >> [4.2.2, 4.3.0]
 Fix Commit List >> 
 	d86917af98c2a7442619f1b71aa6d4d1da5945f4
 ----------------------------------------------------------------------------------
@@ -1075,10 +1075,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-744
 Opening Date >> 2014-04-04
 Resolution Date >> 2014-05-06
-Injected Version >> 4.2.1
+Injected Version >> 4.2.2
 Fix Version >> 4.2.3
 Opening Version >> 4.2.3
-Affected Versions >> [4.2.1, 4.2.2, 4.3.0]
+Affected Versions >> [4.2.2, 4.3.0]
 Fix Commit List >> 
 	4c27506835dd0a58ee0a37c4422c44237a344b30
 	e824ac2691f4e86ac5ced675cd3ffb66f00e059a
@@ -1087,10 +1087,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-743
 Opening Date >> 2014-04-04
 Resolution Date >> 2014-04-24
-Injected Version >> 4.2.1
+Injected Version >> 4.2.2
 Fix Version >> 4.2.3
 Opening Version >> 4.2.3
-Affected Versions >> [4.2.1, 4.2.2, 4.3.0]
+Affected Versions >> [4.2.2, 4.3.0]
 Fix Commit List >> 
 	54c54f71a5fad10838c66c6a6b28ef13d9388931
 ----------------------------------------------------------------------------------
@@ -1098,10 +1098,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-742
 Opening Date >> 2014-04-04
 Resolution Date >> 2014-04-24
-Injected Version >> 4.2.1
+Injected Version >> 4.2.2
 Fix Version >> 4.2.3
 Opening Version >> 4.2.3
-Affected Versions >> [4.2.1, 4.2.2, 4.3.0]
+Affected Versions >> [4.2.2, 4.3.0]
 Fix Commit List >> 
 	e1838f47800120252a3b5db77b7d1169e1daf801
 ----------------------------------------------------------------------------------
@@ -1109,10 +1109,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-740
 Opening Date >> 2014-03-07
 Resolution Date >> 2014-03-10
-Injected Version >> 4.2.1
+Injected Version >> 4.2.2
 Fix Version >> 4.2.3
 Opening Version >> 4.2.3
-Affected Versions >> [4.2.1, 4.2.2, 4.3.0]
+Affected Versions >> [4.2.2, 4.3.0]
 Fix Commit List >> 
 	1ac25ebe98dd3038f68fe80e79570b9beceb0be8
 ----------------------------------------------------------------------------------
@@ -1120,10 +1120,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-731
 Opening Date >> 2014-02-06
 Resolution Date >> 2014-02-10
-Injected Version >> 4.2.1
+Injected Version >> 4.2.2
 Fix Version >> 4.2.3
 Opening Version >> 4.2.3
-Affected Versions >> [4.2.1, 4.2.2, 4.3.0]
+Affected Versions >> [4.2.2, 4.3.0]
 Fix Commit List >> 
 	f19744d30ed879022a66de885cb1236d54582d2b
 ----------------------------------------------------------------------------------
@@ -1131,10 +1131,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-730
 Opening Date >> 2014-02-06
 Resolution Date >> 2014-03-07
-Injected Version >> 4.2.1
+Injected Version >> 4.2.2
 Fix Version >> 4.2.3
 Opening Version >> 4.2.3
-Affected Versions >> [4.2.1, 4.2.2, 4.3.0]
+Affected Versions >> [4.2.2, 4.3.0]
 Fix Commit List >> 
 	9d4ce1671cd6731b9b9652399c24a91c34e0bc65
 ----------------------------------------------------------------------------------
@@ -1142,10 +1142,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-729
 Opening Date >> 2014-02-04
 Resolution Date >> 2014-02-06
-Injected Version >> 4.2.1
+Injected Version >> 4.2.2
 Fix Version >> 4.2.3
 Opening Version >> 4.2.3
-Affected Versions >> [4.2.1, 4.2.2, 4.3.0]
+Affected Versions >> [4.2.2, 4.3.0]
 Fix Commit List >> 
 	b62a67b1b11a10fe378a0bef25b846887cd104b1
 ----------------------------------------------------------------------------------
@@ -1153,10 +1153,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-728
 Opening Date >> 2014-02-04
 Resolution Date >> 2014-02-06
-Injected Version >> 4.2.1
+Injected Version >> 4.2.2
 Fix Version >> 4.2.3
 Opening Version >> 4.2.3
-Affected Versions >> [4.2.1, 4.2.2, 4.3.0]
+Affected Versions >> [4.2.2, 4.3.0]
 Fix Commit List >> 
 	63232dec02952e3404beeafd0c73fc61c2c7cd17
 ----------------------------------------------------------------------------------
@@ -1164,10 +1164,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-727
 Opening Date >> 2014-02-04
 Resolution Date >> 2014-02-05
-Injected Version >> 4.2.1
+Injected Version >> 4.2.2
 Fix Version >> 4.2.3
 Opening Version >> 4.2.3
-Affected Versions >> [4.2.1, 4.2.2, 4.3.0]
+Affected Versions >> [4.2.2, 4.3.0]
 Fix Commit List >> 
 	94ebe62b8c6ddcd2b52e8bc4eac4e102ff4cf720
 ----------------------------------------------------------------------------------
@@ -1175,10 +1175,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-726
 Opening Date >> 2014-02-04
 Resolution Date >> 2014-03-10
-Injected Version >> 4.2.1
+Injected Version >> 4.2.2
 Fix Version >> 4.2.3
 Opening Version >> 4.2.3
-Affected Versions >> [4.2.1, 4.2.2, 4.3.0]
+Affected Versions >> [4.2.2, 4.3.0]
 Fix Commit List >> 
 	7e0b69cac5d406c777765bc1fa879520ea9176ec
 ----------------------------------------------------------------------------------
@@ -1186,10 +1186,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-725
 Opening Date >> 2014-02-04
 Resolution Date >> 2014-02-06
-Injected Version >> 4.2.1
+Injected Version >> 4.2.2
 Fix Version >> 4.2.3
 Opening Version >> 4.2.3
-Affected Versions >> [4.2.1, 4.2.2, 4.3.0]
+Affected Versions >> [4.2.2, 4.3.0]
 Fix Commit List >> 
 	3870ff300c64dc41828fdc8c9627e76450cff077
 ----------------------------------------------------------------------------------
@@ -1197,10 +1197,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-724
 Opening Date >> 2014-02-02
 Resolution Date >> 2014-02-06
-Injected Version >> 4.2.1
+Injected Version >> 4.2.2
 Fix Version >> 4.2.3
 Opening Version >> 4.3.0
-Affected Versions >> [4.2.1, 4.2.2, 4.3.0]
+Affected Versions >> [4.2.2, 4.3.0]
 Fix Commit List >> 
 	8aafd10f6634f039e33b0576d4b61121b494e93a
 ----------------------------------------------------------------------------------
@@ -1208,10 +1208,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-720
 Opening Date >> 2014-01-21
 Resolution Date >> 2014-01-22
-Injected Version >> 4.1.1
+Injected Version >> 4.2.1
 Fix Version >> 4.3.0
 Opening Version >> 4.3.0
-Affected Versions >> [4.1.1, 4.2.1, 4.2.2]
+Affected Versions >> [4.2.1, 4.2.2]
 Fix Commit List >> 
 	7b44d9552d8b854160278582db3f5ca07882358a
 ----------------------------------------------------------------------------------
@@ -1219,10 +1219,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-719
 Opening Date >> 2014-01-21
 Resolution Date >> 2014-01-21
-Injected Version >> 4.1.1
+Injected Version >> 4.2.1
 Fix Version >> 4.3.0
 Opening Version >> 4.3.0
-Affected Versions >> [4.1.1, 4.2.1, 4.2.2]
+Affected Versions >> [4.2.1, 4.2.2]
 Fix Commit List >> 
 	23f3760dd5d79e6894616834aa41d59089c9548a
 ----------------------------------------------------------------------------------
@@ -1230,10 +1230,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-714
 Opening Date >> 2013-12-31
 Resolution Date >> 2014-03-10
-Injected Version >> 4.2.1
+Injected Version >> 4.2.2
 Fix Version >> 4.2.3
 Opening Version >> 4.3.0
-Affected Versions >> [4.2.1, 4.2.2, 4.3.0]
+Affected Versions >> [4.2.2, 4.3.0]
 Fix Commit List >> 
 	79a73f0f71be5701b44ab47c14f92945989b1417
 ----------------------------------------------------------------------------------
@@ -1241,10 +1241,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-712
 Opening Date >> 2013-12-05
 Resolution Date >> 2013-12-05
-Injected Version >> 4.1.1
+Injected Version >> 4.2.1
 Fix Version >> 4.3.0
 Opening Version >> 4.3.0
-Affected Versions >> [4.1.1, 4.2.1, 4.2.2]
+Affected Versions >> [4.2.1, 4.2.2]
 Fix Commit List >> 
 	42185c2e3d9e6d85b095842ac051f3a3c4a4d22f
 ----------------------------------------------------------------------------------
@@ -1252,10 +1252,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-711
 Opening Date >> 2013-12-03
 Resolution Date >> 2013-12-05
-Injected Version >> 4.1.1
+Injected Version >> 4.2.2
 Fix Version >> 4.3.0
 Opening Version >> 4.3.0
-Affected Versions >> [4.1.1, 4.2.1, 4.2.2]
+Affected Versions >> [4.2.2]
 Fix Commit List >> 
 	810f10e9c628604a7697172df79478d9186be637
 ----------------------------------------------------------------------------------
@@ -1263,10 +1263,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-710
 Opening Date >> 2013-11-23
 Resolution Date >> 2014-04-11
-Injected Version >> 4.2.1
+Injected Version >> 4.2.2
 Fix Version >> 4.2.3
 Opening Version >> 4.3.0
-Affected Versions >> [4.2.1, 4.2.2, 4.3.0]
+Affected Versions >> [4.2.2, 4.3.0]
 Fix Commit List >> 
 	78c0d2515f2e381b2c690bdbf2bf9bad03d1250c
 ----------------------------------------------------------------------------------
@@ -1274,10 +1274,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-709
 Opening Date >> 2013-11-23
 Resolution Date >> 2014-01-03
-Injected Version >> 4.1.1
+Injected Version >> 4.2.1
 Fix Version >> 4.3.0
 Opening Version >> 4.3.0
-Affected Versions >> [4.1.1, 4.2.1, 4.2.2]
+Affected Versions >> [4.2.1, 4.2.2]
 Fix Commit List >> 
 	5c3a30f8e423da51b1ee03173a336400335de3b8
 ----------------------------------------------------------------------------------
@@ -1285,10 +1285,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-708
 Opening Date >> 2013-11-10
 Resolution Date >> 2014-02-02
-Injected Version >> 4.1.1
+Injected Version >> 4.2.1
 Fix Version >> 4.3.0
 Opening Version >> 4.3.0
-Affected Versions >> [4.1.1, 4.2.1, 4.2.2]
+Affected Versions >> [4.2.1, 4.2.2]
 Fix Commit List >> 
 	0345c8095ee47aefd7d40a07e2a621079c94f4fd
 ----------------------------------------------------------------------------------
@@ -1296,10 +1296,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-700
 Opening Date >> 2013-10-30
 Resolution Date >> 2013-10-30
-Injected Version >> 4.1.1
+Injected Version >> 4.2.1
 Fix Version >> 4.3.0
 Opening Version >> 4.3.0
-Affected Versions >> [4.1.1, 4.2.1, 4.2.2]
+Affected Versions >> [4.2.1, 4.2.2]
 Fix Commit List >> 
 	ea4a13a45d8d2102f5f0098e404d3de66777a39b
 ----------------------------------------------------------------------------------
@@ -1307,10 +1307,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-698
 Opening Date >> 2013-10-29
 Resolution Date >> 2013-10-30
-Injected Version >> 4.1.1
+Injected Version >> 4.2.1
 Fix Version >> 4.3.0
 Opening Version >> 4.3.0
-Affected Versions >> [4.1.1, 4.2.1, 4.2.2]
+Affected Versions >> [4.2.1, 4.2.2]
 Fix Commit List >> 
 	f345cb9472250eca2b724fa14b8d2c08425b6a2f
 ----------------------------------------------------------------------------------
@@ -1318,10 +1318,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-688
 Opening Date >> 2013-10-04
 Resolution Date >> 2014-03-04
-Injected Version >> 4.0.0
+Injected Version >> 4.2.1
 Fix Version >> 4.2.3
 Opening Version >> 4.2.2
-Affected Versions >> [4.0.0, 4.1.0, 4.1.1, 4.2.1, 4.2.2, 4.3.0]
+Affected Versions >> [4.2.1, 4.2.2, 4.3.0]
 Fix Commit List >> 
 	24dc8ac30c97620cf4dbef48deff2bb957932eb8
 ----------------------------------------------------------------------------------
@@ -1329,10 +1329,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-686
 Opening Date >> 2013-09-29
 Resolution Date >> 2013-10-02
-Injected Version >> 4.1.0
+Injected Version >> 4.1.1
 Fix Version >> 4.2.2
 Opening Version >> 4.2.2
-Affected Versions >> [4.1.0, 4.1.1, 4.2.1]
+Affected Versions >> [4.1.1, 4.2.1]
 Fix Commit List >> 
 	8dafa943a1d5a1cf562d94cc6d2f656e0c0be17e
 ----------------------------------------------------------------------------------
@@ -1340,10 +1340,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-683
 Opening Date >> 2013-09-12
 Resolution Date >> 2013-09-27
-Injected Version >> 4.1.0
+Injected Version >> 4.1.1
 Fix Version >> 4.2.2
 Opening Version >> 4.2.2
-Affected Versions >> [4.1.0, 4.1.1, 4.2.1]
+Affected Versions >> [4.1.1, 4.2.1]
 Fix Commit List >> 
 	441891b2d76b3b0244d00480e0ab70f2d2121d57
 ----------------------------------------------------------------------------------
@@ -1351,10 +1351,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-678
 Opening Date >> 2013-09-01
 Resolution Date >> 2013-11-22
-Injected Version >> 4.1.1
+Injected Version >> 4.2.1
 Fix Version >> 4.3.0
 Opening Version >> 4.2.2
-Affected Versions >> [4.1.1, 4.2.1, 4.2.2]
+Affected Versions >> [4.2.1, 4.2.2]
 Fix Commit List >> 
 	67dccebdbee27476657898a370c4f1808231fc4b
 ----------------------------------------------------------------------------------
@@ -1362,10 +1362,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-676
 Opening Date >> 2013-08-23
 Resolution Date >> 2013-10-14
-Injected Version >> 4.1.1
+Injected Version >> 4.2.1
 Fix Version >> 4.3.0
 Opening Version >> 4.2.2
-Affected Versions >> [4.1.1, 4.2.1, 4.2.2]
+Affected Versions >> [4.2.1, 4.2.2]
 Fix Commit List >> 
 	a3575c3ebcb323a53d7a193488453aa44557c97a
 ----------------------------------------------------------------------------------
@@ -1373,10 +1373,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-673
 Opening Date >> 2013-08-21
 Resolution Date >> 2013-10-14
-Injected Version >> 4.1.1
+Injected Version >> 4.2.1
 Fix Version >> 4.3.0
 Opening Version >> 4.2.2
-Affected Versions >> [4.1.1, 4.2.1, 4.2.2]
+Affected Versions >> [4.2.1, 4.2.2]
 Fix Commit List >> 
 	33ea58027b0a3ba160f7ac19d20568709f453f4d
 ----------------------------------------------------------------------------------
@@ -1384,10 +1384,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-668
 Opening Date >> 2013-08-06
 Resolution Date >> 2013-08-20
-Injected Version >> 4.1.0
+Injected Version >> 4.2.1
 Fix Version >> 4.2.2
 Opening Version >> 4.2.2
-Affected Versions >> [4.1.0, 4.1.1, 4.2.1]
+Affected Versions >> [4.2.1]
 Fix Commit List >> 
 	2179f1bf6d656d7c5f7e89f2eeaaa0732f0b9608
 ----------------------------------------------------------------------------------
@@ -1395,10 +1395,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-667
 Opening Date >> 2013-08-06
 Resolution Date >> 2013-08-13
-Injected Version >> 4.1.0
+Injected Version >> 4.2.1
 Fix Version >> 4.2.2
 Opening Version >> 4.2.2
-Affected Versions >> [4.1.0, 4.1.1, 4.2.1]
+Affected Versions >> [4.2.1]
 Fix Commit List >> 
 	94d65d8d2e3239ad0694d3c2252fca0e3dbea8b3
 ----------------------------------------------------------------------------------
@@ -1417,10 +1417,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-663
 Opening Date >> 2013-07-26
 Resolution Date >> 2013-07-29
-Injected Version >> 4.1.0
+Injected Version >> 4.1.1
 Fix Version >> 4.2.2
 Opening Version >> 4.2.2
-Affected Versions >> [4.1.0, 4.1.1, 4.2.1]
+Affected Versions >> [4.1.1, 4.2.1]
 Fix Commit List >> 
 	22509a7a2c8acbd5cce182529169fc0057e55b0d
 ----------------------------------------------------------------------------------
@@ -1428,10 +1428,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-654
 Opening Date >> 2013-07-21
 Resolution Date >> 2014-02-21
-Injected Version >> 4.0.0
+Injected Version >> 4.2.1
 Fix Version >> 4.2.3
 Opening Version >> 4.2.2
-Affected Versions >> [4.0.0, 4.1.0, 4.1.1, 4.2.1, 4.2.2, 4.3.0]
+Affected Versions >> [4.2.1, 4.2.2, 4.3.0]
 Fix Commit List >> 
 	653dd6d733e9022a6189a2c8546bb8e3afa22715
 ----------------------------------------------------------------------------------
@@ -1439,10 +1439,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-652
 Opening Date >> 2013-07-20
 Resolution Date >> 2013-07-20
-Injected Version >> 4.1.0
+Injected Version >> 4.1.1
 Fix Version >> 4.2.2
 Opening Version >> 4.2.2
-Affected Versions >> [4.1.0, 4.1.1, 4.2.1]
+Affected Versions >> [4.1.1, 4.2.1]
 Fix Commit List >> 
 	61e619c2b2215fca05df3498256e3f0966a668ff
 ----------------------------------------------------------------------------------
@@ -1450,10 +1450,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-649
 Opening Date >> 2013-07-16
 Resolution Date >> 2013-08-22
-Injected Version >> 4.1.0
+Injected Version >> 4.1.1
 Fix Version >> 4.2.2
 Opening Version >> 4.2.2
-Affected Versions >> [4.1.0, 4.1.1, 4.2.1]
+Affected Versions >> [4.1.1, 4.2.1]
 Fix Commit List >> 
 	d8e6972385e6662ddcf398fc2de47622a9bef22d
 ----------------------------------------------------------------------------------
@@ -1461,10 +1461,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-646
 Opening Date >> 2013-07-08
 Resolution Date >> 2013-07-20
-Injected Version >> 4.1.0
+Injected Version >> 4.2.1
 Fix Version >> 4.2.2
 Opening Version >> 4.2.2
-Affected Versions >> [4.1.0, 4.1.1, 4.2.1]
+Affected Versions >> [4.2.1]
 Fix Commit List >> 
 	4a2c740129d506f620dcfbdb5e1e852258a726d2
 ----------------------------------------------------------------------------------
@@ -1472,10 +1472,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-642
 Opening Date >> 2013-07-05
 Resolution Date >> 2013-07-24
-Injected Version >> 4.1.0
+Injected Version >> 4.1.1
 Fix Version >> 4.2.2
 Opening Version >> 4.2.2
-Affected Versions >> [4.1.0, 4.1.1, 4.2.1]
+Affected Versions >> [4.1.1, 4.2.1]
 Fix Commit List >> 
 	d3328c5a78137de5416f3d8bc1f269f2ac648e6b
 ----------------------------------------------------------------------------------
@@ -1483,10 +1483,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-641
 Opening Date >> 2013-07-02
 Resolution Date >> 2013-07-03
-Injected Version >> 4.1.0
+Injected Version >> 4.2.1
 Fix Version >> 4.2.2
 Opening Version >> 4.2.2
-Affected Versions >> [4.1.0, 4.1.1, 4.2.1]
+Affected Versions >> [4.2.1]
 Fix Commit List >> 
 	0d9708c65998f48ba9b692ff5532251a0e1b8bc9
 ----------------------------------------------------------------------------------
@@ -1494,10 +1494,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-636
 Opening Date >> 2013-06-26
 Resolution Date >> 2013-07-04
-Injected Version >> 4.1.0
+Injected Version >> 4.2.1
 Fix Version >> 4.2.2
 Opening Version >> 4.2.2
-Affected Versions >> [4.1.0, 4.1.1, 4.2.1]
+Affected Versions >> [4.2.1]
 Fix Commit List >> 
 	ed3bb58f5cc5cd4176573cb696bb7277c628b26a
 ----------------------------------------------------------------------------------
@@ -1505,10 +1505,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-635
 Opening Date >> 2013-06-26
 Resolution Date >> 2013-07-20
-Injected Version >> 4.1.0
+Injected Version >> 4.1.1
 Fix Version >> 4.2.2
 Opening Version >> 4.2.2
-Affected Versions >> [4.1.0, 4.1.1, 4.2.1]
+Affected Versions >> [4.1.1, 4.2.1]
 Fix Commit List >> 
 	d9682edfc57911ccb9d70ae41c6627112a96a355
 ----------------------------------------------------------------------------------
@@ -1516,10 +1516,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-632
 Opening Date >> 2013-06-20
 Resolution Date >> 2013-08-21
-Injected Version >> 4.1.0
+Injected Version >> 4.2.1
 Fix Version >> 4.2.2
 Opening Version >> 4.2.2
-Affected Versions >> [4.1.0, 4.1.1, 4.2.1]
+Affected Versions >> [4.2.1]
 Fix Commit List >> 
 	c4fd34f0f13a044c0261732ff2dd454acc4b73de
 ----------------------------------------------------------------------------------
@@ -1527,10 +1527,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-626
 Opening Date >> 2013-06-14
 Resolution Date >> 2013-06-15
-Injected Version >> 4.1.0
+Injected Version >> 4.2.1
 Fix Version >> 4.2.2
 Opening Version >> 4.2.2
-Affected Versions >> [4.1.0, 4.1.1, 4.2.1]
+Affected Versions >> [4.2.1]
 Fix Commit List >> 
 	0a208e10117f8c5201e0414ce3d644d2367b5abc
 ----------------------------------------------------------------------------------
@@ -1538,10 +1538,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-624
 Opening Date >> 2013-06-12
 Resolution Date >> 2013-08-20
-Injected Version >> 4.1.0
+Injected Version >> 4.2.1
 Fix Version >> 4.2.2
 Opening Version >> 4.2.2
-Affected Versions >> [4.1.0, 4.1.1, 4.2.1]
+Affected Versions >> [4.2.1]
 Fix Commit List >> 
 	f41bb6f8b521e26a0a746530e648a9ca2120af51
 ----------------------------------------------------------------------------------
@@ -1549,10 +1549,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-623
 Opening Date >> 2013-06-12
 Resolution Date >> 2013-06-26
-Injected Version >> 4.1.0
+Injected Version >> 4.2.1
 Fix Version >> 4.2.2
 Opening Version >> 4.2.2
-Affected Versions >> [4.1.0, 4.1.1, 4.2.1]
+Affected Versions >> [4.2.1]
 Fix Commit List >> 
 	119e2034303b45478123a0fa62c1c48925b201c1
 ----------------------------------------------------------------------------------
@@ -1560,10 +1560,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-620
 Opening Date >> 2013-06-07
 Resolution Date >> 2013-06-28
-Injected Version >> 4.1.0
+Injected Version >> 4.1.1
 Fix Version >> 4.2.2
 Opening Version >> 4.2.2
-Affected Versions >> [4.1.0, 4.1.1, 4.2.1]
+Affected Versions >> [4.1.1, 4.2.1]
 Fix Commit List >> 
 	bf3224adf56b74e7d8c2792eec9dcdab9c49e3d3
 ----------------------------------------------------------------------------------
@@ -1571,10 +1571,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-619
 Opening Date >> 2013-06-06
 Resolution Date >> 2013-06-21
-Injected Version >> 4.1.0
+Injected Version >> 4.2.1
 Fix Version >> 4.2.2
 Opening Version >> 4.2.2
-Affected Versions >> [4.1.0, 4.1.1, 4.2.1]
+Affected Versions >> [4.2.1]
 Fix Commit List >> 
 	a3de791cb79873c4f9b99e7ac1b9ade75ea225ac
 ----------------------------------------------------------------------------------
@@ -1582,10 +1582,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-617
 Opening Date >> 2013-06-03
 Resolution Date >> 2013-06-05
-Injected Version >> 4.1.0
+Injected Version >> 4.1.1
 Fix Version >> 4.2.2
 Opening Version >> 4.2.2
-Affected Versions >> [4.1.0, 4.1.1, 4.2.1]
+Affected Versions >> [4.1.1, 4.2.1]
 Fix Commit List >> 
 	faf2ed87762fabe4f6cb5f629cf5a7132869ca60
 ----------------------------------------------------------------------------------
@@ -1593,10 +1593,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-610
 Opening Date >> 2013-05-10
 Resolution Date >> 2013-07-20
-Injected Version >> 4.1.0
+Injected Version >> 4.1.1
 Fix Version >> 4.2.2
 Opening Version >> 4.2.2
-Affected Versions >> [4.1.0, 4.1.1, 4.2.1]
+Affected Versions >> [4.1.1, 4.2.1]
 Fix Commit List >> 
 	f3731732ce984f41b8530939254706f9e597583d
 ----------------------------------------------------------------------------------
@@ -1604,10 +1604,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-607
 Opening Date >> 2013-04-22
 Resolution Date >> 2013-07-22
-Injected Version >> 4.1.0
+Injected Version >> 4.2.1
 Fix Version >> 4.2.2
 Opening Version >> 4.2.2
-Affected Versions >> [4.1.0, 4.1.1, 4.2.1]
+Affected Versions >> [4.2.1]
 Fix Commit List >> 
 	a889f63d1041a84d6b894874b31681ed35312781
 ----------------------------------------------------------------------------------
@@ -1615,10 +1615,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-604
 Opening Date >> 2013-04-08
 Resolution Date >> 2013-08-12
-Injected Version >> 4.1.0
+Injected Version >> 4.1.1
 Fix Version >> 4.2.2
 Opening Version >> 4.2.2
-Affected Versions >> [4.1.0, 4.1.1, 4.2.1]
+Affected Versions >> [4.1.1, 4.2.1]
 Fix Commit List >> 
 	d1ad860f8e83530e0d8f1498a35da2e9fbb85962
 ----------------------------------------------------------------------------------
@@ -1626,10 +1626,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-603
 Opening Date >> 2013-04-08
 Resolution Date >> 2013-06-03
-Injected Version >> 4.1.0
+Injected Version >> 4.2.1
 Fix Version >> 4.2.2
 Opening Version >> 4.2.2
-Affected Versions >> [4.1.0, 4.1.1, 4.2.1]
+Affected Versions >> [4.2.1]
 Fix Commit List >> 
 	cf2a858bb7bc669e12058e2dda1a996a67d3d37a
 ----------------------------------------------------------------------------------
@@ -1648,10 +1648,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-601
 Opening Date >> 2013-04-05
 Resolution Date >> 2013-07-13
-Injected Version >> 4.1.0
+Injected Version >> 4.2.1
 Fix Version >> 4.2.2
 Opening Version >> 4.2.2
-Affected Versions >> [4.1.0, 4.1.1, 4.2.1]
+Affected Versions >> [4.2.1]
 Fix Commit List >> 
 	0ce12e55edb179fc55bc9c5749a589a52bb36b3a
 ----------------------------------------------------------------------------------
@@ -1659,10 +1659,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-599
 Opening Date >> 2013-04-05
 Resolution Date >> 2013-04-07
-Injected Version >> 4.1.0
+Injected Version >> 4.2.1
 Fix Version >> 4.2.2
 Opening Version >> 4.2.2
-Affected Versions >> [4.1.0, 4.1.1, 4.2.1]
+Affected Versions >> [4.2.1]
 Fix Commit List >> 
 	cdf138e24b76f934721eb1e82a226d0be296b838
 ----------------------------------------------------------------------------------
@@ -1670,10 +1670,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-598
 Opening Date >> 2013-04-04
 Resolution Date >> 2013-04-07
-Injected Version >> 4.1.0
+Injected Version >> 4.2.1
 Fix Version >> 4.2.2
 Opening Version >> 4.2.2
-Affected Versions >> [4.1.0, 4.1.1, 4.2.1]
+Affected Versions >> [4.2.1]
 Fix Commit List >> 
 	09ec928ee0218caeef5661ba60978fd18b2e553b
 ----------------------------------------------------------------------------------
@@ -1681,10 +1681,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-597
 Opening Date >> 2013-04-02
 Resolution Date >> 2013-04-02
-Injected Version >> 4.1.0
+Injected Version >> 4.1.1
 Fix Version >> 4.2.2
 Opening Version >> 4.2.2
-Affected Versions >> [4.1.0, 4.1.1, 4.2.1]
+Affected Versions >> [4.1.1, 4.2.1]
 Fix Commit List >> 
 	feb077afa2e5064f24f011067fd626c81ede8491
 ----------------------------------------------------------------------------------
@@ -1692,10 +1692,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-596
 Opening Date >> 2013-03-28
 Resolution Date >> 2013-07-26
-Injected Version >> 4.1.0
+Injected Version >> 4.2.1
 Fix Version >> 4.2.2
 Opening Version >> 4.2.2
-Affected Versions >> [4.1.0, 4.1.1, 4.2.1]
+Affected Versions >> [4.2.1]
 Fix Commit List >> 
 	b118823702e946ccdeb14843e2691fdd760a59e4
 ----------------------------------------------------------------------------------
@@ -1703,10 +1703,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-594
 Opening Date >> 2013-03-26
 Resolution Date >> 2016-03-16
-Injected Version >> 4.0.0
+Injected Version >> 4.1.0
 Fix Version >> 4.4.0
 Opening Version >> 4.2.1
-Affected Versions >> [4.0.0, 4.1.0, 4.1.1, 4.2.1, 4.2.2, 4.3.0, 4.2.3, 4.3.1, 4.3.2]
+Affected Versions >> [4.1.0, 4.1.1, 4.2.1, 4.2.2, 4.3.0, 4.2.3, 4.3.1, 4.3.2]
 Fix Commit List >> 
 	1a98088e38ca0a43c26d9a4847619b0a27bb90e8
 ----------------------------------------------------------------------------------
@@ -1714,10 +1714,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-586
 Opening Date >> 2013-03-20
 Resolution Date >> 2013-03-25
-Injected Version >> 4.0.0
+Injected Version >> 4.1.0
 Fix Version >> 4.2.1
 Opening Version >> 4.2.1
-Affected Versions >> [4.0.0, 4.1.0, 4.1.1]
+Affected Versions >> [4.1.0, 4.1.1]
 Fix Commit List >> 
 	6268be59c7d8cf411860a6807a2cb45bc1c891f4
 ----------------------------------------------------------------------------------
@@ -1725,10 +1725,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-584
 Opening Date >> 2013-03-12
 Resolution Date >> 2013-04-26
-Injected Version >> 4.1.0
+Injected Version >> 4.1.1
 Fix Version >> 4.2.2
 Opening Version >> 4.2.1
-Affected Versions >> [4.1.0, 4.1.1, 4.2.1]
+Affected Versions >> [4.1.1, 4.2.1]
 Fix Commit List >> 
 	685ca079690f8be2cbcfacb615fc0eb5a798b8da
 ----------------------------------------------------------------------------------
@@ -1736,10 +1736,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-580
 Opening Date >> 2013-02-27
 Resolution Date >> 2013-08-23
-Injected Version >> 4.1.0
+Injected Version >> 4.1.1
 Fix Version >> 4.2.2
 Opening Version >> 4.2.1
-Affected Versions >> [4.1.0, 4.1.1, 4.2.1]
+Affected Versions >> [4.1.1, 4.2.1]
 Fix Commit List >> 
 	98d6dcec7403c523cfd07cf48ed878e1ab13eae0
 ----------------------------------------------------------------------------------
@@ -1747,10 +1747,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-578
 Opening Date >> 2013-02-27
 Resolution Date >> 2016-04-05
-Injected Version >> 4.0.0
+Injected Version >> 4.1.0
 Fix Version >> 4.4.0
 Opening Version >> 4.2.1
-Affected Versions >> [4.0.0, 4.1.0, 4.1.1, 4.2.1, 4.2.2, 4.3.0, 4.2.3, 4.3.1, 4.3.2]
+Affected Versions >> [4.1.0, 4.1.1, 4.2.1, 4.2.2, 4.3.0, 4.2.3, 4.3.1, 4.3.2]
 Fix Commit List >> 
 	d607b366ba493617408888a768a99ee3f3ffb976
 ----------------------------------------------------------------------------------
@@ -1758,10 +1758,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-569
 Opening Date >> 2013-02-13
 Resolution Date >> 2013-02-16
-Injected Version >> 4.0.0
+Injected Version >> 4.1.0
 Fix Version >> 4.2.1
 Opening Version >> 4.2.1
-Affected Versions >> [4.0.0, 4.1.0, 4.1.1]
+Affected Versions >> [4.1.0, 4.1.1]
 Fix Commit List >> 
 	cda181255f0bb2ebc1a69f75b2b6f84b50c4fba0
 ----------------------------------------------------------------------------------
@@ -1769,10 +1769,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-568
 Opening Date >> 2013-02-11
 Resolution Date >> 2013-02-15
-Injected Version >> 4.0.0
+Injected Version >> 4.1.0
 Fix Version >> 4.2.1
 Opening Version >> 4.2.1
-Affected Versions >> [4.0.0, 4.1.0, 4.1.1]
+Affected Versions >> [4.1.0, 4.1.1]
 Fix Commit List >> 
 	5b7b6835c74a11162164e90e66bb05a84411a8c2
 ----------------------------------------------------------------------------------
@@ -1780,10 +1780,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-567
 Opening Date >> 2013-02-09
 Resolution Date >> 2013-02-19
-Injected Version >> 4.0.0
+Injected Version >> 4.1.0
 Fix Version >> 4.2.1
 Opening Version >> 4.2.1
-Affected Versions >> [4.0.0, 4.1.0, 4.1.1]
+Affected Versions >> [4.1.0, 4.1.1]
 Fix Commit List >> 
 	d40d380363f7ab608231e91b84dd94e3478f3773
 ----------------------------------------------------------------------------------
@@ -1791,10 +1791,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-561
 Opening Date >> 2013-02-05
 Resolution Date >> 2013-02-08
-Injected Version >> 4.0.0
+Injected Version >> 4.1.0
 Fix Version >> 4.2.1
 Opening Version >> 4.2.1
-Affected Versions >> [4.0.0, 4.1.0, 4.1.1]
+Affected Versions >> [4.1.0, 4.1.1]
 Fix Commit List >> 
 	f060c0d2745b47314562bc94ecb5f525e2addb07
 ----------------------------------------------------------------------------------
@@ -1802,10 +1802,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-559
 Opening Date >> 2013-01-28
 Resolution Date >> 2013-03-05
-Injected Version >> 4.0.0
+Injected Version >> 4.1.0
 Fix Version >> 4.2.1
 Opening Version >> 4.2.1
-Affected Versions >> [4.0.0, 4.1.0, 4.1.1]
+Affected Versions >> [4.1.0, 4.1.1]
 Fix Commit List >> 
 	ea5a13d748918f495ad1cb1e37c0f995e3d53072
 ----------------------------------------------------------------------------------
@@ -1813,10 +1813,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-557
 Opening Date >> 2013-01-24
 Resolution Date >> 2013-03-25
-Injected Version >> 4.0.0
+Injected Version >> 4.1.0
 Fix Version >> 4.2.1
 Opening Version >> 4.2.1
-Affected Versions >> [4.0.0, 4.1.0, 4.1.1]
+Affected Versions >> [4.1.0, 4.1.1]
 Fix Commit List >> 
 	f2bb5603ff33b8ac54bcdf2daddb61cf3e65de80
 ----------------------------------------------------------------------------------
@@ -1824,10 +1824,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-556
 Opening Date >> 2013-01-24
 Resolution Date >> 2013-02-09
-Injected Version >> 4.0.0
+Injected Version >> 4.1.0
 Fix Version >> 4.2.1
 Opening Version >> 4.2.1
-Affected Versions >> [4.0.0, 4.1.0, 4.1.1]
+Affected Versions >> [4.1.0, 4.1.1]
 Fix Commit List >> 
 	3902ae5a6056ba6348f71c873d23f74ac32cebef
 ----------------------------------------------------------------------------------
@@ -1835,10 +1835,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-554
 Opening Date >> 2013-01-20
 Resolution Date >> 2013-02-12
-Injected Version >> 4.0.0
+Injected Version >> 4.1.0
 Fix Version >> 4.2.1
 Opening Version >> 4.2.1
-Affected Versions >> [4.0.0, 4.1.0, 4.1.1]
+Affected Versions >> [4.1.0, 4.1.1]
 Fix Commit List >> 
 	3bcabc5adb48e75dd041384ebcbb0017d56c3299
 ----------------------------------------------------------------------------------
@@ -1846,10 +1846,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-549
 Opening Date >> 2013-01-16
 Resolution Date >> 2013-02-19
-Injected Version >> 4.0.0
+Injected Version >> 4.1.0
 Fix Version >> 4.2.1
 Opening Version >> 4.1.1
-Affected Versions >> [4.0.0, 4.1.0, 4.1.1]
+Affected Versions >> [4.1.0, 4.1.1]
 Fix Commit List >> 
 	f4d189431ee77d1133b617dba9e939756cb9d721
 ----------------------------------------------------------------------------------
@@ -1857,10 +1857,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-548
 Opening Date >> 2013-01-16
 Resolution Date >> 2013-02-19
-Injected Version >> 4.0.0
+Injected Version >> 4.1.0
 Fix Version >> 4.2.1
 Opening Version >> 4.1.1
-Affected Versions >> [4.0.0, 4.1.0, 4.1.1]
+Affected Versions >> [4.1.0, 4.1.1]
 Fix Commit List >> 
 	040a442bef5b93143a9e07c0b601fddea88c5712
 ----------------------------------------------------------------------------------
@@ -1868,10 +1868,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-544
 Opening Date >> 2013-01-11
 Resolution Date >> 2013-06-06
-Injected Version >> 4.0.0
+Injected Version >> 4.1.0
 Fix Version >> 4.2.2
 Opening Version >> 4.1.1
-Affected Versions >> [4.0.0, 4.1.0, 4.1.1, 4.2.1]
+Affected Versions >> [4.1.0, 4.1.1, 4.2.1]
 Fix Commit List >> 
 	7bed2a74a98f49b31c1653a513944f60a359776c
 	faf2ed87762fabe4f6cb5f629cf5a7132869ca60
@@ -1880,10 +1880,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-543
 Opening Date >> 2013-01-10
 Resolution Date >> 2013-01-10
-Injected Version >> 4.0.0
+Injected Version >> 4.1.0
 Fix Version >> 4.1.1
 Opening Version >> 4.1.1
-Affected Versions >> [4.0.0, 4.1.0]
+Affected Versions >> [4.1.0]
 Fix Commit List >> 
 	a9b851b3afe2d8031ad426fdd2e579ba003fe02c
 ----------------------------------------------------------------------------------
@@ -1946,10 +1946,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-530
 Opening Date >> 2012-12-29
 Resolution Date >> 2013-01-10
-Injected Version >> 4.0.0
+Injected Version >> 4.1.0
 Fix Version >> 4.1.1
 Opening Version >> 4.1.1
-Affected Versions >> [4.0.0, 4.1.0]
+Affected Versions >> [4.1.0]
 Fix Commit List >> 
 	7c1793d2979b01062682b70687839a978bf65c4c
 ----------------------------------------------------------------------------------
@@ -2079,10 +2079,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-500
 Opening Date >> 2012-12-11
 Resolution Date >> 2012-12-18
-Injected Version >> 4.0.0
+Injected Version >> 4.1.0
 Fix Version >> 4.1.1
 Opening Version >> 4.1.1
-Affected Versions >> [4.0.0, 4.1.0]
+Affected Versions >> [4.1.0]
 Fix Commit List >> 
 	d69986c4df6b51ed6ed27c5f45a7b6850e69dacd
 ----------------------------------------------------------------------------------
@@ -2332,10 +2332,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-457
 Opening Date >> 2012-11-06
 Resolution Date >> 2012-11-29
-Injected Version >> 4.0.0
+Injected Version >> 4.1.0
 Fix Version >> 4.1.1
 Opening Version >> 4.1.1
-Affected Versions >> [4.0.0, 4.1.0]
+Affected Versions >> [4.1.0]
 Fix Commit List >> 
 	0d198abad7b41d8326913384967aeb1239ab0528
 ----------------------------------------------------------------------------------
@@ -2365,10 +2365,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-446
 Opening Date >> 2012-10-29
 Resolution Date >> 2013-09-10
-Injected Version >> 4.0.0
+Injected Version >> 4.1.0
 Fix Version >> 4.2.2
 Opening Version >> 4.1.1
-Affected Versions >> [4.0.0, 4.1.0, 4.1.1, 4.2.1]
+Affected Versions >> [4.1.0, 4.1.1, 4.2.1]
 Fix Commit List >> 
 	aadaae443e1bc70505150a3218a54ff66ebfb921
 ----------------------------------------------------------------------------------
@@ -2376,10 +2376,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-442
 Opening Date >> 2012-10-25
 Resolution Date >> 2012-12-03
-Injected Version >> 4.0.0
+Injected Version >> 4.1.0
 Fix Version >> 4.1.1
 Opening Version >> 4.1.1
-Affected Versions >> [4.0.0, 4.1.0]
+Affected Versions >> [4.1.0]
 Fix Commit List >> 
 	0ea460606e4a45a07a79c356ad1d58a6119e0d31
 ----------------------------------------------------------------------------------
@@ -2398,10 +2398,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-439
 Opening Date >> 2012-10-19
 Resolution Date >> 2012-10-26
-Injected Version >> 4.0.0
+Injected Version >> 4.1.0
 Fix Version >> 4.1.1
 Opening Version >> 4.1.1
-Affected Versions >> [4.0.0, 4.1.0]
+Affected Versions >> [4.1.0]
 Fix Commit List >> 
 	223a3fb3fbc78fe4dc1922967fe3daa3edfc3fb2
 ----------------------------------------------------------------------------------
@@ -2487,10 +2487,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-408
 Opening Date >> 2012-09-17
 Resolution Date >> 2012-12-13
-Injected Version >> 4.0.0
+Injected Version >> 4.1.0
 Fix Version >> 4.1.1
 Opening Version >> 4.1.1
-Affected Versions >> [4.0.0, 4.1.0]
+Affected Versions >> [4.1.0]
 Fix Commit List >> 
 	e0011de4475969c19023694f5074b50e5d12a08f
 ----------------------------------------------------------------------------------
@@ -2531,10 +2531,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-396
 Opening Date >> 2012-09-07
 Resolution Date >> 2012-09-11
-Injected Version >> 4.0.0
+Injected Version >> 4.1.0
 Fix Version >> 4.1.1
 Opening Version >> 4.1.1
-Affected Versions >> [4.0.0, 4.1.0]
+Affected Versions >> [4.1.0]
 Fix Commit List >> 
 	26671da549558c4b16da42f2eabfad65fa223831
 ----------------------------------------------------------------------------------
@@ -2564,10 +2564,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-387
 Opening Date >> 2012-09-04
 Resolution Date >> 2012-09-07
-Injected Version >> 4.0.0
+Injected Version >> 4.1.0
 Fix Version >> 4.1.1
 Opening Version >> 4.1.1
-Affected Versions >> [4.0.0, 4.1.0]
+Affected Versions >> [4.1.0]
 Fix Commit List >> 
 	06b50969499330d4a5421b48a042fdee63857d23
 ----------------------------------------------------------------------------------
@@ -2575,10 +2575,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-383
 Opening Date >> 2012-08-27
 Resolution Date >> 2012-09-07
-Injected Version >> 4.0.0
+Injected Version >> 4.1.0
 Fix Version >> 4.1.1
 Opening Version >> 4.1.1
-Affected Versions >> [4.0.0, 4.1.0]
+Affected Versions >> [4.1.0]
 Fix Commit List >> 
 	6f364a214d2b65f5823af2e5699bbc59dc08a4c9
 ----------------------------------------------------------------------------------
@@ -2641,10 +2641,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-363
 Opening Date >> 2012-08-14
 Resolution Date >> 2014-03-07
-Injected Version >> 4.0.0
+Injected Version >> 4.1.0
 Fix Version >> 4.2.3
 Opening Version >> 4.1.1
-Affected Versions >> [4.0.0, 4.1.0, 4.1.1, 4.2.1, 4.2.2, 4.3.0]
+Affected Versions >> [4.1.0, 4.1.1, 4.2.1, 4.2.2, 4.3.0]
 Fix Commit List >> 
 	2d427e8d4b2c1d889ab5586e28e198c140a10489
 ----------------------------------------------------------------------------------
@@ -2652,10 +2652,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-355
 Opening Date >> 2012-08-08
 Resolution Date >> 2013-01-07
-Injected Version >> 4.0.0
+Injected Version >> 4.1.0
 Fix Version >> 4.1.1
 Opening Version >> 4.1.1
-Affected Versions >> [4.0.0, 4.1.0]
+Affected Versions >> [4.1.0]
 Fix Commit List >> 
 	b625fdc27a429341143e204338cf5deab3188e9e
 ----------------------------------------------------------------------------------
@@ -2696,10 +2696,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-349
 Opening Date >> 2012-07-23
 Resolution Date >> 2012-07-26
-Injected Version >> 4.0.0
+Injected Version >> 4.1.0
 Fix Version >> 4.1.1
 Opening Version >> 4.1.1
-Affected Versions >> [4.0.0, 4.1.0]
+Affected Versions >> [4.1.0]
 Fix Commit List >> 
 	051320f212b2a6263d2d95db780db62911b9c0f6
 ----------------------------------------------------------------------------------
@@ -2707,10 +2707,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-343
 Opening Date >> 2012-07-16
 Resolution Date >> 2012-08-03
-Injected Version >> 4.0.0
+Injected Version >> 4.1.0
 Fix Version >> 4.1.1
 Opening Version >> 4.1.1
-Affected Versions >> [4.0.0, 4.1.0]
+Affected Versions >> [4.1.0]
 Fix Commit List >> 
 	4088f7ac7b700588a935485b0a9723a36cc995f3
 ----------------------------------------------------------------------------------
@@ -2740,10 +2740,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-336
 Opening Date >> 2012-07-10
 Resolution Date >> 2012-12-13
-Injected Version >> 4.0.0
+Injected Version >> 4.1.0
 Fix Version >> 4.1.1
 Opening Version >> 4.1.1
-Affected Versions >> [4.0.0, 4.1.0]
+Affected Versions >> [4.1.0]
 Fix Commit List >> 
 	f12b7896e1640bed64cedb0d96bdd82b6cf26a86
 	bdf3bfd631493d82688404dde35eed491ec946ad
@@ -2786,10 +2786,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-326
 Opening Date >> 2012-07-04
 Resolution Date >> 2012-08-13
-Injected Version >> 4.0.0
+Injected Version >> 4.1.0
 Fix Version >> 4.1.1
 Opening Version >> 4.1.1
-Affected Versions >> [4.0.0, 4.1.0]
+Affected Versions >> [4.1.0]
 Fix Commit List >> 
 	391f9246890b416398e48886fe5ed3c4d2e866ab
 ----------------------------------------------------------------------------------
@@ -2797,10 +2797,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-324
 Opening Date >> 2012-07-03
 Resolution Date >> 2012-07-04
-Injected Version >> 4.0.0
+Injected Version >> 4.1.0
 Fix Version >> 4.1.1
 Opening Version >> 4.1.1
-Affected Versions >> [4.0.0, 4.1.0]
+Affected Versions >> [4.1.0]
 Fix Commit List >> 
 	763479b6f94fd4827ee28e9f698cfa9a31095061
 ----------------------------------------------------------------------------------
@@ -2808,10 +2808,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-322
 Opening Date >> 2012-06-27
 Resolution Date >> 2012-06-28
-Injected Version >> 4.0.0
+Injected Version >> 4.1.0
 Fix Version >> 4.1.1
 Opening Version >> 4.1.1
-Affected Versions >> [4.0.0, 4.1.0]
+Affected Versions >> [4.1.0]
 Fix Commit List >> 
 	441bf650859bc96a49b667961a19afd936b67e4c
 ----------------------------------------------------------------------------------
@@ -2819,10 +2819,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-307
 Opening Date >> 2012-06-21
 Resolution Date >> 2012-06-27
-Injected Version >> 4.0.0
+Injected Version >> 4.1.0
 Fix Version >> 4.1.1
 Opening Version >> 4.1.1
-Affected Versions >> [4.0.0, 4.1.0]
+Affected Versions >> [4.1.0]
 Fix Commit List >> 
 	d193780cc404c2e3694c82385d7f422accc416f3
 ----------------------------------------------------------------------------------
@@ -2830,10 +2830,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-303
 Opening Date >> 2012-06-20
 Resolution Date >> 2012-06-27
-Injected Version >> 4.0.0
+Injected Version >> 4.1.0
 Fix Version >> 4.1.1
 Opening Version >> 4.1.1
-Affected Versions >> [4.0.0, 4.1.0]
+Affected Versions >> [4.1.0]
 Fix Commit List >> 
 	744edf07394472d3146e57831592a69d5a86616c
 ----------------------------------------------------------------------------------
@@ -2841,10 +2841,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-302
 Opening Date >> 2012-06-20
 Resolution Date >> 2012-06-28
-Injected Version >> 4.0.0
+Injected Version >> 4.1.0
 Fix Version >> 4.1.1
 Opening Version >> 4.1.1
-Affected Versions >> [4.0.0, 4.1.0]
+Affected Versions >> [4.1.0]
 Fix Commit List >> 
 	4d15e5675c0394cb910e54c9b0d9743e98fb64c7
 ----------------------------------------------------------------------------------
@@ -2852,10 +2852,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-298
 Opening Date >> 2012-06-14
 Resolution Date >> 2012-06-18
-Injected Version >> 4.0.0
+Injected Version >> 4.1.0
 Fix Version >> 4.1.1
 Opening Version >> 4.1.1
-Affected Versions >> [4.0.0, 4.1.0]
+Affected Versions >> [4.1.0]
 Fix Commit List >> 
 	9472fae8739be41301847b1c8e31954f376997e6
 ----------------------------------------------------------------------------------
@@ -2874,10 +2874,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-292
 Opening Date >> 2012-06-11
 Resolution Date >> 2012-06-19
-Injected Version >> 4.0.0
+Injected Version >> 4.1.0
 Fix Version >> 4.1.1
 Opening Version >> 4.1.0
-Affected Versions >> [4.0.0, 4.1.0]
+Affected Versions >> [4.1.0]
 Fix Commit List >> 
 	18728877881a23d2639eb650d47b7c41bbccd9ca
 ----------------------------------------------------------------------------------
@@ -2929,10 +2929,10 @@ Fix Commit List >>
 Ticket ID >> BOOKKEEPER-280
 Opening Date >> 2012-05-31
 Resolution Date >> 2012-06-29
-Injected Version >> 4.0.0
+Injected Version >> 4.1.0
 Fix Version >> 4.1.1
 Opening Version >> 4.1.0
-Affected Versions >> [4.0.0, 4.1.0]
+Affected Versions >> [4.1.0]
 Fix Commit List >> 
 	de432058b7e7c026fcf0b69b1e20bcf9ae1b1de2
 ----------------------------------------------------------------------------------
