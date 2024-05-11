@@ -2,6 +2,7 @@ package retriever;
 
 import model.retrieve.TicketInfo;
 import model.retrieve.VersionInfo;
+import org.eclipse.jgit.api.ListBranchCommand;
 import utils.DateUtils;
 
 import org.eclipse.jgit.api.Git;
@@ -26,7 +27,8 @@ public class CommitRetriever {
     public CommitRetriever(String projectName, Git git, LocalDate lastVersionDate) throws IOException, GitAPIException {
         this.projectName = projectName.toUpperCase();
         this.commitList = new ArrayList<>();
-
+        //todo poi togli questa system.out
+        System.out.println(git.branchList().setListMode(ListBranchCommand.ListMode.ALL).call()) ;
         Iterable<RevCommit> commitIterable = git.log().call() ;
         for (RevCommit commit : commitIterable) {
             LocalDate commitDate = DateUtils.dateToLocalDate(commit.getCommitterIdent().getWhen()) ;

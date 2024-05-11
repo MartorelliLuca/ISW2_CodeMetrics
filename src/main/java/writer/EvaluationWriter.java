@@ -3,24 +3,21 @@ package writer;
 
 import model.weka.WekaEvaluation;
 import utils.PathBuilder;
-import utils.CSVUtils;
-import weka.classifiers.Evaluation;
 
 import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.util.ArrayList;
 import java.util.List;
 
 public class EvaluationWriter {
 
-    private static final String SEPARATOR = "," ;
-
-    private static final String[] HEADER_ARRAY = {
+    private static final List<String> HEADER_ARRAY = new ArrayList<>(List.of(
             "TrainingRelease",
             "ClassifierName",
             "FilterName",
             "SamplerName",
-            "CostSensitive",
+            "SensitiveLearning",
             "Precision",
             "Recall",
             "ROC_AUC",
@@ -28,8 +25,8 @@ public class EvaluationWriter {
             "TruePositive",
             "FalsePositive",
             "TrueNegative",
-            "FalseNegative",
-    } ;
+            "FalseNegative"
+    )) ;
 
     public EvaluationWriter(String projectName) throws IOException {
         Files.createDirectories(PathBuilder.buildEvaluationDirectoryPath(projectName));
@@ -37,46 +34,39 @@ public class EvaluationWriter {
 
     public void writeClassifiersEvaluation(String projectName, List<WekaEvaluation> wekaEvaluationList) throws IOException {
         Path outputPath = PathBuilder.buildEvaluationFilePath(projectName) ;
+        CSVWriter csvWriter = new CSVWriter() ;
 
-        File csvFile = new File(outputPath.toString()) ;
-        try(Writer writer = new BufferedWriter(new FileWriter(csvFile))) {
-            CSVUtils.writeHeader(writer, HEADER_ARRAY, SEPARATOR);
-            for (WekaEvaluation wekaEvaluation : wekaEvaluationList) {
-                writeEvaluationInfo(writer, wekaEvaluation);
-            }
-        }
+        List<List<String>> rowsInfoList = buildEvaluationRowList(wekaEvaluationList) ;
+
+        csvWriter.writeCSV(outputPath, HEADER_ARRAY, rowsInfoList);
     }
 
-    private void writeEvaluationInfo(Writer writer, WekaEvaluation wekaEvaluation) throws IOException {
+    private List<List<String>> buildEvaluationRowList(List<WekaEvaluation> wekaEvaluationList) {
+        List<List<String>> rowsInfoList = new ArrayList<>() ;
+        for (WekaEvaluation wekaEvaluation : wekaEvaluationList) {
+            rowsInfoList.add(buildWekaEvaluationListRepresentation(wekaEvaluation));
+        }
 
-        String evaluationString = wekaEvaluation.getEvaluationIndex() +
-                SEPARATOR +
-                wekaEvaluation.getClassifierName() +
-                SEPARATOR +
-                wekaEvaluation.getFilterName() +
-                SEPARATOR +
-                wekaEvaluation.getSamplerName() +
-                SEPARATOR +
-                wekaEvaluation.isCostSensitive() +
-                SEPARATOR +
-                wekaEvaluation.getPrecision() +
-                SEPARATOR +
-                wekaEvaluation.getRecall() +
-                SEPARATOR +
-                wekaEvaluation.getRoc() +
-                SEPARATOR +
-                wekaEvaluation.getKappa() +
-                SEPARATOR +
-                wekaEvaluation.getTruePositive() +
-                SEPARATOR +
-                wekaEvaluation.getFalsePositive() +
-                SEPARATOR +
-                wekaEvaluation.getTrueNegative() +
-                SEPARATOR +
-                wekaEvaluation.getFalseNegative() +
-                "\n";
+        return rowsInfoList ;
+    }
 
-        writer.write(evaluationString);
+    private List<String> buildWekaEvaluationListRepresentation(WekaEvaluation wekaEvaluation) {
+
+        return new ArrayList<>(List.of(
+                Integer.toString(wekaEvaluation.getEvaluationIndex()),
+                wekaEvaluation.getClassifierName(),
+                wekaEvaluation.getFilterName() ,
+                wekaEvaluation.getSamplerName(),
+                Boolean.toString(wekaEvaluation.isCostSensitive()),
+                Double.toString(wekaEvaluation.getPrecision()),
+                Double.toString(wekaEvaluation.getRecall()),
+                Double.toString(wekaEvaluation.getRoc()),
+                Double.toString(wekaEvaluation.getKappa()),
+                Double.toString(wekaEvaluation.getTruePositive()),
+                Double.toString(wekaEvaluation.getFalsePositive()),
+                Double.toString(wekaEvaluation.getTrueNegative()),
+                Double.toString(wekaEvaluation.getFalseNegative())
+        ));
     }
 
 }

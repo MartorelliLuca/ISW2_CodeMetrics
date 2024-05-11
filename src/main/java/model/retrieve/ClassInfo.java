@@ -5,20 +5,25 @@ import org.eclipse.jgit.revwalk.RevCommit;
 import java.util.ArrayList;
 import java.util.List;
 
+
 public class ClassInfo {
 
+    private List<RevCommit> modifierCommitList ;
     private String name ;
     private boolean buggy ;
     private int loc ;
     private int addedLoc ;
     private int maxAddedLoc ;
     private float avgAddedLoc ;
+
+    private float removedLoc ;
+    private float maxRemovedLoc ;
+    private float avgRemovedLoc ;
     private int touchedLoc ;
     private int churn ;
     private int maxChurn ;
     private float avgChurn ;
     private int numberOfAuthors ;
-    private List<RevCommit> modifierCommitList ;
     private int numberOfRevisions ;
     private int numberDefectsFixed ;
 
@@ -116,6 +121,7 @@ public class ClassInfo {
     public void setAvgChurn(float avgChurn) {
         this.avgChurn = avgChurn;
     }
+
     public int getNumberOfRevisions() {
         return numberOfRevisions;
     }
@@ -138,5 +144,29 @@ public class ClassInfo {
 
     public void setNumberDefectsFixed(int numberDefectsFixed) {
         this.numberDefectsFixed = numberDefectsFixed;
+    }
+
+    public void setRemovedLoc(int totalRemoved) {
+        this.removedLoc = totalRemoved ;
+    }
+
+    public float getRemovedLoc() {
+        return this.removedLoc ;
+    }
+
+    public float getMaxRemovedLoc() {
+        return maxRemovedLoc;
+    }
+
+    public void setMaxRemovedLoc(float maxRemovedLoc) {
+        this.maxRemovedLoc = maxRemovedLoc;
+    }
+
+    public float getAvgRemovedLoc() {
+        return avgRemovedLoc;
+    }
+
+    public void setAvgRemovedLoc(float avgRemovedLoc) {
+        this.avgRemovedLoc = avgRemovedLoc;
     }
 }

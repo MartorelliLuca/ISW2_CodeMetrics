@@ -104,7 +104,7 @@ public class WekaClassifierListBuilder {
     private List<WekaClassifier> combineWithCostSensitive(List<WekaFilter> filterList, List<Classifier> classifierList) {
         List<WekaClassifier> wekaClassifierList = new ArrayList<>() ;
         for (Classifier classifier : classifierList) {
-            List<CostSensitiveClassifier> costSensitiveClassifierList = buildCostSensitive() ;
+            List<CostSensitiveClassifier> costSensitiveClassifierList = buildCostSensitiveClassifiers() ;
             for (CostSensitiveClassifier costSensitiveClassifier : costSensitiveClassifierList) {
                 costSensitiveClassifier.setClassifier(classifier);
                 wekaClassifierList.add(new WekaClassifier(costSensitiveClassifier, classifier.getClass().getSimpleName(), null, null, true));
@@ -112,7 +112,7 @@ public class WekaClassifierListBuilder {
         }
 
         for (Classifier classifier : classifierList) {
-            List<CostSensitiveClassifier> costSensitiveClassifierList = buildCostSensitive() ;
+            List<CostSensitiveClassifier> costSensitiveClassifierList = buildCostSensitiveClassifiers() ;
             for (CostSensitiveClassifier costSensitiveClassifier : costSensitiveClassifierList) {
                 for (WekaFilter wekaFilter : filterList) {
                     FilteredClassifier externalClassifier = new FilteredClassifier() ;
@@ -174,7 +174,7 @@ public class WekaClassifierListBuilder {
             smotePercentage = 0 ;
         }
         else {
-            smotePercentage = ((falseNumber - trueNumber) / ((double) trueNumber)) * 100 ;
+            smotePercentage = ((falseNumber - trueNumber) / ((double) trueNumber)) * 100.0 ;
         }
         smote.setPercentage(smotePercentage);
         smote.setClassValue("1");
@@ -184,20 +184,25 @@ public class WekaClassifierListBuilder {
     }
 
 
-    private List<CostSensitiveClassifier> buildCostSensitive() {
+    private List<CostSensitiveClassifier> buildCostSensitiveClassifiers() {
         CostSensitiveClassifier costSensitiveClassifier = new CostSensitiveClassifier() ;
-        costSensitiveClassifier.setMinimizeExpectedCost(true);
+        // Sensitive Learning
+        costSensitiveClassifier.setMinimizeExpectedCost(false) ;
 
+        costSensitiveClassifier.setCostMatrix(buildCostMatrix(1.0, 10.0));
+
+        return new ArrayList<>(List.of(costSensitiveClassifier)) ;
+    }
+
+    private CostMatrix buildCostMatrix(double costFalsePositive, double costFalseNegative) {
         // TODO ricontrolla matrice
         CostMatrix costMatrix = new CostMatrix(2) ;
         costMatrix.setCell(0,0,0.0);
         costMatrix.setCell(1,1,0.0);
-        costMatrix.setCell(0,1,10.0);
-        costMatrix.setCell(1,0,1.0);
+        costMatrix.setCell(0,1, costFalseNegative);
+        costMatrix.setCell(1,0, costFalsePositive);
 
-        costSensitiveClassifier.setCostMatrix(costMatrix);
-
-        return new ArrayList<>(List.of(costSensitiveClassifier)) ;
+        return costMatrix ;
     }
 
 }

@@ -27,14 +27,14 @@ public class WekaClassifier {
 
     public String getFilterName() {
         if (wekaFilter == null) {
-            return "NULL" ;
+            return "NotSet" ;
         }
         return wekaFilter.getFilterName() + "(" + wekaFilter.getDirectionString() + ")";
     }
 
     public String getSamplerName() {
         if (wekaSampler == null) {
-            return "NULL" ;
+            return "NotSet" ;
         }
         return wekaSampler.getSamplerName();
     }

@@ -14,16 +14,14 @@ import retriever.CommitRetriever;
 import retriever.TicketRetriever;
 import retriever.VersionRetriever;
 import utils.LogWriter;
-import writer.ARFWriter;
-import writer.CSVWriter;
+import writer.DataSetWriter;
 
 import java.io.File;
 import java.io.IOException;
 import java.net.URISyntaxException;
+import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.List;
-
-import java.nio.file.Path;
 
 public class RetrievingFlow {
 
@@ -41,12 +39,12 @@ public class RetrievingFlow {
         VersionInfo firstVersion = versionInfoList.get(0) ;
         VersionInfo lastVersion = versionInfoList.get(versionInfoList.size() - 1) ;
 
-        CommitRetriever commitRetriever = new CommitRetriever(projectName, git, lastVersion.getVersionDate());
-        commitRetriever.retrieveCommitListForAllVersions(versionInfoList);
+        CommitRetriever commitRetriever = new CommitRetriever(projectName, git, lastVersion.getVersionDate()) ;
+        commitRetriever.retrieveCommitListForAllVersions(versionInfoList) ;
         //LogWriter.writeVersionLog(projectName, versionInfoList, "CommitForVersionRetrieve");
 
-        TicketRetriever ticketRetriever = new TicketRetriever(projectName);
-        List<TicketInfo> ticketInfoList = ticketRetriever.retrieveBugTicket(versionInfoList);
+        TicketRetriever ticketRetriever = new TicketRetriever(projectName) ;
+        List<TicketInfo> ticketInfoList = ticketRetriever.retrieveBugTicket(versionInfoList) ;
         LogWriter.writeTicketLog(projectName, ticketInfoList, "TicketRetrieve");
 
         VersionsFixer versionsFixer = new VersionsFixer(projectName) ;
@@ -73,22 +71,28 @@ public class RetrievingFlow {
     }
 
     private static void buildTestingSets(String projectName, List<VersionInfo> versionInfoList, List<TicketInfo> ticketInfoList, Repository repo, Git git) throws IOException, GitAPIException {
-        CSVWriter csvWriter = new CSVWriter(projectName) ;
-        ARFWriter arfWriter = new ARFWriter(projectName) ;
+        //CSVWriter csvWriter = new CSVWriter(projectName) ;
+        //ARFWriter arfWriter = new ARFWriter(projectName) ;
 
         BuggyClassesComputer buggyClassesComputer = new BuggyClassesComputer(projectName, repo, git) ;
         buggyClassesComputer.computeBuggyClassesForAllVersions(ticketInfoList, versionInfoList);
 
+        DataSetWriter dataSetWriter = new DataSetWriter(projectName) ;
+
         for (int index = 0 ; index < versionInfoList.size() / 2 ; index++) {
-            csvWriter.writeInfoAsCSV(List.of(versionInfoList.get(index + 1)), index, false);
-            arfWriter.writeInfoAsARF(List.of(versionInfoList.get(index + 1)), index, false);
+            //csvWriter.writeInfoAsCSV(List.of(versionInfoList.get(index + 1)), index, false);
+            //arfWriter.writeInfoAsARF(List.of(versionInfoList.get(index + 1)), index, false);
+            dataSetWriter.writeDataSet(List.of(versionInfoList.get(index + 1)), index, false);
         }
+
         LogWriter.writeBuggyClassesLog(projectName, versionInfoList);
+
     }
 
     private static void buildTrainingSets(String projectName, List<VersionInfo> versionInfoList, List<TicketInfo> ticketInfoList, Repository repo, Git git) throws IOException, GitAPIException {
-        CSVWriter csvWriter = new CSVWriter(projectName) ;
-        ARFWriter arfWriter = new ARFWriter(projectName) ;
+        //CSVWriter csvWriter = new CSVWriter(projectName) ;
+        //ARFWriter arfWriter = new ARFWriter(projectName) ;
+        DataSetWriter dataSetWriter = new DataSetWriter(projectName) ;
         BuggyClassesComputer buggyClassesComputer = new BuggyClassesComputer(projectName, repo, git) ;
 
         for (int index = 0 ; index < versionInfoList.size() / 2 ; index++) {
@@ -100,8 +104,9 @@ public class RetrievingFlow {
 
             buggyClassesComputer.computeBuggyClassesForAllVersions(trainingTicketList, trainingVersionList);
 
-            csvWriter.writeInfoAsCSV(trainingVersionList, index, true);
-            arfWriter.writeInfoAsARF(trainingVersionList, index, true);
+            //csvWriter.writeInfoAsCSV(trainingVersionList, index, true);
+            //arfWriter.writeInfoAsARF(trainingVersionList, index, true);
+            dataSetWriter.writeDataSet(trainingVersionList, index, true);
         }
     }
 }
