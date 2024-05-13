@@ -38,9 +38,6 @@ public class WekaFlow {
             int falseNumber = trainingSet.attributeStats(trainingSet.numAttributes() - 1).nominalCounts[1] ;
 
             Instances testingSet = getTestingSet(projectName, index, maxIndex) ;
-            if (testingSet == null) {
-                break;
-            }
 
             trainingSet.setClassIndex(trainingSet.numAttributes() - 1);
             testingSet.setClassIndex(testingSet.numAttributes() - 1);
