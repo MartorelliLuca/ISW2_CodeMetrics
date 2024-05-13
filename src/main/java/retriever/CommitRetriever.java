@@ -2,7 +2,6 @@ package retriever;
 
 import model.retrieve.TicketInfo;
 import model.retrieve.VersionInfo;
-import org.eclipse.jgit.api.ListBranchCommand;
 import utils.DateUtils;
 
 import org.eclipse.jgit.api.Git;
