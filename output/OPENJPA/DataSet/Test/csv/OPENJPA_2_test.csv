@@ -188,7 +188,7 @@ VersionNumber,ClassName,LinesOfCode,AddedLOC,MaxAddedLOC,AvgAddedLOC,TouchedLOC,
 3,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/ClobValueHandler.java,51.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
 3,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/ColumnVersionStrategy.java,266.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1,1,0,False
 3,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/ContainerFieldStrategy.java,133.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
-3,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/EmbedFieldStrategy.java,1578.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,True
+3,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/EmbedFieldStrategy.java,1578.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
 3,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/EmbedValueHandler.java,172.0,1.0,1.0,1.0,2.0,0.0,0.0,0.0,1,1,0,False
 3,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/EmbeddedClassStrategy.java,95.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
 3,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/FlatClassStrategy.java,68.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
@@ -272,7 +272,7 @@ VersionNumber,ClassName,LinesOfCode,AddedLOC,MaxAddedLOC,AvgAddedLOC,TouchedLOC,
 3,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/Calendard.java,38.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
 3,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/DB2Dictionary.java,740.0,413.0,147.0,41.3,500.0,326.0,120.0,32.6,4,10,3,True
 3,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/DBDictionary.java,3917.0,115.0,29.0,14.375,123.0,107.0,27.0,13.375,4,8,3,True
-3,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/DBDictionaryFactory.java,615.0,60.0,25.0,15.0,107.0,29.0,12.0,7.25,3,4,0,True
+3,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/DBDictionaryFactory.java,615.0,60.0,25.0,15.0,107.0,29.0,12.0,7.25,3,4,0,False
 3,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/DerbyDictionary.java,96.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,True
 3,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/EmpressDictionary.java,174.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
 3,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/FirebirdDictionary.java,61.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
@@ -458,7 +458,7 @@ VersionNumber,ClassName,LinesOfCode,AddedLOC,MaxAddedLOC,AvgAddedLOC,TouchedLOC,
 3,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/EDeletedState.java,73.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
 3,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/EDirtyState.java,89.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
 3,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/ENonTransState.java,76.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
-3,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/ExpressionStoreQuery.java,736.0,2.0,2.0,2.0,5.0,1.0,1.0,1.0,1,1,1,True
+3,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/ExpressionStoreQuery.java,736.0,2.0,2.0,2.0,5.0,1.0,1.0,1.0,1,1,1,False
 3,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/Extent.java,91.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
 3,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/ExtentImpl.java,353.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
 3,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/FetchConfiguration.java,363.0,2.0,2.0,2.0,4.0,0.0,0.0,0.0,1,1,0,True

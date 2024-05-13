@@ -13,17 +13,17 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 
-public class ProportionComputer {
-    private static final int THRESHOLD = 5;
 
+public class ProportionComputer {
+
+    private static final int THRESHOLD = 5 ;
     private final ArrayList<TicketInfo> proportionTicketList ;
-    private Float coldStartProportion;
+    private Float coldStartProportion ;
     private List<Float> coldStartArray ;
 
     public ProportionComputer() {
         this.proportionTicketList = new ArrayList<>() ;
     }
-
 
     public Float computeProportionForTicket(TicketInfo ticketInfo) throws URISyntaxException, IOException {
         boolean isValidForProportion = isValidTicket(ticketInfo) ;
@@ -48,13 +48,14 @@ public class ProportionComputer {
     }
 
     private Float computeIncrementalProportion(List<TicketInfo> proportionTicketList) {
-        //Ragionare su impatto su precision e recall calcolando proportion in questo modo
+        // TODO Ragionare su impatto su precision e recall calcolando proportion in questo modo
         float incrementProportion = 0f ;
         int size = proportionTicketList.size() ;
         for (TicketInfo ticketInfo : proportionTicketList) {
             Integer fixReleaseNumber = ticketInfo.getFixVersion().getReleaseNumber();
             Integer openingReleaseNumber = ticketInfo.getOpeningVersion().getReleaseNumber();
             Integer injectedReleaseNumber = ticketInfo.getInjectedVersion().getReleaseNumber();
+
             float num = ((float) fixReleaseNumber) - injectedReleaseNumber ;
             float den = ((float) fixReleaseNumber - openingReleaseNumber) ;
             if (den == 0) {
@@ -63,7 +64,6 @@ public class ProportionComputer {
             float proportion = num / den ;
             incrementProportion += proportion;
         }
-
         return incrementProportion / size ;
     }
 
@@ -78,11 +78,14 @@ public class ProportionComputer {
                 projectsProportionList.add(projectColdStart);
             }
         }
+
         Float coldStartValue ;
         projectsProportionList.sort(Comparator.naturalOrder());
+
         if (projectsProportionList.size() % 2 != 0) {
             coldStartValue = projectsProportionList.get((projectsProportionList.size() - 1) / 2) ;
-        } else {
+        }
+        else {
             Float firstValue = projectsProportionList.get((projectsProportionList.size() / 2) - 1) ;
             Float secondValue = projectsProportionList.get((projectsProportionList.size()) / 2) ;
             coldStartValue = (0.5f) * (firstValue + secondValue) ;
@@ -90,6 +93,7 @@ public class ProportionComputer {
 
         this.coldStartProportion = coldStartValue ;
         this.coldStartArray = projectsProportionList ;
+
         return this.coldStartProportion;
     }
 
@@ -110,24 +114,21 @@ public class ProportionComputer {
     }
 
     private List<TicketInfo> filterTicketListForProportion(List<TicketInfo> ticketInfoList) {
-
         List<TicketInfo> proportionFilteredList = new ArrayList<>() ;
         for (TicketInfo ticketInfo : ticketInfoList) {
             if (isValidTicket(ticketInfo)) {
                 proportionFilteredList.add(ticketInfo) ;
             }
         }
-
         return proportionFilteredList ;
     }
 
     private boolean isValidTicket(TicketInfo ticketInfo) {
-                /*
+        /*
         Consideriamo un ticket valido per fare Proportion se
         * Ha Injected Version
-        * Opening e Fix Version sono diverse per evitare che il denominatore sia nullo
          */
-        return /*!ticketInfo.getOpeningVersion().getReleaseNumber().equals(ticketInfo.getFixVersion().getReleaseNumber()) && */ticketInfo.getInjectedVersion() != null;
+        return ticketInfo.getInjectedVersion() != null ;
     }
 
     public float getColdStartProportionValue() {
@@ -137,8 +138,8 @@ public class ProportionComputer {
     public List<Float> getColdStartArray() {
         return this.coldStartArray ;
     }
+
     public List<TicketInfo> getProportionTicketList() {
         return proportionTicketList ;
     }
-
 }

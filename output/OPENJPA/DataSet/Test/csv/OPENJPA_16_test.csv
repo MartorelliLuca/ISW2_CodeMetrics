@@ -710,7 +710,7 @@ VersionNumber,ClassName,LinesOfCode,AddedLOC,MaxAddedLOC,AvgAddedLOC,TouchedLOC,
 17,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/exps/WhenCondition.java,49.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
 17,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/exps/WhenScalar.java,49.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
 17,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/exps/WildcardMatch.java,70.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
-17,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/jpql/JPQLExpressionBuilder.java,2405.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,True
+17,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/jpql/JPQLExpressionBuilder.java,2405.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
 17,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/jpql/JPQLParser.java,84.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
 17,openjpa-kernel/src/main/java/org/apache/openjpa/kernel/jpql/SimpleNode.java,34.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
 17,openjpa-kernel/src/main/java/org/apache/openjpa/meta/AbstractCFMetaDataFactory.java,933.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,True

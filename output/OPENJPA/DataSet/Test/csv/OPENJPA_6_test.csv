@@ -20,7 +20,7 @@ VersionNumber,ClassName,LinesOfCode,AddedLOC,MaxAddedLOC,AvgAddedLOC,TouchedLOC,
 7,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/AbstractUpdateManager.java,363.0,1.0,1.0,1.0,8.0,6.0,6.0,6.0,1,1,0,False
 7,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/BatchingConstraintUpdateManager.java,72.0,21.0,20.0,7.0,32.0,24.0,17.0,8.0,1,3,0,False
 7,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/BatchingOperationOrderUpdateManager.java,74.0,21.0,20.0,7.0,32.0,24.0,17.0,8.0,1,3,0,False
-7,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/BatchingPreparedStatementManagerImpl.java,327.0,8.0,3.0,2.0,19.0,9.0,6.0,2.25,2,4,1,True
+7,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/BatchingPreparedStatementManagerImpl.java,327.0,8.0,3.0,2.0,19.0,9.0,6.0,2.25,2,4,1,False
 7,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/ClassTableJDBCSeq.java,265.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
 7,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/ConnectionInfo.java,35.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
 7,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/ConstraintUpdateManager.java,546.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
@@ -36,7 +36,7 @@ VersionNumber,ClassName,LinesOfCode,AddedLOC,MaxAddedLOC,AvgAddedLOC,TouchedLOC,
 7,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/JDBCSeq.java,41.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
 7,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/JDBCStore.java,97.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
 7,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/JDBCStoreManager.java,1687.0,20.0,20.0,20.0,21.0,19.0,19.0,19.0,1,1,0,True
-7,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/JDBCStoreQuery.java,957.0,371.0,221.0,123.666664,459.0,283.0,134.0,94.333336,1,3,2,True
+7,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/JDBCStoreQuery.java,957.0,371.0,221.0,123.666664,459.0,283.0,134.0,94.333336,1,3,2,False
 7,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/LRSSizes.java,46.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
 7,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/MappedQueryResultObjectProvider.java,465.0,7.0,7.0,7.0,7.0,7.0,7.0,7.0,1,1,0,False
 7,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/NativeJDBCSeq.java,374.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,True
@@ -44,7 +44,7 @@ VersionNumber,ClassName,LinesOfCode,AddedLOC,MaxAddedLOC,AvgAddedLOC,TouchedLOC,
 7,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/PagingResultObjectProvider.java,460.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
 7,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/PessimisticLockManager.java,213.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
 7,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/PreparedStatementManager.java,47.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
-7,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/PreparedStatementManagerImpl.java,162.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,True
+7,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/PreparedStatementManagerImpl.java,162.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
 7,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/ProjectionResultObjectProvider.java,82.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,1,1,0,False
 7,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/SQLProjectionResultObjectProvider.java,131.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
 7,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/SQLStoreQuery.java,395.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,True
@@ -141,8 +141,8 @@ VersionNumber,ClassName,LinesOfCode,AddedLOC,MaxAddedLOC,AvgAddedLOC,TouchedLOC,
 7,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/DiscriminatorMappingInfo.java,170.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
 7,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/DiscriminatorStrategy.java,78.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
 7,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/Embeddable.java,85.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
-7,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/FieldMapping.java,1050.0,23.0,18.0,11.5,24.0,22.0,17.0,11.0,1,2,2,True
-7,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/FieldMappingInfo.java,397.0,65.0,65.0,65.0,66.0,64.0,64.0,64.0,1,1,1,True
+7,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/FieldMapping.java,1050.0,23.0,18.0,11.5,24.0,22.0,17.0,11.0,1,2,2,False
+7,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/FieldMappingInfo.java,397.0,65.0,65.0,65.0,66.0,64.0,64.0,64.0,1,1,1,False
 7,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/FieldStrategy.java,247.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
 7,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/JDBCColumnOrder.java,87.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
 7,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/JDBCOrder.java,46.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
@@ -224,10 +224,10 @@ VersionNumber,ClassName,LinesOfCode,AddedLOC,MaxAddedLOC,AvgAddedLOC,TouchedLOC,
 7,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/NumberVersionStrategy.java,75.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,True
 7,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/ObjectIdClassStrategy.java,49.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
 7,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/ObjectIdValueHandler.java,84.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
-7,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/PrimitiveFieldStrategy.java,403.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,True
+7,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/PrimitiveFieldStrategy.java,403.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
 7,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/PrimitiveWrapperArrays.java,87.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
 7,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/RelationCollectionInverseKeyFieldStrategy.java,97.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
-7,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/RelationCollectionTableFieldStrategy.java,96.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,True
+7,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/RelationCollectionTableFieldStrategy.java,96.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
 7,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/RelationFieldStrategy.java,951.0,3.0,2.0,1.5,5.0,1.0,1.0,0.5,2,2,1,True
 7,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/RelationHandlerMapTableFieldStrategy.java,290.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
 7,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/RelationMapInverseKeyFieldStrategy.java,170.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
@@ -247,7 +247,7 @@ VersionNumber,ClassName,LinesOfCode,AddedLOC,MaxAddedLOC,AvgAddedLOC,TouchedLOC,
 7,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/ValueMapDiscriminatorStrategy.java,133.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
 7,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/VerticalClassStrategy.java,154.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
 7,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/XMLValueHandler.java,96.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
-7,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/schema/Column.java,749.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,True
+7,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/schema/Column.java,749.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
 7,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/schema/ColumnIO.java,308.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
 7,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/schema/Constraint.java,188.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
 7,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/schema/DataSourceFactory.java,313.0,39.0,17.0,7.8,61.0,25.0,9.0,5.0,2,5,1,False
@@ -304,7 +304,7 @@ VersionNumber,ClassName,LinesOfCode,AddedLOC,MaxAddedLOC,AvgAddedLOC,TouchedLOC,
 7,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/OracleDictionary.java,1123.0,19.0,12.0,6.3333335,22.0,16.0,12.0,5.3333335,2,3,2,True
 7,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/PointbaseDictionary.java,127.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
 7,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/PostgresDictionary.java,551.0,154.0,154.0,154.0,154.0,154.0,154.0,154.0,1,1,0,True
-7,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/PrimaryRow.java,438.0,6.0,6.0,6.0,11.0,1.0,1.0,1.0,1,1,0,True
+7,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/PrimaryRow.java,438.0,6.0,6.0,6.0,11.0,1.0,1.0,1.0,1,1,0,False
 7,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/Raw.java,38.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
 7,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/Result.java,607.0,33.0,30.0,16.5,34.0,32.0,30.0,16.0,2,2,0,False
 7,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/ResultSetResult.java,512.0,11.0,11.0,11.0,11.0,11.0,11.0,11.0,1,1,0,True
@@ -323,7 +323,7 @@ VersionNumber,ClassName,LinesOfCode,AddedLOC,MaxAddedLOC,AvgAddedLOC,TouchedLOC,
 7,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/SelectExecutor.java,153.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
 7,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/SelectImpl.java,3125.0,74.0,60.0,37.0,78.0,70.0,58.0,35.0,1,2,0,True
 7,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/Sized.java,36.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
-7,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/SybaseDictionary.java,312.0,10.0,9.0,5.0,10.0,10.0,9.0,5.0,2,2,1,True
+7,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/SybaseDictionary.java,312.0,10.0,9.0,5.0,10.0,10.0,9.0,5.0,2,2,1,False
 7,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/Union.java,65.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
 7,openjpa-kernel/src/main/java/org/apache/openjpa/abstractstore/AbstractStoreBrokerFactory.java,148.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
 7,openjpa-kernel/src/main/java/org/apache/openjpa/abstractstore/AbstractStoreManager.java,520.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
@@ -777,7 +777,7 @@ VersionNumber,ClassName,LinesOfCode,AddedLOC,MaxAddedLOC,AvgAddedLOC,TouchedLOC,
 7,openjpa-lib/src/main/java/org/apache/openjpa/lib/jdbc/ConnectionDecorator.java,36.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
 7,openjpa-lib/src/main/java/org/apache/openjpa/lib/jdbc/DataSourceLogs.java,148.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
 7,openjpa-lib/src/main/java/org/apache/openjpa/lib/jdbc/DecoratingDataSource.java,103.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
-7,openjpa-lib/src/main/java/org/apache/openjpa/lib/jdbc/DelegatingCallableStatement.java,794.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,True
+7,openjpa-lib/src/main/java/org/apache/openjpa/lib/jdbc/DelegatingCallableStatement.java,794.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
 7,openjpa-lib/src/main/java/org/apache/openjpa/lib/jdbc/DelegatingConnection.java,591.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
 7,openjpa-lib/src/main/java/org/apache/openjpa/lib/jdbc/DelegatingDataSource.java,120.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
 7,openjpa-lib/src/main/java/org/apache/openjpa/lib/jdbc/DelegatingDatabaseMetaData.java,773.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
@@ -884,7 +884,7 @@ VersionNumber,ClassName,LinesOfCode,AddedLOC,MaxAddedLOC,AvgAddedLOC,TouchedLOC,
 7,openjpa-lib/src/main/java/org/apache/openjpa/lib/xml/ValidatingErrorHandler.java,46.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
 7,openjpa-lib/src/main/java/org/apache/openjpa/lib/xml/XMLFactory.java,137.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
 7,openjpa-lib/src/main/java/org/apache/openjpa/lib/xml/XMLWriter.java,136.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
-7,openjpa-persistence-jdbc/src/main/java/org/apache/openjpa/persistence/jdbc/AnnotationPersistenceMappingParser.java,1654.0,58.0,54.0,29.0,99.0,17.0,15.0,8.5,1,2,2,True
+7,openjpa-persistence-jdbc/src/main/java/org/apache/openjpa/persistence/jdbc/AnnotationPersistenceMappingParser.java,1654.0,58.0,54.0,29.0,99.0,17.0,15.0,8.5,1,2,2,False
 7,openjpa-persistence-jdbc/src/main/java/org/apache/openjpa/persistence/jdbc/AnnotationPersistenceMappingSerializer.java,793.0,2.0,2.0,2.0,4.0,0.0,0.0,0.0,1,1,1,False
 7,openjpa-persistence-jdbc/src/main/java/org/apache/openjpa/persistence/jdbc/ClassCriteria.java,40.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
 7,openjpa-persistence-jdbc/src/main/java/org/apache/openjpa/persistence/jdbc/Columns.java,40.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
@@ -905,7 +905,7 @@ VersionNumber,ClassName,LinesOfCode,AddedLOC,MaxAddedLOC,AvgAddedLOC,TouchedLOC,
 7,openjpa-persistence-jdbc/src/main/java/org/apache/openjpa/persistence/jdbc/EmbeddedMapping.java,46.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
 7,openjpa-persistence-jdbc/src/main/java/org/apache/openjpa/persistence/jdbc/FetchDirection.java,59.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
 7,openjpa-persistence-jdbc/src/main/java/org/apache/openjpa/persistence/jdbc/FetchMode.java,60.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
-7,openjpa-persistence-jdbc/src/main/java/org/apache/openjpa/persistence/jdbc/ForeignKey.java,50.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,True
+7,openjpa-persistence-jdbc/src/main/java/org/apache/openjpa/persistence/jdbc/ForeignKey.java,50.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
 7,openjpa-persistence-jdbc/src/main/java/org/apache/openjpa/persistence/jdbc/ForeignKeyAction.java,33.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
 7,openjpa-persistence-jdbc/src/main/java/org/apache/openjpa/persistence/jdbc/Index.java,47.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
 7,openjpa-persistence-jdbc/src/main/java/org/apache/openjpa/persistence/jdbc/IsolationLevel.java,75.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
@@ -950,7 +950,7 @@ VersionNumber,ClassName,LinesOfCode,AddedLOC,MaxAddedLOC,AvgAddedLOC,TouchedLOC,
 7,openjpa-persistence-jdbc/src/main/java/org/apache/openjpa/persistence/jdbc/XSecondaryTables.java,38.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
 7,openjpa-persistence-jdbc/src/main/java/org/apache/openjpa/persistence/jdbc/XTable.java,48.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
 7,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/AnnotationBuilder.java,200.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
-7,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/AnnotationPersistenceMetaDataParser.java,1710.0,4.0,4.0,4.0,4.0,4.0,4.0,4.0,1,1,0,True
+7,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/AnnotationPersistenceMetaDataParser.java,1710.0,4.0,4.0,4.0,4.0,4.0,4.0,4.0,1,1,0,False
 7,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/AnnotationPersistenceMetaDataSerializer.java,1496.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
 7,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/AnnotationPersistenceXMLMetaDataParser.java,290.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
 7,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/ArgumentException.java,116.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False

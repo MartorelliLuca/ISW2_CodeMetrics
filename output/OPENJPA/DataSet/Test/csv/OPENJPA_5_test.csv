@@ -198,10 +198,10 @@ VersionNumber,ClassName,LinesOfCode,AddedLOC,MaxAddedLOC,AvgAddedLOC,TouchedLOC,
 6,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/FlatClassStrategy.java,68.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
 6,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/FullClassStrategy.java,137.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
 6,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/HandlerCollectionTableFieldStrategy.java,250.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
-6,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/HandlerFieldStrategy.java,405.0,2.0,2.0,2.0,3.0,1.0,1.0,1.0,1,1,1,True
+6,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/HandlerFieldStrategy.java,405.0,2.0,2.0,2.0,3.0,1.0,1.0,1.0,1,1,1,False
 6,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/HandlerHandlerMapTableFieldStrategy.java,246.0,4.0,4.0,4.0,5.0,3.0,3.0,3.0,1,1,0,False
 6,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/HandlerRelationMapTableFieldStrategy.java,315.0,3.0,3.0,3.0,4.0,2.0,2.0,2.0,1,1,0,False
-6,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/HandlerStrategies.java,260.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,True
+6,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/HandlerStrategies.java,260.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
 6,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/IdentityJoinable.java,87.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
 6,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/ImmutableValueHandler.java,98.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
 6,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/InValueDiscriminatorStrategy.java,163.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
@@ -221,7 +221,7 @@ VersionNumber,ClassName,LinesOfCode,AddedLOC,MaxAddedLOC,AvgAddedLOC,TouchedLOC,
 6,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/NoneDiscriminatorStrategy.java,58.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
 6,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/NoneFieldStrategy.java,54.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
 6,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/NoneVersionStrategy.java,55.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
-6,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/NumberVersionStrategy.java,75.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,True
+6,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/NumberVersionStrategy.java,75.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
 6,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/ObjectIdClassStrategy.java,49.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
 6,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/ObjectIdValueHandler.java,84.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
 6,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/meta/strats/PrimitiveFieldStrategy.java,403.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
@@ -397,7 +397,7 @@ VersionNumber,ClassName,LinesOfCode,AddedLOC,MaxAddedLOC,AvgAddedLOC,TouchedLOC,
 6,openjpa-kernel/src/main/java/org/apache/openjpa/enhance/PCClassFileTransformer.java,216.0,216.0,216.0,216.0,216.0,216.0,216.0,216.0,1,1,0,False
 6,openjpa-kernel/src/main/java/org/apache/openjpa/enhance/PCDataGenerator.java,1077.0,1077.0,1077.0,1077.0,2154.0,0.0,0.0,0.0,1,1,0,False
 6,openjpa-kernel/src/main/java/org/apache/openjpa/enhance/PCEnhancer.java,4479.0,0.0,0.0,0.0,3.0,3.0,3.0,3.0,1,1,0,True
-6,openjpa-kernel/src/main/java/org/apache/openjpa/enhance/PCEnhancerAgent.java,119.0,119.0,119.0,119.0,119.0,119.0,119.0,119.0,1,1,0,True
+6,openjpa-kernel/src/main/java/org/apache/openjpa/enhance/PCEnhancerAgent.java,119.0,119.0,119.0,119.0,119.0,119.0,119.0,119.0,1,1,0,False
 6,openjpa-kernel/src/main/java/org/apache/openjpa/enhance/PCRegistry.java,288.0,288.0,288.0,288.0,576.0,0.0,0.0,0.0,1,1,0,False
 6,openjpa-kernel/src/main/java/org/apache/openjpa/enhance/PCSubclassValidator.java,272.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
 6,openjpa-kernel/src/main/java/org/apache/openjpa/enhance/PersistenceCapable.java,94.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False

@@ -3,10 +3,10 @@ Ticket Totali >> 698
 Ticket ID >> OPENJPA-2896
 Opening Date >> 2021-12-17
 Resolution Date >> 2021-12-23
-Injected Version >> 3.1.1
+Injected Version >> 3.1.2
 Fix Version >> 3.2.1
 Opening Version >> 3.2.1
-Affected Versions >> [3.1.1, 3.1.2, 3.2.0]
+Affected Versions >> [3.1.2, 3.2.0]
 Fix Commit List >> 
 	468a4538fa0446dd24da3916f92041163540385e
 ----------------------------------------------------------------------------------
@@ -51,10 +51,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-2882
 Opening Date >> 2021-10-12
 Resolution Date >> 2021-10-21
-Injected Version >> 3.1.1
+Injected Version >> 3.1.2
 Fix Version >> 3.2.1
 Opening Version >> 3.2.1
-Affected Versions >> [3.1.1, 3.1.2, 3.2.0]
+Affected Versions >> [3.1.2, 3.2.0]
 Fix Commit List >> 
 	30c443dcc32fdc43b75431c9579f8ca415421d17
 	0fa0ee9790e1246934b9a553bf55e0a658b0e5c3
@@ -63,10 +63,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-2877
 Opening Date >> 2021-07-12
 Resolution Date >> 2021-10-27
-Injected Version >> 3.1.1
+Injected Version >> 3.1.2
 Fix Version >> 3.2.1
 Opening Version >> 3.2.1
-Affected Versions >> [3.1.1, 3.1.2, 3.2.0]
+Affected Versions >> [3.1.2, 3.2.0]
 Fix Commit List >> 
 	116eda990351130f70ec384c182efecd36b26977
 	d698ccaf00ccffd2a15430363885dafbe5a66ae9
@@ -78,10 +78,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-2876
 Opening Date >> 2021-06-10
 Resolution Date >> 2021-06-16
-Injected Version >> 3.1.1
+Injected Version >> 3.1.2
 Fix Version >> 3.2.1
 Opening Version >> 3.2.1
-Affected Versions >> [3.1.1, 3.1.2, 3.2.0]
+Affected Versions >> [3.1.2, 3.2.0]
 Fix Commit List >> 
 	c6f42826b72940aa771a394d42173b2f7fec0428
 	f8d258594f55cdf06db16f2321a6ae6c6342616e
@@ -307,10 +307,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-2832
 Opening Date >> 2020-09-28
 Resolution Date >> 2020-09-30
-Injected Version >> 3.1.0
+Injected Version >> 3.1.1
 Fix Version >> 3.2.0
 Opening Version >> 3.2.0
-Affected Versions >> [3.1.0, 3.1.1, 3.1.2]
+Affected Versions >> [3.1.1, 3.1.2]
 Fix Commit List >> 
 	b24a6a239cafc968ecaef4ab683495eb3fbe11e0
 	758b8667061494392ad3ca30d0737191e31f64fe
@@ -319,10 +319,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-2830
 Opening Date >> 2020-09-15
 Resolution Date >> 2020-09-15
-Injected Version >> 3.1.0
+Injected Version >> 3.1.1
 Fix Version >> 3.2.0
 Opening Version >> 3.2.0
-Affected Versions >> [3.1.0, 3.1.1, 3.1.2]
+Affected Versions >> [3.1.1, 3.1.2]
 Fix Commit List >> 
 	a38684b3231e13cef7fa6588194c68f226589d52
 ----------------------------------------------------------------------------------
@@ -330,10 +330,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-2829
 Opening Date >> 2020-09-15
 Resolution Date >> 2020-09-15
-Injected Version >> 3.1.0
+Injected Version >> 3.1.1
 Fix Version >> 3.2.0
 Opening Version >> 3.2.0
-Affected Versions >> [3.1.0, 3.1.1, 3.1.2]
+Affected Versions >> [3.1.1, 3.1.2]
 Fix Commit List >> 
 	8dbdc143219734d3c8ab05f13fa11b791e643458
 ----------------------------------------------------------------------------------
@@ -420,10 +420,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-2781
 Opening Date >> 2019-03-21
 Resolution Date >> 2019-03-24
-Injected Version >> 2.4.1
+Injected Version >> 2.4.2
 Fix Version >> 3.1.0
 Opening Version >> 3.1.0
-Affected Versions >> [2.4.1, 2.4.2, 2.4.3]
+Affected Versions >> [2.4.2, 2.4.3]
 Fix Commit List >> 
 	8c0b843f6e6e0dd86a31e485928e61f2ba4c8f29
 ----------------------------------------------------------------------------------
@@ -442,10 +442,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-2777
 Opening Date >> 2019-03-01
 Resolution Date >> 2019-03-05
-Injected Version >> 2.4.1
+Injected Version >> 2.4.2
 Fix Version >> 3.1.0
 Opening Version >> 3.1.0
-Affected Versions >> [2.4.1, 2.4.2, 2.4.3]
+Affected Versions >> [2.4.2, 2.4.3]
 Fix Commit List >> 
 	cb20dd6b95a07fe87bf46a2c33580322d0b11cd0
 ----------------------------------------------------------------------------------
@@ -453,10 +453,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-2772
 Opening Date >> 2019-02-02
 Resolution Date >> 2019-02-02
-Injected Version >> 2.4.1
+Injected Version >> 2.4.2
 Fix Version >> 3.1.0
 Opening Version >> 3.1.0
-Affected Versions >> [2.4.1, 2.4.2, 2.4.3]
+Affected Versions >> [2.4.2, 2.4.3]
 Fix Commit List >> 
 	11863ed9327c70420c2a537dafa380d3fee7b548
 ----------------------------------------------------------------------------------
@@ -464,10 +464,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-2771
 Opening Date >> 2019-02-02
 Resolution Date >> 2019-02-02
-Injected Version >> 2.4.1
+Injected Version >> 2.4.2
 Fix Version >> 3.1.0
 Opening Version >> 3.1.0
-Affected Versions >> [2.4.1, 2.4.2, 2.4.3]
+Affected Versions >> [2.4.2, 2.4.3]
 Fix Commit List >> 
 	43aa42ccb533212db9acf1a238d24172b18dc513
 ----------------------------------------------------------------------------------
@@ -486,10 +486,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-2768
 Opening Date >> 2019-01-10
 Resolution Date >> 2019-01-10
-Injected Version >> 2.4.1
+Injected Version >> 2.4.2
 Fix Version >> 3.1.0
 Opening Version >> 3.1.0
-Affected Versions >> [2.4.1, 2.4.2, 2.4.3]
+Affected Versions >> [2.4.2, 2.4.3]
 Fix Commit List >> 
 	c1d9fd3c62ab40a893749ac3338b3ed20ddd6567
 ----------------------------------------------------------------------------------
@@ -497,10 +497,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-2764
 Opening Date >> 2019-01-02
 Resolution Date >> 2019-01-02
-Injected Version >> 2.4.1
+Injected Version >> 2.4.2
 Fix Version >> 3.1.0
 Opening Version >> 3.1.0
-Affected Versions >> [2.4.1, 2.4.2, 2.4.3]
+Affected Versions >> [2.4.2, 2.4.3]
 Fix Commit List >> 
 	260042ba5184f1f415f2f0975e3449f13611b84a
 ----------------------------------------------------------------------------------
@@ -519,10 +519,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-2757
 Opening Date >> 2018-11-10
 Resolution Date >> 2018-11-10
-Injected Version >> 2.4.1
+Injected Version >> 2.4.2
 Fix Version >> 3.1.0
 Opening Version >> 3.1.0
-Affected Versions >> [2.4.1, 2.4.2, 2.4.3]
+Affected Versions >> [2.4.2, 2.4.3]
 Fix Commit List >> 
 	39bde81aa2fe6f5ac8348bf4a6a39669b67dbe7d
 ----------------------------------------------------------------------------------
@@ -530,10 +530,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-2756
 Opening Date >> 2018-11-10
 Resolution Date >> 2018-11-10
-Injected Version >> 2.4.1
+Injected Version >> 2.4.2
 Fix Version >> 3.1.0
 Opening Version >> 3.1.0
-Affected Versions >> [2.4.1, 2.4.2, 2.4.3]
+Affected Versions >> [2.4.2, 2.4.3]
 Fix Commit List >> 
 	db6f6b642203d60ae1fa7576715e180c6bbe6081
 ----------------------------------------------------------------------------------
@@ -541,10 +541,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-2746
 Opening Date >> 2018-08-16
 Resolution Date >> 2018-08-16
-Injected Version >> 2.4.1
+Injected Version >> 2.4.2
 Fix Version >> 3.1.0
 Opening Version >> 3.1.0
-Affected Versions >> [2.4.1, 2.4.2, 2.4.3]
+Affected Versions >> [2.4.2, 2.4.3]
 Fix Commit List >> 
 	18b101228f31adf0d22c6ef1b49df08227c6b157
 ----------------------------------------------------------------------------------
@@ -586,10 +586,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-2707
 Opening Date >> 2017-07-21
 Resolution Date >> 2017-07-27
-Injected Version >> 2.4.0
+Injected Version >> 2.4.1
 Fix Version >> 2.4.3
 Opening Version >> 2.4.3
-Affected Versions >> [2.4.0, 2.4.1, 2.4.2]
+Affected Versions >> [2.4.1, 2.4.2]
 Fix Commit List >> 
 	2898b4e342591dc98848663caa74a9bb7fee35b4
 ----------------------------------------------------------------------------------
@@ -850,10 +850,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-2597
 Opening Date >> 2015-06-29
 Resolution Date >> 2015-06-29
-Injected Version >> 2.2.2
+Injected Version >> 2.3.0
 Fix Version >> 2.4.1
 Opening Version >> 2.4.1
-Affected Versions >> [2.2.2, 2.3.0, 2.4.0]
+Affected Versions >> [2.3.0, 2.4.0]
 Fix Commit List >> 
 	72be5f17209fbe92415a2ebed59d0d25d0a3b785
 ----------------------------------------------------------------------------------
@@ -1188,10 +1188,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-2437
 Opening Date >> 2013-10-11
 Resolution Date >> 2013-10-29
-Injected Version >> 2.2.1
+Injected Version >> 1.2.3
 Fix Version >> 2.3.0
 Opening Version >> 2.3.0
-Affected Versions >> [2.2.1, 1.2.3, 2.2.2]
+Affected Versions >> [1.2.3, 2.2.2]
 Fix Commit List >> 
 	f4b2428008de297a7f993f48e1a6c98761c078f3
 ----------------------------------------------------------------------------------
@@ -1210,10 +1210,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-2432
 Opening Date >> 2013-09-27
 Resolution Date >> 2013-09-27
-Injected Version >> 2.2.1
+Injected Version >> 1.2.3
 Fix Version >> 2.3.0
 Opening Version >> 2.3.0
-Affected Versions >> [2.2.1, 1.2.3, 2.2.2]
+Affected Versions >> [1.2.3, 2.2.2]
 Fix Commit List >> 
 	a3fccb40e3f0e3708932f13e99fc52596eac592e
 ----------------------------------------------------------------------------------
@@ -1254,10 +1254,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-2405
 Opening Date >> 2013-06-25
 Resolution Date >> 2013-07-01
-Injected Version >> 2.2.1
+Injected Version >> 1.2.3
 Fix Version >> 2.3.0
 Opening Version >> 2.3.0
-Affected Versions >> [2.2.1, 1.2.3, 2.2.2]
+Affected Versions >> [1.2.3, 2.2.2]
 Fix Commit List >> 
 	e406bda450a1f3b78836153a5a34882c823101b1
 ----------------------------------------------------------------------------------
@@ -1265,10 +1265,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-2400
 Opening Date >> 2013-06-14
 Resolution Date >> 2013-10-07
-Injected Version >> 2.2.1
+Injected Version >> 1.2.3
 Fix Version >> 2.3.0
 Opening Version >> 2.3.0
-Affected Versions >> [2.2.1, 1.2.3, 2.2.2]
+Affected Versions >> [1.2.3, 2.2.2]
 Fix Commit List >> 
 	1b1b60c9a7d63268dc26c1ff5dc601a352cee1c9
 	92c4369aa18417e448ac980c0cd5de83a2b4831f
@@ -1277,10 +1277,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-2391
 Opening Date >> 2013-05-31
 Resolution Date >> 2013-06-24
-Injected Version >> 2.2.1
+Injected Version >> 1.2.3
 Fix Version >> 2.3.0
 Opening Version >> 2.3.0
-Affected Versions >> [2.2.1, 1.2.3, 2.2.2]
+Affected Versions >> [1.2.3, 2.2.2]
 Fix Commit List >> 
 	c7b4e05b1e98796917b2a67ca87f582a292d13c8
 ----------------------------------------------------------------------------------
@@ -1311,10 +1311,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-2377
 Opening Date >> 2013-04-25
 Resolution Date >> 2013-05-14
-Injected Version >> 2.2.1
+Injected Version >> 1.2.3
 Fix Version >> 2.3.0
 Opening Version >> 2.3.0
-Affected Versions >> [2.2.1, 1.2.3, 2.2.2]
+Affected Versions >> [1.2.3, 2.2.2]
 Fix Commit List >> 
 	937aad666bcf696fdd5e47c281b09e527f721881
 ----------------------------------------------------------------------------------
@@ -1355,10 +1355,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-2355
 Opening Date >> 2013-03-20
 Resolution Date >> 2013-03-28
-Injected Version >> 2.1.1
+Injected Version >> 2.2.0
 Fix Version >> 1.2.3
 Opening Version >> 1.2.3
-Affected Versions >> [2.1.1, 2.2.0, 2.2.1]
+Affected Versions >> [2.2.0, 2.2.1]
 Fix Commit List >> 
 	e966f0f51c8c00bbaddbae9398e2952643e9af09
 ----------------------------------------------------------------------------------
@@ -1389,10 +1389,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-2336
 Opening Date >> 2013-02-19
 Resolution Date >> 2013-03-28
-Injected Version >> 2.1.1
+Injected Version >> 2.2.0
 Fix Version >> 1.2.3
 Opening Version >> 1.2.3
-Affected Versions >> [2.1.1, 2.2.0, 2.2.1]
+Affected Versions >> [2.2.0, 2.2.1]
 Fix Commit List >> 
 	4fbf3fc1f0a0431d29765d041e74756f319bc3fe
 ----------------------------------------------------------------------------------
@@ -1400,10 +1400,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-2335
 Opening Date >> 2013-02-19
 Resolution Date >> 2013-11-18
-Injected Version >> 2.1.1
+Injected Version >> 2.2.0
 Fix Version >> 2.3.0
 Opening Version >> 1.2.3
-Affected Versions >> [2.1.1, 2.2.0, 2.2.1, 1.2.3, 2.2.2]
+Affected Versions >> [2.2.0, 2.2.1, 1.2.3, 2.2.2]
 Fix Commit List >> 
 	7ce7e556207f545a7bd688d4d8491a3021fa3aac
 ----------------------------------------------------------------------------------
@@ -1434,10 +1434,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-2321
 Opening Date >> 2013-01-10
 Resolution Date >> 2013-01-10
-Injected Version >> 2.1.1
+Injected Version >> 2.2.0
 Fix Version >> 1.2.3
 Opening Version >> 1.2.3
-Affected Versions >> [2.1.1, 2.2.0, 2.2.1]
+Affected Versions >> [2.2.0, 2.2.1]
 Fix Commit List >> 
 	5b21125f5ee4b57cb8285e874e3c9724bd6e2c4c
 ----------------------------------------------------------------------------------
@@ -1445,10 +1445,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-2320
 Opening Date >> 2013-01-08
 Resolution Date >> 2013-01-10
-Injected Version >> 2.1.1
+Injected Version >> 2.2.0
 Fix Version >> 1.2.3
 Opening Version >> 1.2.3
-Affected Versions >> [2.1.1, 2.2.0, 2.2.1]
+Affected Versions >> [2.2.0, 2.2.1]
 Fix Commit List >> 
 	0ca38be72735a1b9340a519f46f9d969b6c4bf5d
 ----------------------------------------------------------------------------------
@@ -1467,10 +1467,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-2304
 Opening Date >> 2012-12-11
 Resolution Date >> 2013-01-10
-Injected Version >> 2.1.1
+Injected Version >> 2.2.0
 Fix Version >> 1.2.3
 Opening Version >> 1.2.3
-Affected Versions >> [2.1.1, 2.2.0, 2.2.1]
+Affected Versions >> [2.2.0, 2.2.1]
 Fix Commit List >> 
 	f17a08fee4571887c380e92af6fb8dd0b494560d
 ----------------------------------------------------------------------------------
@@ -1555,10 +1555,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-2271
 Opening Date >> 2012-10-02
 Resolution Date >> 2012-10-02
-Injected Version >> 2.1.0
+Injected Version >> 2.1.1
 Fix Version >> 2.2.1
 Opening Version >> 2.2.1
-Affected Versions >> [2.1.0, 2.1.1, 2.2.0]
+Affected Versions >> [2.1.1, 2.2.0]
 Fix Commit List >> 
 	9f128e3286913f04597b9263c5d2559361138442
 ----------------------------------------------------------------------------------
@@ -1611,10 +1611,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-2257
 Opening Date >> 2012-09-03
 Resolution Date >> 2012-09-05
-Injected Version >> 2.1.0
+Injected Version >> 2.1.1
 Fix Version >> 2.2.1
 Opening Version >> 2.2.1
-Affected Versions >> [2.1.0, 2.1.1, 2.2.0]
+Affected Versions >> [2.1.1, 2.2.0]
 Fix Commit List >> 
 	512520f7fb764b406aa3fc3dd298dbf63ec7eb58
 ----------------------------------------------------------------------------------
@@ -2100,10 +2100,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-2094
 Opening Date >> 2011-12-13
 Resolution Date >> 2013-12-02
-Injected Version >> 2.0.0-beta
+Injected Version >> 2.0.0-beta2
 Fix Version >> 2.4.0
 Opening Version >> 2.2.0
-Affected Versions >> [2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 2.1.0, 2.1.1, 2.2.0, 2.2.1, 1.2.3, 2.2.2, 2.3.0]
+Affected Versions >> [2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 2.1.0, 2.1.1, 2.2.0, 2.2.1, 1.2.3, 2.2.2, 2.3.0]
 Fix Commit List >> 
 	1a383857ff1c9c3e8de4f61cc1fda4ff6494d534
 	b2af30891db8bbfd85f1fff67d21efccdba943eb
@@ -2112,10 +2112,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-2088
 Opening Date >> 2011-12-07
 Resolution Date >> 2011-12-07
-Injected Version >> 2.0.1
+Injected Version >> 2.1.0
 Fix Version >> 2.2.0
 Opening Version >> 2.2.0
-Affected Versions >> [2.0.1, 2.1.0, 2.1.1]
+Affected Versions >> [2.1.0, 2.1.1]
 Fix Commit List >> 
 	78d12c9b0a07399b14adc25a0ddf296eaf9f516e
 ----------------------------------------------------------------------------------
@@ -2432,10 +2432,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-1995
 Opening Date >> 2011-05-10
 Resolution Date >> 2011-05-10
-Injected Version >> 2.0.0
+Injected Version >> 2.0.1
 Fix Version >> 2.1.1
 Opening Version >> 2.1.1
-Affected Versions >> [2.0.0, 2.0.1, 2.1.0]
+Affected Versions >> [2.0.1, 2.1.0]
 Fix Commit List >> 
 	1148ba809d4756b67703fffb6234605cd287b50d
 ----------------------------------------------------------------------------------
@@ -2443,10 +2443,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-1994
 Opening Date >> 2011-05-05
 Resolution Date >> 2011-05-05
-Injected Version >> 2.0.0
+Injected Version >> 2.0.1
 Fix Version >> 2.1.1
 Opening Version >> 2.1.1
-Affected Versions >> [2.0.0, 2.0.1, 2.1.0]
+Affected Versions >> [2.0.1, 2.1.0]
 Fix Commit List >> 
 	849a77b5d3c2eb5281e9d5f0ec24b715e68fc507
 ----------------------------------------------------------------------------------
@@ -2703,10 +2703,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-1923
 Opening Date >> 2011-01-14
 Resolution Date >> 2011-01-31
-Injected Version >> 2.0.0-beta3
+Injected Version >> 2.0.0
 Fix Version >> 2.1.0
 Opening Version >> 2.1.0
-Affected Versions >> [2.0.0-beta3, 2.0.0, 2.0.1]
+Affected Versions >> [2.0.0, 2.0.1]
 Fix Commit List >> 
 	28a0c0da8639543ae859bcf53c576cbaa21f2d72
 	01c9608fe69bfb03ef40fcdb9c5a621346a3a003
@@ -2782,10 +2782,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-1902
 Opening Date >> 2010-11-30
 Resolution Date >> 2010-11-30
-Injected Version >> 2.0.0-beta3
+Injected Version >> 2.0.0
 Fix Version >> 2.1.0
 Opening Version >> 2.1.0
-Affected Versions >> [2.0.0-beta3, 2.0.0, 2.0.1]
+Affected Versions >> [2.0.0, 2.0.1]
 Fix Commit List >> 
 	502e997b9ca45fd380090e4659e75e9486ccc965
 ----------------------------------------------------------------------------------
@@ -2916,10 +2916,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-1870
 Opening Date >> 2010-11-03
 Resolution Date >> 2010-11-05
-Injected Version >> 2.0.0-beta3
+Injected Version >> 2.0.0
 Fix Version >> 2.1.0
 Opening Version >> 2.1.0
-Affected Versions >> [2.0.0-beta3, 2.0.0, 2.0.1]
+Affected Versions >> [2.0.0, 2.0.1]
 Fix Commit List >> 
 	f946f8383bc3ca287f8711a486c057d5aee082e9
 	a09a2b58560ab91c2ef526ec0f10f9adcb321a35
@@ -3447,10 +3447,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-1686
 Opening Date >> 2010-06-08
 Resolution Date >> 2011-09-21
-Injected Version >> 2.0.0-beta
+Injected Version >> 2.0.0-beta2
 Fix Version >> 2.2.0
 Opening Version >> 2.0.1
-Affected Versions >> [2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 2.1.0, 2.1.1]
+Affected Versions >> [2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 2.1.0, 2.1.1]
 Fix Commit List >> 
 	a873065db7f3b9190ff47a88bff1b2cbce3d3e89
 	d31ec1274b31746e171c5b31a6a038c30991c24e
@@ -3476,10 +3476,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-1683
 Opening Date >> 2010-06-05
 Resolution Date >> 2011-01-12
-Injected Version >> 2.0.0-beta3
+Injected Version >> 2.0.0
 Fix Version >> 2.1.0
 Opening Version >> 2.0.1
-Affected Versions >> [2.0.0-beta3, 2.0.0, 2.0.1]
+Affected Versions >> [2.0.0, 2.0.1]
 Fix Commit List >> 
 	f03598fe592eb44ecace70cd2dfe7bfd79115adb
 ----------------------------------------------------------------------------------
@@ -3555,10 +3555,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-1662
 Opening Date >> 2010-05-11
 Resolution Date >> 2011-01-12
-Injected Version >> 2.0.0-beta3
+Injected Version >> 2.0.0
 Fix Version >> 2.1.0
 Opening Version >> 2.0.1
-Affected Versions >> [2.0.0-beta3, 2.0.0, 2.0.1]
+Affected Versions >> [2.0.0, 2.0.1]
 Fix Commit List >> 
 	85ba2eada3ffc4eeba3ed8e913ccfee560d6b006
 ----------------------------------------------------------------------------------
@@ -3566,10 +3566,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-1657
 Opening Date >> 2010-05-10
 Resolution Date >> 2011-04-27
-Injected Version >> 2.0.0-beta2
+Injected Version >> 2.0.0-beta3
 Fix Version >> 2.1.1
 Opening Version >> 2.0.1
-Affected Versions >> [2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 2.1.0]
+Affected Versions >> [2.0.0-beta3, 2.0.0, 2.0.1, 2.1.0]
 Fix Commit List >> 
 	cb77af09f2a73e30e00f0b12d23169fff1e0f003
 ----------------------------------------------------------------------------------
@@ -3577,10 +3577,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-1650
 Opening Date >> 2010-05-04
 Resolution Date >> 2011-09-21
-Injected Version >> 2.0.0-beta
+Injected Version >> 2.0.0-beta2
 Fix Version >> 2.2.0
 Opening Version >> 2.0.1
-Affected Versions >> [2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 2.1.0, 2.1.1]
+Affected Versions >> [2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 2.1.0, 2.1.1]
 Fix Commit List >> 
 	c7addd5f51598dc111e89db16160c912e159c132
 ----------------------------------------------------------------------------------
@@ -3588,10 +3588,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-1648
 Opening Date >> 2010-05-04
 Resolution Date >> 2011-01-12
-Injected Version >> 2.0.0-beta3
+Injected Version >> 2.0.0
 Fix Version >> 2.1.0
 Opening Version >> 2.0.1
-Affected Versions >> [2.0.0-beta3, 2.0.0, 2.0.1]
+Affected Versions >> [2.0.0, 2.0.1]
 Fix Commit List >> 
 	c7addd5f51598dc111e89db16160c912e159c132
 ----------------------------------------------------------------------------------
@@ -3621,10 +3621,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-1641
 Opening Date >> 2010-04-27
 Resolution Date >> 2010-06-14
-Injected Version >> 2.0.0-beta2
+Injected Version >> 2.0.0-beta3
 Fix Version >> 2.0.1
 Opening Version >> 2.0.1
-Affected Versions >> [2.0.0-beta2, 2.0.0-beta3, 2.0.0]
+Affected Versions >> [2.0.0-beta3, 2.0.0]
 Fix Commit List >> 
 	7851202ec6cadd5e38745bcea4dcfb224979a78d
 ----------------------------------------------------------------------------------
@@ -3732,10 +3732,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-1583
 Opening Date >> 2010-03-18
 Resolution Date >> 2013-04-10
-Injected Version >> 1.1.0
+Injected Version >> 1.0.3
 Fix Version >> 1.2.3
 Opening Version >> 2.0.0-beta3
-Affected Versions >> [1.1.0, 1.0.3, 1.2.0, 2.0.0-M1, 1.2.1, 2.0.0-M2, 2.0.0-M3, 1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 2.1.0, 2.1.1, 2.2.0, 2.2.1]
+Affected Versions >> [1.0.3, 1.2.0, 2.0.0-M1, 1.2.1, 2.0.0-M2, 2.0.0-M3, 1.2.2, 2.0.0-beta, 2.0.0-beta2, 2.0.0-beta3, 2.0.0, 2.0.1, 2.1.0, 2.1.1, 2.2.0, 2.2.1]
 Fix Commit List >> 
 	8c1175054f028ef00d219c054b66fd6634eca020
 	c864f5dfc024d01052d59f0f6f9fd1ab5c0c2710
@@ -3745,10 +3745,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-1581
 Opening Date >> 2010-03-18
 Resolution Date >> 2010-03-22
-Injected Version >> 1.2.2
+Injected Version >> 2.0.0-beta
 Fix Version >> 2.0.0-beta3
 Opening Version >> 2.0.0-beta3
-Affected Versions >> [1.2.2, 2.0.0-beta, 2.0.0-beta2]
+Affected Versions >> [2.0.0-beta, 2.0.0-beta2]
 Fix Commit List >> 
 	bd9b59c90f575b71a7167b48fadfb35ffa61449a
 ----------------------------------------------------------------------------------
@@ -4058,10 +4058,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-1503
 Opening Date >> 2010-02-09
 Resolution Date >> 2010-03-15
-Injected Version >> 1.2.2
+Injected Version >> 2.0.0-beta
 Fix Version >> 2.0.0-beta3
 Opening Version >> 2.0.0-beta2
-Affected Versions >> [1.2.2, 2.0.0-beta, 2.0.0-beta2]
+Affected Versions >> [2.0.0-beta, 2.0.0-beta2]
 Fix Commit List >> 
 	ad3cf2c68210d3ad53f71fdc3a5f9a543d12b748
 	ad106583e804914433e0ff9d3644b6e8894d821c
@@ -4140,10 +4140,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-1477
 Opening Date >> 2010-01-21
 Resolution Date >> 2010-03-15
-Injected Version >> 2.0.0-M2
+Injected Version >> 2.0.0-M3
 Fix Version >> 2.0.0-beta3
 Opening Version >> 2.0.0-beta
-Affected Versions >> [2.0.0-M2, 2.0.0-M3, 1.2.2, 2.0.0-beta, 2.0.0-beta2]
+Affected Versions >> [2.0.0-M3, 1.2.2, 2.0.0-beta, 2.0.0-beta2]
 Fix Commit List >> 
 	ec8dba1465635ad5fdc8d993c73fa71616face71
 ----------------------------------------------------------------------------------
@@ -4162,10 +4162,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-1464
 Opening Date >> 2010-01-15
 Resolution Date >> 2010-01-18
-Injected Version >> 1.2.1
+Injected Version >> 2.0.0-M2
 Fix Version >> 1.2.2
 Opening Version >> 1.2.2
-Affected Versions >> [1.2.1, 2.0.0-M2, 2.0.0-M3]
+Affected Versions >> [2.0.0-M2, 2.0.0-M3]
 Fix Commit List >> 
 	7b53696e6e5162debf7d48d0f02940f5df15239e
 ----------------------------------------------------------------------------------
@@ -4270,10 +4270,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-1425
 Opening Date >> 2009-12-11
 Resolution Date >> 2010-01-18
-Injected Version >> 1.2.1
+Injected Version >> 2.0.0-M2
 Fix Version >> 1.2.2
 Opening Version >> 1.2.2
-Affected Versions >> [1.2.1, 2.0.0-M2, 2.0.0-M3]
+Affected Versions >> [2.0.0-M2, 2.0.0-M3]
 Fix Commit List >> 
 	b1ee063aa43a1e1fbfd837ef82a25a3e7ef937c4
 	4515e2f5da657fedb0329c5bc5e48e657e861ebb
@@ -4308,10 +4308,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-1409
 Opening Date >> 2009-12-01
 Resolution Date >> 2010-01-18
-Injected Version >> 1.2.1
+Injected Version >> 2.0.0-M2
 Fix Version >> 1.2.2
 Opening Version >> 1.2.2
-Affected Versions >> [1.2.1, 2.0.0-M2, 2.0.0-M3]
+Affected Versions >> [2.0.0-M2, 2.0.0-M3]
 Fix Commit List >> 
 	1aaa1aa08647c357a406ecee42e6b2439c60fb27
 	2353db803d1f862a2b1a30052cc56346ac59cf06
@@ -4409,10 +4409,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-1388
 Opening Date >> 2009-11-16
 Resolution Date >> 2009-11-17
-Injected Version >> 1.2.1
+Injected Version >> 2.0.0-M2
 Fix Version >> 1.2.2
 Opening Version >> 1.2.2
-Affected Versions >> [1.2.1, 2.0.0-M2, 2.0.0-M3]
+Affected Versions >> [2.0.0-M2, 2.0.0-M3]
 Fix Commit List >> 
 	ee30b010dcbd58258c5d940d121e02f70b8160d9
 ----------------------------------------------------------------------------------
@@ -4563,10 +4563,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-1354
 Opening Date >> 2009-10-19
 Resolution Date >> 2009-11-12
-Injected Version >> 1.2.1
+Injected Version >> 2.0.0-M2
 Fix Version >> 1.2.2
 Opening Version >> 1.2.2
-Affected Versions >> [1.2.1, 2.0.0-M2, 2.0.0-M3]
+Affected Versions >> [2.0.0-M2, 2.0.0-M3]
 Fix Commit List >> 
 	3ec0fbf66fd6fd433d25e9884e2bd3453e78f1f4
 ----------------------------------------------------------------------------------
@@ -4817,10 +4817,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-1234
 Opening Date >> 2009-08-09
 Resolution Date >> 2010-03-04
-Injected Version >> 1.0.3
+Injected Version >> 1.2.0
 Fix Version >> 2.0.0-beta3
 Opening Version >> 2.0.0-M3
-Affected Versions >> [1.0.3, 1.2.0, 2.0.0-M1, 1.2.1, 2.0.0-M2, 2.0.0-M3, 1.2.2, 2.0.0-beta, 2.0.0-beta2]
+Affected Versions >> [1.2.0, 2.0.0-M1, 1.2.1, 2.0.0-M2, 2.0.0-M3, 1.2.2, 2.0.0-beta, 2.0.0-beta2]
 Fix Commit List >> 
 	fb2a45a739d463e21e76f16ce1b0db46b929a6b1
 	61b85e4b1a6ef5c23f2b8bc87a09facc78e818a2
@@ -4901,10 +4901,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-1204
 Opening Date >> 2009-07-29
 Resolution Date >> 2009-07-29
-Injected Version >> 1.2.1
+Injected Version >> 2.0.0-M2
 Fix Version >> 2.0.0-M3
 Opening Version >> 2.0.0-M3
-Affected Versions >> [1.2.1, 2.0.0-M2]
+Affected Versions >> [2.0.0-M2]
 Fix Commit List >> 
 	ec483537da504f3ea5c4371fe096ba636211c0c6
 ----------------------------------------------------------------------------------
@@ -4958,10 +4958,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-1168
 Opening Date >> 2009-07-08
 Resolution Date >> 2009-07-14
-Injected Version >> 1.2.1
+Injected Version >> 2.0.0-M2
 Fix Version >> 2.0.0-M3
 Opening Version >> 2.0.0-M3
-Affected Versions >> [1.2.1, 2.0.0-M2]
+Affected Versions >> [2.0.0-M2]
 Fix Commit List >> 
 	f6413764d5b41a83003a163b74023dce8398fb05
 ----------------------------------------------------------------------------------
@@ -4969,10 +4969,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-1163
 Opening Date >> 2009-07-08
 Resolution Date >> 2009-08-03
-Injected Version >> 1.2.1
+Injected Version >> 2.0.0-M2
 Fix Version >> 2.0.0-M3
 Opening Version >> 2.0.0-M3
-Affected Versions >> [1.2.1, 2.0.0-M2]
+Affected Versions >> [2.0.0-M2]
 Fix Commit List >> 
 	5232b727949d00add9cb61e153cbbcdc9e13c769
 	7658c64e1656af28b965e2a6f1a55918951d38fa
@@ -5093,10 +5093,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-1054
 Opening Date >> 2009-04-29
 Resolution Date >> 2009-05-28
-Injected Version >> 2.0.0-M1
+Injected Version >> 1.2.1
 Fix Version >> 2.0.0-M2
 Opening Version >> 2.0.0-M2
-Affected Versions >> [2.0.0-M1, 1.2.1]
+Affected Versions >> [1.2.1]
 Fix Commit List >> 
 	3c88ac3d20d871db3535a06d04735a9f7d2a7874
 	0d6f1a02143b3fd12342fd783f0438d764759645
@@ -5116,10 +5116,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-1039
 Opening Date >> 2009-04-15
 Resolution Date >> 2009-05-08
-Injected Version >> 2.0.0-M1
+Injected Version >> 1.2.1
 Fix Version >> 2.0.0-M2
 Opening Version >> 2.0.0-M2
-Affected Versions >> [2.0.0-M1, 1.2.1]
+Affected Versions >> [1.2.1]
 Fix Commit List >> 
 	21b41a50fe101d6003fac68b940032dd9bc1f0f9
 ----------------------------------------------------------------------------------
@@ -5127,10 +5127,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-1031
 Opening Date >> 2009-04-09
 Resolution Date >> 2009-05-07
-Injected Version >> 2.0.0-M1
+Injected Version >> 1.2.1
 Fix Version >> 2.0.0-M2
 Opening Version >> 2.0.0-M2
-Affected Versions >> [2.0.0-M1, 1.2.1]
+Affected Versions >> [1.2.1]
 Fix Commit List >> 
 	95e9b554c694f23da994e4b63c880a38c7615356
 ----------------------------------------------------------------------------------
@@ -5172,10 +5172,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-981
 Opening Date >> 2009-03-16
 Resolution Date >> 2009-03-18
-Injected Version >> 1.2.0
+Injected Version >> 2.0.0-M1
 Fix Version >> 1.2.1
 Opening Version >> 1.2.1
-Affected Versions >> [1.2.0, 2.0.0-M1]
+Affected Versions >> [2.0.0-M1]
 Fix Commit List >> 
 	6b40e7268302db484c11e3d69324f4e3fd12819e
 ----------------------------------------------------------------------------------
@@ -5183,10 +5183,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-973
 Opening Date >> 2009-03-10
 Resolution Date >> 2009-08-17
-Injected Version >> 1.2.0
+Injected Version >> 2.0.0-M1
 Fix Version >> 2.0.0-M3
 Opening Version >> 1.2.1
-Affected Versions >> [1.2.0, 2.0.0-M1, 1.2.1, 2.0.0-M2]
+Affected Versions >> [2.0.0-M1, 1.2.1, 2.0.0-M2]
 Fix Commit List >> 
 	c67cd5d0be03ee6dac397b4ca48304aaaeaed1c8
 	b00ef73b409f3c08dbab9d35fd81911808368d6c
@@ -5478,10 +5478,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-845
 Opening Date >> 2008-12-23
 Resolution Date >> 2009-02-26
-Injected Version >> 1.2.0
+Injected Version >> 2.0.0-M1
 Fix Version >> 1.2.1
 Opening Version >> 2.0.0-M1
-Affected Versions >> [1.2.0, 2.0.0-M1]
+Affected Versions >> [2.0.0-M1]
 Fix Commit List >> 
 	94efd58dd9e258e2de7436c767f179e136c49dfe
 ----------------------------------------------------------------------------------
@@ -5567,10 +5567,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-764
 Opening Date >> 2008-11-10
 Resolution Date >> 2008-11-10
-Injected Version >> 1.0.3
+Injected Version >> 1.2.0
 Fix Version >> 2.0.0-M1
 Opening Version >> 2.0.0-M1
-Affected Versions >> [1.0.3, 1.2.0]
+Affected Versions >> [1.2.0]
 Fix Commit List >> 
 	75b9ca7fa3588428083f6fedb9b398f710065726
 ----------------------------------------------------------------------------------
@@ -5600,10 +5600,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-755
 Opening Date >> 2008-10-30
 Resolution Date >> 2008-11-14
-Injected Version >> 1.0.3
+Injected Version >> 1.2.0
 Fix Version >> 2.0.0-M1
 Opening Version >> 2.0.0-M1
-Affected Versions >> [1.0.3, 1.2.0]
+Affected Versions >> [1.2.0]
 Fix Commit List >> 
 	54d4d0d07d5405670c84823ee2701f497f384538
 	5550d8dbb53e2b5bbff4dddac060a93c33d7ceff
@@ -5612,10 +5612,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-751
 Opening Date >> 2008-10-23
 Resolution Date >> 2008-10-29
-Injected Version >> 1.0.3
+Injected Version >> 1.2.0
 Fix Version >> 2.0.0-M1
 Opening Version >> 2.0.0-M1
-Affected Versions >> [1.0.3, 1.2.0]
+Affected Versions >> [1.2.0]
 Fix Commit List >> 
 	509f41c801b7b02d5825372620c29cf612646570
 ----------------------------------------------------------------------------------
@@ -5623,10 +5623,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-750
 Opening Date >> 2008-10-17
 Resolution Date >> 2008-10-23
-Injected Version >> 1.0.3
+Injected Version >> 1.2.0
 Fix Version >> 2.0.0-M1
 Opening Version >> 2.0.0-M1
-Affected Versions >> [1.0.3, 1.2.0]
+Affected Versions >> [1.2.0]
 Fix Commit List >> 
 	703a2b9b600817f96ed3d7ba1024fabf50184dc9
 	c49f0e17d6b1f02970acd15dee527b25784d01e1
@@ -5681,10 +5681,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-727
 Opening Date >> 2008-09-17
 Resolution Date >> 2008-09-17
-Injected Version >> 1.0.3
+Injected Version >> 1.2.0
 Fix Version >> 2.0.0-M1
 Opening Version >> 2.0.0-M1
-Affected Versions >> [1.0.3, 1.2.0]
+Affected Versions >> [1.2.0]
 Fix Commit List >> 
 	caf46298d63a6c95ff3becfb5ffac246a84275c7
 ----------------------------------------------------------------------------------
@@ -5770,10 +5770,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-705
 Opening Date >> 2008-08-25
 Resolution Date >> 2008-08-26
-Injected Version >> 1.0.3
+Injected Version >> 1.2.0
 Fix Version >> 2.0.0-M1
 Opening Version >> 2.0.0-M1
-Affected Versions >> [1.0.3, 1.2.0]
+Affected Versions >> [1.2.0]
 Fix Commit List >> 
 	42f2f394fbadb894079389c4e69cb0193a4beb94
 ----------------------------------------------------------------------------------
@@ -5781,10 +5781,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-702
 Opening Date >> 2008-08-25
 Resolution Date >> 2008-08-25
-Injected Version >> 1.0.3
+Injected Version >> 1.2.0
 Fix Version >> 2.0.0-M1
 Opening Version >> 2.0.0-M1
-Affected Versions >> [1.0.3, 1.2.0]
+Affected Versions >> [1.2.0]
 Fix Commit List >> 
 	36abd7cb6233fdcc9aba8154e72d81c32f6207e5
 ----------------------------------------------------------------------------------
@@ -5792,10 +5792,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-700
 Opening Date >> 2008-08-22
 Resolution Date >> 2008-08-22
-Injected Version >> 1.0.3
+Injected Version >> 1.2.0
 Fix Version >> 2.0.0-M1
 Opening Version >> 2.0.0-M1
-Affected Versions >> [1.0.3, 1.2.0]
+Affected Versions >> [1.2.0]
 Fix Commit List >> 
 	322689a573483d14cdd807b5881f707a1ff8a3f9
 ----------------------------------------------------------------------------------
@@ -5814,10 +5814,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-698
 Opening Date >> 2008-08-22
 Resolution Date >> 2008-08-25
-Injected Version >> 1.0.3
+Injected Version >> 1.2.0
 Fix Version >> 2.0.0-M1
 Opening Version >> 2.0.0-M1
-Affected Versions >> [1.0.3, 1.2.0]
+Affected Versions >> [1.2.0]
 Fix Commit List >> 
 	04c292c761a2fa8563dc66bea702ed381e910cec
 ----------------------------------------------------------------------------------
@@ -5849,10 +5849,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-693
 Opening Date >> 2008-08-13
 Resolution Date >> 2008-08-25
-Injected Version >> 1.0.3
+Injected Version >> 1.2.0
 Fix Version >> 2.0.0-M1
 Opening Version >> 2.0.0-M1
-Affected Versions >> [1.0.3, 1.2.0]
+Affected Versions >> [1.2.0]
 Fix Commit List >> 
 	aae12606650335c92930c6a369d799828bbae058
 	d435a69c6b8a7580a364e425fc18f2797a7388b4
@@ -5861,10 +5861,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-692
 Opening Date >> 2008-08-09
 Resolution Date >> 2008-08-25
-Injected Version >> 1.0.3
+Injected Version >> 1.2.0
 Fix Version >> 2.0.0-M1
 Opening Version >> 1.2.0
-Affected Versions >> [1.0.3, 1.2.0]
+Affected Versions >> [1.2.0]
 Fix Commit List >> 
 	6dbe8a9e57ee2a66d2b760e4114761332ada00f3
 	e7c3df714b731eeff96af2c3347948aef5020a03
@@ -5874,10 +5874,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-685
 Opening Date >> 2008-08-08
 Resolution Date >> 2008-09-22
-Injected Version >> 1.0.3
+Injected Version >> 1.2.0
 Fix Version >> 2.0.0-M1
 Opening Version >> 1.2.0
-Affected Versions >> [1.0.3, 1.2.0]
+Affected Versions >> [1.2.0]
 Fix Commit List >> 
 	7a7957d8ccd1bfb2cba2fb933a1989406984a2dd
 ----------------------------------------------------------------------------------
@@ -5885,10 +5885,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-679
 Opening Date >> 2008-08-07
 Resolution Date >> 2009-03-24
-Injected Version >> 1.0.2
+Injected Version >> 1.1.0
 Fix Version >> 2.0.0-M2
 Opening Version >> 1.2.0
-Affected Versions >> [1.0.2, 1.1.0, 1.0.3, 1.2.0, 2.0.0-M1, 1.2.1]
+Affected Versions >> [1.1.0, 1.0.3, 1.2.0, 2.0.0-M1, 1.2.1]
 Fix Commit List >> 
 	f4845dae9b5767ea7fb4a26c631c4b28b0c49243
 	ab9d17f12e6e5bc2b784d7f4e5b4d45b47aac9b6
@@ -5922,10 +5922,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-674
 Opening Date >> 2008-08-06
 Resolution Date >> 2008-08-06
-Injected Version >> 1.1.0
+Injected Version >> 1.0.3
 Fix Version >> 1.2.0
 Opening Version >> 1.2.0
-Affected Versions >> [1.1.0, 1.0.3]
+Affected Versions >> [1.0.3]
 Fix Commit List >> 
 	e97d6d15985fa8f0100ee1e4931e5337ed497d65
 ----------------------------------------------------------------------------------
@@ -5944,10 +5944,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-665
 Opening Date >> 2008-07-24
 Resolution Date >> 2008-08-05
-Injected Version >> 1.1.0
+Injected Version >> 1.0.3
 Fix Version >> 1.2.0
 Opening Version >> 1.2.0
-Affected Versions >> [1.1.0, 1.0.3]
+Affected Versions >> [1.0.3]
 Fix Commit List >> 
 	1111ee16ff9fdb72c7e5d12dd0afad6ddda2be5c
 	3b00de3b261f4b0dd28b8da7500c7b81dad2d132
@@ -5956,10 +5956,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-664
 Opening Date >> 2008-07-24
 Resolution Date >> 2008-07-24
-Injected Version >> 1.1.0
+Injected Version >> 1.0.3
 Fix Version >> 1.2.0
 Opening Version >> 1.2.0
-Affected Versions >> [1.1.0, 1.0.3]
+Affected Versions >> [1.0.3]
 Fix Commit List >> 
 	315cc2d1555925da6f62b808976792676ec2bcea
 ----------------------------------------------------------------------------------
@@ -5967,10 +5967,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-662
 Opening Date >> 2008-07-17
 Resolution Date >> 2008-07-23
-Injected Version >> 1.0.2
+Injected Version >> 1.1.0
 Fix Version >> 1.0.3
 Opening Version >> 1.0.3
-Affected Versions >> [1.0.2, 1.1.0]
+Affected Versions >> [1.1.0]
 Fix Commit List >> 
 	c7e78fc80dc0a37f48de261b67f4ccba50338c5e
 ----------------------------------------------------------------------------------
@@ -6024,10 +6024,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-642
 Opening Date >> 2008-06-24
 Resolution Date >> 2008-06-25
-Injected Version >> 1.0.2
+Injected Version >> 1.1.0
 Fix Version >> 1.0.3
 Opening Version >> 1.0.3
-Affected Versions >> [1.0.2, 1.1.0]
+Affected Versions >> [1.1.0]
 Fix Commit List >> 
 	976a5e1faf9df64b40ede8586c345def1454cf4e
 ----------------------------------------------------------------------------------
@@ -6081,10 +6081,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-617
 Opening Date >> 2008-05-29
 Resolution Date >> 2008-05-29
-Injected Version >> 1.0.2
+Injected Version >> 1.1.0
 Fix Version >> 1.0.3
 Opening Version >> 1.0.3
-Affected Versions >> [1.0.2, 1.1.0]
+Affected Versions >> [1.1.0]
 Fix Commit List >> 
 	93417f99e370124cf2e4dfc5a8988b14ae061eaf
 	d1aa6a2c48ad00711befb7d237a435ddd1c3973a
@@ -6094,10 +6094,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-614
 Opening Date >> 2008-05-28
 Resolution Date >> 2008-05-28
-Injected Version >> 1.0.2
+Injected Version >> 1.1.0
 Fix Version >> 1.0.3
 Opening Version >> 1.0.3
-Affected Versions >> [1.0.2, 1.1.0]
+Affected Versions >> [1.1.0]
 Fix Commit List >> 
 	2d217257d9a6e169d8ea1aea9e2f906192d16784
 ----------------------------------------------------------------------------------
@@ -6105,10 +6105,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-612
 Opening Date >> 2008-05-25
 Resolution Date >> 2008-05-28
-Injected Version >> 1.0.2
+Injected Version >> 1.1.0
 Fix Version >> 1.0.3
 Opening Version >> 1.0.3
-Affected Versions >> [1.0.2, 1.1.0]
+Affected Versions >> [1.1.0]
 Fix Commit List >> 
 	dbbd1236f235a86f672b3f21bedaf2ee5672b34c
 ----------------------------------------------------------------------------------
@@ -6116,10 +6116,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-607
 Opening Date >> 2008-05-22
 Resolution Date >> 2008-05-22
-Injected Version >> 1.0.1
+Injected Version >> 1.0.2
 Fix Version >> 1.1.0
 Opening Version >> 1.1.0
-Affected Versions >> [1.0.1, 1.0.2]
+Affected Versions >> [1.0.2]
 Fix Commit List >> 
 	47f681a7b504c0a5ebed6e7bce44bcd1f7d236ae
 ----------------------------------------------------------------------------------
@@ -6127,10 +6127,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-605
 Opening Date >> 2008-05-20
 Resolution Date >> 2008-05-21
-Injected Version >> 1.0.1
+Injected Version >> 1.0.2
 Fix Version >> 1.1.0
 Opening Version >> 1.1.0
-Affected Versions >> [1.0.1, 1.0.2]
+Affected Versions >> [1.0.2]
 Fix Commit List >> 
 	99a69bef3315bc0434be8a54281b3f1802fbe6f8
 	b2bd03567df6a5f3b936f65288bd84df9ebeca97
@@ -6139,10 +6139,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-596
 Opening Date >> 2008-05-08
 Resolution Date >> 2008-05-22
-Injected Version >> 1.0.1
+Injected Version >> 1.0.2
 Fix Version >> 1.1.0
 Opening Version >> 1.1.0
-Affected Versions >> [1.0.1, 1.0.2]
+Affected Versions >> [1.0.2]
 Fix Commit List >> 
 	b3f87ba1ec0288c6b6dabf2c15c2a8c5c66f9cc9
 ----------------------------------------------------------------------------------
@@ -6150,10 +6150,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-590
 Opening Date >> 2008-05-04
 Resolution Date >> 2008-05-05
-Injected Version >> 1.0.1
+Injected Version >> 1.0.2
 Fix Version >> 1.1.0
 Opening Version >> 1.1.0
-Affected Versions >> [1.0.1, 1.0.2]
+Affected Versions >> [1.0.2]
 Fix Commit List >> 
 	efcc2577a608e944098c4aa727f4d4b0f5867585
 ----------------------------------------------------------------------------------
@@ -6161,10 +6161,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-589
 Opening Date >> 2008-05-04
 Resolution Date >> 2008-05-12
-Injected Version >> 1.0.1
+Injected Version >> 1.0.2
 Fix Version >> 1.1.0
 Opening Version >> 1.1.0
-Affected Versions >> [1.0.1, 1.0.2]
+Affected Versions >> [1.0.2]
 Fix Commit List >> 
 	31870894320c738e8d7776382892305d9b99b94d
 ----------------------------------------------------------------------------------
@@ -6172,10 +6172,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-586
 Opening Date >> 2008-05-01
 Resolution Date >> 2008-06-09
-Injected Version >> 1.0.2
+Injected Version >> 1.1.0
 Fix Version >> 1.0.3
 Opening Version >> 1.1.0
-Affected Versions >> [1.0.2, 1.1.0]
+Affected Versions >> [1.1.0]
 Fix Commit List >> 
 	33e094c6f1aa4e900bd5a149f8b1d718640d9c1b
 ----------------------------------------------------------------------------------
@@ -6183,10 +6183,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-580
 Opening Date >> 2008-04-23
 Resolution Date >> 2008-11-05
-Injected Version >> 1.0.0
+Injected Version >> 1.0.1
 Fix Version >> 2.0.0-M1
 Opening Version >> 1.1.0
-Affected Versions >> [1.0.0, 1.0.1, 1.0.2, 1.1.0, 1.0.3, 1.2.0]
+Affected Versions >> [1.0.1, 1.0.2, 1.1.0, 1.0.3, 1.2.0]
 Fix Commit List >> 
 	ea9378fc9646f9fe771ace35fc2d8cbb0d88bc56
 ----------------------------------------------------------------------------------
@@ -6194,10 +6194,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-576
 Opening Date >> 2008-04-18
 Resolution Date >> 2008-04-27
-Injected Version >> 1.0.1
+Injected Version >> 1.0.2
 Fix Version >> 1.1.0
 Opening Version >> 1.1.0
-Affected Versions >> [1.0.1, 1.0.2]
+Affected Versions >> [1.0.2]
 Fix Commit List >> 
 	18a3db781b0e3275f83f9cd4b014c06f8f43af47
 ----------------------------------------------------------------------------------
@@ -6272,10 +6272,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-547
 Opening Date >> 2008-03-27
 Resolution Date >> 2008-04-11
-Injected Version >> 1.0.1
+Injected Version >> 1.0.2
 Fix Version >> 1.1.0
 Opening Version >> 1.1.0
-Affected Versions >> [1.0.1, 1.0.2]
+Affected Versions >> [1.0.2]
 Fix Commit List >> 
 	50b81e6d7706d8f28aab8110086b1d7f114c1b45
 	07cd1728a1148a37bb64216241d3bde4330ec5ba
@@ -6351,10 +6351,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-528
 Opening Date >> 2008-02-29
 Resolution Date >> 2008-03-24
-Injected Version >> 1.0.1
+Injected Version >> 1.0.2
 Fix Version >> 1.1.0
 Opening Version >> 1.1.0
-Affected Versions >> [1.0.1, 1.0.2]
+Affected Versions >> [1.0.2]
 Fix Commit List >> 
 	a4600fbe98636abf2f72904852008ea09b8793bc
 	ca9828726d333c043d4a3a97d5276f97591077c2
@@ -6434,10 +6434,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-509
 Opening Date >> 2008-02-05
 Resolution Date >> 2008-06-19
-Injected Version >> 1.0.0
+Injected Version >> 1.0.1
 Fix Version >> 1.0.3
 Opening Version >> 1.0.2
-Affected Versions >> [1.0.0, 1.0.1, 1.0.2, 1.1.0]
+Affected Versions >> [1.0.1, 1.0.2, 1.1.0]
 Fix Commit List >> 
 	024faa31d75a55a619b1e59ff40b7523c24c4c84
 ----------------------------------------------------------------------------------
@@ -6467,10 +6467,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-495
 Opening Date >> 2008-01-16
 Resolution Date >> 2008-06-19
-Injected Version >> 1.0.0
+Injected Version >> 1.0.1
 Fix Version >> 1.0.3
 Opening Version >> 1.0.2
-Affected Versions >> [1.0.0, 1.0.1, 1.0.2, 1.1.0]
+Affected Versions >> [1.0.1, 1.0.2, 1.1.0]
 Fix Commit List >> 
 	240d356314bb8662101ac87c1e2e97ebf829c4b2
 ----------------------------------------------------------------------------------
@@ -6491,10 +6491,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-485
 Opening Date >> 2008-01-14
 Resolution Date >> 2008-08-01
-Injected Version >> 0.9.7
+Injected Version >> 1.0.0
 Fix Version >> 1.2.0
 Opening Version >> 1.0.2
-Affected Versions >> [0.9.7, 1.0.0, 1.0.1, 1.0.2, 1.1.0, 1.0.3]
+Affected Versions >> [1.0.0, 1.0.1, 1.0.2, 1.1.0, 1.0.3]
 Fix Commit List >> 
 	8cb82a6f330d3fb6032750fc94236ffaa43ad01a
 ----------------------------------------------------------------------------------
@@ -6595,10 +6595,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-452
 Opening Date >> 2007-11-26
 Resolution Date >> 2008-01-02
-Injected Version >> 1.0.0
+Injected Version >> 1.0.1
 Fix Version >> 1.0.2
 Opening Version >> 1.0.2
-Affected Versions >> [1.0.0, 1.0.1]
+Affected Versions >> [1.0.1]
 Fix Commit List >> 
 	4140d243a4b4c65cdaa9d43589c4c25263cbdb2b
 ----------------------------------------------------------------------------------
@@ -6779,10 +6779,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-405
 Opening Date >> 2007-10-16
 Resolution Date >> 2007-10-16
-Injected Version >> 0.9.7
+Injected Version >> 1.0.0
 Fix Version >> 1.0.1
 Opening Version >> 1.0.1
-Affected Versions >> [0.9.7, 1.0.0]
+Affected Versions >> [1.0.0]
 Fix Commit List >> 
 	86f79ae640c19d8a1bd9ec858238434e13769d23
 ----------------------------------------------------------------------------------
@@ -7199,10 +7199,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-329
 Opening Date >> 2007-08-22
 Resolution Date >> 2008-01-31
-Injected Version >> 0.9.6
+Injected Version >> 0.9.7
 Fix Version >> 1.0.2
 Opening Version >> 1.0.0
-Affected Versions >> [0.9.6, 0.9.7, 1.0.0, 1.0.1]
+Affected Versions >> [0.9.7, 1.0.0, 1.0.1]
 Fix Commit List >> 
 	18e83a09b18fde4721af69123fd4c7799bcca00e
 ----------------------------------------------------------------------------------
@@ -7244,10 +7244,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-315
 Opening Date >> 2007-08-14
 Resolution Date >> 2007-08-29
-Injected Version >> 0.9.7
+Injected Version >> 1.0.0
 Fix Version >> 1.0.1
 Opening Version >> 1.0.0
-Affected Versions >> [0.9.7, 1.0.0]
+Affected Versions >> [1.0.0]
 Fix Commit List >> 
 	8dd6857f67991d646727bfd3597d8b5b9b03d69f
 ----------------------------------------------------------------------------------
@@ -7255,10 +7255,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-313
 Opening Date >> 2007-08-10
 Resolution Date >> 2007-08-16
-Injected Version >> 0.9.6
+Injected Version >> 0.9.7
 Fix Version >> 1.0.0
 Opening Version >> 1.0.0
-Affected Versions >> [0.9.6, 0.9.7]
+Affected Versions >> [0.9.7]
 Fix Commit List >> 
 	26b0e498455ffc4062ff4d06feec1d18ea560572
 	4e81825171676204c7e3ccaeaddbf679f0c5a590
@@ -7335,10 +7335,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-282
 Opening Date >> 2007-07-09
 Resolution Date >> 2007-08-28
-Injected Version >> 0.9.6
+Injected Version >> 0.9.7
 Fix Version >> 1.0.0
 Opening Version >> 1.0.0
-Affected Versions >> [0.9.6, 0.9.7]
+Affected Versions >> [0.9.7]
 Fix Commit List >> 
 	e959466d1dfb8749fe4a8e8c99743ce73513391c
 	3fa609873b76746455b7c0355de7ac4dda52a14e
@@ -7380,10 +7380,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-269
 Opening Date >> 2007-06-27
 Resolution Date >> 2007-06-27
-Injected Version >> 0.9.6
+Injected Version >> 0.9.7
 Fix Version >> 1.0.0
 Opening Version >> 1.0.0
-Affected Versions >> [0.9.6, 0.9.7]
+Affected Versions >> [0.9.7]
 Fix Commit List >> 
 	058c174bef04520e4801447716b5c9203567a56f
 ----------------------------------------------------------------------------------
@@ -7403,10 +7403,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-256
 Opening Date >> 2007-06-09
 Resolution Date >> 2007-08-21
-Injected Version >> 0.9.6
+Injected Version >> 0.9.7
 Fix Version >> 1.0.0
 Opening Version >> 1.0.0
-Affected Versions >> [0.9.6, 0.9.7]
+Affected Versions >> [0.9.7]
 Fix Commit List >> 
 	b0cddf4e2d87d5a4f3c19d24cec89c4df4b9660d
 ----------------------------------------------------------------------------------
@@ -7585,10 +7585,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-157
 Opening Date >> 2007-02-21
 Resolution Date >> 2007-02-21
-Injected Version >> 0.9.0
+Injected Version >> 0.9.6
 Fix Version >> 0.9.7
 Opening Version >> 0.9.7
-Affected Versions >> [0.9.0, 0.9.6]
+Affected Versions >> [0.9.6]
 Fix Commit List >> 
 	82a62a6b7800f0c218102c62232667390ef1d071
 ----------------------------------------------------------------------------------
@@ -7596,10 +7596,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-154
 Opening Date >> 2007-02-20
 Resolution Date >> 2007-02-20
-Injected Version >> 0.9.0
+Injected Version >> 0.9.6
 Fix Version >> 0.9.7
 Opening Version >> 0.9.7
-Affected Versions >> [0.9.0, 0.9.6]
+Affected Versions >> [0.9.6]
 Fix Commit List >> 
 	09e7aab7778db72e6412625f39a9557d6a2646be
 ----------------------------------------------------------------------------------
@@ -7607,10 +7607,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-150
 Opening Date >> 2007-02-15
 Resolution Date >> 2007-02-20
-Injected Version >> 0.9.0
+Injected Version >> 0.9.6
 Fix Version >> 0.9.7
 Opening Version >> 0.9.7
-Affected Versions >> [0.9.0, 0.9.6]
+Affected Versions >> [0.9.6]
 Fix Commit List >> 
 	372b83736d50dba2a81f947b4bfd8220b8f62ed4
 ----------------------------------------------------------------------------------
@@ -7618,10 +7618,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-148
 Opening Date >> 2007-02-14
 Resolution Date >> 2007-05-22
-Injected Version >> 0.9.6
+Injected Version >> 0.9.7
 Fix Version >> 1.0.0
 Opening Version >> 0.9.7
-Affected Versions >> [0.9.6, 0.9.7]
+Affected Versions >> [0.9.7]
 Fix Commit List >> 
 	2f4cafdcfb6f0333538602b794a11e084d19cd3f
 	e422a7d179d7f153927f3685acab59c1dcefb9fd
@@ -7632,10 +7632,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-146
 Opening Date >> 2007-02-14
 Resolution Date >> 2007-02-20
-Injected Version >> 0.9.0
+Injected Version >> 0.9.6
 Fix Version >> 0.9.7
 Opening Version >> 0.9.7
-Affected Versions >> [0.9.0, 0.9.6]
+Affected Versions >> [0.9.6]
 Fix Commit List >> 
 	1b446958f5699c2adecb3163ab9ce44b873b2f57
 ----------------------------------------------------------------------------------
@@ -7643,10 +7643,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-143
 Opening Date >> 2007-02-13
 Resolution Date >> 2007-08-16
-Injected Version >> 0.9.6
+Injected Version >> 0.9.7
 Fix Version >> 1.0.0
 Opening Version >> 0.9.7
-Affected Versions >> [0.9.6, 0.9.7]
+Affected Versions >> [0.9.7]
 Fix Commit List >> 
 	6cd259f310fb0feab604805ffd0578e85513b64c
 ----------------------------------------------------------------------------------
@@ -7665,10 +7665,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-139
 Opening Date >> 2007-02-09
 Resolution Date >> 2007-02-27
-Injected Version >> 0.9.0
+Injected Version >> 0.9.6
 Fix Version >> 0.9.7
 Opening Version >> 0.9.7
-Affected Versions >> [0.9.0, 0.9.6]
+Affected Versions >> [0.9.6]
 Fix Commit List >> 
 	7ea424bf0b36d6be115976fa6134877116fc2dee
 ----------------------------------------------------------------------------------
@@ -7676,10 +7676,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-134
 Opening Date >> 2007-02-08
 Resolution Date >> 2007-04-11
-Injected Version >> 0.9.0
+Injected Version >> 0.9.6
 Fix Version >> 0.9.7
 Opening Version >> 0.9.7
-Affected Versions >> [0.9.0, 0.9.6]
+Affected Versions >> [0.9.6]
 Fix Commit List >> 
 	b4a3a77840af840f9cd2800b717c585a3c135e5e
 ----------------------------------------------------------------------------------
@@ -7687,10 +7687,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-133
 Opening Date >> 2007-02-07
 Resolution Date >> 2007-02-08
-Injected Version >> 0.9.0
+Injected Version >> 0.9.6
 Fix Version >> 0.9.7
 Opening Version >> 0.9.7
-Affected Versions >> [0.9.0, 0.9.6]
+Affected Versions >> [0.9.6]
 Fix Commit List >> 
 	859da3f913d8b4f0b142fe872d78847f958f0614
 ----------------------------------------------------------------------------------
@@ -7698,10 +7698,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-132
 Opening Date >> 2007-02-07
 Resolution Date >> 2007-03-20
-Injected Version >> 0.9.0
+Injected Version >> 0.9.6
 Fix Version >> 0.9.7
 Opening Version >> 0.9.7
-Affected Versions >> [0.9.0, 0.9.6]
+Affected Versions >> [0.9.6]
 Fix Commit List >> 
 	eb27482080af614ff7e387b9659e72571f8ce029
 ----------------------------------------------------------------------------------
@@ -7709,10 +7709,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-122
 Opening Date >> 2007-02-01
 Resolution Date >> 2007-02-01
-Injected Version >> 0.9.0
+Injected Version >> 0.9.6
 Fix Version >> 0.9.7
 Opening Version >> 0.9.7
-Affected Versions >> [0.9.0, 0.9.6]
+Affected Versions >> [0.9.6]
 Fix Commit List >> 
 	862cd158ed5acee7361881860548c03444d01dd6
 	cde63a43060c630a4ec641d127ecccf05bb05384
@@ -7722,10 +7722,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-121
 Opening Date >> 2007-02-01
 Resolution Date >> 2007-03-07
-Injected Version >> 0.9.0
+Injected Version >> 0.9.6
 Fix Version >> 0.9.7
 Opening Version >> 0.9.7
-Affected Versions >> [0.9.0, 0.9.6]
+Affected Versions >> [0.9.6]
 Fix Commit List >> 
 	d2c748d1094f295243c7a3b9efe2b937d8bc9b0b
 ----------------------------------------------------------------------------------
@@ -7733,10 +7733,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-119
 Opening Date >> 2007-01-31
 Resolution Date >> 2007-02-02
-Injected Version >> 0.9.0
+Injected Version >> 0.9.6
 Fix Version >> 0.9.7
 Opening Version >> 0.9.7
-Affected Versions >> [0.9.0, 0.9.6]
+Affected Versions >> [0.9.6]
 Fix Commit List >> 
 	d826caf71175811a23214b4e23545aee7625d7ed
 ----------------------------------------------------------------------------------
@@ -7744,10 +7744,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-118
 Opening Date >> 2007-01-31
 Resolution Date >> 2007-01-31
-Injected Version >> 0.9.0
+Injected Version >> 0.9.6
 Fix Version >> 0.9.7
 Opening Version >> 0.9.7
-Affected Versions >> [0.9.0, 0.9.6]
+Affected Versions >> [0.9.6]
 Fix Commit List >> 
 	2ac1bcccbb4070da2c86bfee4c7368d9466141ca
 ----------------------------------------------------------------------------------
@@ -7755,10 +7755,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-116
 Opening Date >> 2007-01-29
 Resolution Date >> 2007-01-30
-Injected Version >> 0.9.0
+Injected Version >> 0.9.6
 Fix Version >> 0.9.7
 Opening Version >> 0.9.7
-Affected Versions >> [0.9.0, 0.9.6]
+Affected Versions >> [0.9.6]
 Fix Commit List >> 
 	17c6580e4ce21e706513f77586372d9bf257a244
 ----------------------------------------------------------------------------------
@@ -7766,10 +7766,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-115
 Opening Date >> 2007-01-29
 Resolution Date >> 2007-02-01
-Injected Version >> 0.9.0
+Injected Version >> 0.9.6
 Fix Version >> 0.9.7
 Opening Version >> 0.9.7
-Affected Versions >> [0.9.0, 0.9.6]
+Affected Versions >> [0.9.6]
 Fix Commit List >> 
 	3c58b8840cfe65a2cbe4283897c846e18919311e
 ----------------------------------------------------------------------------------
@@ -7777,10 +7777,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-113
 Opening Date >> 2007-01-25
 Resolution Date >> 2007-10-24
-Injected Version >> 0.9.0
+Injected Version >> 0.9.6
 Fix Version >> 1.0.1
 Opening Version >> 0.9.7
-Affected Versions >> [0.9.0, 0.9.6, 0.9.7, 1.0.0]
+Affected Versions >> [0.9.6, 0.9.7, 1.0.0]
 Fix Commit List >> 
 	cb2a061dc7b46245b5ff4ee2478ffdb848a01315
 ----------------------------------------------------------------------------------
@@ -7799,10 +7799,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-104
 Opening Date >> 2007-01-17
 Resolution Date >> 2007-01-17
-Injected Version >> 0.9.0
+Injected Version >> 0.9.6
 Fix Version >> 0.9.7
 Opening Version >> 0.9.7
-Affected Versions >> [0.9.0, 0.9.6]
+Affected Versions >> [0.9.6]
 Fix Commit List >> 
 	c7128669c7e1f439f45c62d07b58e8add38343d2
 ----------------------------------------------------------------------------------
@@ -7810,10 +7810,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-103
 Opening Date >> 2007-01-17
 Resolution Date >> 2007-01-17
-Injected Version >> 0.9.0
+Injected Version >> 0.9.6
 Fix Version >> 0.9.7
 Opening Version >> 0.9.7
-Affected Versions >> [0.9.0, 0.9.6]
+Affected Versions >> [0.9.6]
 Fix Commit List >> 
 	bb7bf5940928786ce650ef9e3f6c0fb4c84d57ce
 ----------------------------------------------------------------------------------
@@ -7821,10 +7821,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-102
 Opening Date >> 2007-01-17
 Resolution Date >> 2007-01-17
-Injected Version >> 0.9.0
+Injected Version >> 0.9.6
 Fix Version >> 0.9.7
 Opening Version >> 0.9.7
-Affected Versions >> [0.9.0, 0.9.6]
+Affected Versions >> [0.9.6]
 Fix Commit List >> 
 	c7128669c7e1f439f45c62d07b58e8add38343d2
 ----------------------------------------------------------------------------------
@@ -7832,10 +7832,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-90
 Opening Date >> 2006-12-15
 Resolution Date >> 2006-12-15
-Injected Version >> 0.9.0
+Injected Version >> 0.9.6
 Fix Version >> 0.9.7
 Opening Version >> 0.9.7
-Affected Versions >> [0.9.0, 0.9.6]
+Affected Versions >> [0.9.6]
 Fix Commit List >> 
 	87b5ae1f4fdb4eec9040b0f1dee729c3507ea683
 ----------------------------------------------------------------------------------
@@ -7843,10 +7843,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-80
 Opening Date >> 2006-11-13
 Resolution Date >> 2007-03-06
-Injected Version >> 0.9.0
+Injected Version >> 0.9.6
 Fix Version >> 0.9.7
 Opening Version >> 0.9.6
-Affected Versions >> [0.9.0, 0.9.6]
+Affected Versions >> [0.9.6]
 Fix Commit List >> 
 	1af233a0b3b7ad19ed14aa1b0a297269f7905e97
 ----------------------------------------------------------------------------------
@@ -7854,10 +7854,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-77
 Opening Date >> 2006-11-09
 Resolution Date >> 2006-12-29
-Injected Version >> 0.9.0
+Injected Version >> 0.9.6
 Fix Version >> 0.9.7
 Opening Version >> 0.9.6
-Affected Versions >> [0.9.0, 0.9.6]
+Affected Versions >> [0.9.6]
 Fix Commit List >> 
 	6cb121e192041b65410fa2af968921c908b14d14
 ----------------------------------------------------------------------------------
@@ -7942,10 +7942,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-60
 Opening Date >> 2006-09-27
 Resolution Date >> 2007-02-06
-Injected Version >> 0.9.0
+Injected Version >> 0.9.6
 Fix Version >> 0.9.7
 Opening Version >> 0.9.6
-Affected Versions >> [0.9.0, 0.9.6]
+Affected Versions >> [0.9.6]
 Fix Commit List >> 
 	7baaaf4b760248e0e5fdf63903b00f15a4485f78
 ----------------------------------------------------------------------------------
@@ -7953,10 +7953,10 @@ Fix Commit List >>
 Ticket ID >> OPENJPA-46
 Opening Date >> 2006-09-18
 Resolution Date >> 2007-03-08
-Injected Version >> 0.9.0
+Injected Version >> 0.9.6
 Fix Version >> 0.9.7
 Opening Version >> 0.9.6
-Affected Versions >> [0.9.0, 0.9.6]
+Affected Versions >> [0.9.6]
 Fix Commit List >> 
 	69c34cd385cfd06409b8009af5c9a681233d26b1
 ----------------------------------------------------------------------------------

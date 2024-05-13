@@ -29,8 +29,8 @@ public class WekaEvaluation {
         return wekaClassifier.getFilterName();
     }
 
-    public String getSamplerName() {
-        return wekaClassifier.getSamplerName();
+    public String getSamplingType() {
+        return wekaClassifier.getSamplingType();
     }
 
     public boolean isCostSensitive() {
@@ -76,5 +76,4 @@ public class WekaEvaluation {
     public double getFalseNegative() {
         return evaluation.numFalseNegatives(INDEX) ;
     }
-
 }

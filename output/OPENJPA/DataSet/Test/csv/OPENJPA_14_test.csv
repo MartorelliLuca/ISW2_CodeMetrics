@@ -307,7 +307,7 @@ VersionNumber,ClassName,LinesOfCode,AddedLOC,MaxAddedLOC,AvgAddedLOC,TouchedLOC,
 15,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/schema/SchemaTool.java,1536.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,True
 15,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/schema/Schemas.java,242.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
 15,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/schema/Sequence.java,263.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
-15,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/schema/SimpleDriverDataSource.java,227.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,True
+15,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/schema/SimpleDriverDataSource.java,227.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
 15,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/schema/Table.java,910.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,True
 15,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/schema/TableSchemaFactory.java,509.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
 15,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/schema/Unique.java,87.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,True

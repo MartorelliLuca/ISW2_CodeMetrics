@@ -112,7 +112,7 @@ VersionNumber,ClassName,LinesOfCode,AddedLOC,MaxAddedLOC,AvgAddedLOC,TouchedLOC,
 8,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/NotExpression.java,81.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
 8,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/Null.java,51.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
 8,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/OrExpression.java,103.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
-8,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/PCPath.java,831.0,8.0,4.0,4.0,11.0,5.0,3.0,2.5,1,2,1,True
+8,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/PCPath.java,831.0,8.0,4.0,4.0,11.0,5.0,3.0,2.5,1,2,1,False
 8,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/Param.java,131.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
 8,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/QueryExpressionsState.java,36.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
 8,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/SQLEmbed.java,71.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
@@ -1030,7 +1030,7 @@ VersionNumber,ClassName,LinesOfCode,AddedLOC,MaxAddedLOC,AvgAddedLOC,TouchedLOC,
 8,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/UpdateAction.java,31.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
 8,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/XMLPersistenceMetaDataParser.java,1697.0,21.0,21.0,21.0,26.0,16.0,16.0,16.0,1,1,1,True
 8,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/XMLPersistenceMetaDataSerializer.java,1448.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,True
-8,openjpa-slice/src/main/java/org/apache/openjpa/slice/DistributedBrokerImpl.java,93.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,True
+8,openjpa-slice/src/main/java/org/apache/openjpa/slice/DistributedBrokerImpl.java,93.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
 8,openjpa-slice/src/main/java/org/apache/openjpa/slice/DistributedConfiguration.java,78.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
 8,openjpa-slice/src/main/java/org/apache/openjpa/slice/DistributionPolicy.java,47.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
 8,openjpa-slice/src/main/java/org/apache/openjpa/slice/ExecutorServiceValue.java,108.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False

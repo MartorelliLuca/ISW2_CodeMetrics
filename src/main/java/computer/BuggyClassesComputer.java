@@ -32,6 +32,7 @@ public class BuggyClassesComputer {
     }
 
     public void computeBuggyClassesForAllVersions(List<TicketInfo> ticketInfoList, List<VersionInfo> versionInfoList) throws GitAPIException, IOException {
+
         Logger.getGlobal().log(Level.INFO, "{0}", "Calcolo Classi Buggy per " + projectName.toUpperCase());
         for (TicketInfo ticketInfo : ticketInfoList) {
             List<String> buggyClasses = computeBuggyClassesByTicket(ticketInfo);
@@ -53,7 +54,7 @@ public class BuggyClassesComputer {
         }
         Logger.getGlobal().log(Level.INFO, "{0}", stringBuilder);
     }
-    //rimuovere metodo e unirlo con quello di MetricsComputer ??
+
     private List<String> computeBuggyClassesByTicket(TicketInfo ticketInfo) throws IOException, GitAPIException {
         List<String> buggyClasses = new ArrayList<>() ;
 

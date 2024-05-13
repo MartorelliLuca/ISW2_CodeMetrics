@@ -56,7 +56,7 @@ public class EvaluationWriter {
                 Integer.toString(wekaEvaluation.getEvaluationIndex()),
                 wekaEvaluation.getClassifierName(),
                 wekaEvaluation.getFilterName() ,
-                wekaEvaluation.getSamplerName(),
+                wekaEvaluation.getSamplingType(),
                 Boolean.toString(wekaEvaluation.isCostSensitive()),
                 Double.toString(wekaEvaluation.getPrecision()),
                 Double.toString(wekaEvaluation.getRecall()),

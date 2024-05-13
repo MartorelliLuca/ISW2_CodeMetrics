@@ -16,7 +16,9 @@ import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+
 public class TicketRetriever {
+
     String projectName ;
 
     public TicketRetriever(String projectName) {
@@ -24,17 +26,19 @@ public class TicketRetriever {
     }
 
     public List<TicketInfo> retrieveBugTicket(List<VersionInfo> versionInfoList) throws IOException, URISyntaxException {
+
         Logger.getGlobal().log(Level.INFO, "{0}", "Recupero Ticket Buggy per " + projectName.toUpperCase());
+
         List<TicketInfo> ticketInfoList = retrieveFromJson(versionInfoList) ;
 
         VersionInfo firstVersion = versionInfoList.get(0) ;
-        ticketInfoList.removeIf(ticketInfo -> !hasValidVersions(ticketInfo, firstVersion.getVersionDate())) ;
+
+        ticketInfoList.removeIf(ticketInfo -> !isValidTicket(ticketInfo, firstVersion.getVersionDate())) ;
 
         return ticketInfoList ;
     }
 
     private List<TicketInfo> retrieveFromJson(List<VersionInfo> versionInfoList) throws IOException, URISyntaxException {
-
         URLBuilder urlBuilder = new URLBuilder() ;
         String urlFirstPart = urlBuilder.buildUrl(projectName) ;
         int startPoint = 0 ;
@@ -70,6 +74,7 @@ public class TicketRetriever {
             TicketInfo ticketInfo = parseIssue(jsonIssue, versionInfoList) ;
             ticketInfoList.add(ticketInfo);
         }
+
         return ticketInfoList ;
     }
 
@@ -82,9 +87,9 @@ public class TicketRetriever {
         if (jsonIssueFieldsObject.has("created")) {
             String stringDate = jsonIssueFieldsObject.getString("created") ;
             LocalDate createdDate = LocalDate.parse(stringDate.substring(0,10)) ;
+
             // Consideriamo la Opening Version come la prima versione dopo la data di creazione del Ticket
             ticketInfo.setCreateDate(createdDate);
-
             VersionInfo openingVersion = computeVersionAfterDate(createdDate, versionInfoList) ;
             ticketInfo.setOpeningVersion(openingVersion);
         }
@@ -92,14 +97,16 @@ public class TicketRetriever {
         if (jsonIssueFieldsObject.has("versions")) {
             JSONArray affectedVersionJsonArray = jsonIssueFieldsObject.getJSONArray("versions") ;
             List<VersionInfo> affectedVersionsList = parseAffectedVersions(affectedVersionJsonArray, versionInfoList) ;
+
             // Consideriamo la Injected Version come la prima delle Affected Versions riportate su Jira
             if (!affectedVersionsList.isEmpty()) {
                 ticketInfo.setAffectedVersionList(affectedVersionsList);
                 ticketInfo.setInjectedVersion(affectedVersionsList.get(0));
             }
         }
-        // Assumiamo che la data effettiva di chiusura del Ticket sia la resolutiondate riportata su Jira
+
         if (jsonIssueFieldsObject.has("resolutiondate")) {
+            // Assumiamo che la data effettiva di chiusura del Ticket sia la resolutiondate riportata su Jira
             String stringDate = jsonIssueFieldsObject.getString("resolutiondate") ;
             LocalDate resolutionDate = LocalDate.parse(stringDate.substring(0,10)) ;
 
@@ -109,6 +116,16 @@ public class TicketRetriever {
         }
 
         return ticketInfo ;
+
+    }
+
+    private VersionInfo computeVersionAfterDate(LocalDate date, List<VersionInfo> versionInfoList) {
+        for (VersionInfo versionInfo : versionInfoList) {
+            if (versionInfo.getVersionDate().isAfter(date) || versionInfo.getVersionDate().isEqual(date)) {
+                return versionInfo ;
+            }
+        }
+        return null ;
     }
 
     private List<VersionInfo> parseAffectedVersions(JSONArray affectedVersionJsonArray, List<VersionInfo> versionInfoList) {
@@ -123,19 +140,11 @@ public class TicketRetriever {
             }
         }
         affectedVersionList.sort(Comparator.comparing(VersionInfo::getVersionDate));
-        return affectedVersionList;
+
+        return affectedVersionList ;
     }
 
-    private VersionInfo computeVersionAfterDate(LocalDate date, List<VersionInfo> versionInfoList) {
-        for (VersionInfo versionInfo : versionInfoList) {
-            if (versionInfo.getVersionDate().isAfter(date) || versionInfo.getVersionDate().isEqual(date)) {
-                return versionInfo ;
-            }
-        }
-        return null ;
-    }
-
-    private Boolean hasValidVersions(TicketInfo ticketInfo, LocalDate firstVersionDate) {
+    private Boolean isValidTicket(TicketInfo ticketInfo, LocalDate firstVersionDate) {
 
         /*
         Un ticket viene scartato se ha una data di creazione precedente a quella della prima versione.

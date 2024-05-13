@@ -17,6 +17,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 
+
 public class WekaFlow {
 
     private WekaFlow() {}
@@ -26,7 +27,6 @@ public class WekaFlow {
         EvaluationWriter evaluationWriter = new EvaluationWriter(projectName) ;
 
         List<WekaEvaluation> wekaEvaluationList = new ArrayList<>() ;
-
 
         for (int index = 0 ; index < maxIndex ; index++) {
             Logger.getGlobal().log(Level.INFO, "{0}", "Valutazione Versione " + index + "\n");
@@ -49,8 +49,6 @@ public class WekaFlow {
             for (WekaClassifier wekaClassifier : classifierList) {
                 Classifier classifier = wekaClassifier.getClassifier();
                 classifier.buildClassifier(trainingSet);
-
-                WekaFilter filter = wekaClassifier.getWekaFilter() ;
 
                 Evaluation evaluation = new Evaluation(testingSet) ;
                 evaluation.evaluateModel(classifier, testingSet) ;

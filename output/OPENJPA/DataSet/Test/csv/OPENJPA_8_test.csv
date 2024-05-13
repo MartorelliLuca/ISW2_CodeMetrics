@@ -323,7 +323,7 @@ VersionNumber,ClassName,LinesOfCode,AddedLOC,MaxAddedLOC,AvgAddedLOC,TouchedLOC,
 9,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/RowImpl.java,963.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
 9,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/RowManager.java,74.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
 9,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/RowManagerImpl.java,294.0,197.0,78.0,65.666664,357.0,111.0,37.0,37.0,1,3,0,False
-9,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/SQLBuffer.java,700.0,0.0,0.0,0.0,14.0,14.0,14.0,14.0,1,1,1,True
+9,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/SQLBuffer.java,700.0,0.0,0.0,0.0,14.0,14.0,14.0,14.0,1,1,1,False
 9,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/SQLErrorCodeReader.java,155.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
 9,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/SQLExceptions.java,120.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,True
 9,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/sql/SQLFactory.java,46.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0,False
@@ -1097,7 +1097,7 @@ VersionNumber,ClassName,LinesOfCode,AddedLOC,MaxAddedLOC,AvgAddedLOC,TouchedLOC,
 9,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/query/LikeExpression.java,54.0,75.0,54.0,25.0,86.0,64.0,54.0,21.333334,1,3,0,False
 9,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/query/LiteralExpression.java,31.0,31.0,31.0,31.0,31.0,31.0,31.0,31.0,1,1,0,False
 9,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/query/LocateExpression.java,66.0,106.0,66.0,35.333332,113.0,99.0,66.0,33.0,1,3,0,False
-9,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/query/LogicalPredicate.java,60.0,62.0,60.0,31.0,63.0,61.0,60.0,30.5,1,2,0,True
+9,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/query/LogicalPredicate.java,60.0,62.0,60.0,31.0,63.0,61.0,60.0,30.5,1,2,0,False
 9,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/query/LowerExpression.java,33.0,33.0,33.0,33.0,33.0,33.0,33.0,33.0,1,1,0,False
 9,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/query/MaxExpression.java,33.0,33.0,33.0,33.0,33.0,33.0,33.0,33.0,1,1,0,False
 9,openjpa-persistence/src/main/java/org/apache/openjpa/persistence/query/MemberOfExpression.java,34.0,34.0,34.0,34.0,34.0,34.0,34.0,34.0,1,1,0,False

@@ -108,7 +108,7 @@ VersionNumber,ClassName,LinesOfCode,AddedLOC,MaxAddedLOC,AvgAddedLOC,TouchedLOC,
 2,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/NotExpression.java,81.0,13.0,13.0,13.0,23.0,3.0,3.0,3.0,1,1,0,False
 2,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/Null.java,51.0,13.0,13.0,13.0,23.0,3.0,3.0,3.0,1,1,0,False
 2,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/OrExpression.java,103.0,13.0,13.0,13.0,23.0,3.0,3.0,3.0,1,1,0,False
-2,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/PCPath.java,741.0,13.0,13.0,13.0,23.0,3.0,3.0,3.0,1,1,0,True
+2,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/PCPath.java,741.0,13.0,13.0,13.0,23.0,3.0,3.0,3.0,1,1,0,False
 2,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/Param.java,131.0,13.0,13.0,13.0,23.0,3.0,3.0,3.0,1,1,0,True
 2,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/QueryExpressionsState.java,36.0,13.0,13.0,13.0,23.0,3.0,3.0,3.0,1,1,0,False
 2,openjpa-jdbc/src/main/java/org/apache/openjpa/jdbc/kernel/exps/SQLEmbed.java,71.0,13.0,13.0,13.0,23.0,3.0,3.0,3.0,1,1,0,False

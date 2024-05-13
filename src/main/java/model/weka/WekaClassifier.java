@@ -3,10 +3,11 @@ package model.weka;
 import weka.classifiers.Classifier;
 import weka.classifiers.Evaluation;
 
+
 public class WekaClassifier {
 
+    private final String classifierName;
     private Classifier classifier ;
-    private String classifierName ;
     private WekaFilter wekaFilter ;
     private WekaSampler wekaSampler ;
     private Evaluation evaluation ;
@@ -26,17 +27,14 @@ public class WekaClassifier {
     }
 
     public String getFilterName() {
-        if (wekaFilter == null) {
-            return "NotSet" ;
-        }
-        return wekaFilter.getFilterName() + "(" + wekaFilter.getDirectionString() + ")";
+        return String.valueOf(wekaFilter != null);
     }
 
-    public String getSamplerName() {
+    public String getSamplingType() {
         if (wekaSampler == null) {
             return "NotSet" ;
         }
-        return wekaSampler.getSamplerName();
+        return wekaSampler.getSamplingType();
     }
 
     public void setClassifier(Classifier classifier) {
@@ -44,13 +42,9 @@ public class WekaClassifier {
     }
 
     public String getClassifierName() {
-        return classifierName;
+        return classifierName ;
     }
 
-
-    public boolean getIsCostSensitive() {
-        return isCostSensitive ;
-    }
     public WekaFilter getWekaFilter() {
         return wekaFilter;
     }
@@ -73,5 +67,9 @@ public class WekaClassifier {
 
     public void setEvaluation(Evaluation evaluation) {
         this.evaluation = evaluation;
+    }
+
+    public boolean getIsCostSensitive() {
+        return isCostSensitive ;
     }
 }

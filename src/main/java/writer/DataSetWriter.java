@@ -18,9 +18,6 @@ public class DataSetWriter {
             "AddedLOC",    //La somma delle linee di codice aggiunte attraverso tutte le revisioni.
             "MaxAddedLOC", //Il massimo delle linee di codice aggiunte in una singola revisione.
             "AvgAddedLOC", //La media delle linee di codice aggiunte per revisione.
-            //"RemovedLoc",
-            //"MaxRemovedLoc",
-            //"AvgRemovedLoc",
             "TouchedLOC",  //Totale delle linee di codice che sono state modificate.
             "Churn",       //La somma delle linee di codice aggiunte e cancellate attraverso tutte le revisioni. Indice di instabilità dei cambiamenti.
             "MaxChurn",    //Il massimo del churn in una singola revisione.
@@ -136,14 +133,6 @@ public class DataSetWriter {
                 Float.toString(classInfo.getAddedLoc()),
                 Float.toString(classInfo.getMaxAddedLoc()),
                 Float.toString(classInfo.getAvgAddedLoc()),
-                /*
-                + classInfo.getRemovedLoc()
-                ,
-                + classInfo.getMaxRemovedLoc()
-                ,
-                + classInfo.getAvgRemovedLoc()
-                ,
-                 */
                 Float.toString(classInfo.getTouchedLoc()),
                 Float.toString(classInfo.getChurn()),
                 Float.toString(classInfo.getMaxChurn()),

@@ -20,9 +20,10 @@ import weka.filters.supervised.instance.SpreadSubsample;
 import java.util.ArrayList;
 import java.util.List;
 
+
 public class WekaClassifierListBuilder {
 
-    public List<WekaClassifier> buildClassifierList(int trueNumber, int falseNumber){
+    public List<WekaClassifier> buildClassifierList(int trueNumber, int falseNumber) throws Exception {
 
         List<Classifier> classifierList = buildBaseClassifiersList() ;
         List<WekaFilter> filterList = buildFilters() ;
@@ -47,7 +48,6 @@ public class WekaClassifierListBuilder {
         // Classificatore con Sensitive Learning
         wekaClassifierList.addAll(combineWithCostSensitive(filterList, classifierList)) ;
 
-
         return wekaClassifierList ;
     }
 
@@ -66,9 +66,7 @@ public class WekaClassifierListBuilder {
         return classifierList ;
     }
 
-
-
-    private List<WekaClassifier> combineWithAttributeSelection(List<WekaFilter> filterList, List<Classifier> classifierList) {
+    private List<WekaClassifier> combineWithAttributeSelection(List<WekaFilter> filterList, List<Classifier> classifierList) throws Exception {
         List<WekaClassifier> wekaClassifierList = new ArrayList<>() ;
         for (WekaFilter wekaFilter : filterList) {
             for (Classifier classifier : classifierList) {
@@ -93,7 +91,6 @@ public class WekaClassifierListBuilder {
                 wekaClassifierList.add(new WekaClassifier(filteredClassifier, classifier.getClass().getSimpleName(),null, wekaSampler, false));
             }
         }
-
         return wekaClassifierList ;
     }
 
@@ -149,7 +146,7 @@ public class WekaClassifierListBuilder {
     private List<WekaFilter> buildFilters() {
         List<WekaFilter> filterList = new ArrayList<>() ;
 
-        for (int i = 0 ; i < 3 ; i++) {
+        for (int i = 0 ; i < 1 ; i++) {
             AttributeSelection attributeSelection = new AttributeSelection() ;
 
             BestFirst search = new BestFirst() ;
@@ -177,12 +174,12 @@ public class WekaClassifierListBuilder {
         double resamplePercentage = (((double) falseNumber) / (falseNumber + trueNumber)) * 100 ;
 
         resample.setSampleSizePercent(2 * resamplePercentage);
-        samplerList.add(new WekaSampler(resample)) ;
+        samplerList.add(new WekaSampler(resample, "Over")) ;
 
         //Undersampling
         SpreadSubsample spreadSubsample = new SpreadSubsample() ;
         spreadSubsample.setDistributionSpread(1.0);
-        samplerList.add(new WekaSampler(spreadSubsample));
+        samplerList.add(new WekaSampler(spreadSubsample, "Under"));
 
         //SMOTE
         SMOTE smote = new SMOTE() ;
@@ -193,9 +190,11 @@ public class WekaClassifierListBuilder {
         else {
             smotePercentage = ((falseNumber - trueNumber) / ((double) trueNumber)) * 100.0 ;
         }
+
         smote.setPercentage(smotePercentage);
         smote.setClassValue("1");
-        samplerList.add(new WekaSampler(smote));
+
+        samplerList.add(new WekaSampler(smote, "SMOTE"));
 
         return samplerList ;
     }
@@ -212,7 +211,6 @@ public class WekaClassifierListBuilder {
     }
 
     private CostMatrix buildCostMatrix(double costFalsePositive, double costFalseNegative) {
-        // ricontrolla matrice
         CostMatrix costMatrix = new CostMatrix(2) ;
         costMatrix.setCell(0,0,0.0);
         costMatrix.setCell(1,1,0.0);
