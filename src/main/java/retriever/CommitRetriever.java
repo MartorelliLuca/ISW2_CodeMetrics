@@ -23,7 +23,7 @@ public class CommitRetriever {
     private final String projectName;
     private final List<RevCommit> commitList;
 
-    public CommitRetriever(String projectName, Git git, LocalDate lastVersionDate) throws IOException, GitAPIException {
+    public CommitRetriever(String projectName, Git git, LocalDate lastVersionDate) throws GitAPIException {
         this.projectName = projectName.toUpperCase();
         this.commitList = new ArrayList<>();
 
@@ -38,12 +38,12 @@ public class CommitRetriever {
         this.commitList.sort(Comparator.comparing(o -> o.getCommitterIdent().getWhen()));
     }
 
-    public void retrieveFixCommitListForAllTickets(List<TicketInfo> ticketInfoList, VersionInfo firstVersion, VersionInfo lastVersion) {
+    public void retrieveFixCommitListForAllTickets(List<TicketInfo> ticketInfoList, VersionInfo firstVersion) {
 
         Logger.getGlobal().log(Level.INFO, "{0}", "Recupero Fix Commit per " + projectName.toUpperCase());
 
         for (TicketInfo ticketInfo : ticketInfoList) {
-            List<RevCommit> fixCommitList = retrieveFixCommitListForTicket(ticketInfo, firstVersion, lastVersion);
+            List<RevCommit> fixCommitList = retrieveFixCommitListForTicket(ticketInfo, firstVersion);
             ticketInfo.setFixCommitList(fixCommitList);
         }
 
@@ -51,15 +51,13 @@ public class CommitRetriever {
 
     }
 
-    private List<RevCommit> retrieveFixCommitListForTicket(TicketInfo ticketInfo, VersionInfo firstVersion, VersionInfo lastVersion) {
+    private List<RevCommit> retrieveFixCommitListForTicket(TicketInfo ticketInfo, VersionInfo firstVersion) {
         List<RevCommit> fixCommitList = new ArrayList<>();
         Pattern pattern = Pattern.compile(ticketInfo.getTicketId() + "\\b");
         for (RevCommit commit : this.commitList) {
             LocalDate commitDate = DateUtils.dateToLocalDate(commit.getCommitterIdent().getWhen());
 
             boolean doesMatch = commitMatchesTicket(commit, pattern);
-            // TODO Controllare se va bene che sia per forza prima dell'ultima versione
-            //lastVersion.getVersionDate().isAfter(commitDate) &&
             boolean compliantVersionDates = firstVersion.getVersionDate().isBefore(commitDate);
             boolean compliantTicketDates = !commitDate.isBefore(ticketInfo.getCreateDate()) && !commitDate.isAfter(ticketInfo.getResolutionDate()) ;
             if (doesMatch && compliantVersionDates && compliantTicketDates) {

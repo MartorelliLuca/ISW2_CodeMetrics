@@ -6,7 +6,6 @@ import weka.filters.Filter;
 public class WekaFilter {
 
     private Filter filter ;
-    private String filterName ;
     private String searchMethod ;
     private String directionString ;
 

@@ -84,7 +84,7 @@ public class LogWriter {
     }
 
 
-    public static void writeProportionLog(String projectName, List<TicketInfo> ticketInfoList, List<Float> proportionValues, float coldStartValue, List<Float> coldStartArray, List<TicketInfo> proportionTicketList) throws IOException {
+    public static void writeProportionLog(String projectName, List<TicketInfo> ticketInfoList, List<Float> proportionValues, float coldStartValue, List<Float> coldStartArray) throws IOException {
         Files.createDirectories(PathBuilder.buildLogPath(projectName));
 
         try (BufferedWriter writer = Files.newBufferedWriter(

@@ -74,7 +74,7 @@
       <recent name="computer" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ChartsGenerator">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <envs>
         <env name="PROJECTS_PATH" value="$PROJECT_DIR$/../" />
@@ -116,8 +116,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.ChartsGenerator" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Python.ChartsGenerator" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +153,7 @@
       <workItem from="1715412156733" duration="7988000" />
       <workItem from="1715421503893" duration="2789000" />
       <workItem from="1715424369212" duration="1630000" />
-      <workItem from="1715594957248" duration="2935000" />
+      <workItem from="1715594957248" duration="6561000" />
     </task>
     <servers />
   </component>

@@ -35,8 +35,8 @@ def init_directories() :
 
 
 def analyze_all_projetcs() :
-    for projectName in valid_project_list :
-        analyze_project(projectName)
+    for project_name in valid_project_list :
+        analyze_project(project_name)
 
 
 def analyze_project(project_name) :
@@ -64,50 +64,58 @@ def analyze_project(project_name) :
         comparison_box_plot(project_name, dataset, classifiers, filters, samplers, sensitive, metric)
 
 
-def comparison_box_plot(project_name, dataset, classifier_list, filter_list, sampler_list, sensitive_list, metric) :
-    nCols = 0
-    for filter in filter_list :
-        for sampler in sampler_list :
-            for is_sensitive in sensitive_list :
+def comparison_box_plot(project_name, dataset, classifier_list, filter_list, sampler_list, sensitive_list, metric):
+    n_cols = count_columns(filter_list, sampler_list, sensitive_list)
 
-                if (is_sensitive and sampler != "NotSet") :
-                    continue
-
-                nCols = nCols + 1
-
-    figure, axis = plt.subplots(nrows = 1, ncols = nCols, sharey = "row")
-    figure.set_size_inches(20,10)
-    figure.set_tight_layout(tight = {"w_pad" : -0.75})
-    #figure.subplots_adjust(wspace = 0)
+    figure, axis = plt.subplots(nrows=1, ncols=n_cols, sharey="row", figsize=(20, 10))
+    figure.tight_layout(pad=-0.75)
 
     index = 0
-    for filter in filter_list :
-        for sampler in sampler_list :
-            for is_sensitive in sensitive_list :
+    for filter_val, sampler, is_sensitive in generate_combinations(filter_list, sampler_list, sensitive_list):
+        if is_sensitive and sampler != "NotSet":
+            continue
 
-                if (is_sensitive and sampler != "NotSet") :
-                    continue
+        precision_data_list = get_precision_data_list(dataset, classifier_list, filter_val, sampler, is_sensitive, metric)
 
-                precision_data_list = []
+        axis[index].boxplot(precision_data_list)
+        axis[index].set_xticklabels(classifier_list, rotation=60)
+        axis[index].set_ylim(0, 1)
+        axis[index].yaxis.grid(linestyle='--', linewidth=0.75)
+        axis[index].set_yticks(np.arange(0, 1.1, 0.05))
+        axis[index].set_title(f"Filter = {filter_val}\nSampling = {sampler}\nSensitive = {is_sensitive}")
 
-                for classifier in classifier_list :
-                    precision_data = get_data(dataset, None, classifier, filter, sampler, is_sensitive)[metric]
-                    precision_data = precision_data[precision_data.notnull()]
-                    precision_data_list.append(precision_data)
+        index += 1
 
-                axis[index].boxplot(precision_data_list)
-                axis[index].set_xticklabels(classifier_list, rotation = 60)
-                axis[index].set_ylim(-0, 1)
-                axis[index].yaxis.grid(linestyle = '--', linewidth = 0.75)
-                axis[index].set_yticks(np.arange(-0.05,1.1, 0.05))
-                axis[index].set_title("Filter = " + str(filter) + "\nSampling = " + sampler + "\nSensitive = " + str(is_sensitive))
-
-                index += 1
-
-    output_path = comparison_image_path.format(name = project_name, imageTitle =project_name + "_" + metric + "_Comparison")
+    output_path = comparison_image_path.format(name=project_name, imageTitle=project_name + "_" + metric + "_Comparison")
 
     figure.suptitle(project_name + " " + metric + " Comparison")
     figure.savefig(output_path)
+
+
+def count_columns(filter_list, sampler_list, sensitive_list):
+    nCols = 0
+    for filter_val in filter_list:
+        for sampler in sampler_list:
+            for is_sensitive in sensitive_list:
+                if not (is_sensitive and sampler != "NotSet"):
+                    nCols += 1
+    return nCols
+
+
+def generate_combinations(filter_list, sampler_list, sensitive_list):
+    for filter_val in filter_list:
+        for sampler in sampler_list:
+            for is_sensitive in sensitive_list:
+                yield filter_val, sampler, is_sensitive
+
+
+def get_precision_data_list(dataset, classifier_list, filter_val, sampler, is_sensitive, metric):
+    precision_data_list = []
+    for classifier in classifier_list:
+        precision_data = get_data(dataset, None, classifier, filter_val, sampler, is_sensitive)[metric]
+        precision_data = precision_data[precision_data.notnull()]
+        precision_data_list.append(precision_data)
+    return precision_data_list
 
 
 

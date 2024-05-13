@@ -45,12 +45,12 @@ public class VersionsFixer {
             ticketInfo.setAffectedVersionList(affectedVersionList);
         }
 
-        LogWriter.writeProportionLog(projectName, sortedTicketList, proportionValuesArray, proportionComputer.getColdStartProportionValue(), proportionComputer.getColdStartArray(), proportionComputer.getProportionTicketList());
+        LogWriter.writeProportionLog(projectName, sortedTicketList, proportionValuesArray, proportionComputer.getColdStartProportionValue(), proportionComputer.getColdStartArray());
 
     }
 
     private void setInjectedVersionForTicket(TicketInfo ticketInfo, List<VersionInfo> versionInfoList, Float proportionValue) {
-        Integer proportionIndex ;
+        int proportionIndex ;
         Integer openingNumber = ticketInfo.getOpeningVersion().getReleaseNumber() ;
         Integer fixNumber = ticketInfo.getFixVersion().getReleaseNumber() ;
 
@@ -65,7 +65,7 @@ public class VersionsFixer {
             subtractionValue = (fixNumber - openingNumber) * proportionValue ;
         }
         proportionIndex = (int) Math.ceil(fixNumber - subtractionValue) ;
-        Integer index = Integer.max(0, proportionIndex) ;
+        int index = Integer.max(0, proportionIndex) ;
 
         VersionInfo injectedVersion = versionInfoList.get(index) ;
         ticketInfo.setInjectedVersion(injectedVersion) ;

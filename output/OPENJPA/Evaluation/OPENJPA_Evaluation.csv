@@ -1,4 +1,4 @@
-TrainingRelease,ClassifierName,Filter,Sampler,SensitiveLearning,Precision,Recall,ROC_AUC,Kappa,TruePositive,FalsePositive,TrueNegative,FalseNegative
+TrainingRelease,ClassifierName,FilterName,SamplerName,SensitiveLearning,Precision,Recall,ROC_AUC,Kappa,TruePositive,FalsePositive,TrueNegative,FalseNegative
 0,RandomForest,false,NotSet,false,NaN,0.0,0.5,0.0,0.0,0.0,856.0,97.0
 0,NaiveBayes,false,NotSet,false,NaN,0.0,0.3731452933808652,0.0,0.0,0.0,856.0,97.0
 0,IBk,false,NotSet,false,NaN,0.0,0.5000843048463243,0.0,0.0,0.0,856.0,97.0

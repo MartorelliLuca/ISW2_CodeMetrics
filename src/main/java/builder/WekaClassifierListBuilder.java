@@ -66,7 +66,7 @@ public class WekaClassifierListBuilder {
         return classifierList ;
     }
 
-    private List<WekaClassifier> combineWithAttributeSelection(List<WekaFilter> filterList, List<Classifier> classifierList) throws Exception {
+    private List<WekaClassifier> combineWithAttributeSelection(List<WekaFilter> filterList, List<Classifier> classifierList) {
         List<WekaClassifier> wekaClassifierList = new ArrayList<>() ;
         for (WekaFilter wekaFilter : filterList) {
             for (Classifier classifier : classifierList) {

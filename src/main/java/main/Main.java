@@ -6,7 +6,6 @@ import java.nio.file.Path;
 
 public class Main {
 
-    /*private static final String PROJECT_PATH = "/home/lux/Documents/GitHub/";*/
     private static final Path PROJECT_PATH = Path.of("/home/lux/Documents/GitHub/") ;
     private enum ProjectEnum {
         BOOKKEEPER,
