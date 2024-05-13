@@ -6,7 +6,7 @@ import model.weka.WekaEvaluation;
 import utils.PathBuilder;
 import weka.classifiers.Classifier;
 import weka.classifiers.Evaluation;
-import weka.core.FastVector;
+import weka.core.Attribute;
 import weka.core.Instances;
 import weka.core.converters.ConverterUtils.DataSource;
 import writer.EvaluationWriter;
@@ -76,7 +76,8 @@ public class WekaFlow {
                 return testingSet ;
             }
         }
-        return null ;
+        ArrayList<Attribute> list = new ArrayList<>();
+        return new Instances("", list, 0);
     }
 
 }
