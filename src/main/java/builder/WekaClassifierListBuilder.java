@@ -22,9 +22,9 @@ import java.util.List;
 
 public class WekaClassifierListBuilder {
 
-    public List<WekaClassifier> buildClassifierList(int trueNumber, int falseNumber) {
+    public List<WekaClassifier> buildClassifierList(int trueNumber, int falseNumber){
 
-        List<Classifier> classifierList = new ArrayList<>(List.of(new RandomForest(), new NaiveBayes(), new IBk())) ;
+        List<Classifier> classifierList = buildBaseClassifiersList() ;
         List<WekaFilter> filterList = buildFilters() ;
         List<WekaSampler> samplerList = buildSamplers(trueNumber, falseNumber) ;
 
@@ -44,12 +44,29 @@ public class WekaClassifierListBuilder {
         // Classificatore con Attribute Selection e Sampling
         wekaClassifierList.addAll(combineAttributeSelectionAndSampling(filterList, samplerList, classifierList)) ;
 
-        // Classificatore con Cost Sensitive
+        // Classificatore con Sensitive Learning
         wekaClassifierList.addAll(combineWithCostSensitive(filterList, classifierList)) ;
 
 
         return wekaClassifierList ;
     }
+
+    private List<Classifier> buildBaseClassifiersList() {
+        List<Classifier> classifierList = new ArrayList<>() ;
+
+        RandomForest randomForest = new RandomForest() ;
+        classifierList.add(randomForest);
+
+        NaiveBayes naiveBayes = new NaiveBayes() ;
+        classifierList.add(naiveBayes);
+
+        Classifier iBk = new IBk() ;
+        classifierList.add(iBk);
+
+        return classifierList ;
+    }
+
+
 
     private List<WekaClassifier> combineWithAttributeSelection(List<WekaFilter> filterList, List<Classifier> classifierList) {
         List<WekaClassifier> wekaClassifierList = new ArrayList<>() ;

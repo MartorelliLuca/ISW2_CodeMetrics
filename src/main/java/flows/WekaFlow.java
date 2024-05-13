@@ -3,6 +3,7 @@ package flows;
 import builder.WekaClassifierListBuilder;
 import model.weka.WekaClassifier;
 import model.weka.WekaEvaluation;
+import model.weka.WekaFilter;
 import utils.PathBuilder;
 import weka.classifiers.Classifier;
 import weka.classifiers.Evaluation;
@@ -48,6 +49,8 @@ public class WekaFlow {
             for (WekaClassifier wekaClassifier : classifierList) {
                 Classifier classifier = wekaClassifier.getClassifier();
                 classifier.buildClassifier(trainingSet);
+
+                WekaFilter filter = wekaClassifier.getWekaFilter() ;
 
                 Evaluation evaluation = new Evaluation(testingSet) ;
                 evaluation.evaluateModel(classifier, testingSet) ;
