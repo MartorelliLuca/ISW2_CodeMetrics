@@ -12,7 +12,7 @@ public class WekaClassifier {
     private WekaSampler wekaSampler ;
     private Evaluation evaluation ;
 
-    private boolean isCostSensitive ;
+    private final boolean isCostSensitive ;
 
     public WekaClassifier(Classifier classifier, String classifierName, WekaFilter wekaFilter, WekaSampler wekaSampler, boolean isCostSensitive) {
         this.classifier = classifier ;

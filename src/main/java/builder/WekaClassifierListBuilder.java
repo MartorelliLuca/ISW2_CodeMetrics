@@ -23,7 +23,7 @@ import java.util.List;
 
 public class WekaClassifierListBuilder {
 
-    public List<WekaClassifier> buildClassifierList(int trueNumber, int falseNumber) throws Exception {
+    public List<WekaClassifier> buildClassifierList(int trueNumber, int falseNumber) {
 
         List<Classifier> classifierList = buildBaseClassifiersList() ;
         List<WekaFilter> filterList = buildFilters() ;

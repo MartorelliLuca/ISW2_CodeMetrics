@@ -93,13 +93,13 @@ def comparison_box_plot(project_name, dataset, classifier_list, filter_list, sam
 
 
 def count_columns(filter_list, sampler_list, sensitive_list):
-    nCols = 0
-    for filter_val in filter_list:
+    n_cols = 0
+    for _ in filter_list:
         for sampler in sampler_list:
             for is_sensitive in sensitive_list:
                 if not (is_sensitive and sampler != "NotSet"):
-                    nCols += 1
-    return nCols
+                    n_cols += 1
+    return n_cols
 
 
 def generate_combinations(filter_list, sampler_list, sensitive_list):
