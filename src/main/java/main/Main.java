@@ -10,6 +10,7 @@ public class Main {
     private enum ProjectEnum {
         BOOKKEEPER,
         OPENJPA
+        
     }
     public static void main(String[] args) throws Exception {
         for (ProjectEnum project : ProjectEnum.values()) {
