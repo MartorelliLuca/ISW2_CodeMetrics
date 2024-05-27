@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="101623df-513d-49ec-b96a-072cbdb89342" name="Changes" comment="" />
+    <list default="true" id="101623df-513d-49ec-b96a-072cbdb89342" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/BOOKKEEPER/Log/Proportion" beforeDir="false" afterPath="$PROJECT_DIR$/output/BOOKKEEPER/Log/Proportion" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/builder/WekaClassifierListBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/builder/WekaClassifierListBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/flows/WekaFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/flows/WekaFlow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/flows/WekaFlow.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/flows/WekaFlow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/Main.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -155,6 +163,16 @@
       <workItem from="1715424369212" duration="1630000" />
       <workItem from="1715594957248" duration="9241000" />
       <workItem from="1715680325522" duration="228000" />
+      <workItem from="1715682853547" duration="863000" />
+      <workItem from="1715695031632" duration="59000" />
+      <workItem from="1715697248483" duration="210000" />
+      <workItem from="1715701179318" duration="297000" />
+      <workItem from="1715775728048" duration="4614000" />
+      <workItem from="1715839421405" duration="1109000" />
+      <workItem from="1715843712547" duration="672000" />
+      <workItem from="1715844685290" duration="19000" />
+      <workItem from="1716814123226" duration="5073000" />
+      <workItem from="1716819240703" duration="468000" />
     </task>
     <servers />
   </component>

@@ -1,6 +1,7 @@
 package flows;
 
 import builder.WekaClassifierListBuilder;
+import model.retrieve.Acume;
 import model.weka.WekaClassifier;
 import model.weka.WekaEvaluation;
 import utils.PathBuilder;
@@ -16,7 +17,7 @@ import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-
+import static java.lang.Thread.sleep;
 
 
 public class WekaFlow {
@@ -45,20 +46,62 @@ public class WekaFlow {
             List<WekaClassifier> classifierList = listBuilder.buildClassifierList(trueNumber, falseNumber) ;
 
             for (WekaClassifier wekaClassifier : classifierList) {
+                //per ogni classificatore weka generato sopra fai l'evaluator
                 Classifier classifier = wekaClassifier.getClassifier();
                 classifier.buildClassifier(trainingSet);
-
+                //gli do in pasto il testing set e mi crea l'oggetto evaluator con il testing set inizializzato
                 Evaluation evaluation = new Evaluation(testingSet) ;
+                //qui me lo valuta il testing set a seconda dei classificatori
                 evaluation.evaluateModel(classifier, testingSet) ;
 
+
+                //mi salvo il risultato dell'evaulation nella classe wekaClassifier
                 wekaClassifier.setEvaluation(evaluation);
 
                 wekaEvaluationList.add(new WekaEvaluation(wekaClassifier, index, evaluation));
+
+                //todo fai cose acume
+                computeAcumeFile(testingSet,classifier);
             }
         }
 
         evaluationWriter.writeClassifiersEvaluation(projectName, wekaEvaluationList) ;
     }
+
+    private static void computeAcumeFile(Instances testingSet, Classifier classifier) throws Exception {
+        String size = "LinesOfCode";
+        String isBuggy = "Buggy";
+
+        List<Acume> acumeUtilsList = new ArrayList<>();
+
+        int sizeIndex = testingSet.attribute(size).index();
+        int isBuggyIndex = testingSet.attribute(isBuggy).index();
+
+        int trueClassifierIndex = testingSet.classAttribute().indexOfValue("True");
+
+        if(trueClassifierIndex != -1){
+            for (int i = 0; i < testingSet.numInstances(); i++) {
+                int sizeValue = (int) testingSet.instance(i).value(sizeIndex);
+                int valueIndex = (int) testingSet.instance(i).value(isBuggyIndex);
+                String buggyness =  testingSet.attribute(isBuggyIndex).value(valueIndex);
+                String buggy;
+                buggy = writeBuggy(buggyness);
+                double[] distribution = classifier.distributionForInstance(testingSet.instance(i));
+                Acume acumeUtils = new Acume(i, sizeValue, distribution[trueClassifierIndex], buggy);
+                acumeUtilsList.add(acumeUtils);
+            }
+        }
+        //writeCsvForAcume(projName, classifierName, featureSelection, sampling, costSensitive, index, acumeUtilsList);
+    }
+
+    private static String writeBuggy(String buggy){
+        if(buggy.equals("True")){
+            return "YES";
+        } else {
+            return "NO";
+        }
+    }
+
 
     private static Instances getTestingSet(String projectName, int startIndex, int maxIndex) throws Exception {
         /*
@@ -76,5 +119,4 @@ public class WekaFlow {
         ArrayList<Attribute> list = new ArrayList<>();
         return new Instances("", list, 0);
     }
-
 }

@@ -46,7 +46,7 @@ public class WekaClassifierListBuilder {
         wekaClassifierList.addAll(combineAttributeSelectionAndSampling(filterList, samplerList, classifierList)) ;
 
         // Classificatore con Sensitive Learning
-        wekaClassifierList.addAll(combineWithCostSensitive(filterList, classifierList)) ;
+        wekaClassifierList.addAll(combineWithCostSensitive(filterList, classifierList));
 
         return wekaClassifierList ;
     }
