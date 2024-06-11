@@ -6,12 +6,16 @@
   <component name="ChangeListManager">
     <list default="true" id="101623df-513d-49ec-b96a-072cbdb89342" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/BOOKKEEPER/Log/Proportion" beforeDir="false" afterPath="$PROJECT_DIR$/output/BOOKKEEPER/Log/Proportion" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/BOOKKEEPER/Charts/.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/OPENJPA/Charts/.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/OPENJPA/Log/Proportion" beforeDir="false" afterPath="$PROJECT_DIR$/output/OPENJPA/Log/Proportion" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ChartsGenerator.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ChartsGenerator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/builder/WekaClassifierListBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/builder/WekaClassifierListBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/flows/WekaFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/flows/WekaFlow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/writer/AcumeWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/writer/AcumeWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/builder/WekaClassifierListBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/builder/WekaClassifierListBuilder.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/flows/WekaFlow.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/flows/WekaFlow.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/writer/AcumeWriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/writer/AcumeWriter.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,9 +25,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="package-info" />
         <option value="Record" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -129,14 +133,6 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="jdk-20.0.2-corretto-20.0.2.1-4caba194b151-d3b95e29" />
-        <option value="jdk-22-openjdk-22-4caba194b151-6fbd92ee" />
-      </set>
-    </attachedChunks>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -172,7 +168,11 @@
       <workItem from="1715843712547" duration="672000" />
       <workItem from="1715844685290" duration="19000" />
       <workItem from="1716814123226" duration="5073000" />
-      <workItem from="1716819240703" duration="468000" />
+      <workItem from="1716819240703" duration="2151000" />
+      <workItem from="1716886764020" duration="100000" />
+      <workItem from="1718015308408" duration="10290000" />
+      <workItem from="1718049971263" duration="2961000" />
+      <workItem from="1718086901324" duration="4086000" />
     </task>
     <servers />
   </component>

@@ -153,7 +153,7 @@ public class WekaClassifierListBuilder {
             SelectedTag directionTag = new SelectedTag(i, search.getDirection().getTags()) ;
 
             attributeSelection.setSearch(search);
-
+            //procedo attraverso backward
             String directionString = directionTag.getSelectedTag().getReadable() ;
 
             WekaFilter wekaFilter = new WekaFilter(attributeSelection, search.getClass().getSimpleName(), directionString) ;

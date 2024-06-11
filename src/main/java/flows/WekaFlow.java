@@ -17,7 +17,7 @@ import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import static java.lang.Thread.sleep;
+/*import static writer.AcumeWriter.writeCsvForAcume;*/
 
 
 public class WekaFlow {
@@ -61,14 +61,14 @@ public class WekaFlow {
                 wekaEvaluationList.add(new WekaEvaluation(wekaClassifier, index, evaluation));
 
                 //todo fai cose acume
-                computeAcumeFile(testingSet,classifier);
+                computeAcumeFile(testingSet,classifier, projectName);
             }
         }
 
         evaluationWriter.writeClassifiersEvaluation(projectName, wekaEvaluationList) ;
     }
 
-    private static void computeAcumeFile(Instances testingSet, Classifier classifier) throws Exception {
+    private static void computeAcumeFile(Instances testingSet, Classifier classifier, String projectName) throws Exception {
         String size = "LinesOfCode";
         String isBuggy = "Buggy";
 
@@ -91,7 +91,7 @@ public class WekaFlow {
                 acumeUtilsList.add(acumeUtils);
             }
         }
-        //writeCsvForAcume(projName, classifierName, featureSelection, sampling, costSensitive, index, acumeUtilsList);
+        /*writeCsvForAcume(projectName, classifierName, featureSelection, sampling, costSensitive, index, acumeUtilsList);*/
     }
 
     private static String writeBuggy(String buggy){
