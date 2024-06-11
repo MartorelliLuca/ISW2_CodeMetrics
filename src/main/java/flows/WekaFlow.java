@@ -10,6 +10,7 @@ import weka.classifiers.Evaluation;
 import weka.core.Attribute;
 import weka.core.Instances;
 import weka.core.converters.ConverterUtils.DataSource;
+import writer.AcumeWriter;
 import writer.EvaluationWriter;
 
 import java.util.ArrayList;
@@ -17,7 +18,7 @@ import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-/*import static writer.AcumeWriter.writeCsvForAcume;*/
+import static writer.AcumeWriter.createANewFileAcume;
 
 
 public class WekaFlow {
@@ -61,14 +62,14 @@ public class WekaFlow {
                 wekaEvaluationList.add(new WekaEvaluation(wekaClassifier, index, evaluation));
 
                 //todo fai cose acume
-                computeAcumeFile(testingSet,classifier, projectName);
+                computeAcumeFile(testingSet, wekaClassifier, index, classifier, projectName);
             }
         }
 
         evaluationWriter.writeClassifiersEvaluation(projectName, wekaEvaluationList) ;
     }
 
-    private static void computeAcumeFile(Instances testingSet, Classifier classifier, String projectName) throws Exception {
+    private static void computeAcumeFile(Instances testingSet, WekaClassifier weka, int index, Classifier classifier, String projectName) throws Exception {
         String size = "LinesOfCode";
         String isBuggy = "Buggy";
 
@@ -91,7 +92,7 @@ public class WekaFlow {
                 acumeUtilsList.add(acumeUtils);
             }
         }
-        /*writeCsvForAcume(projectName, classifierName, featureSelection, sampling, costSensitive, index, acumeUtilsList);*/
+        AcumeWriter.createANewFileAcume(projectName, weka, index, acumeUtilsList);
     }
 
     private static String writeBuggy(String buggy){

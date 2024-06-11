@@ -1,9 +1,9 @@
 package writer;
 
 import com.sun.istack.NotNull;
-import enums.Classifiers;
 import exceptions.ImpossibleDirectoryCreationException;
 import model.retrieve.Acume;
+import model.weka.WekaClassifier;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -13,79 +13,43 @@ import java.util.List;
 
 public class AcumeWriter {
 
-/*     AcumeWriter(){}
-    public static void writeCsvForAcume(String projectName, Classifiers classifierEnum, List<Acume> acume) throws IOException, ImpossibleDirectoryCreationException {
+    private AcumeWriter(){}
+   public static void createANewFileAcume(String projName, WekaClassifier wekaClassifier, int fileIndex, List<Acume> acumeList) {
+       try {
+           File file = new File("output/acume/" + projName);
+           if (!file.exists()) {
+               boolean success = file.mkdirs();
+               if (!success) {
+                   throw new IOException();
+               }
+           }
+           StringBuilder fileName = new StringBuilder();
+           fileName.append("/").append(projName).append("_").append(wekaClassifier.getClassifierName()).append(wekaClassifier.getFilterName()).append(wekaClassifier.getSamplingType()).append(wekaClassifier.getIsCostSensitive()).append(fileIndex).append(".csv");
+           file = new File("output/acume/" + projName + fileName);
+           try (FileWriter fileWriter = new FileWriter(file)) {
+               fileWriter.append("ID," +
+                       "SIZE," +
+                       "PREDICTED," +
+                       "ACTUAL\n");
+               for (Acume acumeFile : acumeList) {
 
-        String fileName = projectName.toUpperCase() + "_" + classifierEnum.toString().toUpperCase() + "_" + featureSelectionEnum.toString().toUpperCase() + "_" + samplingEnum.toString().toUpperCase() + "_" + costSensitiveEnum.toString().toUpperCase() + "_" + index.toString();
-        File file = createANewFileAcume(projectName, fileName, FilenamesEnum.ACUME, index);
+                   fileWriter.write(acumeFile.getIndex() + ",");                          //INDEX OF CLASS
+                   fileWriter.write(acumeFile.getSize() + ",");                           //SIZE OF CLASS
+                   fileWriter.write(acumeFile.getProbabilityOfBuggyness() + ",");         //PROBABILITY OF BUGGY
+                   fileWriter.write(acumeFile.isBuggy() + "\n");
 
-        writeOnCsvAcume(file, acume);
+               }
 
-    }
-   private static @NotNull File createANewFileAcume(String projectName, String fileName, FilenamesEnum fileEnum, int fileIndex) throws IOException, ImpossibleDirectoryCreationException {
-        String enumFilename = FileUtils.enumToFilename(fileEnum, fileIndex);
-        Path dirPath = Path.of("retrieved_data/" + projectName + "/acume/");
-        return getFile(fileName, ".csv", enumFilename, dirPath, true);
-    }*/
 
-    /*private static @NotNull File getFile(String projName, String endPath, String enumFilename, Path dirPath, boolean acume) throws IOException, ImpossibleDirectoryCreationException {
+           } catch (IOException e) {
+               throw new RuntimeException(e);
+           }
 
-        Path pathname;
 
-        if(!acume) {
-            pathname = Path.of(dirPath.toString(), projName + enumFilename + endPath);
-        }else{
-            projName = projName + ".csv";
-            pathname = Path.of(dirPath.toString(), projName);
-        }
+       } catch (IOException | RuntimeException e) {
+           throw new RuntimeException(e);
+       }
+   }
 
-        return getFile(dirPath, pathname);
-    }
 
-    private static void writeOnCsvAcume(File file, List<Acume> acumeList) throws IOException {
-
-        try(FileWriter fileWriter = new FileWriter(file)) {
-
-            fileWriter.write("ID," + "Size," + "Predicted," + "Actual");
-
-            fileWriter.write("\n");
-
-            for(Acume acume : acumeList) {
-
-                fileWriter.write(acume.getIndex() + ",");                          //INDEX OF CLASS
-                fileWriter.write(acume.getSize() + ",");                           //SIZE OF CLASS
-                fileWriter.write(acume.getProbabilityOfBuggyness() + ",");         //PROBABILITY OF BUGGY
-                fileWriter.write(acume.isBuggy());
-
-                fileWriter.write("\n");
-
-            }
-
-        }
-
-    }*/
-
-/*    private static @NotNull File createANewFile(String projName, FilenamesEnum fileEnum, int fileIndex, String endPath) throws IOException, ImpossibleDirectoryCreationException{
-        String enumFilename = FileUtils.enumToFilename(fileEnum, fileIndex);
-        Path dirPath = Path.of("retrieved_data/", projName, FileUtils.enumToDirectoryName(fileEnum));
-
-        Path pathname = Path.of(dirPath.toString(), projName + enumFilename + endPath);
-
-        return getFile(dirPath, pathname);
-    }
-
-    private static @NotNull File getFile(Path dirPath, Path pathname) throws ImpossibleDirectoryCreationException, IOException{
-
-        File dir = new File(dirPath.toUri());
-        File file = new File(pathname.toUri());
-
-        if(!dir.exists() && !file.mkdirs()) {
-            throw new ImpossibleDirectoryCreationException();               //Exception: dir creation impossible
-        }
-
-        deleteFile(file);
-
-        return file;
-
-    }*/
 }

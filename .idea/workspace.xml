@@ -6,14 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="101623df-513d-49ec-b96a-072cbdb89342" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/BOOKKEEPER/Charts/.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/OPENJPA/Charts/.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/OPENJPA/Log/Proportion" beforeDir="false" afterPath="$PROJECT_DIR$/output/OPENJPA/Log/Proportion" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ChartsGenerator.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ChartsGenerator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/builder/WekaClassifierListBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/builder/WekaClassifierListBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/flows/WekaFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/flows/WekaFlow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/writer/AcumeWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/writer/AcumeWriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/builder/WekaClassifierListBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/builder/WekaClassifierListBuilder.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/flows/WekaFlow.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/flows/WekaFlow.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/writer/AcumeWriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/writer/AcumeWriter.class" afterDir="false" />
     </list>
@@ -46,26 +40,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/lux/Documents/GitHub/ISW2_CodeMetrics",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pathVariables",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/lux/Documents/GitHub/ISW2_CodeMetrics&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pathVariables&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="" />
@@ -173,6 +167,8 @@
       <workItem from="1718015308408" duration="10290000" />
       <workItem from="1718049971263" duration="2961000" />
       <workItem from="1718086901324" duration="4086000" />
+      <workItem from="1718109756522" duration="4645000" />
+      <workItem from="1718119270053" duration="2084000" />
     </task>
     <servers />
   </component>
