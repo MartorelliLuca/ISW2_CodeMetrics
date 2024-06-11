@@ -18,8 +18,6 @@ import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import static writer.AcumeWriter.createANewFileAcume;
-
 
 public class WekaFlow {
 
@@ -61,7 +59,6 @@ public class WekaFlow {
 
                 wekaEvaluationList.add(new WekaEvaluation(wekaClassifier, index, evaluation));
 
-                //todo fai cose acume
                 computeAcumeFile(testingSet, wekaClassifier, index, classifier, projectName);
             }
         }
