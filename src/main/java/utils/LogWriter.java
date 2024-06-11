@@ -11,12 +11,15 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.StandardOpenOption;
 import java.util.List;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public class LogWriter {
 
     private LogWriter() {}
 
     private static final String SEPARATOR = "----------------------------------------------------------------------------------" ;
+    private static final Logger LOGGER = Logger.getLogger(LogWriter.class.getName());
 
     public static void writeVersionLog(String projectName, List<VersionInfo> versionInfoList, String phase) throws IOException {
         Files.createDirectories(PathBuilder.buildLogPath(projectName));
@@ -144,8 +147,7 @@ public class LogWriter {
                 writer.write(SEPARATOR + "\n");
             }
         } catch (IOException e) {
-            System.err.println("Errore durante la scrittura nel file di log: " + e.getMessage());
-            e.printStackTrace();
+            LOGGER.log(Level.SEVERE, "Errore durante la scrittura nel file di log: " + e.getMessage(), e);
         }
     }
 
