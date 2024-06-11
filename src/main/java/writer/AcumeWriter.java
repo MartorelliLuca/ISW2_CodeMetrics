@@ -2,6 +2,7 @@ package writer;
 
 import model.retrieve.Acume;
 import model.weka.WekaClassifier;
+import utils.LogWriter;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -25,7 +26,7 @@ public class AcumeWriter {
            file = new File("output/acume/" + projName + fileName);
            writeAcumeFile(file, acumeList);
        } catch (IOException | RuntimeException e) {
-           e.printStackTrace();
+           LogWriter.logRuntimeException("ERRORE INASPETTATO IN AcumeWriter()");
        }
    }
 
@@ -44,7 +45,7 @@ public class AcumeWriter {
            }
 
        } catch (IOException e) {
-           e.printStackTrace();
+           LogWriter.logRuntimeException("ERRORE INASPETTATO IN writeAcumeFile()");
        }
    }
 

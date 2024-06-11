@@ -9,6 +9,7 @@ import java.io.BufferedWriter;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.nio.file.StandardOpenOption;
 import java.util.List;
 
 public class LogWriter {
@@ -127,6 +128,24 @@ public class LogWriter {
             }
 
             writer.write(stringBuilder.toString());
+        }
+    }
+
+
+    public static void logRuntimeException(String projectName) {
+        try {
+            Files.createDirectories(PathBuilder.buildLogPath(projectName));
+
+            try (BufferedWriter writer = Files.newBufferedWriter(
+                    Path.of(PathBuilder.buildLogPath(projectName).toString(), "ErrorLog"),
+                    StandardOpenOption.CREATE, StandardOpenOption.APPEND)) {
+
+                writer.write("RunTime Exception\n");
+                writer.write(SEPARATOR + "\n");
+            }
+        } catch (IOException e) {
+            System.err.println("Errore durante la scrittura nel file di log: " + e.getMessage());
+            e.printStackTrace();
         }
     }
 
