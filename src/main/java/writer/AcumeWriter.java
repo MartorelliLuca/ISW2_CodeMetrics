@@ -25,7 +25,7 @@ public class AcumeWriter {
            file = new File("output/acume/" + projName + fileName);
            writeAcumeFile(file, acumeList);
        } catch (IOException | RuntimeException e) {
-           throw new RuntimeException(e);
+           e.printStackTrace();
        }
    }
 
@@ -44,7 +44,7 @@ public class AcumeWriter {
            }
 
        } catch (IOException e) {
-           throw new RuntimeException(e);
+           e.printStackTrace();
        }
    }
 
