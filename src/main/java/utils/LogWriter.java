@@ -147,7 +147,7 @@ public class LogWriter {
                 writer.write(SEPARATOR + "\n");
             }
         } catch (IOException e) {
-            LOGGER.log(Level.SEVERE, "Errore durante la scrittura nel file di log: " + e.getMessage(), e);
+            LOGGER.log(Level.SEVERE, "Errore durante la scrittura nel file di log: {0}", e.getMessage());
         }
     }
 
