@@ -7,7 +7,7 @@ import shutil
 project_list = ["BOOKKEEPER", "OPENJPA"]
 valid_project_list = []
 
-evaluation_path = "/home/lux/Documents/GitHub/ISW2_CodeMetrics/output/{name_1}/Evaluation/{name_2}_Evaluation.csv"
+evaluation_path = "/home/lux/Documents/GitHub/ISW2_CodeMetrics/output/{name_1}/Evaluation/{name_2}_TOTAL_Evaluation.csv"
 box_output_image_path = "/home/lux/Documents/GitHub/ISW2_CodeMetrics/output/{name}/Charts/Box/{imageTitle}.png"
 line_output_image_path = "/home/lux/Documents/GitHub/ISW2_CodeMetrics/output/{name}/Charts/Line/{imageTitle}.png"
 comparison_image_path = "/home/lux/Documents/GitHub/ISW2_CodeMetrics/output/{name}/Charts/{imageTitle}.png"
@@ -36,11 +36,11 @@ def analyze_all_projects():
 
 
 # Definire una lista di colori per le metriche
-metric_color_list = ['orange', 'lightblue', 'lightgreen', 'pink']
+metric_color_list = ['orange', 'lightblue', 'lightgreen', 'pink', "yellow"]
 
 def comparison_box_plot(project_name, dataset, classifier_list, filter_list, sampler_list, sensitive_list, metric, color):
     # Generare tutte le combinazioni e filtrare quelle non valide
-    combinations = [(f, s, sens) for f in filter_list for s in sampler_list for sens in sensitive_list if not (sens and s != "NotSet")]
+    combinations = [(f, s, sens) for f in filter_list for s in sampler_list for sens in sensitive_list if not (sens and s != "NONE")]
 
     # Ordinare le combinazioni per Sampling e Sensitive, poi per Filter
     combinations.sort(key=lambda x: (x[1], x[2], x[0]))
@@ -90,15 +90,15 @@ def analyze_project(project_name):
     for filter in filters:
         for sampler in samplers:
             for is_sensitive in sensitive:
-                if sampler != "NotSet" and is_sensitive:
+                if sampler != "NONE" and is_sensitive:
                     continue
 
                 box_plot_data(project_name, dataset, classifiers, filter, sampler, is_sensitive)
                 line_plot_data(project_name, dataset, versions, classifiers, filter, sampler, is_sensitive)
     i=0
-    metric_list = ["Precision", "Recall", "ROC_AUC", "Kappa"]
+    metric_list = ["Precision", "Recall", "ROC_AUC", "Kappa", "Npofb20"]
     for  metric in metric_list:
-        color = metric_color_list[i % 4]
+        color = metric_color_list[i % 5]
         comparison_box_plot(project_name, dataset, classifiers, filters, samplers, sensitive, metric, color)
         i=i+1
 # Assumptions: count_columns, generate_combinations, get_metric_data_list, comparison_image_path, evaluation_path, box_plot_data, and line_plot_data are already defined elsewhere in the code.

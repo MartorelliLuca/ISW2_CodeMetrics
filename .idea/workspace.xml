@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="101623df-513d-49ec-b96a-072cbdb89342" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/LogWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/LogWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/BOOKKEEPER/Evaluation/BOOKKEEPER_Evaluation.csv" beforeDir="false" afterPath="$PROJECT_DIR$/output/BOOKKEEPER/Evaluation/BOOKKEEPER_Evaluation.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/OPENJPA/AcumeTot/acumeTop.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ChartsGenerator.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ChartsGenerator.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +55,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pathVariables&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -166,6 +168,11 @@
       <workItem from="1718086901324" duration="4086000" />
       <workItem from="1718109756522" duration="4645000" />
       <workItem from="1718119270053" duration="5165000" />
+      <workItem from="1718129383522" duration="1880000" />
+      <workItem from="1718145704511" duration="778000" />
+      <workItem from="1718180214989" duration="1293000" />
+      <workItem from="1718182185610" duration="3258000" />
+      <workItem from="1718227397798" duration="237000" />
     </task>
     <servers />
   </component>
